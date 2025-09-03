@@ -1,0 +1,36 @@
+✔ bc-1.07.1: Completed
+✔ binn-3.0: Completed
+✔ brotli-1.0.9: Completed
+✔ cflow-1.7: Completed
+✔ compton: Completed
+✔ cpio-2.14: Completed
+✔ diffutils-3.10: Completed
+✔ enscript-1.6.6: Completed
+✔ findutils-4.9.0: Completed
+✔ gawk-5.2.2: Completed
+✔ glpk-5.0: Completed
+✔ gprolog-1.5.0: Completed
+✔ grep-3.11: Completed
+✔ gzip-1.12: Completed
+✔ hiredis: Completed
+✔ make-4.4.1: Completed
+✔ minilisp: Completed
+❌ mtools-4.0.43: Failed (1)
+✔ nano-7.2: Completed
+✔ nettle-3.9: Completed
+✔ patch-2.7.6: Completed
+✔ php-rdkafka: Completed
+✔ pocketlang: Completed
+❌ prep-out: Error: no compile_commands.json in folder
+✔ pth-2.0.7: Completed
+✔ raygui: Completed
+✔ rcs-5.10.1: Completed
+✔ screen-4.9.0: Completed
+✔ sed-4.9: Completed
+✔ shairport: Completed
+✔ tar-1.34: Completed
+✔ tinyproxy: Completed
+✔ twemproxy: Completed
+❌ uucp-1.07: Failed (1)
+✔ webdis: Completed
+✔ wget-1.21.4: Completed

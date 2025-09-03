@@ -1,0 +1,2002 @@
+Command: /itch/common/crepos/tcc-scripts/tidy-braces.sh
+Directory: /itch/common/crepos/cu-to-rtu/c/minilisp
+----------------------------------------
+
+Enabled checks:
+    clang-analyzer-apiModeling.Errno
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.TrustReturnsNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.BitwiseShift
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DereferenceModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.NewArraySize
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.ArrayDelete
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PlacementNew
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtrModeling
+    clang-analyzer-cplusplus.StringChecker
+    clang-analyzer-cplusplus.VirtualCallModeling
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullabilityBase
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.core.EnumCastOutOfRange
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-optin.taint.GenericTaint
+    clang-analyzer-optin.taint.TaintPropagation
+    clang-analyzer-optin.taint.TaintedAlloc
+    clang-analyzer-optin.taint.TaintedDiv
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.ArrayBound
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.MmapWriteExec
+    clang-analyzer-security.PointerSub
+    clang-analyzer-security.PutenvStackArray
+    clang-analyzer-security.SetgidSetuidOrder
+    clang-analyzer-security.cert.env.InvalidPtr
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.BlockInCriticalSection
+    clang-analyzer-unix.Chroot
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Errno
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.StdCLibraryFunctions
+    clang-analyzer-unix.Stream
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NotNullTerminated
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    clang-analyzer-webkit.NoUncountedMemberChecker
+    clang-analyzer-webkit.RefCntblBaseVirtualDtor
+    clang-analyzer-webkit.UncountedLambdaCapturesChecker
+    readability-braces-around-statements
+
+Running clang-tidy for 1 files out of 1 in compilation database ...
+[1/1][211.3s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/minilisp/tidy-fixes/tmpc3qkbljn.yaml -p=/itch/common/crepos/cu-to-rtu/c/minilisp /itch/common/crepos/cu-to-rtu/c/minilisp/minilisp.c
+[1mminilisp.c:201:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  201 |     if (always_gc && !gc_running)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m  202 |         gc(root);[0m
+      | [0;1;32m                 
+[0m[1mminilisp.c:205:54: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  205 |     if (!always_gc && MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m                                                     ^
+[0m      | [0;32m                                                      {
+[0m  206 |         gc(root);[0m
+      | [0;1;32m                 
+[0m[1mminilisp.c:210:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  210 |     if (MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m                                       ^
+[0m      | [0;32m                                        {
+[0m  211 |         error("Memory exhausted");[0m
+      | [0;1;32m                                  
+[0m[1mminilisp.c:239:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  239 |     if (offset < 0 || MEMORY_SIZE <= offset)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  240 |         return obj;[0m
+      | [0;1;32m                   
+[0m[1mminilisp.c:244:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  244 |     if (obj->type == TMOVED)[0m
+      | [0;1;32m                            ^
+[0m      | [0;32m                             {
+[0m  245 |         return obj->moved;[0m
+      | [0;1;32m                          
+[0m[1mminilisp.c:266:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  266 |     for (void **frame = root; frame; frame = *(void ***)frame)[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  267 |         for (int i = 1; frame[i] != ROOT_END; i++)[0m
+  268 |             if (frame[i])[0m
+  269 |                 frame[i] = forward(frame[i]);[0m
+      | [0;1;32m                                             
+[0m[1mminilisp.c:267:51: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  267 |         for (int i = 1; frame[i] != ROOT_END; i++)[0m
+      | [0;1;32m                                                  ^
+[0m      | [0;32m                                                   {
+[0m  268 |             if (frame[i])[0m
+  269 |                 frame[i] = forward(frame[i]);[0m
+      | [0;1;32m                                             
+[0m[1mminilisp.c:268:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  268 |             if (frame[i])[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  269 |                 frame[i] = forward(frame[i]);[0m
+      | [0;1;32m                                             
+[0m[1mminilisp.c:299:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  299 |             scan1->car = forward(scan1->car);[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m  300 |             scan1->cdr = forward(scan1->cdr);[0m
+  301 |             break;[0m
+      | [0;1;32m                 
+[0m      | [0;32m                 ;} 
+[0m[1mminilisp.c:305:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  305 |             scan1->body = forward(scan1->body);[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m  306 |             scan1->env = forward(scan1->env);[0m
+  307 |             break;[0m
+      | [0;1;32m                 
+[0m      | [0;32m                 ;} 
+[0m[1mminilisp.c:309:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  309 |             scan1->vars = forward(scan1->vars);[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m  310 |             scan1->up = forward(scan1->up);[0m
+  311 |             break;[0m
+      | [0;1;32m                 
+[0m      | [0;32m                 ;} 
+[0m[1mminilisp.c:313:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  313 |             error("Bug: copy: unknown type %d", scan1->type);[0m
+      | [0;1;32m            ^                                               
+[0m      | [0;32m            {                                               ;} 
+[0m[1mminilisp.c:322:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  322 |     if (debug_gc)[0m
+      | [0;1;32m                 ^
+[0m      | [0;32m                  {
+[0m  323 |         fprintf(stderr, "GC: %zu bytes out of %zu bytes copied.\n", mem_nused, old_nused);[0m
+      | [0;1;32m                                                                                          
+[0m[1mminilisp.c:346:5: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
+  346 |     strcpy(sym->name, name);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mminilisp.c:346:5: [0m[0;1;36mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
+  346 |     strcpy(sym->name, name);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mminilisp.c:412:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  412 |         if (c == EOF || c == '\n')[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  413 |             return;[0m
+      | [0;1;32m                   
+[0m[1mminilisp.c:415:32: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  415 |             if (peek() == '\n')[0m
+      | [0;1;32m                               ^
+[0m      | [0;32m                                {
+[0m  416 |                 getchar();[0m
+      | [0;1;32m                          
+[0m[1mminilisp.c:428:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  428 |         if (!*obj)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  429 |             error("Unclosed parenthesis");[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:430:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  430 |         if (*obj == Cparen)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  431 |             return reverse(*head);[0m
+      | [0;1;32m                                  
+[0m[1mminilisp.c:434:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  434 |             if (read_expr(root) != Cparen)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  435 |                 error("Closed parenthesis expected after dot");[0m
+      | [0;1;32m                                                               
+[0m[1mminilisp.c:447:49: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  447 |     for (Obj *p = Symbols; p != Nil; p = p->cdr)[0m
+      | [0;1;32m                                                ^
+[0m      | [0;32m                                                 {
+[0m  448 |         if (strcmp(name, p->car->name) == 0)[0m
+  449 |             return p->car;[0m
+      | [0;1;32m                          
+[0m[1mminilisp.c:448:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  448 |         if (strcmp(name, p->car->name) == 0)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  449 |             return p->car;[0m
+      | [0;1;32m                          
+[0m[1mminilisp.c:467:12: [0m[0;1;35mwarning: [0m[1mPotential out of bound access to the region with tainted index [clang-analyzer-security.ArrayBound][0m
+  467 |     while (isdigit(peek()))[0m
+      | [0;1;32m           ^
+[0m[1m/usr/include/ctype.h:192:21: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:467:20: [0m[0;1;36mnote: [0mCalling 'peek'[0m
+  467 |     while (isdigit(peek()))[0m
+      | [0;1;32m                   ^
+[0m[1m/usr/include/ctype.h:192:32: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                                   ^
+[0m[1m/usr/include/ctype.h:89:31: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m                              ^
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mTaint originated here[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mCalling 'getchar'[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint originated here[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mAssuming that 'getc' is successful[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mReturning from 'getchar'[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:467:20: [0m[0;1;36mnote: [0mReturning from 'peek'[0m
+  467 |     while (isdigit(peek()))[0m
+      | [0;1;32m                   ^
+[0m[1m/usr/include/ctype.h:192:32: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                                   ^
+[0m[1m/usr/include/ctype.h:89:31: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m                              ^
+[0m[1mminilisp.c:467:12: [0m[0;1;36mnote: [0mAccess of the region with a tainted index that may be too large[0m
+  467 |     while (isdigit(peek()))[0m
+      | [0;1;32m           ^
+[0m[1m/usr/include/ctype.h:192:21: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:467:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  467 |     while (isdigit(peek()))[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  468 |         val = val * 10 + (getchar() - '0');[0m
+      | [0;1;32m                                           
+[0m[1mminilisp.c:476:12: [0m[0;1;35mwarning: [0m[1mPotential out of bound access to the region with tainted index [clang-analyzer-security.ArrayBound][0m
+  476 |     while (isalnum(peek()) || strchr(symbol_chars, peek())) {[0m
+      | [0;1;32m           ^
+[0m[1m/usr/include/ctype.h:189:21: [0m[0;1;36mnote: [0mexpanded from macro 'isalnum'[0m
+  189 | # define isalnum(c)     __isctype((c), _ISalnum)[0m
+      | [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:476:20: [0m[0;1;36mnote: [0mCalling 'peek'[0m
+  476 |     while (isalnum(peek()) || strchr(symbol_chars, peek())) {[0m
+      | [0;1;32m                   ^
+[0m[1m/usr/include/ctype.h:189:32: [0m[0;1;36mnote: [0mexpanded from macro 'isalnum'[0m
+  189 | # define isalnum(c)     __isctype((c), _ISalnum)[0m
+      | [0;1;32m                                   ^
+[0m[1m/usr/include/ctype.h:89:31: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m                              ^
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mTaint originated here[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mCalling 'getchar'[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint originated here[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mAssuming that 'getc' is successful[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mReturning from 'getchar'[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:391:13: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+  391 |     int c = getchar();[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:476:20: [0m[0;1;36mnote: [0mReturning from 'peek'[0m
+  476 |     while (isalnum(peek()) || strchr(symbol_chars, peek())) {[0m
+      | [0;1;32m                   ^
+[0m[1m/usr/include/ctype.h:189:32: [0m[0;1;36mnote: [0mexpanded from macro 'isalnum'[0m
+  189 | # define isalnum(c)     __isctype((c), _ISalnum)[0m
+      | [0;1;32m                                   ^
+[0m[1m/usr/include/ctype.h:89:31: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m                              ^
+[0m[1mminilisp.c:476:12: [0m[0;1;36mnote: [0mAccess of the region with a tainted index that may be too large[0m
+  476 |     while (isalnum(peek()) || strchr(symbol_chars, peek())) {[0m
+      | [0;1;32m           ^
+[0m[1m/usr/include/ctype.h:189:21: [0m[0;1;36mnote: [0mexpanded from macro 'isalnum'[0m
+  189 | # define isalnum(c)     __isctype((c), _ISalnum)[0m
+      | [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:477:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  477 |         if (SYMBOL_MAX_LEN <= len)[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  478 |             error("Symbol name too long");[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:488:61: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                                                            ^
+[0m      | [0;32m                                                             {
+[0m  489 |             continue;[0m
+      | [0;1;32m                     
+[0m[1mminilisp.c:490:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  490 |         if (c == EOF)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  491 |             return NULL;[0m
+      | [0;1;32m                        
+[0m[1mminilisp.c:496:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  496 |         if (c == '(')[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  497 |             return read_list(root);[0m
+      | [0;1;32m                                   
+[0m[1mminilisp.c:498:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  498 |         if (c == ')')[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  499 |             return Cparen;[0m
+      | [0;1;32m                          
+[0m[1mminilisp.c:500:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  500 |         if (c == '.')[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  501 |             return Dot;[0m
+      | [0;1;32m                       
+[0m[1mminilisp.c:502:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  502 |         if (c == '\'')[0m
+      | [0;1;32m                      ^
+[0m      | [0;32m                       {
+[0m  503 |             return read_quote(root);[0m
+      | [0;1;32m                                    
+[0m[1mminilisp.c:504:13: [0m[0;1;35mwarning: [0m[1mPotential out of bound access to the region with tainted index [clang-analyzer-security.ArrayBound][0m
+  504 |         if (isdigit(c))[0m
+      | [0;1;32m            ^
+[0m[1m/usr/include/ctype.h:192:21: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                        ^
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 979[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:985:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  985 |     for (;;) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:986:17: [0m[0;1;36mnote: [0mCalling 'read_expr'[0m
+  986 |         *expr = read_expr(root);[0m
+      | [0;1;32m                ^~~~~~~~~~~~~~~
+[0m[1mminilisp.c:486:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  486 |     for (;;) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:487:17: [0m[0;1;36mnote: [0mTaint originated here[0m
+  487 |         int c = getchar();[0m
+      | [0;1;32m                ^~~~~~~~~
+[0m[1mminilisp.c:487:17: [0m[0;1;36mnote: [0mCalling 'getchar'[0m
+  487 |         int c = getchar();[0m
+      | [0;1;32m                ^~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint originated here[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1m/usr/include/x86_64-linux-gnu/bits/stdio.h:49:10: [0m[0;1;36mnote: [0mAssuming that 'getc' is successful[0m
+   49 |   return getc (stdin);[0m
+      | [0;1;32m         ^~~~~~~~~~~~
+[0m[1mminilisp.c:487:17: [0m[0;1;36mnote: [0mReturning from 'getchar'[0m
+  487 |         int c = getchar();[0m
+      | [0;1;32m                ^~~~~~~~~
+[0m[1mminilisp.c:487:17: [0m[0;1;36mnote: [0mTaint propagated to the return value[0m
+  487 |         int c = getchar();[0m
+      | [0;1;32m                ^~~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+[1mminilisp.c:488:25: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                        ^~~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^
+[0m[1mminilisp.c:488:38: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                                     ^~~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^
+[0m[1mminilisp.c:488:51: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                                                  ^~~~~~~~~
+[0m[1mminilisp.c:488:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:490:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  490 |         if (c == EOF)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:492:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  492 |         if (c == ';') {[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:492:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  492 |         if (c == ';') {[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:496:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  496 |         if (c == '(')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:496:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  496 |         if (c == '(')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:498:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  498 |         if (c == ')')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:498:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  498 |         if (c == ')')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:500:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  500 |         if (c == '.')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:500:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  500 |         if (c == '.')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:502:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  502 |         if (c == '\'')[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:502:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  502 |         if (c == '\'')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:504:13: [0m[0;1;36mnote: [0mAccess of the region with a tainted index that may be too large[0m
+  504 |         if (isdigit(c))[0m
+      | [0;1;32m            ^
+[0m[1m/usr/include/ctype.h:192:21: [0m[0;1;36mnote: [0mexpanded from macro 'isdigit'[0m
+  192 | # define isdigit(c)     __isctype((c), _ISdigit)[0m
+      | [0;1;32m                        ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1m/usr/include/ctype.h:89:4: [0m[0;1;36mnote: [0mexpanded from macro '__isctype'[0m
+   89 |   ((*__ctype_b_loc ())[(int) (c)] & (unsigned short int) type)[0m
+      | [0;1;32m   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:504:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  504 |         if (isdigit(c))[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  505 |             return make_int(root, read_number(c - '0'));[0m
+      | [0;1;32m                                                        
+[0m[1mminilisp.c:506:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  506 |         if (c == '-' && isdigit(peek()))[0m
+      | [0;1;32m                                        ^
+[0m      | [0;32m                                         {
+[0m  507 |             return make_int(root, -read_number(0));[0m
+      | [0;1;32m                                                   
+[0m[1mminilisp.c:508:51: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  508 |         if (isalpha(c) || strchr(symbol_chars, c))[0m
+      | [0;1;32m                                                  ^
+[0m      | [0;32m                                                   {
+[0m  509 |             return read_symbol(root, c);[0m
+      | [0;1;32m                                        
+[0m[1mminilisp.c:518:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  518 |         printf("(");[0m
+      | [0;1;32m        ^
+[0m      | [0;32m        {
+[0m  519 |         for (;;) {[0m
+  520 |             print(obj->car);[0m
+  521 |             if (obj->cdr == Nil)[0m
+  522 |                 break;[0m
+  523 |             if (obj->cdr->type != TCELL) {[0m
+  524 |                 printf(" . ");[0m
+  525 |                 print(obj->cdr);[0m
+  526 |                 break;[0m
+  527 |             }[0m
+  528 |             printf(" ");[0m
+  529 |             obj = obj->cdr;[0m
+  530 |         }[0m
+  531 |         printf(")");[0m
+  532 |         return;[0m
+      | [0;1;32m              
+[0m      | [0;32m              ;} 
+[0m[1mminilisp.c:521:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  521 |             if (obj->cdr == Nil)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  522 |                 break;[0m
+      | [0;1;32m                      
+[0m[1mminilisp.c:538:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  538 |     CASE(TINT, "%d", obj->value);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:539:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  539 |     CASE(TSYMBOL, "%s", obj->name);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:540:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  540 |     CASE(TPRIMITIVE, "<primitive>");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:541:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  541 |     CASE(TFUNCTION, "<function>");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:542:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  542 |     CASE(TMACRO, "<macro>");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:543:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  543 |     CASE(TMOVED, "<moved>");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:544:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  544 |     CASE(TTRUE, "t");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:545:5: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  545 |     CASE(TNIL, "()");[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:536:9: [0m[0;1;36mnote: [0mexpanded from macro 'CASE'[0m
+  536 |         printf(__VA_ARGS__);                    \[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:548:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  548 |         error("Bug: print: Unknown tag type: %d", obj->type);[0m
+      | [0;1;32m        ^                                                   
+[0m      | [0;32m        {                                                   ;} 
+[0m[1mminilisp.c:555:50: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  555 |     for (; list->type == TCELL; list = list->cdr)[0m
+      | [0;1;32m                                                 ^
+[0m      | [0;32m                                                  {
+[0m  556 |         len++;[0m
+      | [0;1;32m              
+[0m[1mminilisp.c:578:36: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  578 |         if ((*vals)->type != TCELL)[0m
+      | [0;1;32m                                   ^
+[0m      | [0;32m                                    {
+[0m  579 |             error("Cannot apply function: number of argument does not match");[0m
+      | [0;1;32m                                                                              
+[0m[1mminilisp.c:584:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  584 |     if (*vars != Nil)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  585 |         *map = acons(root, vars, vals, map);[0m
+      | [0;1;32m                                            
+[0m[1mminilisp.c:626:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  626 |     if (!is_list(*args))[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  627 |         error("argument must be a list");[0m
+      | [0;1;32m                                         
+[0m[1mminilisp.c:628:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  628 |     if ((*fn)->type == TPRIMITIVE)[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  629 |         return (*fn)->fn(root, env, args);[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:643:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  643 |             if (sym == bind->car)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m  644 |                 return bind;[0m
+      | [0;1;32m                            
+[0m[1mminilisp.c:652:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  652 |     if ((*obj)->type != TCELL || (*obj)->car->type != TSYMBOL)[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  653 |         return *obj;[0m
+      | [0;1;32m                    
+[0m[1mminilisp.c:656:48: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  656 |     if (!*bind || (*bind)->cdr->type != TMACRO)[0m
+      | [0;1;32m                                               ^
+[0m      | [0;32m                                                {
+[0m  657 |         return *obj;[0m
+      | [0;1;32m                    
+[0m[1mminilisp.c:676:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  676 |         if (!bind)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  677 |             error("Undefined symbol: %s", (*obj)->name);[0m
+      | [0;1;32m                                                        
+[0m[1mminilisp.c:684:31: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  684 |         if (*expanded != *obj)[0m
+      | [0;1;32m                              ^
+[0m      | [0;32m                               {
+[0m  685 |             return eval(root, env, expanded);[0m
+      | [0;1;32m                                             
+[0m[1mminilisp.c:686:15: [0m[0;1;35mwarning: [0m[1mDereference of null pointer [clang-analyzer-core.NullDereference][0m
+  686 |         *fn = (*obj)->car;[0m
+      | [0;1;32m              ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:979:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 979[0m
+  979 |     DEFINE2(env, expr);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:980:12: [0m[0;1;36mnote: [0mCalling 'make_env'[0m
+  980 |     *env = make_env(root, &Nil, &Nil);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:366:14: [0m[0;1;36mnote: [0mCalling 'alloc'[0m
+  366 |     Obj *r = alloc(root, TENV, sizeof(Obj *) * 2);[0m
+      | [0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:201:9: [0m[0;1;36mnote: [0m'always_gc' is false[0m
+  201 |     if (always_gc && !gc_running)[0m
+      | [0;1;32m        ^~~~~~~~~
+[0m[1mminilisp.c:201:19: [0m[0;1;36mnote: [0mLeft side of '&&' is false[0m
+  201 |     if (always_gc && !gc_running)[0m
+      | [0;1;32m                  ^
+[0m[1mminilisp.c:205:10: [0m[0;1;36mnote: [0m'always_gc' is false[0m
+  205 |     if (!always_gc && MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m         ^~~~~~~~~
+[0m[1mminilisp.c:205:9: [0m[0;1;36mnote: [0mLeft side of '&&' is true[0m
+  205 |     if (!always_gc && MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:205:5: [0m[0;1;36mnote: [0mTaking false branch[0m
+  205 |     if (!always_gc && MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:210:5: [0m[0;1;36mnote: [0mTaking false branch[0m
+  210 |     if (MEMORY_SIZE < mem_nused + size)[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:366:14: [0m[0;1;36mnote: [0mReturning from 'alloc'[0m
+  366 |     Obj *r = alloc(root, TENV, sizeof(Obj *) * 2);[0m
+      | [0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:980:12: [0m[0;1;36mnote: [0mReturning from 'make_env'[0m
+  980 |     *env = make_env(root, &Nil, &Nil);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:981:5: [0m[0;1;36mnote: [0mCalling 'define_constants'[0m
+  981 |     define_constants(root, env);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:930:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  930 |     DEFINE1(sym);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:154:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE1'[0m
+  154 |     ADD_ROOT(1);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:930:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 930[0m
+  930 |     DEFINE1(sym);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:154:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE1'[0m
+  154 |     ADD_ROOT(1);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:981:5: [0m[0;1;36mnote: [0mReturning from 'define_constants'[0m
+  981 |     define_constants(root, env);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:982:5: [0m[0;1;36mnote: [0mCalling 'define_primitives'[0m
+  982 |     define_primitives(root, env);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:936:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  936 |     add_primitive(root, env, "quote", prim_quote);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:936:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  936 |     add_primitive(root, env, "quote", prim_quote);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:937:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  937 |     add_primitive(root, env, "cons", prim_cons);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:937:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  937 |     add_primitive(root, env, "cons", prim_cons);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:938:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  938 |     add_primitive(root, env, "car", prim_car);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:938:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  938 |     add_primitive(root, env, "car", prim_car);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:939:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  939 |     add_primitive(root, env, "cdr", prim_cdr);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:939:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  939 |     add_primitive(root, env, "cdr", prim_cdr);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:940:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  940 |     add_primitive(root, env, "setq", prim_setq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:940:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  940 |     add_primitive(root, env, "setq", prim_setq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:941:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  941 |     add_primitive(root, env, "setcar", prim_setcar);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:941:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  941 |     add_primitive(root, env, "setcar", prim_setcar);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:942:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  942 |     add_primitive(root, env, "while", prim_while);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:942:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  942 |     add_primitive(root, env, "while", prim_while);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:943:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  943 |     add_primitive(root, env, "gensym", prim_gensym);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:943:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  943 |     add_primitive(root, env, "gensym", prim_gensym);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:944:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  944 |     add_primitive(root, env, "+", prim_plus);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:944:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  944 |     add_primitive(root, env, "+", prim_plus);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:945:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  945 |     add_primitive(root, env, "-", prim_minus);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:945:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  945 |     add_primitive(root, env, "-", prim_minus);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:946:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  946 |     add_primitive(root, env, "<", prim_lt);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:946:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  946 |     add_primitive(root, env, "<", prim_lt);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:947:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  947 |     add_primitive(root, env, "define", prim_define);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:947:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  947 |     add_primitive(root, env, "define", prim_define);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:948:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  948 |     add_primitive(root, env, "defun", prim_defun);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:948:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  948 |     add_primitive(root, env, "defun", prim_defun);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:949:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  949 |     add_primitive(root, env, "defmacro", prim_defmacro);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:949:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  949 |     add_primitive(root, env, "defmacro", prim_defmacro);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:950:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  950 |     add_primitive(root, env, "macroexpand", prim_macroexpand);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:950:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  950 |     add_primitive(root, env, "macroexpand", prim_macroexpand);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:951:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  951 |     add_primitive(root, env, "lambda", prim_lambda);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:951:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  951 |     add_primitive(root, env, "lambda", prim_lambda);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:952:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  952 |     add_primitive(root, env, "if", prim_if);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:952:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  952 |     add_primitive(root, env, "if", prim_if);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:953:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  953 |     add_primitive(root, env, "=", prim_num_eq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:953:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  953 |     add_primitive(root, env, "=", prim_num_eq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:954:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  954 |     add_primitive(root, env, "eq", prim_eq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:954:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  954 |     add_primitive(root, env, "eq", prim_eq);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:955:5: [0m[0;1;36mnote: [0mCalling 'add_primitive'[0m
+  955 |     add_primitive(root, env, "println", prim_println);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:923:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 923[0m
+  923 |     DEFINE2(sym, prim);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:955:5: [0m[0;1;36mnote: [0mReturning from 'add_primitive'[0m
+  955 |     add_primitive(root, env, "println", prim_println);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:982:5: [0m[0;1;36mnote: [0mReturning from 'define_primitives'[0m
+  982 |     define_primitives(root, env);[0m
+      | [0;1;32m    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:985:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  985 |     for (;;) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:986:17: [0m[0;1;36mnote: [0mCalling 'read_expr'[0m
+  986 |         *expr = read_expr(root);[0m
+      | [0;1;32m                ^~~~~~~~~~~~~~~
+[0m[1mminilisp.c:486:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  486 |     for (;;) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+[1mminilisp.c:488:25: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                        ^~~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^
+[0m[1mminilisp.c:488:38: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                                     ^~~~~~~~~
+[0m[1mminilisp.c:488:13: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m            ^
+[0m[1mminilisp.c:488:51: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m                                                  ^~~~~~~~~
+[0m[1mminilisp.c:488:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  488 |         if (c == ' ' || c == '\n' || c == '\r' || c == '\t')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:490:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  490 |         if (c == EOF)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:492:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  492 |         if (c == ';') {[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:492:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  492 |         if (c == ';') {[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:496:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  496 |         if (c == '(')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:496:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  496 |         if (c == '(')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:498:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  498 |         if (c == ')')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:498:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  498 |         if (c == ')')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:500:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  500 |         if (c == '.')[0m
+      | [0;1;32m            ^~~~~~~~
+[0m[1mminilisp.c:500:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  500 |         if (c == '.')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:502:13: [0m[0;1;36mnote: [0mAssuming the condition is true[0m
+  502 |         if (c == '\'')[0m
+      | [0;1;32m            ^~~~~~~~~
+[0m[1mminilisp.c:502:9: [0m[0;1;36mnote: [0mTaking true branch[0m
+  502 |         if (c == '\'')[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:503:20: [0m[0;1;36mnote: [0mCalling 'read_quote'[0m
+  503 |             return read_quote(root);[0m
+      | [0;1;32m                   ^~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:458:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  458 |     DEFINE2(sym, tmp);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:458:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  458 |     DEFINE2(sym, tmp);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:458:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 458[0m
+  458 |     DEFINE2(sym, tmp);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:158:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE2'[0m
+  158 |     ADD_ROOT(2);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:503:20: [0m[0;1;36mnote: [0mReturning from 'read_quote'[0m
+  503 |             return read_quote(root);[0m
+      | [0;1;32m                   ^~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:986:17: [0m[0;1;36mnote: [0mReturning from 'read_expr'[0m
+  986 |         *expr = read_expr(root);[0m
+      | [0;1;32m                ^~~~~~~~~~~~~~~
+[0m[1mminilisp.c:987:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  987 |         if (!*expr)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:989:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  989 |         if (*expr == Cparen)[0m
+      | [0;1;32m            ^~~~~~~~~~~~~~~
+[0m[1mminilisp.c:989:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  989 |         if (*expr == Cparen)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:991:13: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  991 |         if (*expr == Dot)[0m
+      | [0;1;32m            ^~~~~~~~~~~~
+[0m[1mminilisp.c:991:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  991 |         if (*expr == Dot)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:993:15: [0m[0;1;36mnote: [0mCalling 'eval'[0m
+  993 |         print(eval(root, env, expr));[0m
+      | [0;1;32m              ^~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:665:5: [0m[0;1;36mnote: [0mControl jumps to 'case TCELL:'  at line 680[0m
+  665 |     switch ((*obj)->type) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:682:9: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  682 |         DEFINE3(fn, expanded, args);[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:682:9: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  682 |         DEFINE3(fn, expanded, args);[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:682:9: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  682 |         DEFINE3(fn, expanded, args);[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:682:9: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 682[0m
+  682 |         DEFINE3(fn, expanded, args);[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:683:21: [0m[0;1;36mnote: [0mCalling 'macroexpand'[0m
+  683 |         *expanded = macroexpand(root, env, obj);[0m
+      | [0;1;32m                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:652:17: [0m[0;1;36mnote: [0mField 'type' is equal to TCELL[0m
+  652 |     if ((*obj)->type != TCELL || (*obj)->car->type != TSYMBOL)[0m
+      | [0;1;32m                ^
+[0m[1mminilisp.c:652:9: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  652 |     if ((*obj)->type != TCELL || (*obj)->car->type != TSYMBOL)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:652:34: [0m[0;1;36mnote: [0mAssuming field 'type' is equal to TSYMBOL[0m
+  652 |     if ((*obj)->type != TCELL || (*obj)->car->type != TSYMBOL)[0m
+      | [0;1;32m                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:652:5: [0m[0;1;36mnote: [0mTaking false branch[0m
+  652 |     if ((*obj)->type != TCELL || (*obj)->car->type != TSYMBOL)[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:654:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  654 |     DEFINE3(bind, macro, args);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:654:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  654 |     DEFINE3(bind, macro, args);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:654:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  654 |     DEFINE3(bind, macro, args);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:654:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 654[0m
+  654 |     DEFINE3(bind, macro, args);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:656:9: [0m[0;1;36mnote: [0mLeft side of '||' is false[0m
+  656 |     if (!*bind || (*bind)->cdr->type != TMACRO)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:656:19: [0m[0;1;36mnote: [0mAssuming field 'type' is equal to TMACRO[0m
+  656 |     if (!*bind || (*bind)->cdr->type != TMACRO)[0m
+      | [0;1;32m                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:656:5: [0m[0;1;36mnote: [0mTaking false branch[0m
+  656 |     if (!*bind || (*bind)->cdr->type != TMACRO)[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:660:12: [0m[0;1;36mnote: [0mCalling 'apply_func'[0m
+  660 |     return apply_func(root, env, macro, args);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:616:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  616 |     DEFINE3(params, newenv, body);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:616:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  616 |     DEFINE3(params, newenv, body);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:616:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  616 |     DEFINE3(params, newenv, body);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:616:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 616[0m
+  616 |     DEFINE3(params, newenv, body);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:619:15: [0m[0;1;36mnote: [0mCalling 'push_env'[0m
+  619 |     *newenv = push_env(root, newenv, params, args);[0m
+      | [0;1;32m              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:575:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  575 |     DEFINE3(map, sym, val);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:575:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  575 |     DEFINE3(map, sym, val);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:575:5: [0m[0;1;36mnote: [0mLoop condition is true.  Entering loop body[0m
+  575 |     DEFINE3(map, sym, val);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:575:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 575[0m
+  575 |     DEFINE3(map, sym, val);[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:163:5: [0m[0;1;36mnote: [0mexpanded from macro 'DEFINE3'[0m
+  163 |     ADD_ROOT(3);                                \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:148:5: [0m[0;1;36mnote: [0mexpanded from macro 'ADD_ROOT'[0m
+  148 |     for (int i = 1; i <= size; i++)             \[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:577:12: [0m[0;1;36mnote: [0mAssuming field 'type' is not equal to TCELL[0m
+  577 |     for (; (*vars)->type == TCELL; *vars = (*vars)->cdr, *vals = (*vals)->cdr) {[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:577:5: [0m[0;1;36mnote: [0mLoop condition is false. Execution continues on line 584[0m
+  577 |     for (; (*vars)->type == TCELL; *vars = (*vars)->cdr, *vals = (*vals)->cdr) {[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:584:9: [0m[0;1;36mnote: [0mAssuming the condition is false[0m
+  584 |     if (*vars != Nil)[0m
+      | [0;1;32m        ^~~~~~~~~~~~
+[0m[1mminilisp.c:584:5: [0m[0;1;36mnote: [0mTaking false branch[0m
+  584 |     if (*vars != Nil)[0m
+      | [0;1;32m    ^
+[0m[1mminilisp.c:586:12: [0m[0;1;36mnote: [0mCalling 'make_env'[0m
+  586 |     return make_env(root, map, env);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:366:14: [0m[0;1;36mnote: [0mAssigning value[0m
+  366 |     Obj *r = alloc(root, TENV, sizeof(Obj *) * 2);[0m
+      | [0;1;32m             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:586:12: [0m[0;1;36mnote: [0mReturning from 'make_env'[0m
+  586 |     return make_env(root, map, env);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:619:15: [0m[0;1;36mnote: [0mReturning from 'push_env'[0m
+  619 |     *newenv = push_env(root, newenv, params, args);[0m
+      | [0;1;32m              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:660:12: [0m[0;1;36mnote: [0mReturning from 'apply_func'[0m
+  660 |     return apply_func(root, env, macro, args);[0m
+      | [0;1;32m           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:683:21: [0m[0;1;36mnote: [0mReturning from 'macroexpand'[0m
+  683 |         *expanded = macroexpand(root, env, obj);[0m
+      | [0;1;32m                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:684:13: [0m[0;1;36mnote: [0mAssuming pointer value is null[0m
+  684 |         if (*expanded != *obj)[0m
+      | [0;1;32m            ^~~~~~~~~~~~~~~~~
+[0m[1mminilisp.c:684:9: [0m[0;1;36mnote: [0mTaking false branch[0m
+  684 |         if (*expanded != *obj)[0m
+      | [0;1;32m        ^
+[0m[1mminilisp.c:686:15: [0m[0;1;36mnote: [0mDereference of null pointer[0m
+  686 |         *fn = (*obj)->car;[0m
+      | [0;1;32m              ^~~~~~~~~~~
+[0m[1mminilisp.c:689:67: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  689 |         if ((*fn)->type != TPRIMITIVE && (*fn)->type != TFUNCTION)[0m
+      | [0;1;32m                                                                  ^
+[0m      | [0;32m                                                                   {
+[0m  690 |             error("The head of a list must be a function");[0m
+      | [0;1;32m                                                           
+[0m[1mminilisp.c:694:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  694 |         error("Bug: eval: Unknown tag type: %d", (*obj)->type);[0m
+      | [0;1;32m        ^                                                     
+[0m      | [0;32m        {                                                     ;} 
+[0m[1mminilisp.c:704:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  704 |     if (length(*list) != 1)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  705 |         error("Malformed quote");[0m
+      | [0;1;32m                                 
+[0m[1mminilisp.c:711:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  711 |     if (length(*list) != 2)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  712 |         error("Malformed cons");[0m
+      | [0;1;32m                                
+[0m[1mminilisp.c:721:54: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  721 |     if (args->car->type != TCELL || args->cdr != Nil)[0m
+      | [0;1;32m                                                     ^
+[0m      | [0;32m                                                      {
+[0m  722 |         error("Malformed car");[0m
+      | [0;1;32m                               
+[0m[1mminilisp.c:729:54: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  729 |     if (args->car->type != TCELL || args->cdr != Nil)[0m
+      | [0;1;32m                                                     ^
+[0m      | [0;32m                                                      {
+[0m  730 |         error("Malformed cdr");[0m
+      | [0;1;32m                               
+[0m[1mminilisp.c:736:61: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  736 |     if (length(*list) != 2 || (*list)->car->type != TSYMBOL)[0m
+      | [0;1;32m                                                            ^
+[0m      | [0;32m                                                             {
+[0m  737 |         error("Malformed setq");[0m
+      | [0;1;32m                                
+[0m[1mminilisp.c:740:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  740 |     if (!*bind)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  741 |         error("Unbound variable %s", (*list)->car->name);[0m
+      | [0;1;32m                                                         
+[0m[1mminilisp.c:752:59: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  752 |     if (length(*args) != 2 || (*args)->car->type != TCELL)[0m
+      | [0;1;32m                                                          ^
+[0m      | [0;32m                                                           {
+[0m  753 |         error("Malformed setcar");[0m
+      | [0;1;32m                                  
+[0m[1mminilisp.c:760:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  760 |     if (length(*list) < 2)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  761 |         error("Malformed while");[0m
+      | [0;1;32m                                 
+[0m[1mminilisp.c:783:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  783 |         if (args->car->type != TINT)[0m
+      | [0;1;32m                                    ^
+[0m      | [0;32m                                     {
+[0m  784 |             error("+ takes only numbers");[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:793:46: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  793 |     for (Obj *p = args; p != Nil; p = p->cdr)[0m
+      | [0;1;32m                                             ^
+[0m      | [0;32m                                              {
+[0m  794 |         if (p->car->type != TINT)[0m
+  795 |             error("- takes only numbers");[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:794:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  794 |         if (p->car->type != TINT)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m  795 |             error("- takes only numbers");[0m
+      | [0;1;32m                                          
+[0m[1mminilisp.c:796:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  796 |     if (args->cdr == Nil)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  797 |         return make_int(root, -args->car->value);[0m
+      | [0;1;32m                                                 
+[0m[1mminilisp.c:799:51: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  799 |     for (Obj *p = args->cdr; p != Nil; p = p->cdr)[0m
+      | [0;1;32m                                                  ^
+[0m      | [0;32m                                                   {
+[0m  800 |         r -= p->car->value;[0m
+      | [0;1;32m                           
+[0m[1mminilisp.c:807:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  807 |     if (length(args) != 2)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  808 |         error("malformed <");[0m
+      | [0;1;32m                             
+[0m[1mminilisp.c:811:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  811 |     if (x->type != TINT || y->type != TINT)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  812 |         error("< takes only numbers");[0m
+      | [0;1;32m                                      
+[0m[1mminilisp.c:817:89: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  817 |     if ((*list)->type != TCELL || !is_list((*list)->car) || (*list)->cdr->type != TCELL)[0m
+      | [0;1;32m                                                                                        ^
+[0m      | [0;32m                                                                                         {
+[0m  818 |         error("Malformed lambda");[0m
+      | [0;1;32m                                  
+[0m[1mminilisp.c:820:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  820 |     for (; p->type == TCELL; p = p->cdr)[0m
+      | [0;1;32m                                        ^
+[0m      | [0;32m                                         {
+[0m  821 |         if (p->car->type != TSYMBOL)[0m
+  822 |             error("Parameter must be a symbol");[0m
+      | [0;1;32m                                                
+[0m[1mminilisp.c:821:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  821 |         if (p->car->type != TSYMBOL)[0m
+      | [0;1;32m                                    ^
+[0m      | [0;32m                                     {
+[0m  822 |             error("Parameter must be a symbol");[0m
+      | [0;1;32m                                                
+[0m[1mminilisp.c:823:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  823 |     if (p != Nil && p->type != TSYMBOL)[0m
+      | [0;1;32m                                       ^
+[0m      | [0;32m                                        {
+[0m  824 |         error("Parameter must be a symbol");[0m
+      | [0;1;32m                                            
+[0m[1mminilisp.c:837:70: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  837 |     if ((*list)->car->type != TSYMBOL || (*list)->cdr->type != TCELL)[0m
+      | [0;1;32m                                                                     ^
+[0m      | [0;32m                                                                      {
+[0m  838 |         error("Malformed defun");[0m
+      | [0;1;32m                                 
+[0m[1mminilisp.c:854:61: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  854 |     if (length(*list) != 2 || (*list)->car->type != TSYMBOL)[0m
+      | [0;1;32m                                                            ^
+[0m      | [0;32m                                                             {
+[0m  855 |         error("Malformed define");[0m
+      | [0;1;32m                                  
+[0m[1mminilisp.c:871:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  871 |     if (length(*list) != 1)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  872 |         error("Malformed macroexpand");[0m
+      | [0;1;32m                                       
+[0m[1mminilisp.c:889:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  889 |     if (length(*list) < 2)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  890 |         error("Malformed if");[0m
+      | [0;1;32m                              
+[0m[1mminilisp.c:904:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  904 |     if (length(*list) != 2)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  905 |         error("Malformed =");[0m
+      | [0;1;32m                             
+[0m[1mminilisp.c:909:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  909 |     if (x->type != TINT || y->type != TINT)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  910 |         error("= only takes numbers");[0m
+      | [0;1;32m                                      
+[0m[1mminilisp.c:916:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  916 |     if (length(*list) != 2)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  917 |         error("Malformed eq");[0m
+      | [0;1;32m                              
+[0m[1mminilisp.c:987:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  987 |         if (!*expr)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  988 |             return 0;[0m
+      | [0;1;32m                     
+[0m[1mminilisp.c:989:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  989 |         if (*expr == Cparen)[0m
+      | [0;1;32m                            ^
+[0m      | [0;32m                             {
+[0m  990 |             error("Stray close parenthesis");[0m
+      | [0;1;32m                                             
+[0m[1mminilisp.c:991:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  991 |         if (*expr == Dot)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  992 |             error("Stray dot");[0m
+      | [0;1;32m                               
+[0m90 warnings generated.
+Suppressed 2 warnings (2 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+
+
+Process exited with return code 0

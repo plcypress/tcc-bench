@@ -1,0 +1,21 @@
+Location,Union,Intent
+"/usr/include/x86_64-linux-gnu/bits/sigcontext.h:167:17","union sigcontext::(anonymous at /usr/include/x86_64-linux-gnu/bits/sigcontext.h:167:17)",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:25:9","__atomic_wide_counter",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:94:6","union siginfo_t::(unnamed at /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:94:6)",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:75:9","pthread_cond_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:32:9","pthread_mutexattr_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:51:5","union siginfo_t::(unnamed at /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:51:5)",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:41:9","pthread_condattr_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:56:7","union pthread_attr_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:67:9","pthread_mutex_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:86:9","pthread_rwlock_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:93:9","pthread_rwlockattr_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:28:5","union sigevent::(unnamed at /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:28:5)",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:108:9","pthread_barrier_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:24:7","union sigval",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:114:9","pthread_barrierattr_t",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/sigaction.h:31:5","union sigaction::(unnamed at /usr/include/x86_64-linux-gnu/bits/sigaction.h:31:5)",Ignore(std)
+"/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:16:3","union __mbstate_t::(unnamed at /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:16:3)",Ignore(std)
+"./printf-args.h:90:3","union argument::(unnamed at ./printf-args.h:90:3)",Unknown
+"glob.c:209:3","union (unnamed at glob.c:209:3)",Unknown
+"./malloc/scratch_buffer.gl.h:70:3","union scratch_buffer::(unnamed at ./malloc/scratch_buffer.gl.h:70:3)",Unknown

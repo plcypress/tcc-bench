@@ -1,0 +1,479 @@
+Command: /itch/common/crepos/tcc-scripts/tidy-braces.sh
+Directory: /itch/common/crepos/cu-to-rtu/c/pth-2.0.7
+----------------------------------------
+
+Enabled checks:
+    clang-analyzer-apiModeling.Errno
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.TrustReturnsNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.BitwiseShift
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DereferenceModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.NewArraySize
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.ArrayDelete
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PlacementNew
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtrModeling
+    clang-analyzer-cplusplus.StringChecker
+    clang-analyzer-cplusplus.VirtualCallModeling
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullabilityBase
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.core.EnumCastOutOfRange
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-optin.taint.GenericTaint
+    clang-analyzer-optin.taint.TaintPropagation
+    clang-analyzer-optin.taint.TaintedAlloc
+    clang-analyzer-optin.taint.TaintedDiv
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.ArrayBound
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.MmapWriteExec
+    clang-analyzer-security.PointerSub
+    clang-analyzer-security.PutenvStackArray
+    clang-analyzer-security.SetgidSetuidOrder
+    clang-analyzer-security.cert.env.InvalidPtr
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.BlockInCriticalSection
+    clang-analyzer-unix.Chroot
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Errno
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.StdCLibraryFunctions
+    clang-analyzer-unix.Stream
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NotNullTerminated
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    clang-analyzer-webkit.NoUncountedMemberChecker
+    clang-analyzer-webkit.RefCntblBaseVirtualDtor
+    clang-analyzer-webkit.UncountedLambdaCapturesChecker
+    readability-braces-around-statements
+
+Running clang-tidy for 6 files out of 6 in compilation database ...
+[1/6][1.2s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpiid611da.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_mctx.c
+[1mpth_mctx.c:480:2: [0m[0;1;31merror: [0m[1m"Unsupported Linux (g)libc version and/or platform" [clang-diagnostic-error][0m
+  480 | #error "Unsupported Linux (g)libc version and/or platform"[0m
+      | [0;1;32m ^
+[0m4 warnings and 1 error generated.
+Error while processing /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_mctx.c.
+Suppressed 4 warnings (4 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+
+[2/6][1.4s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpp4upihvj.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_errno.c
+4 warnings generated.
+8 warnings generated.
+Suppressed 8 warnings (8 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[3/6][3.0s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpncjztvi6.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_time.c
+[1mpth_time.c:103:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  103 |     if (rc == 0)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  104 |          rc = t1->tv_usec - t2->tv_usec;[0m
+      | [0;1;32m                                        
+[0m[1mpth_time.c:177:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  177 |     if (t->tv_sec > 0 && t->tv_usec > 0)[0m
+      | [0;1;32m                                        ^
+[0m      | [0;32m                                         {
+[0m  178 |         return 1;[0m
+  179 |     else[0m
+      | [0;32m    } 
+[0m[1mpth_time.c:179:9: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  179 |     else[0m
+      | [0;1;32m        ^
+[0m      | [0;32m         {
+[0m  180 |         return 0;[0m
+      | [0;1;32m                 
+[0m7 warnings generated.
+14 warnings generated.
+Suppressed 8 warnings (8 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[4/6][4.3s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpkzvv_hk3.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_ring.c
+[1mpth_ring.c:47:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   47 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m   48 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:93:49: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   93 |     if (r == NULL || rn1 == NULL || rn2 == NULL)[0m
+      | [0;1;32m                                                ^
+[0m      | [0;32m                                                 {
+[0m   94 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:106:49: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  106 |     if (r == NULL || rn1 == NULL || rn2 == NULL)[0m
+      | [0;1;32m                                                ^
+[0m      | [0;32m                                                 {
+[0m  107 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:119:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  119 |     if (r == NULL || rn == NULL)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  120 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:121:67: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  121 |     if (r->r_hook == rn && rn->rn_prev == rn && rn->rn_next == rn)[0m
+      | [0;1;32m                                                                  ^
+[0m      | [0;32m                                                                   {
+[0m  122 |         r->r_hook = NULL;[0m
+  123 |     else {[0m
+      | [0;32m    } 
+[0m[1mpth_ring.c:124:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  124 |         if (r->r_hook == rn)[0m
+      | [0;1;32m                            ^
+[0m      | [0;32m                             {
+[0m  125 |             r->r_hook = rn->rn_next;[0m
+      | [0;1;32m                                    
+[0m[1mpth_ring.c:136:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  136 |     if (r == NULL || rn == NULL)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  137 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:157:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  157 |     if (r == NULL || rn == NULL)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  158 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_ring.c:186:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  186 |     if (rn != NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  187 |         pth_ring_delete(r, rn);[0m
+      | [0;1;32m                               
+[0m[1mpth_ring.c:194:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  194 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  195 |         return FALSE;[0m
+      | [0;1;32m                     
+[0m[1mpth_ring.c:196:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  196 |     if (r->r_hook == NULL)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  197 |         return FALSE;[0m
+      | [0;1;32m                     
+[0m[1mpth_ring.c:199:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  199 |     if (r->r_hook == rn)[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  200 |         return TRUE;[0m
+      | [0;1;32m                    
+[0m[1mpth_ring.c:219:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  219 |     if (rn != NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  220 |         pth_ring_delete(r, rn);[0m
+      | [0;1;32m                               
+[0m[1mpth_ring.c:230:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  230 |     if (r == NULL || rns == NULL)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m  231 |         return pth_error(FALSE, EINVAL);[0m
+      | [0;1;32m                                        
+[0m18 warnings generated.
+36 warnings generated.
+Suppressed 8 warnings (8 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[5/6][5.6s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpg4e22lhi.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_pqueue.c
+[1mpth_pqueue.c:57:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   57 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m   58 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_pqueue.c:89:36: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   89 |         if (t->q_next != q->q_head)[0m
+      | [0;1;32m                                   ^
+[0m      | [0;32m                                    {
+[0m   90 |             t->q_next->q_prio -= t->q_prio;[0m
+      | [0;1;32m                                           
+[0m[1mpth_pqueue.c:101:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  101 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  102 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mpth_pqueue.c:103:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  103 |     if (q->q_head == NULL)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  104 |         t = NULL;[0m
+  105 |     else if (q->q_head->q_next == q->q_head) {[0m
+      | [0;32m    } 
+[0m[1mpth_pqueue.c:130:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  130 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  131 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_pqueue.c:132:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  132 |     if (q->q_head == NULL)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  133 |         return;[0m
+  134 |     else if (q->q_head == t) {[0m
+      | [0;32m    } 
+[0m[1mpth_pqueue.c:156:36: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  156 |         if (t->q_next != q->q_head)[0m
+      | [0;1;32m                                   ^
+[0m      | [0;32m                                    {
+[0m  157 |             t->q_next->q_prio += t->q_prio;[0m
+      | [0;1;32m                                           
+[0m[1mpth_pqueue.c:173:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  173 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  174 |         return FALSE;[0m
+      | [0;1;32m                     
+[0m[1mpth_pqueue.c:175:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  175 |     if (q->q_head == NULL || q->q_num == 0)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  176 |         return FALSE;[0m
+      | [0;1;32m                     
+[0m[1mpth_pqueue.c:178:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  178 |     if (q->q_num == 1)[0m
+      | [0;1;32m                      ^
+[0m      | [0;32m                       {
+[0m  179 |         return TRUE;[0m
+      | [0;1;32m                    
+[0m[1mpth_pqueue.c:189:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  189 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  190 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_pqueue.c:191:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  191 |     if (q->q_head == NULL)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  192 |         return;[0m
+      | [0;1;32m               
+[0m[1mpth_pqueue.c:213:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  213 |     if (q == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  214 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mpth_pqueue.c:215:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  215 |     if (q->q_head == NULL)[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  216 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mpth_pqueue.c:225:32: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  225 |     if (q == NULL || t == NULL)[0m
+      | [0;1;32m                               ^
+[0m      | [0;32m                                {
+[0m  226 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mpth_pqueue.c:229:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  229 |         if (t != q->q_head)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  230 |             tn = t->q_prev;[0m
+      | [0;1;32m                           
+[0m[1mpth_pqueue.c:234:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  234 |         if (tn == q->q_head)[0m
+      | [0;1;32m                            ^
+[0m      | [0;32m                             {
+[0m  235 |             tn = NULL;[0m
+      | [0;1;32m                      
+[0m21 warnings generated.
+42 warnings generated.
+Suppressed 8 warnings (8 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[6/6][13.6s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/tidy-fixes/tmpo34iqj92.yaml -p=/itch/common/crepos/cu-to-rtu/c/pth-2.0.7 /itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_debug.c
+[1mpth_debug.c:63:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   63 |         if (file != NULL)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m   64 |             pth_snprintf(str, sizeof(str), "%d:%s:%04d: ", (int)getpid(), file, line);[0m
+   65 |         else[0m
+      | [0;32m        } 
+[0m[1mpth_debug.c:65:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   65 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m   66 |             str[0] = NUL;[0m
+      | [0;1;32m                         
+[0m[1mpth_debug.c:68:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   68 |         if (argc == 1)[0m
+      | [0;1;32m                      ^
+[0m      | [0;32m                       {
+[0m   69 |             pth_util_cpystrn(str+n, fmt, sizeof(str)-n);[0m
+   70 |         else[0m
+      | [0;32m        } 
+[0m[1mpth_debug.c:70:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   70 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m   71 |             pth_vsnprintf(str+n, sizeof(str)-n, fmt, ap);[0m
+      | [0;1;32m                                                         
+[0m[1mpth_debug.c:83:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   83 |     fprintf(fp, "+----------------------------------------------------------------------\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:83:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   83 |     fprintf(fp, "+----------------------------------------------------------------------\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:84:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   84 |     fprintf(fp, "| Pth Version: %s\n", PTH_VERSION_STR);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:84:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   84 |     fprintf(fp, "| Pth Version: %s\n", PTH_VERSION_STR);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:85:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   85 |     fprintf(fp, "| Load Average: %.2f\n", pth_loadval);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:85:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   85 |     fprintf(fp, "| Load Average: %.2f\n", pth_loadval);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:88:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   88 |     fprintf(fp, "| Thread Queue RUNNING:\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:88:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   88 |     fprintf(fp, "| Thread Queue RUNNING:\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:89:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   89 |     fprintf(fp, "|   1. thread 0x%lx (\"%s\")\n",[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:89:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   89 |     fprintf(fp, "|   1. thread 0x%lx (\"%s\")\n",[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:94:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+   94 |     fprintf(fp, "+----------------------------------------------------------------------\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:94:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+   94 |     fprintf(fp, "+----------------------------------------------------------------------\n");[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:104:5: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+  104 |     fprintf(fp, "| Thread Queue %s:\n", qn);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:104:5: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+  104 |     fprintf(fp, "| Thread Queue %s:\n", qn);[0m
+      | [0;1;32m    ^~~~~~~
+[0m[1mpth_debug.c:106:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  106 |     if (n == 0)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  107 |         fprintf(fp, "|   no threads\n");[0m
+      | [0;1;32m                                        
+[0m[1mpth_debug.c:107:9: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+  107 |         fprintf(fp, "|   no threads\n");[0m
+      | [0;1;32m        ^~~~~~~
+[0m[1mpth_debug.c:107:9: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+  107 |         fprintf(fp, "|   no threads\n");[0m
+      | [0;1;32m        ^~~~~~~
+[0m[1mpth_debug.c:110:9: [0m[0;1;35mwarning: [0m[1mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling][0m
+  110 |         fprintf(fp, "|   %d. thread 0x%lx (\"%s\")\n", i++, (unsigned long)t, t->name);[0m
+      | [0;1;32m        ^~~~~~~
+[0m[1mpth_debug.c:110:9: [0m[0;1;36mnote: [0mCall to function 'fprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'fprintf_s' in case of C11[0m
+  110 |         fprintf(fp, "|   %d. thread 0x%lx (\"%s\")\n", i++, (unsigned long)t, t->name);[0m
+      | [0;1;32m        ^~~~~~~
+[0m18 warnings generated.
+36 warnings generated.
+Suppressed 8 warnings (8 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+
+
+Process exited with return code 0

@@ -1,0 +1,542 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/common/constants.o",
+      "c/common/constants.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/common/constants.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/common/constants.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/common/context.o",
+      "c/common/context.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/common/context.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/common/context.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/common/dictionary.o",
+      "c/common/dictionary.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/common/dictionary.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/common/dictionary.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/common/platform.o",
+      "c/common/platform.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/common/platform.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/common/platform.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/common/transform.o",
+      "c/common/transform.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/common/transform.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/common/transform.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/dec/bit_reader.o",
+      "c/dec/bit_reader.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/dec/bit_reader.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/dec/bit_reader.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/dec/decode.o",
+      "c/dec/decode.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/dec/decode.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/dec/decode.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/dec/huffman.o",
+      "c/dec/huffman.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/dec/huffman.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/dec/huffman.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/dec/state.o",
+      "c/dec/state.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/dec/state.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/dec/state.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/backward_references.o",
+      "c/enc/backward_references.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/backward_references.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/backward_references.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/backward_references_hq.o",
+      "c/enc/backward_references_hq.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/backward_references_hq.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/backward_references_hq.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/bit_cost.o",
+      "c/enc/bit_cost.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/bit_cost.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/bit_cost.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/block_splitter.o",
+      "c/enc/block_splitter.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/block_splitter.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/block_splitter.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/brotli_bit_stream.o",
+      "c/enc/brotli_bit_stream.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/brotli_bit_stream.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/brotli_bit_stream.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/cluster.o",
+      "c/enc/cluster.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/cluster.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/cluster.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/command.o",
+      "c/enc/command.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/command.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/command.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/compress_fragment.o",
+      "c/enc/compress_fragment.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/compress_fragment.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/compress_fragment.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/compress_fragment_two_pass.o",
+      "c/enc/compress_fragment_two_pass.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/compress_fragment_two_pass.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/compress_fragment_two_pass.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/dictionary_hash.o",
+      "c/enc/dictionary_hash.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/dictionary_hash.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/dictionary_hash.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/encode.o",
+      "c/enc/encode.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/encode.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/encode.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/encoder_dict.o",
+      "c/enc/encoder_dict.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/encoder_dict.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/encoder_dict.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/entropy_encode.o",
+      "c/enc/entropy_encode.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/entropy_encode.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/entropy_encode.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/fast_log.o",
+      "c/enc/fast_log.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/fast_log.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/fast_log.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/histogram.o",
+      "c/enc/histogram.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/histogram.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/histogram.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/literal_cost.o",
+      "c/enc/literal_cost.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/literal_cost.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/literal_cost.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/memory.o",
+      "c/enc/memory.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/memory.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/metablock.o",
+      "c/enc/metablock.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/metablock.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/metablock.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/static_dict.o",
+      "c/enc/static_dict.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/static_dict.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/static_dict.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/enc/utf8_util.o",
+      "c/enc/utf8_util.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/enc/utf8_util.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/enc/utf8_util.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O2",
+      "-Ic/include",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "bin/obj/c/tools/brotli.o",
+      "c/tools/brotli.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9",
+    "file": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/c/tools/brotli.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/brotli-1.0.9/bin/obj/c/tools/brotli.o"
+  }
+]

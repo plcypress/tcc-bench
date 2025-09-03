@@ -1,0 +1,2178 @@
+Command: /itch/common/crepos/tcc-scripts/tidy-braces.sh
+Directory: /itch/common/crepos/cu-to-rtu/c/hiredis
+----------------------------------------
+
+Enabled checks:
+    clang-analyzer-apiModeling.Errno
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.TrustReturnsNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.BitwiseShift
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DereferenceModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.NewArraySize
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.ArrayDelete
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PlacementNew
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtrModeling
+    clang-analyzer-cplusplus.StringChecker
+    clang-analyzer-cplusplus.VirtualCallModeling
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullabilityBase
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.core.EnumCastOutOfRange
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-optin.taint.GenericTaint
+    clang-analyzer-optin.taint.TaintPropagation
+    clang-analyzer-optin.taint.TaintedAlloc
+    clang-analyzer-optin.taint.TaintedDiv
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.ArrayBound
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.MmapWriteExec
+    clang-analyzer-security.PointerSub
+    clang-analyzer-security.PutenvStackArray
+    clang-analyzer-security.SetgidSetuidOrder
+    clang-analyzer-security.cert.env.InvalidPtr
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.BlockInCriticalSection
+    clang-analyzer-unix.Chroot
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Errno
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.StdCLibraryFunctions
+    clang-analyzer-unix.Stream
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NotNullTerminated
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    clang-analyzer-webkit.NoUncountedMemberChecker
+    clang-analyzer-webkit.RefCntblBaseVirtualDtor
+    clang-analyzer-webkit.UncountedLambdaCapturesChecker
+    readability-braces-around-statements
+
+Running clang-tidy for 8 files out of 8 in compilation database ...
+[1/8][0.1s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmpdtf4w7ap.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/alloc.c
+3 warnings generated.
+Suppressed 3 warnings (3 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[2/8][0.2s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmp2gtl0tpy.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/sockcompat.c
+2 warnings generated.
+Suppressed 2 warnings (2 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[3/8][97.4s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmpq3fua16k.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/read.c
+[1mread.c:84:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   84 |         break;[0m
+      | [0;1;32m        ^    
+[0m      | [0;32m        {    ;} 
+[0m[1mread.c:85:16: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   85 |     case '\n': len = snprintf(buf,size,"\"\\n\""); break;[0m
+      | [0;1;32m               ^                                        
+[0m      | [0;32m               {                                        ;} 
+[0m[1mread.c:86:16: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   86 |     case '\r': len = snprintf(buf,size,"\"\\r\""); break;[0m
+      | [0;1;32m               ^                                        
+[0m      | [0;32m               {                                        ;} 
+[0m[1mread.c:87:16: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   87 |     case '\t': len = snprintf(buf,size,"\"\\t\""); break;[0m
+      | [0;1;32m               ^                                        
+[0m      | [0;32m               {                                        ;} 
+[0m[1mread.c:88:16: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   88 |     case '\a': len = snprintf(buf,size,"\"\\a\""); break;[0m
+      | [0;1;32m               ^                                        
+[0m      | [0;32m               {                                        ;} 
+[0m[1mread.c:89:16: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   89 |     case '\b': len = snprintf(buf,size,"\"\\b\""); break;[0m
+      | [0;1;32m               ^                                        
+[0m      | [0;32m               {                                        ;} 
+[0m[1mread.c:91:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   91 |         if (isprint(byte))[0m
+      | [0;1;32m        ^
+[0m      | [0;32m        {
+[0m   92 |             len = snprintf(buf,size,"\"%c\"",byte);[0m
+   93 |         else[0m
+   94 |             len = snprintf(buf,size,"\"\\x%02x\"",(unsigned char)byte);[0m
+   95 |         break;[0m
+      | [0;1;32m             
+[0m      | [0;32m             ;} 
+[0m[1mread.c:91:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   91 |         if (isprint(byte))[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m   92 |             len = snprintf(buf,size,"\"%c\"",byte);[0m
+   93 |         else[0m
+      | [0;32m        } 
+[0m[1mread.c:93:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   93 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m   94 |             len = snprintf(buf,size,"\"\\x%02x\"",(unsigned char)byte);[0m
+      | [0;1;32m                                                                       
+[0m[1mread.c:129:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  129 |     if (len < 2)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  130 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mread.c:168:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  168 |     if (plen == slen)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  169 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mread.c:173:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  173 |         if (value != NULL) *value = 0;[0m
+      | [0;1;32m                          ^           
+[0m      | [0;32m                           {
+[0m[1mread.c:182:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  182 |         if (plen == slen)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  183 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:198:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  198 |         if (v > (ULLONG_MAX / 10)) /* Overflow. */[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  199 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:202:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  202 |         if (v > (ULLONG_MAX - (p[0]-'0'))) /* Overflow. */[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  203 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:210:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  210 |     if (plen < slen)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  211 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mread.c:214:58: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  214 |         if (v > ((unsigned long long)(-(LLONG_MIN+1))+1)) /* Overflow. */[0m
+      | [0;1;32m                                                         ^
+[0m      | [0;32m                                                          {
+[0m  215 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:216:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  216 |         if (value != NULL) *value = -v;[0m
+      | [0;1;32m                          ^            
+[0m      | [0;32m                           {
+[0m[1mread.c:218:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  218 |         if (v > LLONG_MAX) /* Overflow. */[0m
+      | [0;1;32m                          ^
+[0m      | [0;32m                           {
+[0m  219 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:220:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  220 |         if (value != NULL) *value = v;[0m
+      | [0;1;32m                          ^           
+[0m      | [0;32m                           {
+[0m[1mread.c:234:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  234 |         if (_len) *_len = len;[0m
+      | [0;1;32m                 ^            
+[0m      | [0;32m                  {
+[0m[1mread.c:335:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  335 |             if (r->fn && r->fn->createNil)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  336 |                 obj = r->fn->createNil(cur);[0m
+  337 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:337:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  337 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  338 |                 obj = (void*)REDIS_REPLY_NIL;[0m
+      | [0;1;32m                                             
+[0m[1mread.c:349:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  349 |             if (r->fn && r->fn->createBool)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  350 |                 obj = r->fn->createBool(cur,bval);[0m
+  351 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:351:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  351 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  352 |                 obj = (void*)REDIS_REPLY_BOOL;[0m
+      | [0;1;32m                                              
+[0m[1mread.c:358:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  358 |                 if (i == 0 && p[0] == '-') continue;[0m
+      | [0;1;32m                                          ^         
+[0m      | [0;32m                                           {
+[0m[1mread.c:365:46: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  365 |             if (r->fn && r->fn->createString)[0m
+      | [0;1;32m                                             ^
+[0m      | [0;32m                                              {
+[0m  366 |                 obj = r->fn->createString(cur,p,len);[0m
+  367 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:367:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  367 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  368 |                 obj = (void*)REDIS_REPLY_BIGNUM;[0m
+      | [0;1;32m                                                
+[0m[1mread.c:378:46: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  378 |             if (r->fn && r->fn->createString)[0m
+      | [0;1;32m                                             ^
+[0m      | [0;32m                                              {
+[0m  379 |                 obj = r->fn->createString(cur,p,len);[0m
+  380 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:380:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  380 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  381 |                 obj = (void*)(uintptr_t)(cur->type);[0m
+      | [0;1;32m                                                    
+[0m[1mread.c:390:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  390 |         if (r->ridx == 0) r->reply = obj;[0m
+      | [0;1;32m                         ^               
+[0m      | [0;32m                          {
+[0m[1mread.c:426:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  426 |             if (r->fn && r->fn->createNil)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  427 |                 obj = r->fn->createNil(cur);[0m
+  428 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:428:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  428 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  429 |                 obj = (void*)REDIS_REPLY_NIL;[0m
+      | [0;1;32m                                             
+[0m[1mread.c:443:50: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  443 |                 if (r->fn && r->fn->createString)[0m
+      | [0;1;32m                                                 ^
+[0m      | [0;32m                                                  {
+[0m  444 |                     obj = r->fn->createString(cur,s+2,len);[0m
+  445 |                 else[0m
+      | [0;32m                } 
+[0m[1mread.c:445:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  445 |                 else[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  446 |                     obj = (void*)(uintptr_t)cur->type;[0m
+      | [0;1;32m                                                      
+[0m[1mread.c:461:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  461 |             if (r->ridx == 0) r->reply = obj;[0m
+      | [0;1;32m                             ^               
+[0m      | [0;32m                              {
+[0m[1mread.c:477:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  477 |     if (aux == NULL)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  478 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1mread.c:485:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  485 |         if (r->task[r->tasks] == NULL)[0m
+      | [0;1;32m                                      ^
+[0m      | [0;32m                                       {
+[0m  486 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mread.c:504:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  504 |         if (redisReaderGrow(r) == REDIS_ERR)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  505 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mread.c:526:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  526 |             if (r->fn && r->fn->createNil)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  527 |                 obj = r->fn->createNil(cur);[0m
+  528 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:528:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  528 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  529 |                 obj = (void*)REDIS_REPLY_NIL;[0m
+      | [0;1;32m                                             
+[0m[1mread.c:538:79: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  538 |             if (cur->type == REDIS_REPLY_MAP || cur->type == REDIS_REPLY_ATTR) elements *= 2;[0m
+      | [0;1;32m                                                                              ^              
+[0m      | [0;32m                                                                               {
+[0m[1mread.c:540:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  540 |             if (r->fn && r->fn->createArray)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  541 |                 obj = r->fn->createArray(cur,elements);[0m
+  542 |             else[0m
+      | [0;32m            } 
+[0m[1mread.c:542:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  542 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  543 |                 obj = (void*)(uintptr_t)cur->type;[0m
+      | [0;1;32m                                                  
+[0m[1mread.c:567:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  567 |         if (root) r->reply = obj;[0m
+      | [0;1;32m                 ^               
+[0m      | [0;32m                  {
+[0m[1mread.c:583:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  583 |                 cur->type = REDIS_REPLY_ERROR;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  584 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:586:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  586 |                 cur->type = REDIS_REPLY_STATUS;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  587 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:589:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  589 |                 cur->type = REDIS_REPLY_INTEGER;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  590 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:592:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  592 |                 cur->type = REDIS_REPLY_DOUBLE;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  593 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:595:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  595 |                 cur->type = REDIS_REPLY_NIL;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  596 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:598:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  598 |                 cur->type = REDIS_REPLY_STRING;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  599 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:601:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  601 |                 cur->type = REDIS_REPLY_ARRAY;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  602 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:604:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  604 |                 cur->type = REDIS_REPLY_MAP;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  605 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:607:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  607 |                 cur->type = REDIS_REPLY_ATTR;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  608 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:610:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  610 |                 cur->type = REDIS_REPLY_SET;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  611 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:613:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  613 |                 cur->type = REDIS_REPLY_BOOL;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  614 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:616:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  616 |                 cur->type = REDIS_REPLY_VERB;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  617 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:619:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  619 |                 cur->type = REDIS_REPLY_PUSH;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  620 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:622:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  622 |                 cur->type = REDIS_REPLY_BIGNUM;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  623 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mread.c:625:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  625 |                 __redisReaderSetErrorProtocolByte(r,*p);[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  626 |                 return REDIS_ERR;[0m
+      | [0;1;32m                                
+[0m      | [0;32m                                ;} 
+[0m[1mread.c:663:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  663 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  664 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mread.c:667:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  667 |     if (r->buf == NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  668 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1mread.c:671:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  671 |     if (r->task == NULL)[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  672 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1mread.c:676:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  676 |         if (r->task[r->tasks] == NULL)[0m
+      | [0;1;32m                                      ^
+[0m      | [0;32m                                       {
+[0m  677 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mread.c:692:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  692 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  693 |         return;[0m
+      | [0;1;32m               
+[0m[1mread.c:695:56: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  695 |     if (r->reply != NULL && r->fn && r->fn->freeObject)[0m
+      | [0;1;32m                                                       ^
+[0m      | [0;32m                                                        {
+[0m  696 |         r->fn->freeObject(r->reply);[0m
+      | [0;1;32m                                    
+[0m[1mread.c:715:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  715 |     if (r->err)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  716 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mread.c:724:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  724 |             if (r->buf == 0) goto oom;[0m
+      | [0;1;32m                            ^         
+[0m      | [0;32m                             {
+[0m[1mread.c:730:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  730 |         if (newbuf == NULL) goto oom;[0m
+      | [0;1;32m                           ^         
+[0m      | [0;32m                            {
+[0m[1mread.c:744:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  744 |     if (reply != NULL)[0m
+      | [0;1;32m                      ^
+[0m      | [0;32m                       {
+[0m  745 |         *reply = NULL;[0m
+      | [0;1;32m                      
+[0m[1mread.c:748:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  748 |     if (r->err)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  749 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mread.c:752:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  752 |     if (r->len == 0)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  753 |         return REDIS_OK;[0m
+      | [0;1;32m                        
+[0m[1mread.c:767:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  767 |     while (r->ridx >= 0)[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  768 |         if (processItem(r) != REDIS_OK)[0m
+  769 |             break;[0m
+      | [0;1;32m                  
+[0m[1mread.c:768:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  768 |         if (processItem(r) != REDIS_OK)[0m
+      | [0;1;32m                                       ^
+[0m      | [0;32m                                        {
+[0m  769 |             break;[0m
+      | [0;1;32m                  
+[0m[1mread.c:772:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  772 |     if (r->err)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  773 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mread.c:778:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  778 |         if (sdsrange(r->buf,r->pos,-1) < 0) return REDIS_ERR;[0m
+      | [0;1;32m                                           ^                 
+[0m      | [0;32m                                            {
+[0m105 warnings generated.
+Suppressed 29 warnings (29 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[4/8][130.7s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmp85abrbum.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/net.c
+[1mnet.c:107:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  107 |     if (prefix != NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  108 |         len = snprintf(buf,sizeof(buf),"%s: ",prefix);[0m
+      | [0;1;32m                                                      
+[0m[1mnet.c:151:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  151 |     if (blocking)[0m
+      | [0;1;32m                 ^
+[0m      | [0;32m                  {
+[0m  152 |         flags &= ~O_NONBLOCK;[0m
+  153 |     else[0m
+      | [0;32m    } 
+[0m[1mnet.c:153:9: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  153 |     else[0m
+      | [0;1;32m        ^
+[0m      | [0;32m         {
+[0m  154 |         flags |= O_NONBLOCK;[0m
+      | [0;1;32m                            
+[0m[1mnet.c:177:47: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  177 |     if (c->connection_type == REDIS_CONN_UNIX)[0m
+      | [0;1;32m                                              ^
+[0m      | [0;32m                                               {
+[0m  178 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mnet.c:201:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  201 |     if (val == 0) val = 1;[0m
+      | [0;1;32m                 ^        
+[0m      | [0;32m                  {
+[0m[1mnet.c:354:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  354 |         *completed = 1;[0m
+      | [0;1;32m        ^
+[0m      | [0;32m        {
+[0m  355 |         return REDIS_OK;[0m
+      | [0;1;32m                       
+[0m      | [0;32m                       ;} 
+[0m[1mnet.c:359:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  359 |         return REDIS_OK;[0m
+      | [0;1;32m        ^              
+[0m      | [0;32m        {              ;} 
+[0m[1mnet.c:361:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  361 |         return REDIS_ERR;[0m
+      | [0;1;32m        ^               
+[0m      | [0;32m        {               ;} 
+[0m[1mnet.c:408:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  408 |     if (c->connect_timeout == timeout)[0m
+      | [0;1;32m                                      ^
+[0m      | [0;32m                                       {
+[0m  409 |         return REDIS_OK;[0m
+      | [0;1;32m                        
+[0m[1mnet.c:414:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  414 |         if (c->connect_timeout == NULL)[0m
+      | [0;1;32m                                       ^
+[0m      | [0;32m                                        {
+[0m  415 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mnet.c:424:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  424 |     if (c->command_timeout == timeout)[0m
+      | [0;1;32m                                      ^
+[0m      | [0;32m                                       {
+[0m  425 |         return REDIS_OK;[0m
+      | [0;1;32m                        
+[0m[1mnet.c:430:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  430 |         if (c->command_timeout == NULL)[0m
+      | [0;1;32m                                       ^
+[0m      | [0;32m                                        {
+[0m  431 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mnet.c:465:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  465 |         if (c->tcp.host == NULL)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  466 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:470:71: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  470 |         if (redisContextUpdateConnectTimeout(c, timeout) == REDIS_ERR)[0m
+      | [0;1;32m                                                                      ^
+[0m      | [0;32m                                                                       {
+[0m  471 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:497:70: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  497 |     if (c->flags & REDIS_PREFER_IPV6 && c->flags & REDIS_PREFER_IPV4)[0m
+      | [0;1;32m                                                                     ^
+[0m      | [0;32m                                                                      {
+[0m  498 |         hints.ai_family = AF_UNSPEC;[0m
+  499 |     else if (c->flags & REDIS_PREFER_IPV6)[0m
+      | [0;32m    } 
+[0m[1mnet.c:499:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  499 |     else if (c->flags & REDIS_PREFER_IPV6)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  500 |         hints.ai_family = AF_INET6;[0m
+  501 |     else[0m
+      | [0;32m    } 
+[0m[1mnet.c:501:9: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  501 |     else[0m
+      | [0;1;32m        ^
+[0m      | [0;32m         {
+[0m  502 |         hints.ai_family = AF_INET;[0m
+      | [0;1;32m                                  
+[0m[1mnet.c:516:90: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  516 |         if ((s = socket(p->ai_family,p->ai_socktype,p->ai_protocol)) == REDIS_INVALID_FD)[0m
+      | [0;1;32m                                                                                         ^
+[0m      | [0;32m                                                                                          {
+[0m  517 |             continue;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:520:47: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  520 |         if (redisSetBlocking(c,0) != REDIS_OK)[0m
+      | [0;1;32m                                              ^
+[0m      | [0;32m                                               {
+[0m  521 |             goto error;[0m
+      | [0;1;32m                       
+[0m[1mnet.c:559:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  559 |         if (c->saddr == NULL)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m  560 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:586:71: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  586 |                 if (redisContextWaitReady(c,timeout_msec) != REDIS_OK)[0m
+      | [0;1;32m                                                                      ^
+[0m      | [0;32m                                                                       {
+[0m  587 |                     goto error;[0m
+      | [0;1;32m                               
+[0m[1mnet.c:588:55: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  588 |                 if (redisSetTcpNoDelay(c) != REDIS_OK)[0m
+      | [0;1;32m                                                      ^
+[0m      | [0;32m                                                       {
+[0m  589 |                     goto error;[0m
+      | [0;1;32m                               
+[0m[1mnet.c:592:59: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  592 |         if (blocking && redisSetBlocking(c,1) != REDIS_OK)[0m
+      | [0;1;32m                                                          ^
+[0m      | [0;32m                                                           {
+[0m  593 |             goto error;[0m
+      | [0;1;32m                       
+[0m[1mnet.c:635:42: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  635 |     if (redisCreateSocket(c,AF_UNIX) < 0)[0m
+      | [0;1;32m                                         ^
+[0m      | [0;32m                                          {
+[0m  636 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mnet.c:637:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  637 |     if (redisSetBlocking(c,0) != REDIS_OK)[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  638 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mnet.c:645:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  645 |         if (c->unix_sock.path == NULL)[0m
+      | [0;1;32m                                      ^
+[0m      | [0;32m                                       {
+[0m  646 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:650:71: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  650 |         if (redisContextUpdateConnectTimeout(c, timeout) == REDIS_ERR)[0m
+      | [0;1;32m                                                                      ^
+[0m      | [0;32m                                                                       {
+[0m  651 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1mnet.c:657:62: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  657 |     if (redisContextTimeoutMsec(c,&timeout_msec) != REDIS_OK)[0m
+      | [0;1;32m                                                             ^
+[0m      | [0;32m                                                              {
+[0m  658 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mnet.c:661:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  661 |     if (c->saddr) hi_free(c->saddr);[0m
+      | [0;1;32m                 ^                  
+[0m      | [0;32m                  {
+[0m[1mnet.c:664:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  664 |     if (sa == NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  665 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1mnet.c:674:67: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  674 |             if (redisContextWaitReady(c,timeout_msec) != REDIS_OK)[0m
+      | [0;1;32m                                                                  ^
+[0m      | [0;32m                                                                   {
+[0m  675 |                 return REDIS_ERR;[0m
+      | [0;1;32m                                 
+[0m[1mnet.c:680:55: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  680 |     if (blocking && redisSetBlocking(c,1) != REDIS_OK)[0m
+      | [0;1;32m                                                      ^
+[0m      | [0;32m                                                       {
+[0m  681 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m62 warnings generated.
+Suppressed 30 warnings (30 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[5/8][151.7s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmpdw828vxu.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/test.c
+[1mtest.c:122:70: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  122 |     if (reply == NULL || c->err || reply->type != REDIS_REPLY_STRING)[0m
+      | [0;1;32m                                                                     ^
+[0m      | [0;32m                                                                      {
+[0m  123 |         goto abort;[0m
+      | [0;1;32m                   
+[0m[1mtest.c:124:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  124 |     if ((s = strstr(reply->str, REDIS_VERSION_FIELD)) == NULL)[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  125 |         goto abort;[0m
+      | [0;1;32m                   
+[0m[1mtest.c:130:56: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  130 |     if ((e = strstr(s, "\r\n")) == NULL || (e - s) < 5)[0m
+      | [0;1;32m                                                       ^
+[0m      | [0;32m                                                        {
+[0m  131 |         goto abort;[0m
+      | [0;1;32m                   
+[0m[1mtest.c:135:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  135 |     if (*eptr != '.') goto abort;[0m
+      | [0;1;32m                     ^           
+[0m      | [0;32m                      {
+[0m[1mtest.c:139:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  139 |     if (majorptr) *majorptr = major;[0m
+      | [0;1;32m                 ^                  
+[0m      | [0;32m                  {
+[0m[1mtest.c:140:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  140 |     if (minorptr) *minorptr = minor;[0m
+      | [0;1;32m                 ^                  
+[0m      | [0;32m                  {
+[0m[1mtest.c:205:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  205 |     if (keep_fd)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  206 |         return redisFreeKeepFd(c);[0m
+      | [0;1;32m                                  
+[0m[1mtest.c:1250:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1250 |     if (major >= 6) test_resp3_push_handler(c);[0m
+      | [0;1;32m                   ^                           
+[0m      | [0;32m                    {
+[0m[1mtest.c:1442:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1442 |     for (i = 0; i < 500; i++)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m 1443 |         freeReplyObject(redisCommand(c,"LPUSH mylist foo"));[0m
+      | [0;1;32m                                                            
+[0m[1mtest.c:1453:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1453 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:1465:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1465 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:1476:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1476 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:1482:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1482 |     for (i = 0; i < num; i++)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m 1483 |         redisAppendCommand(c,"PING");[0m
+      | [0;1;32m                                     
+[0m[1mtest.c:1490:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1490 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:1495:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1495 |     for (i = 0; i < num; i++)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m 1496 |         redisAppendCommand(c,"LRANGE mylist 0 499");[0m
+      | [0;1;32m                                                    
+[0m[1mtest.c:1504:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1504 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:1509:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1509 |     for (i = 0; i < num; i++)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m 1510 |         redisAppendCommand(c,"INCRBY incrkey %d", 1000000);[0m
+      | [0;1;32m                                                           
+[0m[1mtest.c:1517:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1517 |     for (i = 0; i < num; i++) freeReplyObject(replies[i]);[0m
+      | [0;1;32m                             ^                            
+[0m      | [0;32m                              {
+[0m[1mtest.c:2110:5: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
+ 2110 |     strcpy(t->errstr, c->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2110:5: [0m[0;1;36mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
+ 2110 |     strcpy(t->errstr, c->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2128:5: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
+ 2128 |     strcpy(astest.errstr, c->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2128:5: [0m[0;1;36mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
+ 2128 |     strcpy(astest.errstr, c->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2141:5: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
+ 2141 |     strcpy(t->errstr, ac->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2141:5: [0m[0;1;36mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
+ 2141 |     strcpy(t->errstr, ac->errstr);[0m
+      | [0;1;32m    ^~~~~~
+[0m[1mtest.c:2221:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2221 |     while(astest.connected == 0)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m 2222 |         redisPollTick(c, 0.1);[0m
+      | [0;1;32m                              
+[0m[1mtest.c:2243:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2243 |         while(astest.connected == 0)[0m
+      | [0;1;32m                                    ^
+[0m      | [0;32m                                     {
+[0m 2244 |             redisPollTick(c, 0.1);[0m
+      | [0;1;32m                                  
+[0m[1mtest.c:2258:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2258 |     while(astest.connected == 0)[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m 2259 |         redisPollTick(c, 0.1);[0m
+      | [0;1;32m                              
+[0m[1mtest.c:2262:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2262 |     while(astest.ac)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m 2263 |         redisPollTick(c, 0.1);[0m
+      | [0;1;32m                              
+[0m[1mtest.c:2273:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2273 |         while(astest.connected == 0)[0m
+      | [0;1;32m                                    ^
+[0m      | [0;32m                                     {
+[0m 2274 |             redisPollTick(c, 0.1);[0m
+      | [0;1;32m                                  
+[0m[1mtest.c:2279:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2279 |         while(astest.ac)[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m 2280 |             redisPollTick(c, 0.1);[0m
+      | [0;1;32m                                  
+[0m[1mtest.c:2290:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2290 |     while(astest.disconnects == 0)[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m 2291 |         redisPollTick(c, 0.1);[0m
+      | [0;1;32m                              
+[0m[1mtest.c:2302:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2302 |     while(astest.ac)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m 2303 |         redisPollTick(c, 0.1);[0m
+      | [0;1;32m                              
+[0m[1mtest.c:2394:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2394 |     if (throughput) test_throughput(cfg);[0m
+      | [0;1;32m                   ^                     
+[0m      | [0;32m                    {
+[0m[1mtest.c:2405:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 2405 |         if (throughput) test_throughput(cfg);[0m
+      | [0;1;32m                       ^                     
+[0m      | [0;32m                        {
+[0m73 warnings generated.
+Suppressed 42 warnings (42 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[6/8][188.2s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmpvhgjc1xn.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/hiredis.c
+[1mhiredis.c:83:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   83 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m   84 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:95:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   95 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m   96 |         return;[0m
+      | [0;1;32m               
+[0m[1mhiredis.c:109:46: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  109 |             for (j = 0; j < r->elements; j++)[0m
+      | [0;1;32m                                             ^
+[0m      | [0;32m                                              {
+[0m  110 |                 freeReplyObject(r->element[j]);[0m
+      | [0;1;32m                                               
+[0m[1mhiredis.c:113:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  113 |         break;[0m
+      | [0;1;32m        ^    
+[0m      | [0;32m        {    ;} 
+[0m[1mhiredis.c:121:9: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  121 |         break;[0m
+      | [0;1;32m        ^    
+[0m      | [0;32m        {    ;} 
+[0m[1mhiredis.c:131:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  131 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  132 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:143:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  143 |         if (buf == NULL) goto oom;[0m
+      | [0;1;32m                        ^         
+[0m      | [0;32m                         {
+[0m[1mhiredis.c:152:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  152 |         if (buf == NULL) goto oom;[0m
+      | [0;1;32m                        ^         
+[0m      | [0;32m                         {
+[0m[1mhiredis.c:180:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  180 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  181 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:209:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  209 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  210 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:229:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  229 |     if (len == SIZE_MAX) // Prevents hi_malloc(0) if len equals to SIZE_MAX[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  230 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:233:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  233 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  234 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:268:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  268 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  269 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:287:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  287 |     if (r == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  288 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:309:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  309 |     if (v < 10) return result;[0m
+      | [0;1;32m               ^              
+[0m      | [0;32m                {
+[0m[1mhiredis.c:310:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  310 |     if (v < 100) return result + 1;[0m
+      | [0;1;32m                ^                  
+[0m      | [0;32m                 {
+[0m[1mhiredis.c:311:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  311 |     if (v < 1000) return result + 2;[0m
+      | [0;1;32m                 ^                  
+[0m      | [0;32m                  {
+[0m[1mhiredis.c:312:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  312 |     if (v < 10000) return result + 3;[0m
+      | [0;1;32m                  ^                  
+[0m      | [0;32m                   {
+[0m[1mhiredis.c:336:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  336 |     if (target == NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  337 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:341:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  341 |     if (curarg == NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  342 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:349:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  349 |                     if (newargv == NULL) goto memory_err;[0m
+      | [0;1;32m                                        ^                
+[0m      | [0;32m                                         {
+[0m[1mhiredis.c:356:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  356 |                     if (curarg == NULL) goto memory_err;[0m
+      | [0;1;32m                                       ^                
+[0m      | [0;32m                                        {
+[0m[1mhiredis.c:361:36: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  361 |                 if (newarg == NULL) goto memory_err;[0m
+      | [0;1;32m                                   ^                
+[0m      | [0;32m                                    {
+[0m[1mhiredis.c:374:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  374 |                 arg = va_arg(ap,char*);[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  375 |                 size = strlen(arg);[0m
+  376 |                 if (size > 0)[0m
+  377 |                     newarg = sdscatlen(curarg,arg,size);[0m
+  378 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mhiredis.c:376:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  376 |                 if (size > 0)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m  377 |                     newarg = sdscatlen(curarg,arg,size);[0m
+      | [0;1;32m                                                        
+[0m[1mhiredis.c:380:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  380 |                 arg = va_arg(ap,char*);[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  381 |                 size = va_arg(ap,size_t);[0m
+  382 |                 if (size > 0)[0m
+  383 |                     newarg = sdscatlen(curarg,arg,size);[0m
+  384 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mhiredis.c:382:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  382 |                 if (size > 0)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m  383 |                     newarg = sdscatlen(curarg,arg,size);[0m
+      | [0;1;32m                                                        
+[0m[1mhiredis.c:386:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  386 |                 newarg = sdscat(curarg,"%");[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  387 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1mhiredis.c:399:69: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  399 |                     while (*_p != '\0' && strchr(flags,*_p) != NULL) _p++;[0m
+      | [0;1;32m                                                                    ^     
+[0m      | [0;32m                                                                     {
+[0m[1mhiredis.c:402:62: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  402 |                     while (*_p != '\0' && isdigit((int) *_p)) _p++;[0m
+      | [0;1;32m                                                             ^     
+[0m      | [0;32m                                                              {
+[0m[1mhiredis.c:407:66: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  407 |                         while (*_p != '\0' && isdigit((int) *_p)) _p++;[0m
+      | [0;1;32m                                                                 ^     
+[0m      | [0;32m                                                                  {
+[0m[1mhiredis.c:416:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  416 |                     if (*_p == '\0') goto fmt_invalid;[0m
+      | [0;1;32m                                    ^                 
+[0m      | [0;32m                                     {
+[0m[1mhiredis.c:491:32: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  491 |             if (newarg == NULL) goto memory_err;[0m
+      | [0;1;32m                               ^                
+[0m      | [0;32m                                {
+[0m[1mhiredis.c:496:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  496 |             if (*c == '\0')[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  497 |                 break;[0m
+      | [0;1;32m                      
+[0m[1mhiredis.c:505:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  505 |         if (newargv == NULL) goto memory_err;[0m
+      | [0;1;32m                            ^                
+[0m      | [0;32m                             {
+[0m[1mhiredis.c:521:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  521 |     if (cmd == NULL) goto memory_err;[0m
+      | [0;1;32m                    ^                
+[0m      | [0;32m                     {
+[0m[1mhiredis.c:549:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  549 |         while(argc--)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  550 |             sdsfree(curargv[argc]);[0m
+      | [0;1;32m                                   
+[0m[1mhiredis.c:581:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  581 |     if (len < 0)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  582 |         len = -1;[0m
+      | [0;1;32m                 
+[0m[1mhiredis.c:601:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  601 |     if (target == NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  602 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:613:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  613 |     if (cmd == NULL)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  614 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:656:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  656 |     if (target == NULL)[0m
+      | [0;1;32m                       ^
+[0m      | [0;32m                        {
+[0m  657 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:668:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  668 |     if (cmd == NULL)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  669 |         return -1;[0m
+      | [0;1;32m                  
+[0m[1mhiredis.c:720:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  720 |     if (c == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  721 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:738:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  738 |     if (c == NULL)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  739 |         return;[0m
+      | [0;1;32m               
+[0m[1mhiredis.c:754:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  754 |     if (c->privdata && c->free_privdata)[0m
+      | [0;1;32m                                        ^
+[0m      | [0;32m                                         {
+[0m  755 |         c->free_privdata(c->privdata);[0m
+      | [0;1;32m                                      
+[0m[1mhiredis.c:757:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  757 |     if (c->funcs && c->funcs->free_privctx)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  758 |         c->funcs->free_privctx(c->privctx);[0m
+      | [0;1;32m                                           
+[0m[1mhiredis.c:841:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  841 |     if (options->push_cb != NULL)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m  842 |         redisSetPushCallback(c, options->push_cb);[0m
+  843 |     else if (!(options->options & REDIS_OPT_NO_PUSH_AUTOFREE))[0m
+      | [0;32m    } 
+[0m[1mhiredis.c:843:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  843 |     else if (!(options->options & REDIS_OPT_NO_PUSH_AUTOFREE))[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  844 |         redisSetPushCallback(c, redisPushAutoFree);[0m
+      | [0;1;32m                                                   
+[0m[1mhiredis.c:949:32: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  949 |     if (c->flags & REDIS_BLOCK)[0m
+      | [0;1;32m                               ^
+[0m      | [0;32m                                {
+[0m  950 |         return redisContextSetTimeout(c,tv);[0m
+      | [0;1;32m                                            
+[0m[1mhiredis.c:985:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  985 |     if (c->err)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m  986 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mhiredis.c:1011:16: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1011 |     if (c->err)[0m
+      | [0;1;32m               ^
+[0m      | [0;32m                {
+[0m 1012 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mhiredis.c:1022:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1022 |                 if (c->obuf == NULL)[0m
+      | [0;1;32m                                    ^
+[0m      | [0;32m                                     {
+[0m 1023 |                     goto oom;[0m
+      | [0;1;32m                             
+[0m[1mhiredis.c:1025:55: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1025 |                 if (sdsrange(c->obuf,nwritten,-1) < 0) goto oom;[0m
+      | [0;1;32m                                                      ^         
+[0m      | [0;32m                                                       {
+[0m[1mhiredis.c:1029:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1029 |     if (done != NULL) *done = (sdslen(c->obuf) == 0);[0m
+      | [0;1;32m                     ^                               
+[0m      | [0;32m                      {
+[0m[1mhiredis.c:1063:60: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1063 |         if (redisGetReplyFromReader(c, reply) == REDIS_ERR)[0m
+      | [0;1;32m                                                           ^
+[0m      | [0;32m                                                            {
+[0m 1064 |             return REDIS_ERR;[0m
+      | [0;1;32m                             
+[0m[1mhiredis.c:1075:61: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1075 |     if (redisNextInBandReplyFromReader(c,&aux) == REDIS_ERR)[0m
+      | [0;1;32m                                                            ^
+[0m      | [0;32m                                                             {
+[0m 1076 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1mhiredis.c:1082:57: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1082 |             if (redisBufferWrite(c,&wdone) == REDIS_ERR)[0m
+      | [0;1;32m                                                        ^
+[0m      | [0;32m                                                         {
+[0m 1083 |                 return REDIS_ERR;[0m
+      | [0;1;32m                                 
+[0m[1mhiredis.c:1088:49: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1088 |             if (redisBufferRead(c) == REDIS_ERR)[0m
+      | [0;1;32m                                                ^
+[0m      | [0;32m                                                 {
+[0m 1089 |                 return REDIS_ERR;[0m
+      | [0;1;32m                                 
+[0m[1mhiredis.c:1091:69: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1091 |             if (redisNextInBandReplyFromReader(c,&aux) == REDIS_ERR)[0m
+      | [0;1;32m                                                                    ^
+[0m      | [0;32m                                                                     {
+[0m 1092 |                 return REDIS_ERR;[0m
+      | [0;1;32m                                 
+[0m[1mhiredis.c:1201:49: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1201 |         if (redisGetReply(c,&reply) != REDIS_OK)[0m
+      | [0;1;32m                                                ^
+[0m      | [0;32m                                                 {
+[0m 1202 |             return NULL;[0m
+      | [0;1;32m                        
+[0m[1mhiredis.c:1209:54: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1209 |     if (redisvAppendCommand(c,format,ap) != REDIS_OK)[0m
+      | [0;1;32m                                                     ^
+[0m      | [0;32m                                                      {
+[0m 1210 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1mhiredis.c:1223:65: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1223 |     if (redisAppendCommandArgv(c,argc,argv,argvlen) != REDIS_OK)[0m
+      | [0;1;32m                                                                ^
+[0m      | [0;32m                                                                 {
+[0m 1224 |         return NULL;[0m
+      | [0;1;32m                    
+[0m90 warnings generated.
+Suppressed 28 warnings (28 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[7/8][192.4s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmp5rn1fx9t.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/async.c
+[1masync.c:70:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   70 |     if (dup == NULL)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m   71 |         return NULL;[0m
+      | [0;1;32m                    
+[0m[1masync.c:83:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   83 |     if (l1 != l2) return 0;[0m
+      | [0;1;32m                 ^         
+[0m      | [0;32m                  {
+[0m[1masync.c:111:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  111 |     if (channels == NULL)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  112 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1masync.c:115:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  115 |     if (patterns == NULL)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  116 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1masync.c:119:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  119 |     if (ac == NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  120 |         goto oom;[0m
+      | [0;1;32m                 
+[0m[1masync.c:156:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  156 |     if (channels) dictRelease(channels);[0m
+      | [0;1;32m                 ^                      
+[0m      | [0;32m                  {
+[0m[1masync.c:157:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  157 |     if (patterns) dictRelease(patterns);[0m
+      | [0;1;32m                 ^                      
+[0m      | [0;32m                  {
+[0m[1masync.c:164:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  164 |     if (!ac)[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m  165 |         return;[0m
+      | [0;1;32m               
+[0m[1masync.c:235:42: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  235 |     if (ac->onConnect || ac->onConnectNC)[0m
+      | [0;1;32m                                         ^
+[0m      | [0;32m                                          {
+[0m  236 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1masync.c:274:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  274 |     if (cb == NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  275 |         return REDIS_ERR_OOM;[0m
+      | [0;1;32m                             
+[0m[1masync.c:283:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  283 |     if (list->head == NULL)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  284 |         list->head = cb;[0m
+      | [0;1;32m                        
+[0m[1masync.c:285:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  285 |     if (list->tail != NULL)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  286 |         list->tail->next = cb;[0m
+      | [0;1;32m                              
+[0m[1masync.c:295:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  295 |         if (cb == list->tail)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m  296 |             list->tail = NULL;[0m
+      | [0;1;32m                              
+[0m[1masync.c:299:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  299 |         if (target != NULL)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  300 |             memcpy(target,cb,sizeof(*cb));[0m
+      | [0;1;32m                                          
+[0m[1masync.c:326:58: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  326 |     if (ac->onConnect == NULL && ac->onConnectNC == NULL)[0m
+      | [0;1;32m                                                         ^
+[0m      | [0;32m                                                          {
+[0m  327 |         return;[0m
+      | [0;1;32m               
+[0m[1masync.c:369:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  369 |     while (__redisShiftCallback(&ac->replies,&cb) == REDIS_OK)[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  370 |         __redisRunCallback(ac,&cb,NULL);[0m
+      | [0;1;32m                                        
+[0m[1masync.c:371:67: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  371 |     while (__redisShiftCallback(&ac->sub.replies,&cb) == REDIS_OK)[0m
+      | [0;1;32m                                                                  ^
+[0m      | [0;32m                                                                   {
+[0m  372 |         __redisRunCallback(ac,&cb,NULL);[0m
+      | [0;1;32m                                        
+[0m[1masync.c:377:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  377 |         while ((de = dictNext(&it)) != NULL)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  378 |             __redisRunCallback(ac,dictGetEntryVal(de),NULL);[0m
+      | [0;1;32m                                                            
+[0m[1masync.c:385:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  385 |         while ((de = dictNext(&it)) != NULL)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  386 |             __redisRunCallback(ac,dictGetEntryVal(de),NULL);[0m
+      | [0;1;32m                                                            
+[0m[1masync.c:398:38: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  398 |         if (c->flags & REDIS_FREEING)[0m
+      | [0;1;32m                                     ^
+[0m      | [0;32m                                      {
+[0m  399 |             status = REDIS_OK;[0m
+      | [0;1;32m                              
+[0m[1masync.c:416:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  416 |     if (ac == NULL)[0m
+      | [0;1;32m                   ^
+[0m      | [0;32m                    {
+[0m  417 |         return;[0m
+      | [0;1;32m               
+[0m[1masync.c:422:41: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  422 |     if (!(c->flags & REDIS_IN_CALLBACK))[0m
+      | [0;1;32m                                        ^
+[0m      | [0;32m                                         {
+[0m  423 |         __redisAsyncFree(ac);[0m
+      | [0;1;32m                             
+[0m[1masync.c:466:69: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  466 |     if (!(c->flags & REDIS_IN_CALLBACK) && ac->replies.head == NULL)[0m
+      | [0;1;32m                                                                    ^
+[0m      | [0;32m                                                                     {
+[0m  467 |         __redisAsyncDisconnect(ac);[0m
+      | [0;1;32m                                   
+[0m[1masync.c:488:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  488 |         if (pvariant)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  489 |             callbacks = ac->sub.patterns;[0m
+  490 |         else[0m
+      | [0;32m        } 
+[0m[1masync.c:490:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  490 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m  491 |             callbacks = ac->sub.channels;[0m
+      | [0;1;32m                                         
+[0m[1masync.c:496:31: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  496 |             if (sname == NULL) goto oom;[0m
+      | [0;1;32m                              ^         
+[0m      | [0;32m                               {
+[0m[1masync.c:510:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  510 |             if (cb == NULL)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  511 |                 ac->sub.pending_unsubs -= 1;[0m
+  512 |             else if (cb->pending_subs == 0)[0m
+      | [0;32m            } 
+[0m[1masync.c:512:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  512 |             else if (cb->pending_subs == 0)[0m
+      | [0;1;32m                                           ^
+[0m      | [0;32m                                            {
+[0m  513 |                 dictDelete(callbacks,sname);[0m
+      | [0;1;32m                                            
+[0m[1masync.c:590:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  590 |         if (redisIsPushReply(reply)) c->flags |= REDIS_SUPPORTS_PUSH;[0m
+      | [0;1;32m                                    ^                                
+[0m      | [0;32m                                     {
+[0m[1masync.c:630:45: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  630 |             if (c->flags & REDIS_SUBSCRIBED)[0m
+      | [0;1;32m                                            ^
+[0m      | [0;32m                                             {
+[0m  631 |                 __redisGetSubscribeCallback(ac,reply,&cb);[0m
+      | [0;1;32m                                                          
+[0m[1masync.c:660:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  660 |     if (status != REDIS_OK)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m  661 |         __redisAsyncDisconnect(ac);[0m
+      | [0;1;32m                                   
+[0m[1masync.c:678:51: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  678 |         if (redisCheckSocketError(c) == REDIS_ERR)[0m
+      | [0;1;32m                                                  ^
+[0m      | [0;32m                                                   {
+[0m  679 |             __redisAsyncCopyError(ac);[0m
+      | [0;1;32m                                      
+[0m[1masync.c:731:55: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  731 |         if (__redisAsyncHandleConnect(ac) != REDIS_OK)[0m
+      | [0;1;32m                                                      ^
+[0m      | [0;32m                                                       {
+[0m  732 |             return;[0m
+      | [0;1;32m                   
+[0m[1masync.c:734:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  734 |         if (!(c->flags & REDIS_CONNECTED))[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  735 |             return;[0m
+      | [0;1;32m                   
+[0m[1masync.c:749:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  749 |         if (!done)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  750 |             _EL_ADD_WRITE(ac);[0m
+  751 |         else[0m
+      | [0;32m        } 
+[0m[1masync.c:751:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  751 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m  752 |             _EL_DEL_WRITE(ac);[0m
+      | [0;1;32m                              
+[0m[1masync.c:766:55: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  766 |         if (__redisAsyncHandleConnect(ac) != REDIS_OK)[0m
+      | [0;1;32m                                                      ^
+[0m      | [0;32m                                                       {
+[0m  767 |             return;[0m
+      | [0;1;32m                   
+[0m[1masync.c:769:43: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  769 |         if (!(c->flags & REDIS_CONNECTED))[0m
+      | [0;1;32m                                          ^
+[0m      | [0;32m                                           {
+[0m  770 |             return;[0m
+      | [0;1;32m                   
+[0m[1masync.c:821:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  821 |         if (p == NULL) return NULL;[0m
+      | [0;1;32m                      ^            
+[0m      | [0;32m                       {
+[0m[1masync.c:849:58: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  849 |     if (c->flags & (REDIS_DISCONNECTING | REDIS_FREEING)) return REDIS_ERR;[0m
+      | [0;1;32m                                                         ^                 
+[0m      | [0;32m                                                          {
+[0m[1masync.c:871:31: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  871 |             if (sname == NULL)[0m
+      | [0;1;32m                              ^
+[0m      | [0;32m                               {
+[0m  872 |                 goto oom;[0m
+      | [0;1;32m                         
+[0m[1masync.c:874:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  874 |             if (pvariant)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m  875 |                 cbdict = ac->sub.patterns;[0m
+  876 |             else[0m
+      | [0;32m            } 
+[0m[1masync.c:876:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  876 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  877 |                 cbdict = ac->sub.channels;[0m
+      | [0;1;32m                                          
+[0m[1masync.c:888:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  888 |             if (ret == 0) sdsfree(sname);[0m
+      | [0;1;32m                         ^               
+[0m      | [0;32m                          {
+[0m[1masync.c:893:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  893 |         if (!(c->flags & REDIS_SUBSCRIBED)) return REDIS_ERR;[0m
+      | [0;1;32m                                           ^                 
+[0m      | [0;32m                                            {
+[0m[1masync.c:895:22: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  895 |         if (pvariant)[0m
+      | [0;1;32m                     ^
+[0m      | [0;32m                      {
+[0m  896 |             cbdict = ac->sub.patterns;[0m
+  897 |         else[0m
+      | [0;32m        } 
+[0m[1masync.c:897:13: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  897 |         else[0m
+      | [0;1;32m            ^
+[0m      | [0;32m             {
+[0m  898 |             cbdict = ac->sub.channels;[0m
+      | [0;1;32m                                      
+[0m[1masync.c:905:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  905 |                 if (sname == NULL)[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  906 |                     goto oom;[0m
+      | [0;1;32m                             
+[0m[1masync.c:911:56: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  911 |                     if (existcb->unsubscribe_sent == 0)[0m
+      | [0;1;32m                                                       ^
+[0m      | [0;32m                                                        {
+[0m  912 |                         existcb->unsubscribe_sent = 1;[0m
+  913 |                     else[0m
+      | [0;32m                    } 
+[0m[1masync.c:913:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  913 |                     else[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  914 |                         /* Already sent, reply to be ignored */[0m
+  915 |                         ac->sub.pending_unsubs += 1;[0m
+      | [0;1;32m                                                    
+[0m[1masync.c:936:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  936 |             if (no_subs == 1)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m  937 |                 ac->sub.pending_unsubs += 1;[0m
+      | [0;1;32m                                            
+[0m[1masync.c:946:63: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  946 |         if (__redisPushCallback(&ac->replies,&cb) != REDIS_OK)[0m
+      | [0;1;32m                                                              ^
+[0m      | [0;32m                                                               {
+[0m  947 |             goto oom;[0m
+      | [0;1;32m                     
+[0m[1masync.c:950:71: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  950 |             if (__redisPushCallback(&ac->sub.replies,&cb) != REDIS_OK)[0m
+      | [0;1;32m                                                                      ^
+[0m      | [0;32m                                                                       {
+[0m  951 |                 goto oom;[0m
+      | [0;1;32m                         
+[0m[1masync.c:953:67: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  953 |             if (__redisPushCallback(&ac->replies,&cb) != REDIS_OK)[0m
+      | [0;1;32m                                                                  ^
+[0m      | [0;32m                                                                   {
+[0m  954 |                 goto oom;[0m
+      | [0;1;32m                         
+[0m[1masync.c:977:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  977 |     if (len < 0)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  978 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m[1masync.c:999:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  999 |     if (len < 0)[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m 1000 |         return REDIS_ERR;[0m
+      | [0;1;32m                         
+[0m106 warnings generated.
+Suppressed 50 warnings (50 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[8/8][218.3s] /home/C00536225/dev/tcc/build/bin/clang-tidy --use-color -checks=readability-braces-around-statements -export-fixes /itch/common/crepos/cu-to-rtu/c/hiredis/tidy-fixes/tmpmck9tnax.yaml -p=/itch/common/crepos/cu-to-rtu/c/hiredis /itch/common/crepos/cu-to-rtu/c/hiredis/sds.c
+[1msds.c:46:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   46 |             return sizeof(struct sdshdr5);[0m
+      | [0;1;32m            ^                            
+[0m      | [0;32m            {                            ;} 
+[0m[1msds.c:48:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   48 |             return sizeof(struct sdshdr8);[0m
+      | [0;1;32m            ^                            
+[0m      | [0;32m            {                            ;} 
+[0m[1msds.c:50:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   50 |             return sizeof(struct sdshdr16);[0m
+      | [0;1;32m            ^                             
+[0m      | [0;32m            {                             ;} 
+[0m[1msds.c:52:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   52 |             return sizeof(struct sdshdr32);[0m
+      | [0;1;32m            ^                             
+[0m      | [0;32m            {                             ;} 
+[0m[1msds.c:54:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+   54 |             return sizeof(struct sdshdr64);[0m
+      | [0;1;32m            ^                             
+[0m      | [0;32m            {                             ;} 
+[0m[1msds.c:60:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   60 |     if (string_size < 32)[0m
+      | [0;1;32m                         ^
+[0m      | [0;32m                          {
+[0m   61 |         return SDS_TYPE_5;[0m
+      | [0;1;32m                          
+[0m[1msds.c:62:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   62 |     if (string_size < 0xff)[0m
+      | [0;1;32m                           ^
+[0m      | [0;32m                            {
+[0m   63 |         return SDS_TYPE_8;[0m
+      | [0;1;32m                          
+[0m[1msds.c:64:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   64 |     if (string_size < 0xffff)[0m
+      | [0;1;32m                             ^
+[0m      | [0;32m                              {
+[0m   65 |         return SDS_TYPE_16;[0m
+      | [0;1;32m                           
+[0m[1msds.c:66:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   66 |     if (string_size < 0xffffffff)[0m
+      | [0;1;32m                                 ^
+[0m      | [0;32m                                  {
+[0m   67 |         return SDS_TYPE_32;[0m
+      | [0;1;32m                           
+[0m[1msds.c:89:44: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   89 |     if (type == SDS_TYPE_5 && initlen == 0) type = SDS_TYPE_8;[0m
+      | [0;1;32m                                           ^                  
+[0m      | [0;32m                                            {
+[0m[1msds.c:93:37: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   93 |     if (hdrlen+initlen+1 <= initlen) return NULL; /* Catch size_t overflow */[0m
+      | [0;1;32m                                    ^                                        
+[0m      | [0;32m                                     {
+[0m[1msds.c:95:20: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   95 |     if (sh == NULL) return NULL;[0m
+      | [0;1;32m                   ^            
+[0m      | [0;32m                    {
+[0m[1msds.c:96:15: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+   96 |     if (!init)[0m
+      | [0;1;32m              ^
+[0m      | [0;32m               {
+[0m   97 |         memset(sh, 0, hdrlen+initlen+1);[0m
+      | [0;1;32m                                        
+[0m[1msds.c:134:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  134 |     if (initlen && init)[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                         {
+[0m  135 |         memcpy(s, init, initlen);[0m
+      | [0;1;32m                                 
+[0m[1msds.c:159:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  159 |     if (s == NULL) return;[0m
+      | [0;1;32m                  ^       
+[0m      | [0;32m                   {
+[0m[1msds.c:205:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  205 |     if (avail >= addlen) return s;[0m
+      | [0;1;32m                        ^         
+[0m      | [0;32m                         {
+[0m[1msds.c:210:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  210 |     if (newlen <= len) return NULL; /* Catch size_t overflow */[0m
+      | [0;1;32m                      ^                                        
+[0m      | [0;32m                       {
+[0m[1msds.c:211:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  211 |     if (newlen < SDS_MAX_PREALLOC)[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  212 |         newlen *= 2;[0m
+  213 |     else[0m
+      | [0;32m    } 
+[0m[1msds.c:213:9: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  213 |     else[0m
+      | [0;1;32m        ^
+[0m      | [0;32m         {
+[0m  214 |         newlen += SDS_MAX_PREALLOC;[0m
+      | [0;1;32m                                   
+[0m[1msds.c:221:28: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  221 |     if (type == SDS_TYPE_5) type = SDS_TYPE_8;[0m
+      | [0;1;32m                           ^                  
+[0m      | [0;32m                            {
+[0m[1msds.c:224:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  224 |     if (hdrlen+newlen+1 <= reqlen) return NULL; /* Catch size_t overflow */[0m
+      | [0;1;32m                                  ^                                        
+[0m      | [0;32m                                   {
+[0m[1msds.c:227:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  227 |         if (newsh == NULL) return NULL;[0m
+      | [0;1;32m                          ^            
+[0m      | [0;32m                           {
+[0m[1msds.c:233:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  233 |         if (newsh == NULL) return NULL;[0m
+      | [0;1;32m                          ^            
+[0m      | [0;32m                           {
+[0m[1msds.c:261:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  261 |         if (newsh == NULL) return NULL;[0m
+      | [0;1;32m                          ^            
+[0m      | [0;32m                           {
+[0m[1msds.c:265:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  265 |         if (newsh == NULL) return NULL;[0m
+      | [0;1;32m                          ^            
+[0m      | [0;32m                           {
+[0m[1msds.c:353:18: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  353 |         default: len = 0; /* Just to avoid compilation warnings. */[0m
+      | [0;1;32m                 ^      
+[0m      | [0;32m                 {      ;} 
+[0m[1msds.c:366:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  366 |     if (len <= curlen) return s;[0m
+      | [0;1;32m                      ^         
+[0m      | [0;32m                       {
+[0m[1msds.c:368:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  368 |     if (s == NULL) return NULL;[0m
+      | [0;1;32m                  ^            
+[0m      | [0;32m                   {
+[0m[1msds.c:385:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  385 |     if (s == NULL) return NULL;[0m
+      | [0;1;32m                  ^            
+[0m      | [0;32m                   {
+[0m[1msds.c:413:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  413 |         if (s == NULL) return NULL;[0m
+      | [0;1;32m                      ^            
+[0m      | [0;32m                       {
+[0m[1msds.c:447:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  447 |     if (value < 0) *p++ = '-';[0m
+      | [0;1;32m                  ^           
+[0m      | [0;32m                   {
+[0m[1msds.c:515:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  515 |         if (buf == NULL) return NULL;[0m
+      | [0;1;32m                        ^            
+[0m      | [0;32m                         {
+[0m[1msds.c:528:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  528 |             if (buf != staticbuf) s_free(buf);[0m
+      | [0;1;32m                                 ^            
+[0m      | [0;32m                                  {
+[0m[1msds.c:531:29: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  531 |             if (buf == NULL) return NULL;[0m
+      | [0;1;32m                            ^            
+[0m      | [0;32m                             {
+[0m[1msds.c:539:26: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  539 |     if (buf != staticbuf) s_free(buf);[0m
+      | [0;1;32m                         ^            
+[0m      | [0;32m                          {
+[0m[1msds.c:600:27: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  600 |             if (s == NULL) goto fmt_error;[0m
+      | [0;1;32m                          ^               
+[0m      | [0;32m                           {
+[0m[1msds.c:605:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  605 |             next = *(f+1);[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m[1msds.c:611:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  611 |                 l = (next == 's') ? strlen(str) : sdslen(str);[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  612 |                 if (sdsavail(s) < l) {[0m
+  613 |                     s = sdsMakeRoomFor(s,l);[0m
+  614 |                     if (s == NULL) goto fmt_error;[0m
+  615 |                 }[0m
+  616 |                 memcpy(s+i,str,l);[0m
+  617 |                 sdsinclen(s,l);[0m
+  618 |                 i += l;[0m
+  619 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1msds.c:614:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  614 |                     if (s == NULL) goto fmt_error;[0m
+      | [0;1;32m                                  ^               
+[0m      | [0;32m                                   {
+[0m[1msds.c:622:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  622 |                 if (next == 'i')[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  623 |                     num = va_arg(ap,int);[0m
+  624 |                 else[0m
+      | [0;32m                } 
+[0m[1msds.c:624:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  624 |                 else[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  625 |                     num = va_arg(ap,long long);[0m
+      | [0;1;32m                                               
+[0m[1msds.c:626:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  626 |                 {[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  627 |                     char buf[SDS_LLSTR_SIZE];[0m
+  628 |                     l = sdsll2str(buf,num);[0m
+  629 |                     if (sdsavail(s) < l) {[0m
+  630 |                         s = sdsMakeRoomFor(s,l);[0m
+  631 |                         if (s == NULL) goto fmt_error;[0m
+  632 |                     }[0m
+  633 |                     memcpy(s+i,buf,l);[0m
+  634 |                     sdsinclen(s,l);[0m
+  635 |                     i += l;[0m
+  636 |                 }[0m
+  637 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1msds.c:631:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  631 |                         if (s == NULL) goto fmt_error;[0m
+      | [0;1;32m                                      ^               
+[0m      | [0;32m                                       {
+[0m[1msds.c:640:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  640 |                 if (next == 'u')[0m
+      | [0;1;32m                                ^
+[0m      | [0;32m                                 {
+[0m  641 |                     unum = va_arg(ap,unsigned int);[0m
+  642 |                 else[0m
+      | [0;32m                } 
+[0m[1msds.c:642:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  642 |                 else[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m  643 |                     unum = va_arg(ap,unsigned long long);[0m
+      | [0;1;32m                                                         
+[0m[1msds.c:644:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  644 |                 {[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  645 |                     char buf[SDS_LLSTR_SIZE];[0m
+  646 |                     l = sdsull2str(buf,unum);[0m
+  647 |                     if (sdsavail(s) < l) {[0m
+  648 |                         s = sdsMakeRoomFor(s,l);[0m
+  649 |                         if (s == NULL) goto fmt_error;[0m
+  650 |                     }[0m
+  651 |                     memcpy(s+i,buf,l);[0m
+  652 |                     sdsinclen(s,l);[0m
+  653 |                     i += l;[0m
+  654 |                 }[0m
+  655 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1msds.c:649:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  649 |                         if (s == NULL) goto fmt_error;[0m
+      | [0;1;32m                                      ^               
+[0m      | [0;32m                                       {
+[0m[1msds.c:657:17: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  657 |                 s[i++] = next;[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                {
+[0m  658 |                 sdsinclen(s,1);[0m
+  659 |                 break;[0m
+      | [0;1;32m                     
+[0m      | [0;32m                     ;} 
+[0m[1msds.c:663:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  663 |             s[i++] = *f;[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m  664 |             sdsinclen(s,1);[0m
+  665 |             break;[0m
+      | [0;1;32m                 
+[0m      | [0;32m                 ;} 
+[0m[1msds.c:700:42: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  700 |     while(sp <= end && strchr(cset, *sp)) sp++;[0m
+      | [0;1;32m                                         ^     
+[0m      | [0;32m                                          {
+[0m[1msds.c:701:40: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  701 |     while(ep > sp && strchr(cset, *ep)) ep--;[0m
+      | [0;1;32m                                       ^     
+[0m      | [0;32m                                        {
+[0m[1msds.c:703:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  703 |     if (s != sp) memmove(s, sp, len);[0m
+      | [0;1;32m                ^                    
+[0m      | [0;32m                 {
+[0m[1msds.c:731:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  731 |     if (len > SSIZE_MAX) return -1;[0m
+      | [0;1;32m                        ^          
+[0m      | [0;32m                         {
+[0m[1msds.c:733:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  733 |     if (len == 0) return 0;[0m
+      | [0;1;32m                 ^         
+[0m      | [0;32m                  {
+[0m[1msds.c:736:23: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  736 |         if (start < 0) start = 0;[0m
+      | [0;1;32m                      ^          
+[0m      | [0;32m                       {
+[0m[1msds.c:740:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  740 |         if (end < 0) end = 0;[0m
+      | [0;1;32m                    ^        
+[0m      | [0;32m                     {
+[0m[1msds.c:753:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  753 |     if (start && newlen) memmove(s, s+start, newlen);[0m
+      | [0;1;32m                        ^                            
+[0m      | [0;32m                         {
+[0m[1msds.c:763:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  763 |     for (j = 0; j < len; j++) s[j] = tolower(s[j]);[0m
+      | [0;1;32m                             ^                     
+[0m      | [0;32m                              {
+[0m[1msds.c:770:30: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  770 |     for (j = 0; j < len; j++) s[j] = toupper(s[j]);[0m
+      | [0;1;32m                             ^                     
+[0m      | [0;32m                              {
+[0m[1msds.c:792:18: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  792 |     if (cmp == 0) return l1-l2;[0m
+      | [0;1;32m                 ^             
+[0m      | [0;32m                  {
+[0m[1msds.c:816:31: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  816 |     if (seplen < 1 || len < 0) return NULL;[0m
+      | [0;1;32m                              ^            
+[0m      | [0;32m                               {
+[0m[1msds.c:819:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  819 |     if (tokens == NULL) return NULL;[0m
+      | [0;1;32m                       ^            
+[0m      | [0;32m                        {
+[0m[1msds.c:832:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  832 |             if (newtokens == NULL) goto cleanup;[0m
+      | [0;1;32m                                  ^             
+[0m      | [0;32m                                   {
+[0m[1msds.c:838:42: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  838 |             if (tokens[elements] == NULL) goto cleanup;[0m
+      | [0;1;32m                                         ^             
+[0m      | [0;32m                                          {
+[0m[1msds.c:846:34: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  846 |     if (tokens[elements] == NULL) goto cleanup;[0m
+      | [0;1;32m                                 ^             
+[0m      | [0;32m                                  {
+[0m[1msds.c:854:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  854 |         for (i = 0; i < elements; i++) sdsfree(tokens[i]);[0m
+      | [0;1;32m                                      ^                   
+[0m      | [0;32m                                       {
+[0m[1msds.c:863:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  863 |     if (!tokens) return;[0m
+      | [0;1;32m                ^       
+[0m      | [0;32m                 {
+[0m[1msds.c:864:19: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  864 |     while(count--)[0m
+      | [0;1;32m                  ^
+[0m      | [0;32m                   {
+[0m  865 |         sdsfree(tokens[count]);[0m
+      | [0;1;32m                               
+[0m[1msds.c:882:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  882 |             break;[0m
+      | [0;1;32m            ^    
+[0m      | [0;32m            {    ;} 
+[0m[1msds.c:883:20: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  883 |         case '\n': s = sdscatlen(s,"\\n",2); break;[0m
+      | [0;1;32m                   ^                              
+[0m      | [0;32m                   {                              ;} 
+[0m[1msds.c:884:20: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  884 |         case '\r': s = sdscatlen(s,"\\r",2); break;[0m
+      | [0;1;32m                   ^                              
+[0m      | [0;32m                   {                              ;} 
+[0m[1msds.c:885:20: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  885 |         case '\t': s = sdscatlen(s,"\\t",2); break;[0m
+      | [0;1;32m                   ^                              
+[0m      | [0;32m                   {                              ;} 
+[0m[1msds.c:886:20: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  886 |         case '\a': s = sdscatlen(s,"\\a",2); break;[0m
+      | [0;1;32m                   ^                              
+[0m      | [0;32m                   {                              ;} 
+[0m[1msds.c:887:20: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  887 |         case '\b': s = sdscatlen(s,"\\b",2); break;[0m
+      | [0;1;32m                   ^                              
+[0m      | [0;32m                   {                              ;} 
+[0m[1msds.c:889:13: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  889 |             if (isprint((int) *p))[0m
+      | [0;1;32m            ^
+[0m      | [0;32m            {
+[0m  890 |                 s = sdscatprintf(s,"%c",*p);[0m
+  891 |             else[0m
+  892 |                 s = sdscatprintf(s,"\\x%02x",(unsigned char)*p);[0m
+  893 |             break;[0m
+      | [0;1;32m                 
+[0m      | [0;32m                 ;} 
+[0m[1msds.c:889:35: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  889 |             if (isprint((int) *p))[0m
+      | [0;1;32m                                  ^
+[0m      | [0;32m                                   {
+[0m  890 |                 s = sdscatprintf(s,"%c",*p);[0m
+  891 |             else[0m
+      | [0;32m            } 
+[0m[1msds.c:891:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  891 |             else[0m
+      | [0;1;32m                ^
+[0m      | [0;32m                 {
+[0m  892 |                 s = sdscatprintf(s,"\\x%02x",(unsigned char)*p);[0m
+      | [0;1;32m                                                                
+[0m[1msds.c:904:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  904 |     case '0': return 0;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:905:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  905 |     case '1': return 1;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:906:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  906 |     case '2': return 2;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:907:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  907 |     case '3': return 3;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:908:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  908 |     case '4': return 4;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:909:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  909 |     case '5': return 5;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:910:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  910 |     case '6': return 6;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:911:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  911 |     case '7': return 7;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:912:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  912 |     case '8': return 8;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:913:15: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  913 |     case '9': return 9;[0m
+      | [0;1;32m              ^       
+[0m      | [0;32m              {       ;} 
+[0m[1msds.c:920:14: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  920 |     default: return 0;[0m
+      | [0;1;32m             ^       
+[0m      | [0;32m             {       ;} 
+[0m[1msds.c:951:39: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  951 |         while(*p && isspace((int) *p)) p++;[0m
+      | [0;1;32m                                      ^    
+[0m      | [0;32m                                       {
+[0m[1msds.c:958:33: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  958 |             if (current == NULL) current = sdsempty();[0m
+      | [0;1;32m                                ^                     
+[0m      | [0;32m                                 {
+[0m[1msds.c:976:35: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  976 |                         case 'n': c = '\n'; break;[0m
+      | [0;1;32m                                  ^              
+[0m      | [0;32m                                  {              ;} 
+[0m[1msds.c:977:35: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  977 |                         case 'r': c = '\r'; break;[0m
+      | [0;1;32m                                  ^              
+[0m      | [0;32m                                  {              ;} 
+[0m[1msds.c:978:35: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  978 |                         case 't': c = '\t'; break;[0m
+      | [0;1;32m                                  ^              
+[0m      | [0;32m                                  {              ;} 
+[0m[1msds.c:979:35: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  979 |                         case 'b': c = '\b'; break;[0m
+      | [0;1;32m                                  ^              
+[0m      | [0;32m                                  {              ;} 
+[0m[1msds.c:980:35: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  980 |                         case 'a': c = '\a'; break;[0m
+      | [0;1;32m                                  ^              
+[0m      | [0;32m                                  {              ;} 
+[0m[1msds.c:981:34: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+  981 |                         default: c = *p; break;[0m
+      | [0;1;32m                                 ^            
+[0m      | [0;32m                                 {            ;} 
+[0m[1msds.c:987:62: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+  987 |                         if (*(p+1) && !isspace((int) *(p+1))) goto err;[0m
+      | [0;1;32m                                                             ^         
+[0m      | [0;32m                                                              {
+[0m[1msds.c:1002:62: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1002 |                         if (*(p+1) && !isspace((int) *(p+1))) goto err;[0m
+      | [0;1;32m                                                             ^         
+[0m      | [0;32m                                                              {
+[0m[1msds.c:1018:25: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+ 1018 |                         break;[0m
+      | [0;1;32m                        ^    
+[0m      | [0;32m                        {    ;} 
+[0m[1msds.c:1020:25: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+ 1020 |                         inq=1;[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                        {
+[0m 1021 |                         break;[0m
+      | [0;1;32m                             
+[0m      | [0;32m                             ;} 
+[0m[1msds.c:1023:25: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+ 1023 |                         insq=1;[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                        {
+[0m 1024 |                         break;[0m
+      | [0;1;32m                             
+[0m      | [0;32m                             ;} 
+[0m[1msds.c:1026:25: [0m[0;1;35mwarning: [0m[1mcase statement body should be in braces [readability-braces-around-statements][0m
+ 1026 |                         current = sdscatlen(current,p,1);[0m
+      | [0;1;32m                        ^
+[0m      | [0;32m                        {
+[0m 1027 |                         break;[0m
+      | [0;1;32m                             
+[0m      | [0;32m                             ;} 
+[0m[1msds.c:1030:24: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1030 |                 if (*p) p++;[0m
+      | [0;1;32m                       ^    
+[0m      | [0;32m                        {
+[0m[1msds.c:1047:32: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1047 |             if (vector == NULL) vector = s_malloc(sizeof(void*));[0m
+      | [0;1;32m                               ^                                 
+[0m      | [0;32m                                {
+[0m[1msds.c:1053:21: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1053 |     while((*argc)--)[0m
+      | [0;1;32m                    ^
+[0m      | [0;32m                     {
+[0m 1054 |         sdsfree(vector[*argc]);[0m
+      | [0;1;32m                               
+[0m[1msds.c:1056:17: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1056 |     if (current) sdsfree(current);[0m
+      | [0;1;32m                ^                 
+[0m      | [0;32m                 {
+[0m[1msds.c:1092:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1092 |         if (j != argc-1) join = sdscat(join,sep);[0m
+      | [0;1;32m                        ^                        
+[0m      | [0;32m                         {
+[0m[1msds.c:1104:25: [0m[0;1;35mwarning: [0m[1mstatement should be inside braces [readability-braces-around-statements][0m
+ 1104 |         if (j != argc-1) join = sdscatlen(join,sep,seplen);[0m
+      | [0;1;32m                        ^                                  
+[0m      | [0;32m                         {
+[0m136 warnings generated.
+Suppressed 28 warnings (28 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+
+
+Process exited with return code 0

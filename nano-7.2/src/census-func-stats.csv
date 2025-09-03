@@ -1,0 +1,1925 @@
+Location,Function,Intent,Generics,Subtype,Regular,Ignored,Unknown
+glob.c:243:12,glob_in_dir,Subtype,0,1,4,1,1
+winio.c:2668:6,draw_row,Subtype,0,1,3,0,0
+glob.c:1328:1,glob_in_dir,Subtype,0,1,4,1,1
+/usr/include/curses.h:2057:31,_tracecchar_t2,Ignored,0,0,0,0,0
+/usr/include/wchar.h:223:15,wcslen,Ignored,0,0,0,0,0
+/usr/include/time.h:340:12,timer_settime,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:460:12,rand_r,Ignored,0,0,0,0,0
+/usr/include/stdio.h:704:15,fwrite_unlocked,Ignored,0,0,0,0,0
+/usr/include/curses.h:1770:28,mvinwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:805:28,syncok,Ignored,0,0,0,0,0
+/usr/include/stdio.h:479:12 <Spelling=/usr/include/stdio.h:479:24>,vfscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:865:28,winstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1730:28,addnwstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:782:12,fsetpos64,Ignored,0,0,0,0,0
+/usr/include/curses.h:780:28,scr_restore,Ignored,0,0,0,0,0
+/usr/include/unistd.h:300:12,execveat,Ignored,0,0,0,0,0
+/usr/include/stdio.h:459:12,vfscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:829:28,waddchstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:790:12,pthread_mutex_trylock,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:32:1>,__modff,Ignored,0,0,0,0,0
+/usr/include/unistd.h:942:12,revoke,Ignored,0,0,0,0,0
+/usr/include/curses.h:1026:33 <Spelling=<scratch space>:187:1>,newpad_sp,Ignored,0,0,0,0,0
+/usr/include/unistd.h:611:12,execvpe,Ignored,0,0,0,0,0
+/usr/include/pthread.h:906:12,pthread_mutexattr_getprotocol,Ignored,0,0,0,0,0
+prompt.c:509:14,input_tab.$2,Ignored,0,0,0,0,0
+/usr/include/unistd.h:545:14,getwd,Ignored,0,0,0,0,0
+/usr/include/curses.h:1758:28,mvaddwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1791:28,setcchar,Ignored,0,0,0,0,0
+/usr/include/curses.h:2037:28,mcprint,Ignored,0,0,0,0,0
+/usr/include/curses.h:1817:28,wins_wch,Ignored,0,0,0,0,0
+/usr/include/locale.h:141:17,newlocale,Ignored,0,0,0,0,0
+/usr/include/curses.h:1006:28 <Spelling=<scratch space>:167:1>,echo_sp,Ignored,0,0,0,0,0
+/usr/include/libintl.h:91:14,bind_textdomain_codeset,Ignored,0,0,0,0,0
+/usr/include/time.h:249:15,timegm,Ignored,0,0,0,0,0
+/usr/include/libintl.h:61:14,ngettext,Ignored,0,0,0,0,0
+/usr/include/libintl.h:54:14,__dcgettext,Ignored,0,0,0,0,0
+/usr/include/libintl.h:44:14,dgettext,Ignored,0,0,0,0,0
+tempname.c:288:10,try_tempname.$3,Ignored,0,0,0,0,0
+/usr/include/libintl.h:39:14,gettext,Ignored,0,0,0,0,0
+/usr/include/unctrl.h:61:38 <Spelling=<scratch space>:269:1>,unctrl_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:484:12 <Spelling=/usr/include/stdio.h:484:24>,vscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:2042:28 <Spelling=<scratch space>:268:1>,mcprint_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:2041:28 <Spelling=<scratch space>:267:1>,has_key_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:2028:32 <Spelling=<scratch space>:266:1>,mouseinterval_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1032:28 <Spelling=<scratch space>:193:1>,nonl_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:2021:32,mouse_trafo,Ignored,0,0,0,0,0
+/usr/include/wchar.h:808:15,fgetwc_unlocked,Ignored,0,0,0,0,0
+/usr/include/curses.h:2016:32,ungetmouse,Ignored,0,0,0,0,0
+/usr/include/curses.h:1830:33 <Spelling=<scratch space>:261:1>,wunctrl_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:390:12,vasprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1829:28 <Spelling=<scratch space>:259:1>,vid_puts_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1828:28 <Spelling=<scratch space>:258:1>,vid_attr_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:415:12,fscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1827:28 <Spelling=<scratch space>:257:1>,unget_wch_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:727:28,mvwhline,Ignored,0,0,0,0,0
+/usr/include/curses.h:1816:28,wins_nwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1815:28,winnwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1814:28,win_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1812:28,win_wch,Ignored,0,0,0,0,0
+/usr/include/wchar.h:613:12,vfwprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1777:28,mvwget_wch,Ignored,0,0,0,0,0
+/usr/include/time.h:345:12,timer_gettime,Ignored,0,0,0,0,0
+/usr/include/curses.h:835:28,wattr_get,Ignored,0,0,0,0,0
+/usr/include/stdio.h:668:12,ungetc,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:1002:12,ptsname_r,Ignored,0,0,0,0,0
+/usr/include/sched.h:78:12,sched_rr_get_interval,Ignored,0,0,0,0,0
+/usr/include/curses.h:832:28,wattron,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:660:12,setenv,Ignored,0,0,0,0,0
+/usr/include/signal.h:219:12,sigandset,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:176:1>,canonicalizef32,Ignored,0,0,0,0,0
+/usr/include/termios.h:48:16,cfgetospeed,Ignored,0,0,0,0,0
+/usr/include/strings.h:38:13,bcopy,Ignored,0,0,0,0,0
+/usr/include/curses.h:1760:28,mvget_wstr,Ignored,0,0,0,0,0
+/usr/include/string.h:179:15,strxfrm_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:765:12,fsetpos,Ignored,0,0,0,0,0
+/usr/include/wchar.h:799:15,getwc_unlocked,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:389:17,a64l,Ignored,0,0,0,0,0
+/usr/include/wchar.h:512:17,wcstof32_l,Ignored,0,0,0,0,0
+/usr/include/string.h:471:14,strsep,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:239:12,strfromf64,Ignored,0,0,0,0,0
+/usr/include/curses.h:658:33,getwin,Ignored,0,0,0,0,0
+/usr/include/string.h:293:15,strcspn,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:945:15,wcstombs,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:279:26,strtoul_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:365:12,vfprintf,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1159:14,crypt,Ignored,0,0,0,0,0
+/usr/include/curses.h:998:29 <Spelling=<scratch space>:159:1>,can_change_color_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:102:15,atof,Ignored,0,0,0,0,0
+/usr/include/stdio.h:781:12,fgetpos64,Ignored,0,0,0,0,0
+/usr/include/curses.h:668:28,inchnstr,Ignored,0,0,0,0,0
+/usr/include/regex.h:627:13,re_set_registers,Ignored,0,0,0,0,0
+/usr/include/curses.h:724:28,mvwgetch,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1071:12,pthread_rwlock_unlock,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:242:12,fstat64,Ignored,0,0,0,0,0
+/usr/include/signal.h:347:12,sigstack,Ignored,0,0,0,0,0
+/usr/include/stdio.h:332:12,setvbuf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1052:28 <Spelling=<scratch space>:213:1>,slk_color_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1088:28 <Spelling=<scratch space>:249:1>,resizeterm_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:963:29,is_idcok,Ignored,0,0,0,0,0
+/usr/include/curses.h:775:28,scr_dump,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:880:14,ecvt,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:75:1>,__nanl,Ignored,0,0,0,0,0
+/usr/include/dirent.h:325:12,alphasort,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:269:1>,totalorderf,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:177:17,strtol,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:127:20,strtold,Ignored,0,0,0,0,0
+/usr/include/curses.h:2027:32 <Spelling=<scratch space>:265:1>,mousemask_sp,Ignored,0,0,0,0,0
+/usr/include/string.h:152:14,strncat,Ignored,0,0,0,0,0
+/usr/include/wchar.h:254:17,wmemchr,Ignored,0,0,0,0,0
+/usr/include/unistd.h:427:16,pwrite64,Ignored,0,0,0,0,0
+/usr/include/wchar.h:646:12,swscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:760:28,prefresh,Ignored,0,0,0,0,0
+/usr/include/stdio.h:713:12,fseek,Ignored,0,0,0,0,0
+/usr/include/unistd.h:755:12,getresuid,Ignored,0,0,0,0,0
+/usr/include/curses.h:725:28,mvwgetnstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1254:12,pthread_barrier_init,Ignored,0,0,0,0,0
+/usr/include/curses.h:961:33,wgetparent,Ignored,0,0,0,0,0
+/usr/include/pthread.h:344:12,pthread_attr_getscope,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:367:1 <Spelling=/usr/include/stdlib.h:367:8>,atol,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1219:12,pthread_condattr_setclock,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:441:12,initstate_r,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:217:12,strfromf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1054:31 <Spelling=<scratch space>:215:1>,slk_label_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:210:1>,setpayloadf64,Ignored,0,0,0,0,0
+/usr/include/string.h:64:12,memcmp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:744:15,fgetwc,Ignored,0,0,0,0,0
+/usr/include/dirent.h:201:12,readdir64_r,Ignored,0,0,0,0,0
+/usr/include/stdio.h:550:12,putc,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:527:12,srand48_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:581:16,open_wmemstream,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:108:17,atol,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:446:12,setstate_r,Ignored,0,0,0,0,0
+/usr/include/stdio.h:885:12,__uflow,Ignored,0,0,0,0,0
+/usr/include/wchar.h:234:17,wcswcs,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:411:14,initstate,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:274:1>,setpayloadf,Ignored,0,0,0,0,0
+/usr/include/stdio.h:342:13,setlinebuf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:859:12 <Spelling=/usr/include/pthread.h:859:28>,pthread_mutex_consistent_np,Ignored,0,0,0,0,0
+/usr/include/stdio.h:736:12,fseeko,Ignored,0,0,0,0,0
+/usr/include/dirent.h:173:25,readdir64,Ignored,0,0,0,0,0
+/usr/include/stdio.h:514:12,getc,Ignored,0,0,0,0,0
+/usr/include/wchar.h:474:17,wcstol_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:1021:45 <Spelling=<scratch space>:182:1>,keyname_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:804:13,perror,Ignored,0,0,0,0,0
+/usr/include/wchar.h:87:17,wcscpy,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:435:12,random_r,Ignored,0,0,0,0,0
+/usr/include/stdio.h:584:12,putw,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:126:1>,remquof64,Ignored,0,0,0,0,0
+/usr/include/wchar.h:344:15,wcsrtombs,Ignored,0,0,0,0,0
+/usr/include/unistd.h:292:12,euidaccess,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:291:31,strtoull_l,Ignored,0,0,0,0,0
+/usr/include/signal.h:223:12,sigorset,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:206:31,strtoull,Ignored,0,0,0,0,0
+/usr/include/stdio.h:779:12,fseeko64,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:898:14,qecvt,Ignored,0,0,0,0,0
+/usr/include/stdio.h:788:12,feof,Ignored,0,0,0,0,0
+/usr/include/curses.h:702:28,mvgetstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:216:12,sigisemptyset,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1198:5,getentropy,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:921:12,qfcvt_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:340:1>,__sincosl,Ignored,0,0,0,0,0
+/usr/include/string.h:54:14,memccpy,Ignored,0,0,0,0,0
+/usr/include/curses.h:1087:28 <Spelling=<scratch space>:248:1>,resize_term_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:626:12,vswprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1765:28,mvin_wchstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:886:12,__overflow,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:207:1>,getpayloadf64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1086:29 <Spelling=<scratch space>:247:1>,reset_color_pairs_sp,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1142:9,copy_file_range,Ignored,0,0,0,0,0
+/usr/include/curses.h:970:29,is_pad,Ignored,0,0,0,0,0
+/usr/include/unistd.h:930:12,getdomainname,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1117:12,pthread_cond_destroy,Ignored,0,0,0,0,0
+/usr/include/curses.h:1778:28,mvwget_wstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:162:1>,__frexp,Ignored,0,0,0,0,0
+/usr/include/unistd.h:511:12,fchownat,Ignored,0,0,0,0,0
+/usr/include/unistd.h:644:15,confstr,Ignored,0,0,0,0,0
+/usr/include/fcntl.h:216:12,openat64,Ignored,0,0,0,0,0
+/usr/include/unistd.h:572:12,execve,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:165:18,strtof64x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:188:15,wcscspn,Ignored,0,0,0,0,0
+/usr/include/unistd.h:584:12,execv,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:563:14,reallocarray,Ignored,0,0,0,0,0
+/usr/include/wchar.h:135:15,wcsxfrm,Ignored,0,0,0,0,0
+/usr/include/wchar.h:125:12,wcsncasecmp_l,Ignored,0,0,0,0,0
+glthread/lock.c:732:13,glthread_once_multithreaded.$1,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:206:1>,totalordermagf64,Ignored,0,0,0,0,0
+/usr/include/libintl.h:46:14,__dgettext,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1168:13,swab,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:166:1>,__modf,Ignored,0,0,0,0,0
+/usr/include/curses.h:733:28,mvwinsch,Ignored,0,0,0,0,0
+/usr/include/curses.h:875:28,wsetscrreg,Ignored,0,0,0,0,0
+/usr/include/unistd.h:862:12,unlinkat,Ignored,0,0,0,0,0
+/usr/include/unistd.h:867:12,rmdir,Ignored,0,0,0,0,0
+/usr/include/curses.h:828:28,waddchnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:723:28,mvwdelch,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:189:12,lutimes,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:151:1>,__sincos,Ignored,0,0,0,0,0
+/usr/include/curses.h:1025:28 <Spelling=<scratch space>:186:1>,napms_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1818:28,wins_wstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1297:12,pthread_key_create,Ignored,0,0,0,0,0
+/usr/include/time.h:436:12,getdate_r,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1070:12,brk,Ignored,0,0,0,0,0
+/usr/include/signal.h:264:12,sigwaitinfo,Ignored,0,0,0,0,0
+/usr/include/curses.h:1750:28,ins_wstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:224:12,pthread_tryjoin_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:847:29,wcursyncup,Ignored,0,0,0,0,0
+./uniwidth.h:54:8,u32_width,Ignored,0,0,0,0,0
+/usr/include/curses.h:609:28,addnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:790:28,slk_attr_set,Ignored,0,0,0,0,0
+./uniwidth.h:59:8,u8_strwidth,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:48:1>,nanf32x,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:521:12,jrand48_r,Ignored,0,0,0,0,0
+/usr/include/string.h:513:14,memfrob,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:275:17,strtol_l,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1092:12,pthread_rwlockattr_setpshared,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:343:1>,__modff32,Ignored,0,0,0,0,0
+/usr/include/wchar.h:338:15,mbsrtowcs,Ignored,0,0,0,0,0
+/usr/include/wchar.h:385:20,wcstold,Ignored,0,0,0,0,0
+/usr/include/stdio.h:829:14,popen,Ignored,0,0,0,0,0
+/usr/include/pthread.h:314:12,pthread_attr_getschedparam,Ignored,0,0,0,0,0
+/usr/include/curses.h:1007:28 <Spelling=<scratch space>:168:1>,endwin_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:449:31,wcstoull,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:209:1>,getpayloadf32x,Ignored,0,0,0,0,0
+/usr/include/time.h:123:14,strptime_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:434:12 <Spelling=/usr/include/stdio.h:434:24>,fscanf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:62:1>,__nanf64x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:213:1>,setpayloadsigf32x,Ignored,0,0,0,0,0
+/usr/include/unistd.h:895:12,setlogin,Ignored,0,0,0,0,0
+/usr/include/curses.h:1779:28,mvwgetn_wstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:909:28,getmaxy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:421:18,splice,Ignored,0,0,0,0,0
+/usr/include/wchar.h:306:15,__mbrlen,Ignored,0,0,0,0,0
+/usr/include/pthread.h:394:12,pthread_attr_setaffinity_np,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:219:1>,totalorderf64x,Ignored,0,0,0,0,0
+/usr/include/time.h:136:19,localtime,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:682:14,mktemp,Ignored,0,0,0,0,0
+/usr/include/curses.h:898:31,tiparm,Ignored,0,0,0,0,0
+/usr/include/curses.h:1004:28 <Spelling=<scratch space>:165:1>,delay_output_sp,Ignored,0,0,0,0,0
+/usr/include/string.h:491:14,stpcpy,Ignored,0,0,0,0,0
+/usr/include/wchar.h:621:12,vwprintf,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:338:18,strtof32x_l,Ignored,0,0,0,0,0
+/usr/include/pthread.h:338:12,pthread_attr_setinheritsched,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:209:1>,lgamma_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1788:28,mvwinwstr,Ignored,0,0,0,0,0
+/usr/include/dirent.h:370:18,getdirentries64,Ignored,0,0,0,0,0
+/usr/include/signal.h:208:12,sigdelset,Ignored,0,0,0,0,0
+./uniwidth.h:65:8,u32_strwidth,Ignored,0,0,0,0,0
+./openat-priv.h:60:5,at_func2,Ignored,0,0,0,0,0
+/usr/include/curses.h:1767:28,mvins_nwstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:255:12,sigwait,Ignored,0,0,0,0,0
+/usr/include/curses.h:656:28,getnstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:273:12,sigtimedwait,Ignored,0,0,0,0,0
+/usr/include/time.h:311:12,clock_nanosleep,Ignored,0,0,0,0,0
+/usr/include/stdio.h:487:12 <Spelling=/usr/include/stdio.h:487:28>,vsscanf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:265:1>,sincosf32x,Ignored,0,0,0,0,0
+/usr/include/unistd.h:309:12,faccessat,Ignored,0,0,0,0,0
+/usr/include/curses.h:1039:28 <Spelling=<scratch space>:200:1>,reset_shell_mode_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1808:28,wget_wstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:976:12,pthread_rwlock_rdlock,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:257:12,strfromf64x,Ignored,0,0,0,0,0
+/usr/include/pthread.h:794:12,pthread_mutex_lock,Ignored,0,0,0,0,0
+/usr/include/dirent.h:215:13,seekdir,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:13>,nan,Ignored,0,0,0,0,0
+/usr/include/wchar.h:773:17,fgetws,Ignored,0,0,0,0,0
+/usr/include/string.h:195:14,strndup,Ignored,0,0,0,0,0
+/usr/include/curses.h:1785:28,mvwins_nwstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:290:1>,frexpf64x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:175:17,wcsrchr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:318:1>,sincosf,Ignored,0,0,0,0,0
+/usr/include/dirent.h:396:12,versionsort64,Ignored,0,0,0,0,0
+/usr/include/regex.h:570:12,re_compile_fastmap,Ignored,0,0,0,0,0
+/usr/include/regex.h:578:17,re_search,Ignored,0,0,0,0,0
+/usr/include/curses.h:911:28,getpary,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:29:18,getdents64,Ignored,0,0,0,0,0
+/usr/include/regex.h:599:17,re_match,Ignored,0,0,0,0,0
+/usr/include/pthread.h:894:12,pthread_mutexattr_gettype,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:20>,setpayload,Ignored,0,0,0,0,0
+/usr/include/wchar.h:852:15,wcsftime,Ignored,0,0,0,0,0
+/usr/include/curses.h:1060:28 <Spelling=<scratch space>:221:1>,start_color_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1803:28,wbkgrnd,Ignored,0,0,0,0,0
+/usr/include/curses.h:1001:28 <Spelling=<scratch space>:162:1>,color_content_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:901:14,qfcvt,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:60:5,statx,Ignored,0,0,0,0,0
+/usr/include/pthread.h:489:12,pthread_setaffinity_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:1072:28 <Spelling=<scratch space>:233:1>,assume_default_colors_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:147:17,strtof64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1753:28,killwchar,Ignored,0,0,0,0,0
+/usr/include/wchar.h:605:12,swprintf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:205:1>,totalorderf64,Ignored,0,0,0,0,0
+text.c:2852:22,strtol,Ignored,0,0,0,0,0
+/usr/include/string.h:397:14,__mempcpy,Ignored,0,0,0,0,0
+/usr/include/curses.h:879:29,wsyncup,Ignored,0,0,0,0,0
+/usr/include/curses.h:754:28,overlay,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:396:12,mkdirat,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:341:1>,modff32,Ignored,0,0,0,0,0
+/usr/include/wchar.h:263:17,wmemcpy,Ignored,0,0,0,0,0
+./timespec.h:94:5,settime,Ignored,0,0,0,0,0
+/usr/include/curses.h:665:28,idlok,Ignored,0,0,0,0,0
+/usr/include/wchar.h:352:15,mbsnrtowcs,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:184:1>,canonicalizef64x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:192:1>,__remquof,Ignored,0,0,0,0,0
+global.c:733:2,add_to_funcs.$0,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1238:12,pthread_spin_lock,Ignored,0,0,0,0,0
+/usr/include/curses.h:1076:28 <Spelling=<scratch space>:237:1>,extended_slk_color_sp,Ignored,0,0,0,0,0
+winio.c:2433:3,fprintf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/random.h:39:5,getentropy,Ignored,0,0,0,0,0
+/usr/include/stdio.h:837:14,ctermid,Ignored,0,0,0,0,0
+/usr/include/stdio.h:823:12,pclose,Ignored,0,0,0,0,0
+/usr/include/curses.h:1756:28,mvadd_wchstr,Ignored,0,0,0,0,0
+/usr/include/string.h:366:14,strtok_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:434:26,wcstoul,Ignored,0,0,0,0,0
+/usr/include/wchar.h:154:17,wcsdup,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:270:1>,totalordermagf,Ignored,0,0,0,0,0
+/usr/include/dirent.h:255:12,scandir,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:257:1>,__getpayload,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:308:1>,__modff64x,Ignored,0,0,0,0,0
+/usr/include/curses.h:1055:28 <Spelling=<scratch space>:216:1>,slk_noutrefresh_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:758:15,fputwc,Ignored,0,0,0,0,0
+/usr/include/stdio.h:786:13,clearerr,Ignored,0,0,0,0,0
+/usr/include/unistd.h:933:12,setdomainname,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:115:1>,lgammal_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:33:22,bsearch.$4,Ignored,0,0,0,0,0
+/usr/include/curses.h:872:28,wscanw,Ignored,0,0,0,0,0
+/usr/include/curses.h:717:28,mvwaddch,Ignored,0,0,0,0,0
+/usr/include/time.h:197:14,asctime_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:418:12,mkfifo,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:377:1>,modfl,Ignored,0,0,0,0,0
+/usr/include/curses.h:1737:28,erasewchar,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:155:12,setitimer,Ignored,0,0,0,0,0
+nano.c:395:2,vfprintf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:128:1>,__remquof64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:195:1>,__nan,Ignored,0,0,0,0,0
+global.c:1190:2,add_to_sclist.$3,Ignored,0,0,0,0,0
+/usr/include/wctype.h:117:17,wctype_l,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:13>,getpayload,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:225:1>,__remquo,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:30:1>,modff,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/select.h:102:12,select,Ignored,0,0,0,0,0
+/usr/include/error.h:34:13,error_at_line,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:105:1>,__nanf,Ignored,0,0,0,0,0
+/usr/include/termios.h:76:13,cfmakeraw,Ignored,0,0,0,0,0
+/usr/include/string.h:510:14,strfry,Ignored,0,0,0,0,0
+/usr/include/curses.h:1011:28 <Spelling=<scratch space>:172:1>,flushinp_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:275:1>,setpayloadsigf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1332:12,pthread_atfork,Ignored,0,0,0,0,0
+/usr/include/time.h:276:12,clock_getres,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:211:1>,__getpayloadf32x,Ignored,0,0,0,0,0
+/usr/include/curses.h:693:28,mvaddchstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/wait.h:132:12,waitid,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:148:1>,__lgammaf_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:699:28,mvderwin,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:16:1>,__frexpf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:211:1>,__lgamma_r,Ignored,0,0,0,0,0
+/usr/include/pwd.h:188:12,getpw,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:86:12,settimeofday,Ignored,0,0,0,0,0
+/usr/include/curses.h:907:28,getbegy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:13>,modf,Ignored,0,0,0,0,0
+/usr/include/time.h:132:19,gmtime,Ignored,0,0,0,0,0
+/usr/include/stdio.h:421:12,scanf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1023:12,pthread_rwlock_wrlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:1010:28 <Spelling=<scratch space>:171:1>,flash_sp,Ignored,0,0,0,0,0
+/usr/include/dirent.h:218:17,telldir,Ignored,0,0,0,0,0
+/usr/include/time.h:387:12,timespec_getres,Ignored,0,0,0,0,0
+/usr/include/termios.h:61:12,cfsetspeed,Ignored,0,0,0,0,0
+/usr/include/stdio.h:844:14,cuserid,Ignored,0,0,0,0,0
+/usr/include/stdio.h:283:14,fopen64,Ignored,0,0,0,0,0
+/usr/include/termios.h:57:12,cfsetispeed,Ignored,0,0,0,0,0
+./stat-time.h:104:1,get_stat_birthtime_ns,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:267:1>,sincosf64x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:118:1>,__lgammal_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:849:28,wdeleteln,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:234:1>,canonicalizef,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1086:12,pthread_rwlockattr_getpshared,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:2:1>,__modfl,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:172:1>,canonicalizef32x,Ignored,0,0,0,0,0
+/usr/include/curses.h:1040:28 <Spelling=<scratch space>:201:1>,resetty_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/wait.h:164:16,wait4,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:967:12,getsubopt,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:240:12,stat64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1754:28,mvadd_wch,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:705:12,mkstemp64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:145:1>,lgammaf_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:130:1>,__remquof32x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:98:1>,lgammaf64x_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1089:28 <Spelling=<scratch space>:250:1>,set_escdelay_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:271:1>,sincosf64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:50:1>,__nanf32x,Ignored,0,0,0,0,0
+/usr/include/stdio.h:373:12,vsprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:804:33,subwin,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:101:1>,__lgammaf64x_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1755:28,mvadd_wchnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:269:1>,__sincosf64x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:402:17,wcstof64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1031:28 <Spelling=<scratch space>:192:1>,noecho_sp,Ignored,0,0,0,0,0
+/usr/include/string.h:506:12,strverscmp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:140:1>,remquof64x,Ignored,0,0,0,0,0
+/usr/include/unistd.h:633:17,pathconf,Ignored,0,0,0,0,0
+/usr/include/pwd.h:102:12,putpwent,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:224:1>,setpayloadf64x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:84:1>,lgammaf64_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:273:1>,__sincosf64,Ignored,0,0,0,0,0
+/usr/include/pthread.h:750:13,__pthread_unwind_next,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1315:12,pthread_getcpuclockid,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:913:12,fcvt_r,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1208:12,pthread_condattr_setpshared,Ignored,0,0,0,0,0
+/usr/include/curses.h:1002:28 <Spelling=<scratch space>:163:1>,def_prog_mode_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:349:12,pthread_attr_setscope,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:20>,totalorder,Ignored,0,0,0,0,0
+/usr/include/wchar.h:277:17,wmempcpy,Ignored,0,0,0,0,0
+/usr/include/string.h:80:12,__memcmpeq,Ignored,0,0,0,0,0
+/usr/include/curses.h:1805:28,wborder_set,Ignored,0,0,0,0,0
+/usr/include/utime.h:50:12,utime,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:160:1>,__frexp,Ignored,0,0,0,0,0
+/usr/include/curses.h:859:28,winnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:316:1>,sincosf,Ignored,0,0,0,0,0
+/usr/include/wchar.h:268:17,wmemmove,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:530:12,seed48_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:241:15,wcsnlen,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:304:1>,__sincosf32,Ignored,0,0,0,0,0
+/usr/include/pthread.h:297:12,pthread_attr_setdetachstate,Ignored,0,0,0,0,0
+/usr/include/curses.h:1751:28,inwstr,Ignored,0,0,0,0,0
+./utime.h:614:12,_gl_utimens_windows,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:212:1>,setpayloadf32x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:359:12,lchmod,Ignored,0,0,0,0,0
+glob.c:1056:20,glob_in_dir.$3,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:212:1>,totalordermagf32,Ignored,0,0,0,0,0
+nano.c:356:3,fprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:722:28,mvwchgat,Ignored,0,0,0,0,0
+/usr/include/curses.h:785:28,slk_attr_off,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:239:1>,totalorderl,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:363:1>,__frexpl,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:211:1>,setpayloadsigf64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:90:1>,lgammaf32_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:881:28,wtouchln,Ignored,0,0,0,0,0
+/usr/include/curses.h:1047:28 <Spelling=<scratch space>:208:1>,slk_attron_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:155:17,wctype,Ignored,0,0,0,0,0
+/usr/include/stdio.h:328:13,setbuf,Ignored,0,0,0,0,0
+/usr/include/curses.h:813:28,untouchwin,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:288:1>,frexpf32x,Ignored,0,0,0,0,0
+/usr/include/pthread.h:366:12,pthread_attr_getstacksize,Ignored,0,0,0,0,0
+/usr/include/pthread.h:202:12,pthread_create,Ignored,0,0,0,0,0
+/usr/include/pthread.h:407:12,pthread_getattr_default_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:734:28,mvwinsnstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1202:12,pthread_condattr_getpshared,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:273:1>,__getpayloadf,Ignored,0,0,0,0,0
+/usr/include/unistd.h:950:12,profil,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:255:1>,__getpayload,Ignored,0,0,0,0,0
+glob.c:459:24 <Spelling=./glob.h:589:17>,rpl_glob.$2,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:60:1>,nanf64x,Ignored,0,0,0,0,0
+/usr/include/pthread.h:930:12,pthread_mutexattr_getrobust,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1234:12,pthread_spin_destroy,Ignored,0,0,0,0,0
+/usr/include/time.h:272:12,nanosleep,Ignored,0,0,0,0,0
+/usr/include/pthread.h:525:12,pthread_setcanceltype,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:142:1>,__remquof64x,Ignored,0,0,0,0,0
+/usr/include/libintl.h:67:14,dngettext,Ignored,0,0,0,0,0
+/usr/include/pwd.h:94:23,fgetpwent,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:306:1>,__modff32x,Ignored,0,0,0,0,0
+/usr/include/pthread.h:303:12,pthread_attr_getguardsize,Ignored,0,0,0,0,0
+/usr/include/stdio.h:371:12,vprintf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/wait.h:148:16,wait3,Ignored,0,0,0,0,0
+/usr/include/curses.h:712:28,mvprintw,Ignored,0,0,0,0,0
+/usr/include/pthread.h:417:12,pthread_attr_getsigmask_np,Ignored,0,0,0,0,0
+/usr/include/pthread.h:709:13,__pthread_unregister_cancel,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:193:1>,__nan,Ignored,0,0,0,0,0
+/usr/include/pthread.h:458:12,pthread_getname_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:1015:29 <Spelling=<scratch space>:176:1>,has_ic_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:94:12,adjtime,Ignored,0,0,0,0,0
+/usr/include/time.h:154:19,gmtime_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:97:17,wcscat,Ignored,0,0,0,0,0
+/usr/include/sched.h:134:12,sched_getaffinity,Ignored,0,0,0,0,0
+/usr/include/time.h:422:19,getdate,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:220:1>,totalordermagf64x,Ignored,0,0,0,0,0
+/usr/include/curses.h:1075:28 <Spelling=<scratch space>:236:1>,extended_pair_content_sp,Ignored,0,0,0,0,0
+/usr/include/time.h:251:15,timelocal,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:749:12,mkostemp,Ignored,0,0,0,0,0
+nano.c:1765:7,wanted_to_move.$0,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:31:12,pthread_sigmask,Ignored,0,0,0,0,0
+/usr/include/unistd.h:958:12,acct,Ignored,0,0,0,0,0
+/usr/include/curses.h:833:28,wattroff,Ignored,0,0,0,0,0
+/usr/include/wchar.h:483:22,wcstoll_l,Ignored,0,0,0,0,0
+/usr/include/pthread.h:361:12,pthread_attr_setstackaddr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:149:12,getitimer,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:162:1>,__remquol,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/select.h:127:12,pselect,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:759:12,mkostemp64,Ignored,0,0,0,0,0
+/usr/include/pthread.h:324:12,pthread_attr_getschedpolicy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:67:12,gettimeofday,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:54:1>,__nanf32,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:304:1>,modff32x,Ignored,0,0,0,0,0
+/usr/include/stdio.h:308:14,fmemopen,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:207:1>,lgamma_r,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:533:12,lcong48_r,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:113:36,atoll,Ignored,0,0,0,0,0
+/usr/include/stdio.h:702:15,fread_unlocked,Ignored,0,0,0,0,0
+/usr/include/curses.h:1789:28,mvwvline_set,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:917:12,qecvt_r,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1277:12,pthread_barrierattr_getpshared,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:153:1>,__sincos,Ignored,0,0,0,0,0
+/usr/include/curses.h:1053:28 <Spelling=<scratch space>:214:1>,slk_init_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:251:12,strfromf32x,Ignored,0,0,0,0,0
+/usr/include/termios.h:51:16,cfgetispeed,Ignored,0,0,0,0,0
+/usr/include/curses.h:673:28,innstr,Ignored,0,0,0,0,0
+/usr/include/sched.h:130:12,sched_setaffinity,Ignored,0,0,0,0,0
+./uniwidth.h:51:8,u16_width,Ignored,0,0,0,0,0
+/usr/include/time.h:202:14,ctime_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:160:1>,remquol,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:89:1>,__lgammaf32x_r,Ignored,0,0,0,0,0
+./stat-time.h:160:1,get_stat_birthtime,Ignored,0,0,0,0,0
+/usr/include/time.h:282:12,clock_settime,Ignored,0,0,0,0,0
+/usr/include/wchar.h:117:12,wcsncasecmp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1273:12,pthread_barrierattr_destroy,Ignored,0,0,0,0,0
+/usr/include/pthread.h:411:12,pthread_attr_setsigmask_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:934:28,extended_color_content,Ignored,0,0,0,0,0
+/usr/include/curses.h:1826:28 <Spelling=<scratch space>:256:1>,killwchar_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:168:1>,__modf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:241:1>,getpayloadl,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:245:1>,setpayloadsigl,Ignored,0,0,0,0,0
+/usr/include/pthread.h:697:13,__pthread_register_cancel,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:933:12,mbtowc,Ignored,0,0,0,0,0
+/usr/include/curses.h:1763:28,mvin_wch,Ignored,0,0,0,0,0
+/usr/include/wchar.h:92:17,wcsncpy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:216:1>,setpayloadf32,Ignored,0,0,0,0,0
+/usr/include/curses.h:664:29,idcok,Ignored,0,0,0,0,0
+/usr/include/pthread.h:426:12,pthread_setattr_default_np,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:86:1>,lgammaf32x_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:217:1>,setpayloadsigf32,Ignored,0,0,0,0,0
+/usr/include/nl_types.h:46:14,catgets,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1125:12,pthread_cond_broadcast,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:48:1>,__nanf64,Ignored,0,0,0,0,0
+/usr/include/stdio.h:814:12,fileno_unlocked,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:118:15,strtod,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:294:1>,frexpf64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/sched.h:92:12,getcpu,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:325:1>,frexpf32,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:320:1>,__sincosf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1097:12,pthread_rwlockattr_getkind_np,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:134:1>,__remquof32,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:312:1>,__modff64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:243:1>,__getpayloadl,Ignored,0,0,0,0,0
+/usr/include/wctype.h:52:18,wctrans,Ignored,0,0,0,0,0
+/usr/include/curses.h:1734:28,border_set,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:215:1>,__getpayloadf32,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:14:1>,frexpf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1790:28,pecho_wchar,Ignored,0,0,0,0,0
+/usr/include/time.h:183:14,ctime,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:132:1>,remquof32,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1171:12,pthread_cond_clockwait,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:93:1>,__lgammaf32_r,Ignored,0,0,0,0,0
+./uniwidth.h:48:8,u8_width,Ignored,0,0,0,0,0
+/usr/include/pthread.h:855:12,pthread_mutex_consistent,Ignored,0,0,0,0,0
+/usr/include/wchar.h:530:18,wcstof32x_l,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:338:1>,sincosl,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:128:1>,remquof32x,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:170:1>,canonicalizef64,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1269:12,pthread_barrierattr_init,Ignored,0,0,0,0,0
+/usr/include/pthread.h:946:12,pthread_mutexattr_setrobust,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1260:12,pthread_barrier_destroy,Ignored,0,0,0,0,0
+/usr/include/termios.h:54:12,cfsetospeed,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:424:1 <Spelling=<scratch space>:244:1>,setpayloadl,Ignored,0,0,0,0,0
+/usr/include/pthread.h:353:12,pthread_attr_getstackaddr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:847:12,pthread_mutex_setprioceiling,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:291:12,fstatat64,Ignored,0,0,0,0,0
+/usr/include/curses.h:634:28,copywin,Ignored,0,0,0,0,0
+/usr/include/stdio.h:396:12,asprintf,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:213:12,strfromd,Ignored,0,0,0,0,0
+/usr/include/pthread.h:800:12,pthread_mutex_timedlock,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:213:1>,getpayloadf32,Ignored,0,0,0,0,0
+/usr/include/curses.h:776:28,scr_init,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1242:12,pthread_spin_trylock,Ignored,0,0,0,0,0
+/usr/include/wchar.h:302:15,wcrtomb,Ignored,0,0,0,0,0
+/usr/include/regex.h:587:17,re_search_2,Ignored,0,0,0,0,0
+/usr/include/curses.h:735:28,mvwinsstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:913:12,pthread_mutexattr_setprotocol,Ignored,0,0,0,0,0
+/usr/include/pthread.h:243:12,pthread_clockjoin_np,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1198:12,pthread_condattr_destroy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:425:12,mkfifoat,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:73:1>,nanl,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1194:12,pthread_condattr_init,Ignored,0,0,0,0,0
+/usr/include/pthread.h:379:12,pthread_attr_getstack,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1133:12,pthread_cond_wait,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:306:1>,modff64x,Ignored,0,0,0,0,0
+/usr/include/dirent.h:353:18,getdirentries,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1112:12,pthread_cond_init,Ignored,0,0,0,0,0
+/usr/include/nl_types.h:42:16,catopen,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1051:12,pthread_rwlock_clockwrlock,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:233:12,strfromf32,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:338:12,lstat64,Ignored,0,0,0,0,0
+/usr/include/wchar.h:192:15,wcsspn,Ignored,0,0,0,0,0
+/usr/include/curses.h:1781:28,mvwin_wch,Ignored,0,0,0,0,0
+/usr/include/wchar.h:150:15,wcsxfrm_l,Ignored,0,0,0,0,0
+/usr/include/pthread.h:986:12,pthread_rwlock_timedrdlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:631:28,color_content,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:296:15,strtod_l,Ignored,0,0,0,0,0
+/usr/include/time.h:331:12,timer_create,Ignored,0,0,0,0,0
+/usr/include/curses.h:1070:31 <Spelling=<scratch space>:231:1>,keybound_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:980:12,pthread_rwlock_tryrdlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:846:28,wcolor_set,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1283:12,pthread_barrierattr_setpshared,Ignored,0,0,0,0,0
+/usr/include/wchar.h:557:17,wcpncpy,Ignored,0,0,0,0,0
+/usr/include/pthread.h:972:12,pthread_rwlock_destroy,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:20>,totalordermag,Ignored,0,0,0,0,0
+/usr/include/pthread.h:951:12 <Spelling=/usr/include/pthread.h:951:28>,pthread_mutexattr_setrobust_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:1062:31 <Spelling=<scratch space>:223:1>,termname_sp,Ignored,0,0,0,0,0
+/usr/include/pwd.h:169:12,fgetpwent_r,Ignored,0,0,0,0,0
+/usr/include/pwd.h:139:12,getpwent_r,Ignored,0,0,0,0,0
+/usr/include/pthread.h:924:12,pthread_mutexattr_setprioceiling,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:221:1>,getpayloadf64x,Ignored,0,0,0,0,0
+/usr/include/pthread.h:441:12,pthread_setschedparam,Ignored,0,0,0,0,0
+/usr/include/curses.h:1048:28 <Spelling=<scratch space>:209:1>,slk_attrset_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:840:12,pthread_mutex_getprioceiling,Ignored,0,0,0,0,0
+/usr/include/wchar.h:493:15,wcstod_l,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:190:1>,remquof,Ignored,0,0,0,0,0
+/usr/include/pthread.h:308:12,pthread_attr_setguardsize,Ignored,0,0,0,0,0
+/usr/include/pthread.h:918:12,pthread_mutexattr_getprioceiling,Ignored,0,0,0,0,0
+/usr/include/pthread.h:732:13,__pthread_register_cancel_defer,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/getopt_ext.h:70:12,getopt_long_only,Ignored,0,0,0,0,0
+/usr/include/curses.h:744:33,newterm,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:120:13,__sched_cpufree,Ignored,0,0,0,0,0
+/usr/include/pthread.h:494:12,pthread_getaffinity_np,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:209:1>,__lgamma_r,Ignored,0,0,0,0,0
+/usr/include/stdio.h:300:14,fopencookie,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1308:12,pthread_setspecific,Ignored,0,0,0,0,0
+/usr/include/pthread.h:432:12,pthread_getattr_np,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:20>,setpayloadsig,Ignored,0,0,0,0,0
+/usr/include/wchar.h:718:12 <Spelling=/usr/include/wchar.h:718:28>,vswscanf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:463:12,pthread_setname_np,Ignored,0,0,0,0,0
+rcfile.c:738:6,is_universal,Ignored,0,0,0,1,1
+/usr/include/wchar.h:101:17,wcsncat,Ignored,0,0,0,0,0
+/usr/include/pthread.h:935:12 <Spelling=/usr/include/pthread.h:935:28>,pthread_mutexattr_getrobust_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:1013:28 <Spelling=<scratch space>:174:1>,halfdelay_sp,Ignored,0,0,0,0,0
+/usr/include/string.h:286:14,strchrnul,Ignored,0,0,0,0,0
+/usr/include/pthread.h:387:12,pthread_attr_setstack,Ignored,0,0,0,0,0
+/usr/include/unistd.h:378:16,write,Ignored,0,0,0,0,0
+/usr/include/pthread.h:333:12,pthread_attr_getinheritsched,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:646:14,secure_getenv,Ignored,0,0,0,0,0
+/usr/include/curses.h:1775:28,mvwaddnwstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:288:12,pthread_attr_destroy,Ignored,0,0,0,0,0
+/usr/include/pthread.h:233:12,pthread_timedjoin_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:1059:28 <Spelling=<scratch space>:220:1>,slk_touch_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:219:12,pthread_join,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:302:1>,sincosf32,Ignored,0,0,0,0,0
+/usr/include/pthread.h:292:12,pthread_attr_getdetachstate,Ignored,0,0,0,0,0
+/usr/include/time.h:116:15,strftime_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:154:12,rename,Ignored,0,0,0,0,0
+/usr/include/pthread.h:329:12,pthread_attr_setschedpolicy,Ignored,0,0,0,0,0
+/usr/include/time.h:179:14,asctime,Ignored,0,0,0,0,0
+/usr/include/time.h:107:14,strptime,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:240:1>,totalordermagl,Ignored,0,0,0,0,0
+/usr/include/time.h:100:15,strftime,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:91:12,getopt,Ignored,0,0,0,0,0
+/usr/include/wchar.h:293:12,mbsinit,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:296:1>,__frexpf64,Ignored,0,0,0,0,0
+prompt.c:623:13,acquire_an_answer.$3,Ignored,0,0,0,0,0
+/usr/include/pthread.h:745:13,__pthread_unregister_cancel_restore,Ignored,0,0,0,0,0
+/usr/include/pthread.h:373:12,pthread_attr_setstacksize,Ignored,0,0,0,0,0
+/usr/include/curses.h:1742:28,getn_wstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/time.h:78:12,clock_adjtime,Ignored,0,0,0,0,0
+/usr/include/curses.h:858:28,winchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:893:31,tparm,Ignored,0,0,0,0,0
+/usr/include/string.h:489:14,__stpcpy,Ignored,0,0,0,0,0
+/usr/include/pthread.h:835:12,pthread_mutex_unlock,Ignored,0,0,0,0,0
+/usr/include/sched.h:58:12,sched_getparam,Ignored,0,0,0,0,0
+/usr/include/time.h:326:12,clock_getcpuclockid,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/sched.h:82:12,clone,Ignored,0,0,0,0,0
+/usr/include/curses.h:1037:28 <Spelling=<scratch space>:198:1>,raw_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:211:13,pthread_exit,Ignored,0,0,0,0,0
+/usr/include/pthread.h:817:12,pthread_mutex_clocklock,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:318:1>,__sincosf,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1121:12,pthread_cond_signal,Ignored,0,0,0,0,0
+/usr/include/curses.h:1036:29 <Spelling=<scratch space>:197:1>,qiflush_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:679:28,instr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:252:1 <Spelling=<scratch space>:87:1>,__lgammaf64_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:207:1>,totalorderf32x,Ignored,0,0,0,0,0
+/usr/include/curses.h:680:28,intrflush,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1145:12,pthread_cond_timedwait,Ignored,0,0,0,0,0
+/usr/include/curses.h:1762:28,mvhline_set,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=<scratch space>:204:1>,canonicalizel,Ignored,0,0,0,0,0
+/usr/include/wchar.h:429:17,wcstol,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:416:1 <Spelling=<scratch space>:208:1>,totalordermagf32x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:397:17,wcstof32,Ignored,0,0,0,0,0
+/usr/include/pwd.h:146:12,getpwuid_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:372:12,wcswidth,Ignored,0,0,0,0,0
+rcfile.c:850:6,is_universal.$0,Ignored,0,0,0,0,0
+/usr/include/wchar.h:165:17,wcschr,Ignored,0,0,0,0,0
+/usr/include/wchar.h:202:17,wcspbrk,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:411:12,mknodat,Ignored,0,0,0,0,0
+/usr/include/curses.h:1741:28,getcchar,Ignored,0,0,0,0,0
+/usr/include/curses.h:1810:28,wgetn_wstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:471:12,vsscanf,Ignored,0,0,0,0,0
+/usr/include/stdio.h:760:12,fgetpos,Ignored,0,0,0,0,0
+/usr/include/wchar.h:497:14,wcstof_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:850:28,wechochar,Ignored,0,0,0,0,0
+/usr/include/curses.h:1749:28,ins_wch,Ignored,0,0,0,0,0
+/usr/include/curses.h:1038:28 <Spelling=<scratch space>:199:1>,reset_prog_mode_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:319:12,pthread_attr_setschedparam,Ignored,0,0,0,0,0
+/usr/include/dirent.h:278:12,scandir64,Ignored,0,0,0,0,0
+/usr/include/curses.h:771:28,ripoffline,Ignored,0,0,0,0,0
+/usr/include/strings.h:68:14,index,Ignored,0,0,0,0,0
+rcfile.c:167:3,fprintf,Ignored,0,0,0,0,0
+/usr/include/wchar.h:131:12,wcscoll,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:617:12,on_exit,Ignored,0,0,0,0,0
+/usr/include/curses.h:968:29,is_nodelay,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1246:12,pthread_spin_unlock,Ignored,0,0,0,0,0
+/usr/include/pthread.h:786:12,pthread_mutex_destroy,Ignored,0,0,0,0,0
+/usr/include/wchar.h:465:31,wcstouq,Ignored,0,0,0,0,0
+/usr/include/wchar.h:501:20,wcstold_l,Ignored,0,0,0,0,0
+/usr/include/strings.h:34:12,bcmp,Ignored,0,0,0,0,0
+/usr/include/dirent.h:315:12,scandirat64,Ignored,0,0,0,0,0
+/usr/include/unistd.h:398:16,pwrite,Ignored,0,0,0,0,0
+/usr/include/curses.h:1014:29 <Spelling=<scratch space>:175:1>,has_colors_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:610:12,at_quick_exit,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:300:14,strtof_l,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1038:12,truncate64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1045:28 <Spelling=<scratch space>:206:1>,scr_set_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:193:31,strtouq,Ignored,0,0,0,0,0
+/usr/include/curses.h:1084:28 <Spelling=<scratch space>:245:1>,keyok_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:635:18,getdelim,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:416:14,setstate,Ignored,0,0,0,0,0
+/usr/include/curses.h:841:28,wborder,Ignored,0,0,0,0,0
+/usr/include/stdio.h:393:12,__asprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:687:28,leaveok,Ignored,0,0,0,0,0
+/usr/include/fcntl.h:237:12,creat64,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:602:12,atexit,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:124:14,strtof,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:209:1>,__getpayloadf64,Ignored,0,0,0,0,0
+/usr/include/regex.h:562:20,re_compile_pattern,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:188:22,strtoq,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:886:14,fcvt,Ignored,0,0,0,0,0
+/usr/include/curses.h:809:28,touchline,Ignored,0,0,0,0,0
+/usr/include/curses.h:1030:28 <Spelling=<scratch space>:191:1>,nocbreak_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1066:29 <Spelling=<scratch space>:227:1>,use_tioctl_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:592:14,fgets,Ignored,0,0,0,0,0
+/usr/include/stdio.h:723:13,rewind,Ignored,0,0,0,0,0
+/usr/include/signal.h:333:12,sigaltstack,Ignored,0,0,0,0,0
+/usr/include/regex.h:606:17,re_match_2,Ignored,0,0,0,0,0
+/usr/include/string.h:496:14,__stpncpy,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:910:12,ecvt_r,Ignored,0,0,0,0,0
+/usr/include/sched.h:61:12,sched_setscheduler,Ignored,0,0,0,0,0
+/usr/include/curses.h:1731:28,addwstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:304:12,sigreturn,Ignored,0,0,0,0,0
+/usr/include/stdio.h:645:18,getline,Ignored,0,0,0,0,0
+/usr/include/curses.h:678:28,insstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:877:28,wstandend,Ignored,0,0,0,0,0
+/usr/include/curses.h:1813:28,win_wchnstr,Ignored,0,0,0,0,0
+/usr/include/string.h:413:15,strnlen,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:22>,sincos,Ignored,0,0,0,0,0
+nano.c:1434:6,wanted_to_move,Ignored,0,0,0,1,1
+/usr/include/stdlib.h:438:12,srandom_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:732:28,mvwinnstr,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:221:12,strfroml,Ignored,0,0,0,0,0
+/usr/include/wchar.h:213:17,wcsstr,Ignored,0,0,0,0,0
+/usr/include/string.h:361:14,__strtok_r,Ignored,0,0,0,0,0
+/usr/include/wchar.h:442:22,wcstoll,Ignored,0,0,0,0,0
+/usr/include/curses.h:1745:28,in_wchnstr,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:841:13,qsort_r,Ignored,0,0,0,0,0
+/usr/include/strings.h:128:12,strcasecmp_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:265:14,freopen,Ignored,0,0,0,0,0
+/usr/include/unistd.h:1026:12,truncate,Ignored,0,0,0,0,0
+/usr/include/curses.h:707:28,mvinnstr,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:374:1 <Spelling=/usr/include/stdlib.h:374:8>,atoll,Ignored,0,0,0,0,0
+/usr/include/string.h:389:14,memmem,Ignored,0,0,0,0,0
+/usr/include/stdio.h:632:18,__getdelim,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:512:12,nrand48_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:695:28,mvaddstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1213:12,pthread_condattr_getclock,Ignored,0,0,0,0,0
+/usr/include/stdio.h:741:16,ftello,Ignored,0,0,0,0,0
+/usr/include/unistd.h:847:12,symlinkat,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:411:1 <Spelling=<scratch space>:211:1>,totalorderf32,Ignored,0,0,0,0,0
+/usr/include/wchar.h:358:15,wcsnrtombs,Ignored,0,0,0,0,0
+/usr/include/curses.h:854:28,wgetstr,Ignored,0,0,0,0,0
+/usr/include/unistd.h:825:12,linkat,Ignored,0,0,0,0,0
+/usr/include/wchar.h:412:18,wcstof32x,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:569:14,reallocarray,Ignored,0,0,0,0,0
+/usr/include/wchar.h:109:12,wcsncmp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:106:12,wcscmp,Ignored,0,0,0,0,0
+/usr/include/curses.h:888:28,tigetnum,Ignored,0,0,0,0,0
+/usr/include/wchar.h:122:12,wcscasecmp_l,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1230:12,pthread_spin_init,Ignored,0,0,0,0,0
+/usr/include/curses.h:1024:28 <Spelling=<scratch space>:185:1>,mvcur_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:141:17,strtof32,Ignored,0,0,0,0,0
+/usr/include/wchar.h:259:12,wmemcmp,Ignored,0,0,0,0,0
+/usr/include/string.h:499:14,stpncpy,Ignored,0,0,0,0,0
+/usr/include/stdio.h:403:12,vdprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1736:28,echo_wchar,Ignored,0,0,0,0,0
+/usr/include/unistd.h:503:12,lchown,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:738:14,mkdtemp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:159:18,strtof32x,Ignored,0,0,0,0,0
+/usr/include/curses.h:645:33,dupwin,Ignored,0,0,0,0,0
+/usr/include/wchar.h:114:12,wcscasecmp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:586:12,posix_memalign,Ignored,0,0,0,0,0
+/usr/include/wchar.h:518:17,wcstof64_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:853:12,obstack_printf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1728:28,add_wchnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:118:1,getline,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:345:18,strtof64x_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:861:28,winsdelln,Ignored,0,0,0,0,0
+/usr/include/wchar.h:636:12,fwscanf,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:317:17,strtof32_l,Ignored,0,0,0,0,0
+/usr/include/unistd.h:977:12,chroot,Ignored,0,0,0,0,0
+/usr/include/stdio.h:222:14,tempnam,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:462:12,open_by_handle_at,Ignored,0,0,0,0,0
+/usr/include/unistd.h:838:16,readlink,Ignored,0,0,0,0,0
+/usr/include/string.h:527:14,basename,Ignored,0,0,0,0,0
+/usr/include/curses.h:1819:28,winwstr,Ignored,0,0,0,0,0
+/usr/include/wctype.h:137:18,wctrans_l,Ignored,0,0,0,0,0
+/usr/include/stdio.h:549:12,fputc,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:290:1>,__frexpf32x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:478:26,wcstoul_l,Ignored,0,0,0,0,0
+/usr/include/wchar.h:272:17,wmemset,Ignored,0,0,0,0,0
+/usr/include/stdio.h:314:14,open_memstream,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:404:12,mknod,Ignored,0,0,0,0,0
+/usr/include/unistd.h:760:12,getresgid,Ignored,0,0,0,0,0
+/usr/include/curses.h:617:28,attr_set,Ignored,0,0,0,0,0
+/usr/include/dirent.h:183:12,readdir_r,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:454:12,name_to_handle_at,Ignored,0,0,0,0,0
+/usr/include/curses.h:1065:29 <Spelling=<scratch space>:226:1>,use_env_sp,Ignored,0,0,0,0,0
+/usr/include/strings.h:42:13,bzero,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:727:12,mkstemps64,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:769:12,mkostemps,Ignored,0,0,0,0,0
+/usr/include/stdio.h:661:12,puts,Ignored,0,0,0,0,0
+/usr/include/unistd.h:919:12,sethostname,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1264:12,pthread_barrier_wait,Ignored,0,0,0,0,0
+/usr/include/string.h:120:14,rawmemchr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:446:12,pthread_getschedparam,Ignored,0,0,0,0,0
+/usr/include/unistd.h:803:12,ttyname_r,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:502:12,drand48_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1046:28 <Spelling=<scratch space>:207:1>,slk_attroff_sp,Ignored,0,0,0,0,0
+browser.c:104:2,qsort.$3,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:271:1>,getpayloadf,Ignored,0,0,0,0,0
+/usr/include/stdio.h:338:13,setbuffer,Ignored,0,0,0,0,0
+/usr/include/curses.h:1769:28,mvins_wstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1005:28 <Spelling=<scratch space>:166:1>,doupdate_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:834:28,wattrset,Ignored,0,0,0,0,0
+/usr/include/curses.h:952:28,use_screen,Ignored,0,0,0,0,0
+/usr/include/wchar.h:595:12,fwprintf,Ignored,0,0,0,0,0
+browser.c:326:13,do_prompt.$3,Ignored,0,0,0,0,0
+/usr/include/curses.h:1068:28 <Spelling=<scratch space>:229:1>,vidputs_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:892:14,gcvt,Ignored,0,0,0,0,0
+/usr/include/curses.h:607:28,addchnstr,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:904:14,qgcvt,Ignored,0,0,0,0,0
+/usr/include/curses.h:1074:28 <Spelling=<scratch space>:235:1>,extended_color_content_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:383:14,wcstof,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:930:12,mblen,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:181:26,strtoul,Ignored,0,0,0,0,0
+/usr/include/curses.h:1796:28,vid_puts,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:956:12,rpmatch,Ignored,0,0,0,0,0
+/usr/include/curses.h:1776:28,mvwaddwstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:856:12,obstack_vprintf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:25:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:25:8>,atof,Ignored,0,0,0,0,0
+/usr/include/curses.h:810:28,touchwin,Ignored,0,0,0,0,0
+/usr/include/strings.h:96:14,rindex,Ignored,0,0,0,0,0
+/usr/include/curses.h:692:28,mvaddchnstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:158:12,renameat,Ignored,0,0,0,0,0
+/usr/include/wchar.h:661:12 <Spelling=/usr/include/wchar.h:661:24>,wscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:616:28,attr_on,Ignored,0,0,0,0,0
+/usr/include/pthread.h:888:12,pthread_mutexattr_setpshared,Ignored,0,0,0,0,0
+/usr/include/fcntl.h:227:12,creat,Ignored,0,0,0,0,0
+/usr/include/stdio.h:170:12,renameat2,Ignored,0,0,0,0,0
+/usr/include/curses.h:1780:28,mvwhline_set,Ignored,0,0,0,0,0
+/usr/include/strings.h:133:12,strncasecmp_l,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:664:12,unsetenv,Ignored,0,0,0,0,0
+/usr/include/stdio.h:718:17,ftell,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:797:14,canonicalize_file_name,Ignored,0,0,0,0,0
+/usr/include/stdio.h:152:12,remove,Ignored,0,0,0,0,0
+/usr/include/stdio.h:286:14,freopen64,Ignored,0,0,0,0,0
+/usr/include/curses.h:903:28,getattrs,Ignored,0,0,0,0,0
+/usr/include/stdio.h:350:12,fprintf,Ignored,0,0,0,0,0
+/usr/include/wchar.h:182:17,wcschrnul,Ignored,0,0,0,0,0
+/usr/include/curses.h:731:28,mvwinchstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:581:12,getw,Ignored,0,0,0,0,0
+/usr/include/wchar.h:488:31,wcstoull_l,Ignored,0,0,0,0,0
+/usr/include/string.h:166:15,strxfrm,Ignored,0,0,0,0,0
+/usr/include/curses.h:862:28,winsertln,Ignored,0,0,0,0,0
+/usr/include/curses.h:1023:31 <Spelling=<scratch space>:184:1>,longname_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:467:12,vscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1019:28 <Spelling=<scratch space>:180:1>,intrflush_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1044:28 <Spelling=<scratch space>:205:1>,scr_restore_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:615:14,fgets_unlocked,Ignored,0,0,0,0,0
+/usr/include/stdio.h:655:12,fputs,Ignored,0,0,0,0,0
+/usr/include/stdio.h:675:15,fread,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:201:22,strtoll,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:324:17,strtof64_l,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:39:1,vprintf,Ignored,0,0,0,0,0
+/usr/include/unistd.h:851:16,readlinkat,Ignored,0,0,0,0,0
+/usr/include/pthread.h:882:12,pthread_mutexattr_getpshared,Ignored,0,0,0,0,0
+/usr/include/stdio.h:691:12,fputs_unlocked,Ignored,0,0,0,0,0
+/usr/include/stdio.h:239:12,fflush_unlocked,Ignored,0,0,0,0,0
+/usr/include/stdio.h:780:18,ftello64,Ignored,0,0,0,0,0
+/usr/include/wchar.h:788:15,ungetwc,Ignored,0,0,0,0,0
+/usr/include/curses.h:632:28,color_set,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:518:12,mrand48_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:783:33,set_term,Ignored,0,0,0,0,0
+/usr/include/wchar.h:664:12 <Spelling=/usr/include/wchar.h:664:28>,swscanf,Ignored,0,0,0,0,0
+/usr/include/wchar.h:688:12,vfwscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:711:28,mvinstr,Ignored,0,0,0,0,0
+/usr/include/wchar.h:780:12,fputws,Ignored,0,0,0,0,0
+/usr/include/signal.h:247:12,sigpending,Ignored,0,0,0,0,0
+/usr/include/wchar.h:700:12,vswscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:714:28,mvscanw,Ignored,0,0,0,0,0
+/usr/include/wchar.h:711:12 <Spelling=/usr/include/wchar.h:711:24>,vfwscanf,Ignored,0,0,0,0,0
+/usr/include/wchar.h:715:12 <Spelling=/usr/include/wchar.h:715:24>,vwscanf,Ignored,0,0,0,0,0
+/usr/include/unistd.h:832:12,symlink,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:292:1>,__frexpf64x,Ignored,0,0,0,0,0
+/usr/include/wchar.h:745:15,getwc,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:285:22,strtoll_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:696:28,mvchgat,Ignored,0,0,0,0,0
+/usr/include/signal.h:240:12,sigsuspend,Ignored,0,0,0,0,0
+/usr/include/curses.h:1041:28 <Spelling=<scratch space>:202:1>,ripoffline_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:759:15,putwc,Ignored,0,0,0,0,0
+/usr/include/wchar.h:816:15,fputwc_unlocked,Ignored,0,0,0,0,0
+/usr/include/pthread.h:521:12,pthread_setcancelstate,Ignored,0,0,0,0,0
+/usr/include/curses.h:706:28,mvinchstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:13>,remquo,Ignored,0,0,0,0,0
+/usr/include/wchar.h:657:12 <Spelling=/usr/include/wchar.h:657:24>,fwscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1033:29 <Spelling=<scratch space>:194:1>,noqiflush_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:791:12,system,Ignored,0,0,0,0,0
+/usr/include/wchar.h:825:15,putwc_unlocked,Ignored,0,0,0,0,0
+/usr/include/wchar.h:844:12,fputws_unlocked,Ignored,0,0,0,0,0
+/usr/include/curses.h:1049:31 <Spelling=<scratch space>:210:1>,slk_attr_sp,Ignored,0,0,0,0,0
+/usr/include/sched.h:54:12,sched_setparam,Ignored,0,0,0,0,0
+/usr/include/wchar.h:859:15,wcsftime_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:1801:28,waddnwstr,Ignored,0,0,0,0,0
+/usr/include/fcntl.h:191:12,open64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1078:28 <Spelling=<scratch space>:239:1>,find_pair_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:608:28,addchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1034:28 <Spelling=<scratch space>:195:1>,noraw_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:610:28,addstr,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1004:12,pthread_rwlock_clockrdlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:614:28,attr_get,Ignored,0,0,0,0,0
+/usr/include/curses.h:615:28,attr_off,Ignored,0,0,0,0,0
+/usr/include/wchar.h:536:18,wcstof64x_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:1766:28,mvinnwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:623:28,box,Ignored,0,0,0,0,0
+/usr/include/curses.h:626:28,chgat,Ignored,0,0,0,0,0
+/usr/include/curses.h:628:28,clearok,Ignored,0,0,0,0,0
+/usr/include/wchar.h:643:12,wscanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:640:29,delscreen,Ignored,0,0,0,0,0
+/usr/include/curses.h:643:33,derwin,Ignored,0,0,0,0,0
+/usr/include/curses.h:1821:28,wvline_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:654:31,getbkgd,Ignored,0,0,0,0,0
+/usr/include/curses.h:657:28,getstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:973:29,is_syncok,Ignored,0,0,0,0,0
+/usr/include/curses.h:1083:28 <Spelling=<scratch space>:244:1>,key_defined_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:666:29,immedok,Ignored,0,0,0,0,0
+/usr/include/curses.h:1757:28,mvaddnwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1820:33,wunctrl,Ignored,0,0,0,0,0
+/usr/include/wchar.h:218:17,wcstok,Ignored,0,0,0,0,0
+/usr/include/curses.h:677:28,insnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:103:1>,nanf,Ignored,0,0,0,0,0
+/usr/include/time.h:371:12,timespec_get,Ignored,0,0,0,0,0
+/usr/include/curses.h:860:28,winsch,Ignored,0,0,0,0,0
+/usr/include/wchar.h:835:17,fgetws_unlocked,Ignored,0,0,0,0,0
+/usr/include/curses.h:1064:28 <Spelling=<scratch space>:225:1>,ungetch_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:682:29,is_linetouched,Ignored,0,0,0,0,0
+/usr/include/wchar.h:552:17,wcpcpy,Ignored,0,0,0,0,0
+/usr/include/curses.h:683:29,is_wintouched,Ignored,0,0,0,0,0
+/usr/include/curses.h:689:28,meta,Ignored,0,0,0,0,0
+/usr/include/curses.h:694:28,mvaddnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:705:28,mvinchnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1061:31 <Spelling=<scratch space>:222:1>,termattrs_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:709:28,mvinsnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1806:28,wecho_wchar,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:781:12,mkostemps64,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:52:1>,nanf32,Ignored,0,0,0,0,0
+/usr/include/unistd.h:389:16,pread,Ignored,0,0,0,0,0
+/usr/include/curses.h:710:28,mvinsstr,Ignored,0,0,0,0,0
+/usr/include/time.h:159:19,localtime_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:718:28,mvwaddchnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:421:1 <Spelling=<scratch space>:223:1>,__getpayloadf64x,Ignored,0,0,0,0,0
+/usr/include/curses.h:910:28,getparx,Ignored,0,0,0,0,0
+/usr/include/string.h:175:12,strcoll_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:720:28,mvwaddnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1067:28 <Spelling=<scratch space>:228:1>,vidattr_sp,Ignored,0,0,0,0,0
+/usr/include/time.h:83:15,mktime,Ignored,0,0,0,0,0
+/usr/include/curses.h:726:28,mvwgetstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:908:28,getmaxx,Ignored,0,0,0,0,0
+/usr/include/curses.h:906:28,getbegx,Ignored,0,0,0,0,0
+/usr/include/curses.h:721:28,mvwaddstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:728:28,mvwin,Ignored,0,0,0,0,0
+/usr/include/curses.h:1799:28,wadd_wchnstr,Ignored,0,0,0,0,0
+files.c:1648:15,fread,Ignored,0,0,0,0,0
+/usr/include/curses.h:729:31,mvwinch,Ignored,0,0,0,0,0
+/usr/include/dirent.h:340:12,alphasort64,Ignored,0,0,0,0,0
+/usr/include/curses.h:730:28,mvwinchnstr,Ignored,0,0,0,0,0
+/usr/include/wchar.h:588:12,fwide,Ignored,0,0,0,0,0
+/usr/include/wchar.h:696:12,vwscanf,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:414:18,vmsplice,Ignored,0,0,0,0,0
+/usr/include/curses.h:736:28,mvwinstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:766:28,redrawwin,Ignored,0,0,0,0,0
+/usr/include/curses.h:739:28,mvwscanw,Ignored,0,0,0,0,0
+/usr/include/curses.h:741:28,mvwvline,Ignored,0,0,0,0,0
+/usr/include/curses.h:753:28,notimeout,Ignored,0,0,0,0,0
+/usr/include/curses.h:755:28,overwrite,Ignored,0,0,0,0,0
+/usr/include/curses.h:756:28,pair_content,Ignored,0,0,0,0,0
+/usr/include/curses.h:1744:28,in_wch,Ignored,0,0,0,0,0
+/usr/include/unistd.h:296:12,eaccess,Ignored,0,0,0,0,0
+/usr/include/curses.h:719:28,mvwaddchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:758:28,pechochar,Ignored,0,0,0,0,0
+/usr/include/curses.h:701:28,mvgetnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:759:28,pnoutrefresh,Ignored,0,0,0,0,0
+/usr/include/curses.h:967:29,is_leaveok,Ignored,0,0,0,0,0
+/usr/include/curses.h:761:28,printw,Ignored,0,0,0,0,0
+/usr/include/curses.h:763:28,putwin,Ignored,0,0,0,0,0
+/usr/include/pthread.h:285:12,pthread_attr_init,Ignored,0,0,0,0,0
+/usr/include/curses.h:1743:28,hline_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:773:28,scanw,Ignored,0,0,0,0,0
+/usr/include/curses.h:778:28,scroll,Ignored,0,0,0,0,0
+/usr/include/curses.h:2026:32 <Spelling=<scratch space>:264:1>,ungetmouse_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:781:28,scr_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:787:28,slk_attr_on,Ignored,0,0,0,0,0
+/usr/include/curses.h:798:28,slk_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:821:28,vw_printw,Ignored,0,0,0,0,0
+/usr/include/curses.h:823:28,vwscanw,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:327:1>,__frexpf32,Ignored,0,0,0,0,0
+/usr/include/curses.h:1085:29 <Spelling=<scratch space>:246:1>,nofilter_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:831:28,waddstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:838:28,wattr_set,Ignored,0,0,0,0,0
+/usr/include/signal.h:137:13,psiginfo,Ignored,0,0,0,0,0
+/usr/include/curses.h:839:28,wbkgd,Ignored,0,0,0,0,0
+/usr/include/curses.h:840:29,wbkgdset,Ignored,0,0,0,0,0
+/usr/include/curses.h:935:28,extended_pair_content,Ignored,0,0,0,0,0
+/usr/include/curses.h:842:28,wchgat,Ignored,0,0,0,0,0
+/usr/include/curses.h:1729:28,add_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:843:28,wclear,Ignored,0,0,0,0,0
+/usr/include/curses.h:844:28,wclrtobot,Ignored,0,0,0,0,0
+/usr/include/curses.h:848:28,wdelch,Ignored,0,0,0,0,0
+/usr/include/dirent.h:293:12,scandirat,Ignored,0,0,0,0,0
+/usr/include/unistd.h:589:12,execle,Ignored,0,0,0,0,0
+/usr/include/stdio.h:437:12 <Spelling=/usr/include/stdio.h:437:24>,scanf,Ignored,0,0,0,0,0
+/usr/include/curses.h:851:28,werase,Ignored,0,0,0,0,0
+/usr/include/curses.h:905:28,getcury,Ignored,0,0,0,0,0
+/usr/include/curses.h:819:28,vwprintw,Ignored,0,0,0,0,0
+/usr/include/curses.h:853:28,wgetnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:855:28,whline,Ignored,0,0,0,0,0
+/usr/include/curses.h:856:31,winch,Ignored,0,0,0,0,0
+/usr/include/curses.h:857:28,winchnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1797:28,vline_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:863:28,winsnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:864:28,winsstr,Ignored,0,0,0,0,0
+/usr/include/dirent.h:380:12,versionsort,Ignored,0,0,0,0,0
+/usr/include/curses.h:1825:28 <Spelling=<scratch space>:255:1>,erasewchar_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:79:1 <Spelling=<scratch space>:267:1>,__sincosf32x,Ignored,0,0,0,0,0
+/usr/include/curses.h:876:28,wstandout,Ignored,0,0,0,0,0
+/usr/include/curses.h:1759:28,mvget_wch,Ignored,0,0,0,0,0
+/usr/include/curses.h:1787:28,mvwins_wstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1798:28,wadd_wch,Ignored,0,0,0,0,0
+/usr/include/string.h:444:14,strerror_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:878:29,wsyncdown,Ignored,0,0,0,0,0
+/usr/include/curses.h:880:29,wtimeout,Ignored,0,0,0,0,0
+/usr/include/curses.h:1077:28 <Spelling=<scratch space>:238:1>,get_escdelay_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:882:28,wvline,Ignored,0,0,0,0,0
+/usr/include/curses.h:887:28,tigetflag,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:370:20>,canonicalize,Ignored,0,0,0,0,0
+/usr/include/curses.h:890:28,putp,Ignored,0,0,0,0,0
+/usr/include/curses.h:904:28,getcurx,Ignored,0,0,0,0,0
+/usr/include/pwd.h:116:23,getpwnam,Ignored,0,0,0,0,0
+/usr/include/curses.h:933:28,define_key,Ignored,0,0,0,0,0
+/usr/include/curses.h:1773:28,mvwadd_wchnstr,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:110:1 <Spelling=<scratch space>:310:1>,modff64,Ignored,0,0,0,0,0
+/usr/include/pthread.h:401:12,pthread_attr_getaffinity_np,Ignored,0,0,0,0,0
+/usr/include/curses.h:954:28,wresize,Ignored,0,0,0,0,0
+/usr/include/curses.h:962:29,is_cleared,Ignored,0,0,0,0,0
+glthread/lock.c:732:13,pthread_once.$1,Ignored,0,0,0,0,0
+/usr/include/curses.h:964:29,is_idlok,Ignored,0,0,0,0,0
+/usr/include/curses.h:965:29,is_immedok,Ignored,0,0,0,0,0
+/usr/include/curses.h:966:29,is_keypad,Ignored,0,0,0,0,0
+/usr/include/curses.h:969:29,is_notimeout,Ignored,0,0,0,0,0
+/usr/include/curses.h:971:29,is_scrollok,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:427:1 <Spelling=<scratch space>:225:1>,setpayloadsigf64x,Ignored,0,0,0,0,0
+/usr/include/curses.h:972:29,is_subwin,Ignored,0,0,0,0,0
+/usr/include/curses.h:974:28,wgetdelay,Ignored,0,0,0,0,0
+/usr/include/curses.h:975:28,wgetscrreg,Ignored,0,0,0,0,0
+/usr/include/curses.h:996:28 <Spelling=<scratch space>:157:1>,baudrate_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:417:18,wcstof64x,Ignored,0,0,0,0,0
+/usr/include/curses.h:999:28 <Spelling=<scratch space>:160:1>,cbreak_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1000:28 <Spelling=<scratch space>:161:1>,curs_set_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1079:28 <Spelling=<scratch space>:240:1>,free_pair_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1003:28 <Spelling=<scratch space>:164:1>,def_shell_mode_sp,Ignored,0,0,0,0,0
+browser.c:676:12,first_sc_for.$1,Ignored,0,0,0,0,0
+/usr/include/stdio.h:794:13,clearerr_unlocked,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1027:12,pthread_rwlock_trywrlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:1008:29 <Spelling=<scratch space>:169:1>,erasechar_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:953:28,use_window,Ignored,0,0,0,0,0
+/usr/include/curses.h:1009:29 <Spelling=<scratch space>:170:1>,filter_sp,Ignored,0,0,0,0,0
+/usr/include/pthread.h:1033:12,pthread_rwlock_timedwrlock,Ignored,0,0,0,0,0
+/usr/include/curses.h:1012:33 <Spelling=<scratch space>:173:1>,getwin_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1016:29 <Spelling=<scratch space>:177:1>,has_il_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:144:12,wcscoll_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:1017:28 <Spelling=<scratch space>:178:1>,init_color_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:310:1 <Spelling=<scratch space>:227:1>,__remquo,Ignored,0,0,0,0,0
+/usr/include/curses.h:1018:28 <Spelling=<scratch space>:179:1>,init_pair_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:2047:29,_tracef,Ignored,0,0,0,0,0
+/usr/include/curses.h:1020:29 <Spelling=<scratch space>:181:1>,isendwin_sp,Ignored,0,0,0,0,0
+/usr/include/stdio.h:513:12,fgetc,Ignored,0,0,0,0,0
+/usr/include/curses.h:2024:32 <Spelling=<scratch space>:262:1>,has_mouse_sp,Ignored,0,0,0,0,0
+/usr/include/unistd.h:819:12,link,Ignored,0,0,0,0,0
+/usr/include/curses.h:1022:29 <Spelling=<scratch space>:183:1>,killchar_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1027:33 <Spelling=<scratch space>:188:1>,newterm_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1733:29,bkgrndset,Ignored,0,0,0,0,0
+/usr/include/wchar.h:378:15,wcstod,Ignored,0,0,0,0,0
+/usr/include/curses.h:1028:33 <Spelling=<scratch space>:189:1>,newwin_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1029:28 <Spelling=<scratch space>:190:1>,nl_sp,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:117:12,__sched_cpucount,Ignored,0,0,0,0,0
+/usr/include/curses.h:1092:28 <Spelling=<scratch space>:253:1>,use_legacy_coding_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1035:28 <Spelling=<scratch space>:196:1>,pair_content_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1042:28 <Spelling=<scratch space>:203:1>,savetty_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1043:28 <Spelling=<scratch space>:204:1>,scr_init_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1050:28 <Spelling=<scratch space>:211:1>,slk_attr_set_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1051:28 <Spelling=<scratch space>:212:1>,slk_clear_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:602:12,wprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1056:28 <Spelling=<scratch space>:217:1>,slk_refresh_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1057:28 <Spelling=<scratch space>:218:1>,slk_restore_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1058:28 <Spelling=<scratch space>:219:1>,slk_set_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1063:28 <Spelling=<scratch space>:224:1>,typeahead_sp,Ignored,0,0,0,0,0
+/usr/include/unistd.h:422:16,pread64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1824:31 <Spelling=<scratch space>:254:1>,term_attrs_sp,Ignored,0,0,0,0,0
+/usr/include/wchar.h:458:22,wcstoq,Ignored,0,0,0,0,0
+/usr/include/curses.h:1071:28 <Spelling=<scratch space>:232:1>,alloc_pair_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1073:28 <Spelling=<scratch space>:234:1>,define_key_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1080:28 <Spelling=<scratch space>:241:1>,init_extended_color_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1081:28 <Spelling=<scratch space>:242:1>,init_extended_pair_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1735:28,box_set,Ignored,0,0,0,0,0
+/usr/include/curses.h:1082:29 <Spelling=<scratch space>:243:1>,is_term_resized_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1090:28 <Spelling=<scratch space>:251:1>,set_tabsize_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1091:28 <Spelling=<scratch space>:252:1>,use_default_colors_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:504:12,erand48_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1727:28,add_wch,Ignored,0,0,0,0,0
+/usr/include/curses.h:1732:28,bkgrnd,Ignored,0,0,0,0,0
+/usr/include/curses.h:997:28 <Spelling=<scratch space>:158:1>,beep_sp,Ignored,0,0,0,0,0
+/usr/include/curses.h:1738:28,get_wch,Ignored,0,0,0,0,0
+/usr/include/curses.h:1739:28,get_wstr,Ignored,0,0,0,0,0
+/usr/include/unistd.h:981:14,getpass,Ignored,0,0,0,0,0
+/usr/include/curses.h:1740:28,getbkgrnd,Ignored,0,0,0,0,0
+/usr/include/curses.h:1746:28,in_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1747:28,innwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:669:28,inchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:825:28,vw_scanw,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:304:20,strtold_l,Ignored,0,0,0,0,0
+/usr/include/curses.h:1748:28,ins_nwstr,Ignored,0,0,0,0,0
+/usr/include/stdio.h:871:12,ftrylockfile,Ignored,0,0,0,0,0
+/usr/include/curses.h:1761:28,mvgetn_wstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:134:13,psignal,Ignored,0,0,0,0,0
+/usr/include/curses.h:1764:28,mvin_wchnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1768:28,mvins_wch,Ignored,0,0,0,0,0
+/usr/include/curses.h:803:33,subpad,Ignored,0,0,0,0,0
+/usr/include/curses.h:1771:28,mvvline_set,Ignored,0,0,0,0,0
+/usr/include/stdio.h:406:12,dprintf,Ignored,0,0,0,0,0
+/usr/include/curses.h:1772:28,mvwadd_wch,Ignored,0,0,0,0,0
+./uniwidth.h:62:8,u16_strwidth,Ignored,0,0,0,0,0
+/usr/include/curses.h:1774:28,mvwadd_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1782:28,mvwin_wchnstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:2055:31,_tracecchar_t,Ignored,0,0,0,0,0
+/usr/include/string.h:466:13,explicit_bzero,Ignored,0,0,0,0,0
+/usr/include/curses.h:1783:28,mvwin_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1784:28,mvwinnwstr,Ignored,0,0,0,0,0
+/usr/include/signal.h:211:12,sigismember,Ignored,0,0,0,0,0
+/usr/include/curses.h:1786:28,mvwins_wch,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:203:1 <Spelling=<scratch space>:46:1>,nanf64,Ignored,0,0,0,0,0
+/usr/include/curses.h:1792:28,slk_wset,Ignored,0,0,0,0,0
+/usr/include/curses.h:1795:28,vid_attr,Ignored,0,0,0,0,0
+/usr/include/curses.h:2025:32 <Spelling=<scratch space>:263:1>,getmouse_sp,Ignored,0,0,0,0,0
+/usr/include/stdlib.h:509:12,lrand48_r,Ignored,0,0,0,0,0
+/usr/include/curses.h:1800:28,wadd_wchstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1802:28,waddwstr,Ignored,0,0,0,0,0
+/usr/include/curses.h:1804:29,wbkgrndset,Ignored,0,0,0,0,0
+/usr/include/curses.h:1807:28,wget_wch,Ignored,0,0,0,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:371:12,fchmodat,Ignored,0,0,0,0,0
+/usr/include/curses.h:1809:28,wgetbkgrnd,Ignored,0,0,0,0,0
+/usr/include/curses.h:1811:28,whline_set,Ignored,0,0,0,0,0
+./prototypes.h:611:6,post_one_key,Unknown,0,0,3,0,0
+chars.c:582:7,mbrevstrcasestr,Unknown,0,0,3,0,0
+./prototypes.h:605:6,titlebar,Unknown,0,0,1,0,0
+/usr/include/string.h:350:14,strstr,Unknown,0,0,2,0,0
+./prototypes.h:595:5,get_mouseinput,Unknown,0,0,3,0,0
+./prototypes.h:589:6,implant,Unknown,0,0,1,0,0
+./prototypes.h:574:6,get_range,Unknown,0,0,2,0,0
+./prototypes.h:566:8,breadth,Unknown,0,0,1,0,0
+./prototypes.h:564:8,actual_x,Unknown,0,0,2,0,0
+./prototypes.h:561:7,free_and_assign,Unknown,0,0,2,0,0
+./prototypes.h:560:7,copy_of,Unknown,0,0,1,0,0
+./prototypes.h:546:6,recode_NUL_to_LF,Unknown,0,0,2,0,0
+./prototypes.h:544:6,parse_num,Unknown,0,0,1,0,0
+./prototypes.h:541:13,tail,Unknown,0,0,1,0,0
+./prototypes.h:516:8,quote_length,Unknown,0,0,1,0,0
+./prototypes.h:503:6,update_multiline_undo,Unknown,0,0,1,0,0
+text.c:2212:6,treat,Unknown,0,0,3,0,0
+./prototypes.h:501:6,discard_until,Unknown,0,0,1,0,0
+./prototypes.h:468:9,do_replace_loop,Unknown,0,0,4,0,0
+./prototypes.h:460:5,findnextstr,Unknown,0,0,7,0,0
+./prototypes.h:451:6,parse_syntax_commands,Unknown,0,0,2,0,0
+./prototypes.h:437:5,do_prompt,Unknown,0,0,4,1,1
+./prototypes.h:387:6,unlink_node,Unknown,0,0,1,0,0
+./prototypes.h:385:13,make_new_node,Unknown,0,0,1,0,0
+./prototypes.h:352:6,has_old_position,Unknown,0,0,1,0,0
+./prototypes.h:607:6,statusline,Unknown,0,0,2,0,0
+./prototypes.h:342:6,reset_history_pointer_for,Unknown,0,0,1,0,0
+./prototypes.h:322:18,first_sc_for,Unknown,0,0,1,1,1
+./prototypes.h:289:7,get_next_filename,Unknown,0,0,2,0,0
+./prototypes.h:287:6,read_file,Unknown,0,0,4,0,0
+./prototypes.h:276:6,delete_lockfile,Unknown,0,0,1,0,0
+./prototypes.h:246:6,check_the_multis,Unknown,0,0,1,0,0
+global.c:431:18,first_sc_for,Unknown,0,0,1,1,1
+./prototypes.h:239:6,white_string,Unknown,0,0,1,0,0
+/usr/include/unistd.h:371:16,read,Unknown,0,0,3,0,0
+./prototypes.h:234:7,mbrevstrpbrk,Unknown,0,0,3,0,0
+./prototypes.h:228:7,mbrevstrcasestr,Unknown,0,0,3,0,0
+./prototypes.h:225:5,mbstrncasecmp,Unknown,0,0,3,0,0
+./prototypes.h:559:7,mallocstrcpy,Unknown,0,0,2,0,0
+./prototypes.h:220:5,collect_char,Unknown,0,0,2,0,0
+./prototypes.h:212:6,control_mbrep,Unknown,0,0,2,0,0
+./glob.h:662:1 <Spelling=<scratch space>:117:1>,rpl_glob_pattern_p,Unknown,0,0,2,0,0
+./prototypes.h:502:6,add_undo,Unknown,0,0,2,0,0
+/usr/include/locale.h:122:14,setlocale,Unknown,0,0,2,0,0
+/usr/include/libintl.h:73:14,dcngettext,Unknown,0,0,5,0,0
+./prototypes.h:447:12,strtosc,Unknown,0,0,1,0,0
+./prototypes.h:221:5,advance_over,Unknown,0,0,2,0,0
+rcfile.c:1562:8,strstr,Unknown,0,0,2,0,0
+./dirname.h:43:7,mdir_name,Unknown,0,0,1,0,0
+/usr/include/curses.h:2015:32,getmouse,Unknown,0,0,1,0,0
+help.c:254:2,strcpy,Unknown,0,0,2,0,0
+utils.c:339:7,mallocstrcpy,Unknown,0,0,2,0,0
+winio.c:374:19,strchr,Unknown,0,0,2,0,0
+cut.c:321:3,strcpy,Unknown,0,0,2,0,0
+history.c:159:7,get_history_completion,Unknown,0,0,3,0,0
+./prototypes.h:218:5,char_length,Unknown,0,0,1,0,0
+./prototypes.h:258:6,ingraft_buffer,Unknown,0,0,1,0,0
+rcfile.c:590:7,parse_next_regex,Unknown,0,0,1,0,0
+malloc/dynarray_resize_clear.c:27:1 <Spelling=./dynarray.h:255:38>,gl_dynarray_resize_clear,Unknown,0,0,3,0,1
+./prototypes.h:453:6,parse_rcfile,Unknown,0,0,3,0,0
+winio.c:3509:6,edit_redraw,Unknown,0,0,2,0,0
+chars.c:132:6,is_word_char,Unknown,0,0,2,0,0
+./prototypes.h:295:7,safe_tempfile,Unknown,0,0,1,0,0
+./gettext.h:168:1,npgettext_aux,Unknown,0,0,5,0,0
+/usr/include/fcntl.h:205:12,openat,Unknown,0,0,3,0,0
+./chdir-long.h:29:5,chdir_long,Unknown,0,0,1,0,0
+search.c:541:2,strcat,Unknown,0,0,2,0,0
+text.c:103:2,memmove,Unknown,0,0,1,0,2
+tempname.c:142:1,try_nocreate,Unknown,0,0,1,0,0
+utils.c:71:7,concatenate,Unknown,0,0,2,0,0
+winio.c:2539:6,post_one_key,Unknown,0,0,3,0,0
+/usr/include/signal.h:232:12,sigprocmask,Unknown,0,0,3,0,0
+./prototypes.h:294:7,get_full_path,Unknown,0,0,1,0,0
+/usr/include/curses.h:942:28,key_defined,Unknown,0,0,1,0,0
+prompt.c:433:17,acquire_an_answer,Unknown,0,0,3,1,1
+/usr/include/curses.h:889:31,tigetstr,Unknown,0,0,1,0,0
+/usr/include/curses.h:871:28,wrefresh,Unknown,0,0,1,0,0
+/usr/include/curses.h:870:28,wredrawln,Unknown,0,0,3,0,0
+/usr/include/curses.h:867:28,wnoutrefresh,Unknown,0,0,1,0,0
+./prototypes.h:592:5,get_kbinput,Unknown,0,0,2,0,0
+/usr/include/unistd.h:889:12,getlogin_r,Unknown,0,0,2,0,0
+./prototypes.h:547:8,recode_LF_to_NUL,Unknown,0,0,1,0,0
+/usr/include/curses.h:868:28,wprintw,Unknown,0,0,2,0,0
+text.c:572:3,strcat,Unknown,0,0,2,0,0
+basename-lgpl.c:54:1,base_len,Unknown,0,0,1,0,0
+/usr/include/curses.h:852:28,wgetch,Unknown,0,0,1,0,0
+/usr/include/libintl.h:51:14,dcgettext,Unknown,0,0,3,0,0
+./glob-libc.gl.h:141:12 <Spelling=./glob.h:589:17>,rpl_glob,Unknown,0,0,3,1,1
+./prototypes.h:400:6,die,Unknown,0,0,1,0,0
+chars.c:560:7,revstrcasestr,Unknown,0,0,3,0,0
+chars.c:674:7,mbrevstrpbrk,Unknown,0,0,3,0,0
+./prototypes.h:552:6,is_separate_word,Unknown,0,0,3,0,0
+prompt.c:196:2,strncpy,Unknown,0,0,3,0,0
+./prototypes.h:259:6,copy_from_buffer,Unknown,0,0,1,0,0
+rcfile.c:1776:6,have_nanorc,Unknown,0,0,2,0,0
+help.c:218:15,strlen,Unknown,0,0,1,0,0
+./stat-time.h:91:1,get_stat_mtime_ns,Unknown,0,0,1,0,0
+browser.c:270:6,findfile,Unknown,0,0,2,0,0
+./prototypes.h:466:6,not_found_msg,Unknown,0,0,1,0,0
+/usr/include/curses.h:737:28,mvwprintw,Unknown,0,0,4,0,0
+history.c:472:28,strlen,Unknown,0,0,1,0,0
+rcfile.c:1071:6,strncmp,Unknown,0,0,3,0,0
+./prototypes.h:215:6,is_doublewidth,Unknown,0,0,1,0,0
+utils.c:546:8,number_of_characters_in,Unknown,0,0,2,0,0
+browser.c:712:7,browse_in,Unknown,0,0,1,0,0
+./prototypes.h:558:7,measured_copy,Unknown,0,0,2,0,0
+./prototypes.h:304:6,write_file,Unknown,0,0,5,0,0
+chdir-long.c:58:1,cdb_free,Unknown,0,0,1,0,0
+/usr/include/curses.h:641:28,delwin,Unknown,0,0,1,0,0
+cut.c:35:21,strlen,Unknown,0,0,1,0,0
+nano.c:140:6,free_lines,Unknown,0,0,1,0,0
+./prototypes.h:557:7,nrealloc,Unknown,0,0,1,0,1
+utils.c:149:10,strpbrk,Unknown,0,0,2,0,0
+files.c:365:6,strcmp,Unknown,0,0,2,0,0
+./prototypes.h:362:6,do_para_end,Unknown,0,0,1,0,0
+search.c:424:6,not_found_msg,Unknown,0,0,1,0,0
+utils.c:172:6,recode_NUL_to_LF,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:214:12,futimesat,Unknown,0,0,3,0,0
+text.c:583:3,strncpy,Unknown,0,0,3,0,0
+winio.c:1661:5,get_mouseinput,Unknown,0,0,3,0,0
+rcfile.c:1373:6,parse_syntax_commands,Unknown,0,0,2,0,0
+/usr/include/stdio.h:565:12,fputc_unlocked,Unknown,0,0,1,0,0
+/usr/include/string.h:323:14,strpbrk,Unknown,0,0,2,0,0
+./stat-time.h:78:1,get_stat_ctime_ns,Unknown,0,0,1,0,0
+/usr/include/unistd.h:858:12,unlink,Unknown,0,0,1,0,0
+search.c:179:5,findnextstr,Unknown,0,0,7,0,0
+./utimens.h:22:5,utimens,Unknown,0,0,2,0,0
+./streq.h:153:1,streq0,Unknown,0,0,11,0,0
+./printf-parse.h:190:5,printf_parse,Unknown,0,0,3,0,0
+./prototypes.h:237:6,has_blank_char,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:362:1 <Spelling=/usr/include/stdlib.h:362:8>,atoi,Unknown,0,0,1,0,0
+./prototypes.h:625:8,get_chunk_and_edge,Unknown,0,0,3,0,0
+/usr/include/stdio.h:356:12,printf,Unknown,0,0,1,0,0
+winio.c:1579:7,get_verbatim_kbinput,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:91:1,fputc_unlocked,Unknown,0,0,1,0,0
+./prototypes.h:313:7,real_dir_from_tilde,Unknown,0,0,1,0,0
+/usr/include/regex.h:685:15,regerror,Unknown,0,0,4,0,0
+/usr/include/stdio.h:230:12,fflush,Unknown,0,0,1,0,0
+./prototypes.h:449:6,parse_one_include,Unknown,0,0,2,0,0
+chars.c:510:10,strncasecmp,Unknown,0,0,3,0,0
+/usr/include/string.h:356:14,strtok,Unknown,0,0,2,0,0
+/usr/include/pthread.h:781:12,pthread_mutex_init,Unknown,0,0,2,0,0
+/usr/include/pthread.h:901:12,pthread_mutexattr_settype,Unknown,0,0,2,0,0
+gettime.c:29:1,gettime,Unknown,0,0,1,0,0
+tempname.c:127:1,try_file,Unknown,0,0,1,0,1
+search.c:88:3,sprintf,Unknown,0,0,2,0,0
+./timespec.h:93:6,gettime,Unknown,0,0,1,0,0
+./setlocale_null.h:64:12,setlocale_null_r,Unknown,0,0,3,0,0
+files.c:2563:6,is_dir,Unknown,0,0,1,0,0
+./glob.h:642:1 <Spelling=<scratch space>:115:1>,rpl_globfree,Unknown,0,0,1,0,0
+nano.c:172:13,copy_buffer,Unknown,0,0,1,0,0
+/usr/include/stdio.h:439:12 <Spelling=/usr/include/stdio.h:439:28>,sscanf,Unknown,0,0,2,0,0
+text.c:2458:6,do_int_speller,Unknown,0,0,1,0,0
+text.c:1806:6,justify_paragraph,Unknown,0,0,2,0,0
+utils.c:368:7,free_and_assign,Unknown,0,0,2,0,0
+cut.c:93:3,strcat,Unknown,0,0,2,0,0
+browser.c:48:6,read_the_list,Unknown,0,0,2,0,0
+text.c:82:3,free,Unknown,0,0,0,0,1
+browser.c:89:7,strcmp,Unknown,0,0,2,0,0
+./prototypes.h:439:5,ask_user,Unknown,0,0,2,0,0
+history.c:97:6,update_history,Unknown,0,0,3,0,0
+./prototypes.h:549:6,free_chararray,Unknown,0,0,2,0,0
+rcfile.c:1093:7,sscanf,Unknown,0,0,2,0,0
+browser.c:399:7,browse,Unknown,0,0,1,0,0
+winio.c:198:6,read_keys_from,Unknown,0,0,1,0,0
+./tempname.h:54:12,gen_tempname_len,Unknown,0,0,5,0,0
+/usr/include/curses.h:874:28,wscrl,Unknown,0,0,2,0,0
+/usr/include/libintl.h:82:14,textdomain,Unknown,0,0,1,0,0
+/usr/include/pthread.h:509:12,pthread_once,Unknown,0,0,1,1,1
+nano.c:1552:2,memmove,Unknown,0,0,1,0,2
+cut.c:460:2,free,Unknown,0,0,0,0,1
+rcfile.c:191:4,snprintf,Unknown,0,0,3,0,0
+text.c:233:6,unindent_a_line,Unknown,0,0,2,0,0
+winio.c:2063:5,buffer_number,Unknown,0,0,1,0,0
+winio.c:2969:5,update_line,Unknown,0,0,2,0,0
+./tempname.h:64:12,try_tempname_len,Unknown,0,0,3,0,3
+files.c:1503:7,check_writable_directory,Unknown,0,0,1,0,0
+winio.c:3096:5,go_back_chunks,Unknown,0,0,3,0,0
+winio.c:3370:8,get_chunk_and_edge,Unknown,0,0,3,0,0
+winio.c:3395:8,extra_chunks_in,Unknown,0,0,1,0,0
+history.c:473:3,sprintf,Unknown,0,0,2,0,0
+files.c:1848:6,write_file,Unknown,0,0,5,0,0
+prompt.c:594:5,do_prompt,Unknown,0,0,4,1,1
+winio.c:1492:6,parse_verbatim_kbinput,Unknown,0,0,2,0,0
+help.c:281:14,strstr,Unknown,0,0,2,0,0
+help.c:279:6,sprintf,Unknown,0,0,2,0,0
+dirname-lgpl.c:73:1,mdir_name,Unknown,0,0,1,0,0
+uniwidth/width.c:58:1,uc_width,Unknown,0,0,2,0,0
+prompt.c:226:6,inject_into_answer,Unknown,0,0,2,0,0
+glob.c:205:1,glob_lstat,Unknown,0,0,3,0,0
+winio.c:1865:7,display_string,Unknown,0,0,5,0,0
+utimens.c:535:1,utimens,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/sys/time.h:162:12,utimes,Unknown,0,0,2,0,0
+text.c:2148:18,strtok,Unknown,0,0,2,0,0
+text.c:69:33,strlen,Unknown,0,0,1,0,0
+./filenamecat.h:30:7,mfile_name_concat,Unknown,0,0,2,0,0
+/usr/include/curses.h:2020:32,wmouse_trafo,Unknown,0,0,4,0,0
+prompt.c:663:5,ask_user,Unknown,0,0,2,0,0
+/usr/include/pthread.h:967:12,pthread_rwlock_init,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/sys/random.h:34:9,getrandom,Unknown,0,0,2,0,1
+text.c:176:8,length_of_white,Unknown,0,0,1,0,0
+tempname.c:93:1,random_bits,Unknown,0,0,2,0,0
+tempname.c:174:1,gen_tempname_len,Unknown,0,0,5,0,0
+nano.c:1282:5,get_keycode,Unknown,0,0,2,0,0
+./glob-libc.gl.h:146:13 <Spelling=./glob.h:590:21>,rpl_globfree,Unknown,0,0,1,0,0
+chdir-long.c:110:1,chdir_long,Unknown,0,0,1,0,0
+./glob-libc.gl.h:193:12 <Spelling=./glob.h:595:27>,rpl_glob_pattern_p,Unknown,0,0,2,0,0
+chars.c:451:5,mbstrcasecmp,Unknown,0,0,2,0,0
+globfree.c:28:1 <Spelling=./glob.h:590:21>,rpl_globfree,Unknown,0,0,1,0,0
+rcfile.c:998:6,parse_includes,Unknown,0,0,1,0,0
+malloc/scratch_buffer_set_array_size.c:28:1 <Spelling=./scratch_buffer.h:107:46>,gl_scratch_buffer_set_array_size,Unknown,0,0,3,0,0
+history.c:67:6,reset_history_pointer_for,Unknown,0,0,1,0,0
+./prototypes.h:318:7,input_tab,Unknown,0,0,3,1,1
+history.c:179:25,strcmp,Unknown,0,0,2,0,0
+history.c:222:2,free,Unknown,0,0,0,0,1
+nano.c:1555:2,strncpy,Unknown,0,0,3,0,0
+./malloc/dynarray.h:118:1,__dynarray_error,Unknown,0,0,1,0,0
+history.c:312:6,write_list,Unknown,0,0,2,0,0
+utimens.c:137:1,update_timespec,Unknown,0,0,2,0,0
+prompt.c:615:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+chars.c:358:5,advance_over,Unknown,0,0,2,0,0
+/usr/include/stdlib.h:654:12,putenv,Unknown,0,0,1,0,0
+/usr/include/termios.h:66:12,tcgetattr,Unknown,0,0,2,0,0
+./streq.h:83:1,streq5,Unknown,0,0,6,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:101:1,putc_unlocked,Unknown,0,0,1,0,0
+./prototypes.h:618:5,go_back_chunks,Unknown,0,0,3,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:135:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/stdio.h:135:8>,ferror_unlocked,Unknown,0,0,1,0,0
+nano.c:102:6,delete_node,Unknown,0,0,1,0,0
+./vasnprintf.h:64:15,vasnprintf,Unknown,0,0,4,0,0
+nano.c:348:3,sprintf,Unknown,0,0,2,0,0
+winio.c:1419:5,get_kbinput,Unknown,0,0,2,0,0
+printf-parse.c:74:1 <Spelling=printf-parse.c:41:23>,printf_parse,Unknown,0,0,3,0,0
+asnprintf.c:32:3 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+chars.c:541:22,strlen,Unknown,0,0,1,0,0
+text.c:584:3,strcpy,Unknown,0,0,2,0,0
+/usr/include/stdio.h:809:12,fileno,Unknown,0,0,1,0,0
+nano.c:396:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+nano.c:508:6,print_opt,Unknown,0,0,3,0,0
+/usr/include/dirent.h:149:12,closedir,Unknown,0,0,1,0,0
+prompt.c:616:2,vsnprintf,Unknown,0,0,4,0,0
+./prototypes.h:573:6,get_region,Unknown,0,0,4,0,0
+/usr/include/string.h:273:14,strrchr,Unknown,0,0,2,0,0
+text.c:2145:6,construct_argument_list,Unknown,0,0,3,0,0
+help.c:256:3,strcat,Unknown,0,0,2,0,0
+prompt.c:765:7,strchr,Unknown,0,0,2,0,0
+./stat-time.h:131:1,get_stat_ctime,Unknown,0,0,1,0,0
+chars.c:263:6,is_zerowidth,Unknown,0,0,1,0,0
+/usr/include/wchar.h:308:15,mbrlen,Unknown,0,0,1,0,0
+./glthread/lock.h:520:12,glthread_once_multithreaded,Unknown,0,0,1,1,1
+./prototypes.h:545:6,parse_line_column,Unknown,0,0,1,0,0
+text.c:2832:20,strstr,Unknown,0,0,2,0,0
+rcfile.c:1144:10,strchr,Unknown,0,0,2,0,0
+chars.c:549:7,strncmp,Unknown,0,0,3,0,0
+utils.c:442:8,breadth,Unknown,0,0,1,0,0
+rcfile.c:652:6,begin_new_syntax,Unknown,0,0,1,0,0
+global.c:320:6,add_to_funcs,Unknown,0,0,4,1,1
+files.c:913:5,open_file,Unknown,0,0,3,0,0
+prompt.c:757:7,strstr,Unknown,0,0,2,0,0
+filenamecat-lgpl.c:48:1,mfile_name_concat,Unknown,0,0,2,0,0
+./prototypes.h:517:6,begpar,Unknown,0,0,2,0,0
+text.c:1757:6,rewrap_paragraph,Unknown,0,0,3,0,0
+winio.c:3138:5,go_forward_chunks,Unknown,0,0,3,0,0
+text.c:104:2,memcpy,Unknown,0,0,1,0,2
+fcntl.c:442:3 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+/usr/include/regex.h:679:12,regexec,Unknown,0,0,5,0,0
+malloc/dynarray_emplace_enlarge.c:30:1 <Spelling=./dynarray.h:253:41>,gl_dynarray_emplace_enlarge,Unknown,0,0,2,0,0
+browser.c:50:20,strlen,Unknown,0,0,1,0,0
+/usr/include/curses.h:866:28,wmove,Unknown,0,0,3,0,0
+search.c:499:5,strncpy,Unknown,0,0,3,0,0
+text.c:515:6,redo_cut,Unknown,0,0,1,0,0
+/usr/include/stdio.h:258:14,fopen,Unknown,0,0,2,0,0
+tempname.c:191:1,try_tempname_len,Unknown,0,0,3,0,3
+files.c:1640:5,copy_file,Unknown,0,0,3,0,0
+nano.c:114:2,free,Unknown,0,0,0,0,1
+winio.c:2411:6,statusline,Unknown,0,0,2,0,0
+./gettext.h:149:1,pgettext_aux,Unknown,0,0,4,0,0
+./malloc/scratch_buffer.gl.h:106:6 <Spelling=./scratch_buffer.h:106:45>,gl_scratch_buffer_grow_preserve,Unknown,0,0,1,0,0
+chars.c:66:6,is_alnum_char,Unknown,0,0,1,0,0
+./prototypes.h:278:6,open_buffer,Unknown,0,0,2,0,0
+basename-lgpl.c:29:1,last_component,Unknown,0,0,1,0,0
+printf-frexp.c:67:1 <Spelling=printf-frexp.c:52:15>,printf_frexp,Unknown,0,0,1,0,0
+history.c:267:19,fopen,Unknown,0,0,2,0,0
+printf-args.c:36:1 <Spelling=./printf-args.h:28:27>,printf_fetchargs,Unknown,0,0,2,0,0
+files.c:982:7,get_next_filename,Unknown,0,0,2,0,0
+chars.c:457:5,mbstrncasecmp,Unknown,0,0,3,0,0
+./prototypes.h:627:8,leftedge_for,Unknown,0,0,2,0,0
+nano.c:342:6,emergency_save,Unknown,0,0,1,0,0
+text.c:368:5,strcmp,Unknown,0,0,2,0,0
+/usr/include/error.h:31:13,error,Unknown,0,0,3,0,0
+/usr/include/unistd.h:599:12,execvp,Unknown,0,0,2,0,0
+./prototypes.h:628:8,extra_chunks_in,Unknown,0,0,1,0,0
+history.c:320:7,fwrite,Unknown,0,0,3,0,1
+cut.c:417:3,strncpy,Unknown,0,0,3,0,0
+/usr/include/stdio.h:382:12,vsnprintf,Unknown,0,0,4,0,0
+/usr/include/pthread.h:878:12,pthread_mutexattr_destroy,Unknown,0,0,1,0,0
+save-cwd.c:61:1,save_cwd,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=<scratch space>:361:1>,frexpl,Unknown,0,0,2,0,0
+chars.c:700:6,has_blank_char,Unknown,0,0,1,0,0
+./dirname.h:47:6,strip_trailing_slashes,Unknown,0,0,1,0,0
+winio.c:2427:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+./prototypes.h:315:5,diralphasort,Unknown,0,0,0,0,2
+winio.c:1596:2,printf,Unknown,0,0,1,0,0
+/usr/include/pwd.h:153:12,getpwnam_r,Unknown,0,0,5,0,0
+files.c:109:7,crop_to_fit,Unknown,0,0,2,0,0
+./prototypes.h:450:6,grab_and_store,Unknown,0,0,3,0,0
+rcfile.c:503:5,name_to_menu,Unknown,0,0,1,0,0
+./prototypes.h:224:5,mbstrcasecmp,Unknown,0,0,2,0,0
+utils.c:506:6,get_range,Unknown,0,0,2,0,0
+setlocale_null.c:270:1,setlocale_null_r,Unknown,0,0,3,0,0
+./malloc/scratch_buffer.gl.h:95:6 <Spelling=./scratch_buffer.h:105:36>,gl_scratch_buffer_grow,Unknown,0,0,1,0,0
+glob.c:225:1,size_add_wrapv,Unknown,0,0,3,0,0
+chdir-long.c:72:1,cdb_advance_fd,Unknown,0,0,2,0,0
+files.c:151:6,write_lockfile,Unknown,0,0,3,0,0
+/usr/include/stdio.h:573:12,putc_unlocked,Unknown,0,0,1,0,0
+files.c:1474:10,strrchr,Unknown,0,0,2,0,0
+/usr/include/pthread.h:1078:12,pthread_rwlockattr_init,Unknown,0,0,1,0,0
+chars.c:151:11,strstr,Unknown,0,0,2,0,0
+color.c:256:6,check_the_multis,Unknown,0,0,1,0,0
+./stat-time.h:117:1,get_stat_atime,Unknown,0,0,1,0,0
+chars.c:195:5,mbtowide,Unknown,0,0,2,0,0
+tempname.c:285:1,try_tempname,Unknown,0,0,2,1,2
+rcfile.c:1182:6,parse_rule,Unknown,0,0,2,0,0
+text.c:1567:6,begpar,Unknown,0,0,2,0,0
+/usr/include/string.h:246:14,strchr,Unknown,0,0,2,0,0
+/usr/include/pthread.h:874:12,pthread_mutexattr_init,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/mathcalls.h:98:13>,frexp,Unknown,0,0,2,0,0
+./streq.h:35:1,streq9,Unknown,0,0,2,0,0
+glob.c:247:12,collated_compare,Unknown,0,0,0,0,2
+files.c:1463:7,get_full_path,Unknown,0,0,1,0,0
+files.c:1522:7,safe_tempfile,Unknown,0,0,1,0,0
+search.c:46:3,free,Unknown,0,0,0,0,1
+./glthread/lock.h:523:12,glthread_once_singlethreaded,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:695:12,mkstemp,Unknown,0,0,1,0,0
+malloc/scratch_buffer_grow.c:27:1 <Spelling=./scratch_buffer.h:105:36>,gl_scratch_buffer_grow,Unknown,0,0,1,0,0
+search.c:471:5,replace_regexp,Unknown,0,0,2,0,0
+winio.c:388:3,free,Unknown,0,0,0,0,1
+./prototypes.h:288:5,open_file,Unknown,0,0,3,0,0
+./prototypes.h:230:7,mbstrchr,Unknown,0,0,2,0,0
+save-cwd.c:83:1,restore_cwd,Unknown,0,0,1,0,0
+text.c:489:6,undo_cut,Unknown,0,0,1,0,0
+text.c:327:6,comment_line,Unknown,0,0,3,0,0
+tempname.c:136:1,try_dir,Unknown,0,0,1,0,0
+/usr/include/pthread.h:1103:12,pthread_rwlockattr_setkind_np,Unknown,0,0,2,0,0
+chars.c:617:7,mbstrchr,Unknown,0,0,2,0,0
+utils.c:397:8,actual_x,Unknown,0,0,2,0,0
+files.c:198:2,memset,Unknown,0,0,2,0,1
+move.c:40:39,strlen,Unknown,0,0,1,0,0
+files.c:2535:5,diralphasort,Unknown,0,0,0,0,2
+files.c:2621:8,filename_completion,Unknown,0,0,2,0,0
+prompt.c:617:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+./prototypes.h:626:8,chunk_for,Unknown,0,0,2,0,0
+files.c:300:3,sprintf,Unknown,0,0,2,0,0
+text.c:2932:5,sprintf,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/bits/getopt_ext.h:66:12,getopt_long,Unknown,0,0,5,0,0
+./malloc/dynarray.h:137:6 <Spelling=./dynarray.h:256:32>,gl_dynarray_resize,Unknown,0,0,3,0,1
+/usr/include/string.h:141:14,strcpy,Unknown,0,0,2,0,0
+files.c:218:2,snprintf,Unknown,0,0,3,0,0
+help.c:370:3,free,Unknown,0,0,0,0,1
+rcfile.c:912:6,is_good_file,Unknown,0,0,1,0,0
+./prototypes.h:458:6,regexp_init,Unknown,0,0,1,0,0
+./stat-time.h:145:1,get_stat_mtime,Unknown,0,0,1,0,0
+./printf-frexpl.h:23:20,printf_frexpl,Unknown,0,0,1,0,0
+./prototypes.h:233:7,mbstrpbrk,Unknown,0,0,2,0,0
+chars.c:538:7,revstrstr,Unknown,0,0,3,0,0
+./printf-frexp.h:23:15,printf_frexp,Unknown,0,0,1,0,0
+text.c:2165:6,replace_buffer,Unknown,0,0,3,0,0
+files.c:2577:8,username_completion,Unknown,0,0,3,0,0
+files.c:1673:6,make_backup_of,Unknown,0,0,1,0,0
+/usr/include/stdio.h:358:12,sprintf,Unknown,0,0,2,0,0
+./sig-handler.h:38:1,get_handler,Unknown,0,0,1,0,0
+./prototypes.h:603:7,display_string,Unknown,0,0,5,0,0
+history.c:87:7,strncmp,Unknown,0,0,3,0,0
+text.c:77:3,memset,Unknown,0,0,2,0,1
+winio.c:2528:6,warn_and_briefly_pause,Unknown,0,0,1,0,0
+glob.c:265:1,next_brace_sub,Unknown,0,0,2,0,0
+history.c:594:6,has_old_position,Unknown,0,0,1,0,0
+./malloc/dynarray.h:142:6 <Spelling=./dynarray.h:255:38>,gl_dynarray_resize_clear,Unknown,0,0,3,0,1
+asnprintf.c:25:1,asnprintf,Unknown,0,0,3,0,0
+./prototypes.h:343:6,update_history,Unknown,0,0,3,0,0
+winio.c:350:3,memmove,Unknown,0,0,1,0,2
+chars.c:331:8,mbstrlen,Unknown,0,0,1,0,0
+search.c:552:9,do_replace_loop,Unknown,0,0,4,0,0
+text.c:212:6,compensate_leftward,Unknown,0,0,2,0,0
+winio.c:429:5,get_input,Unknown,0,0,1,0,0
+files.c:223:2,strncpy,Unknown,0,0,3,0,0
+utils.c:488:6,get_region,Unknown,0,0,4,0,0
+files.c:1217:8,strstr,Unknown,0,0,2,0,0
+move.c:74:8,proper_x,Unknown,0,0,5,0,0
+files.c:2698:7,input_tab,Unknown,0,0,3,1,1
+uniwidth/cjk.h:21:1,is_cjk_encoding,Unknown,0,0,1,0,0
+text.c:3217:7,copy_completion,Unknown,0,0,1,0,0
+prompt.c:146:3,memmove,Unknown,0,0,1,0,2
+files.c:401:6,open_buffer,Unknown,0,0,2,0,0
+text.c:91:6,indent_a_line,Unknown,0,0,2,0,0
+chars.c:246:6,is_doublewidth,Unknown,0,0,1,0,0
+files.c:1765:13,fopen,Unknown,0,0,2,0,0
+global.c:374:13,strncasecmp,Unknown,0,0,3,0,0
+./stat-time.h:210:1,stat_time_normalize,Unknown,0,0,1,0,0
+prompt.c:697:4,sprintf,Unknown,0,0,2,0,0
+files.c:245:7,do_lockfile,Unknown,0,0,2,0,0
+./utimens.h:21:5,fdutimens,Unknown,0,0,3,0,0
+/usr/include/signal.h:202:12,sigfillset,Unknown,0,0,1,0,0
+text.c:1688:6,copy_character,Unknown,0,0,2,0,0
+/usr/include/wchar.h:297:15,mbrtowc,Unknown,0,0,4,0,0
+files.c:1036:6,send_data,Unknown,0,0,2,0,0
+winio.c:2429:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+move.c:186:6,do_para_begin,Unknown,0,0,1,0,0
+./prototypes.h:444:6,jot_error,Unknown,0,0,1,0,0
+chars.c:404:8,step_left,Unknown,0,0,2,0,0
+move.c:198:6,do_para_end,Unknown,0,0,1,0,0
+utils.c:118:6,parse_num,Unknown,0,0,1,0,0
+winio.c:1047:5,parse_kbinput,Unknown,0,0,1,0,0
+text.c:1169:6,update_multiline_undo,Unknown,0,0,1,0,0
+cut.c:390:6,ingraft_buffer,Unknown,0,0,1,0,0
+utimens.c:545:1,lutimens,Unknown,0,0,2,0,0
+/usr/include/curses.h:2017:32,mousemask,Unknown,0,0,2,0,0
+winio.c:2094:6,titlebar,Unknown,0,0,1,0,0
+dirname-lgpl.c:32:1,dir_len,Unknown,0,0,1,0,0
+/usr/include/string.h:107:14,memchr,Unknown,0,0,2,0,1
+text.c:1706:6,squeeze,Unknown,0,0,2,0,0
+rcfile.c:1117:6,parse_combination,Unknown,0,0,4,0,0
+files.c:228:13,fwrite,Unknown,0,0,3,0,1
+search.c:931:6,find_a_bracket,Unknown,0,0,2,0,0
+text.c:367:6,strncmp,Unknown,0,0,3,0,0
+./gettext.h:218:1,dcpgettext_expr,Unknown,0,0,4,0,0
+rcfile.c:1424:6,parse_rcfile,Unknown,0,0,3,0,0
+chars.c:287:5,char_length,Unknown,0,0,1,0,0
+vasnprintf.c:1856:1 <Spelling=vasnprintf.c:148:22>,vasnprintf,Unknown,0,0,4,0,0
+nano.c:1520:19,strlen,Unknown,0,0,1,0,0
+rcfile.c:1069:7,color_to_short,Unknown,0,0,3,0,0
+./malloc/dynarray.h:128:6 <Spelling=./dynarray.h:253:41>,gl_dynarray_emplace_enlarge,Unknown,0,0,2,0,0
+rcfile.c:947:13,fopen,Unknown,0,0,2,0,0
+./prototypes.h:307:6,write_region_to_file,Unknown,0,0,4,0,0
+chars.c:515:7,mbstrcasestr,Unknown,0,0,2,0,0
+/usr/include/string.h:47:14,memmove,Unknown,0,0,1,0,2
+nano.c:155:13,copy_node,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/wait.h:88:16,wait,Unknown,0,0,1,0,0
+glob.c:157:1,convert_dirent,Unknown,0,0,1,0,0
+./prototypes.h:615:5,update_softwrapped_line,Unknown,0,0,1,0,0
+winio.c:2521:6,statusbar,Unknown,0,0,1,0,0
+tempname.c:278:1 <Spelling=tempname.c:52:25>,gen_tempname,Unknown,0,0,4,0,0
+nano.c:2237:3,memcpy,Unknown,0,0,1,0,2
+./tempname.h:61:12,try_tempname,Unknown,0,0,2,1,2
+rcfile.c:751:6,parse_binding,Unknown,0,0,2,0,0
+/usr/include/curses.h:685:28,keypad,Unknown,0,0,2,0,0
+files.c:1545:20,strchr,Unknown,0,0,2,0,0
+text.c:1017:6,add_undo,Unknown,0,0,2,0,0
+glob.c:246:12,prefix_array,Unknown,0,0,3,0,0
+/usr/include/unistd.h:531:14,getcwd,Unknown,0,0,2,0,0
+rcfile.c:628:6,compile,Unknown,0,0,3,0,0
+rcfile.c:483:4,free,Unknown,0,0,0,0,1
+rcfile.c:557:7,parse_argument,Unknown,0,0,1,0,0
+chars.c:445:8,step_right,Unknown,0,0,2,0,0
+rcfile.c:224:7,strcmp,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/sys/wait.h:111:16,waitpid,Unknown,0,0,3,0,0
+text.c:330:25,strchr,Unknown,0,0,2,0,0
+rcfile.c:216:12,strtosc,Unknown,0,0,1,0,0
+text.c:1551:8,quote_length,Unknown,0,0,1,0,0
+./malloc/dynarray.h:159:6 <Spelling=./dynarray.h:254:34>,gl_dynarray_finalize,Unknown,0,0,2,0,0
+rcfile.c:935:6,parse_one_include,Unknown,0,0,2,0,0
+winio.c:361:6,implant,Unknown,0,0,1,0,0
+stripslash.c:31:1,strip_trailing_slashes,Unknown,0,0,1,0,0
+rcfile.c:174:6,jot_error,Unknown,0,0,1,0,0
+./stat-time.h:65:1,get_stat_atime_ns,Unknown,0,0,1,0,0
+files.c:1587:6,outside_of_confinement,Unknown,0,0,2,0,0
+nano.c:376:6,die,Unknown,0,0,1,0,0
+./prototypes.h:389:13,copy_buffer,Unknown,0,0,1,0,0
+chars.c:345:5,collect_char,Unknown,0,0,2,0,0
+/usr/include/stdlib.h:105:12,atoi,Unknown,0,0,1,0,0
+search.c:513:7,replace_line,Unknown,0,0,1,0,0
+global.c:396:6,add_to_sclist,Unknown,0,0,4,1,1
+text.c:1619:6,inpar,Unknown,0,0,1,0,0
+cut.c:49:3,memmove,Unknown,0,0,1,0,2
+fcntl.c:210:3 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+glob.c:1249:1,collated_compare,Unknown,0,0,0,0,2
+/usr/include/x86_64-linux-gnu/bits/stdio.h:56:1,fgetc_unlocked,Unknown,0,0,1,0,0
+./streq.h:97:1,streq4,Unknown,0,0,7,0,0
+/usr/include/string.h:61:14,memset,Unknown,0,0,2,0,1
+search.c:537:3,strcpy,Unknown,0,0,2,0,0
+color.c:133:6,found_in_list,Unknown,0,0,2,0,0
+./prototypes.h:222:8,step_left,Unknown,0,0,2,0,0
+files.c:2168:6,write_region_to_file,Unknown,0,0,4,0,0
+winio.c:3301:8,get_softwrap_breakpoint,Unknown,0,0,4,0,0
+./printf-frexp.c:67:1 <Spelling=./printf-frexp.c:39:15>,printf_frexpl,Unknown,0,0,1,0,0
+./malloc/scratch_buffer.gl.h:99:1,scratch_buffer_grow,Unknown,0,0,1,0,0
+./prototypes.h:591:5,get_input,Unknown,0,0,1,0,0
+./openat-priv.h:47:7,openat_proc_name,Unknown,0,0,3,0,0
+files.c:1063:6,execute_command,Unknown,0,0,1,0,0
+glthread/lock.c:710:1,glthread_once_singlethreaded,Unknown,0,0,1,0,0
+move.c:101:6,set_proper_index_and_pww,Unknown,0,0,3,0,0
+glob.c:253:1,is_dir,Unknown,0,0,3,0,0
+winio.c:2079:6,show_states_at,Unknown,0,0,1,0,0
+chars.c:102:6,is_cntrl_char,Unknown,0,0,1,0,0
+chars.c:82:6,is_blank_char,Unknown,0,0,1,0,0
+nano.c:1782:5,main,Unknown,0,0,2,0,0
+/usr/include/time.h:279:12,clock_gettime,Unknown,0,0,2,0,0
+/usr/include/unistd.h:911:12,gethostname,Unknown,0,0,2,0,0
+./glob_internal.h:31:1,__glob_pattern_type,Unknown,0,0,2,0,0
+chars.c:115:6,is_punct_char,Unknown,0,0,1,0,0
+winio.c:1785:6,blank_row,Unknown,0,0,2,0,0
+/usr/include/dirent.h:209:13,rewinddir,Unknown,0,0,1,0,0
+nano.c:67:13,make_new_node,Unknown,0,0,1,0,0
+nano.c:86:6,splice_node,Unknown,0,0,2,0,0
+rcfile.c:666:38,strlen,Unknown,0,0,1,0,0
+utils.c:344:2,strncpy,Unknown,0,0,3,0,0
+tempname.c:183:10,try_tempname_len.$3,Unknown,0,0,1,0,1
+utils.c:328:12,realloc,Unknown,0,0,1,0,1
+utils.c:302:11,strstr,Unknown,0,0,2,0,0
+/usr/include/stdio.h:178:12,fclose,Unknown,0,0,1,0,0
+utils.c:218:6,is_separate_word,Unknown,0,0,3,0,0
+utils.c:185:8,recode_LF_to_NUL,Unknown,0,0,1,0,0
+help.c:363:4,snprintf,Unknown,0,0,3,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:389:12,mkdir,Unknown,0,0,2,0,0
+utils.c:166:2,free,Unknown,0,0,0,0,1
+/usr/include/curses.h:827:28,waddch,Unknown,0,0,2,0,0
+utils.c:139:6,parse_line_column,Unknown,0,0,1,0,0
+utils.c:76:2,strcpy,Unknown,0,0,2,0,0
+/usr/include/string.h:163:12,strcoll,Unknown,0,0,2,0,0
+browser.c:385:7,strip_last_component,Unknown,0,0,1,0,0
+./prototypes.h:219:8,mbstrlen,Unknown,0,0,1,0,0
+chars.c:659:7,mbstrpbrk,Unknown,0,0,2,0,0
+browser.c:94:3,sprintf,Unknown,0,0,2,0,0
+utils.c:73:19,strlen,Unknown,0,0,1,0,0
+winio.c:2428:2,vsnprintf,Unknown,0,0,4,0,0
+./vasnprintf.h:61:15,asnprintf,Unknown,0,0,3,0,0
+./gettext.h:265:1,dcnpgettext_expr,Unknown,0,0,6,0,0
+./prototypes.h:391:6,renumber_from,Unknown,0,0,1,0,0
+./save-cwd.h:32:6,free_cwd,Unknown,0,0,1,0,0
+utils.c:61:22,strrchr,Unknown,0,0,2,0,0
+utils.c:59:13,tail,Unknown,0,0,1,0,0
+/usr/include/unistd.h:287:12,access,Unknown,0,0,2,0,0
+./prototypes.h:632:6,edit_redraw,Unknown,0,0,2,0,0
+./prototypes.h:623:8,get_softwrap_breakpoint,Unknown,0,0,4,0,0
+./prototypes.h:619:5,go_forward_chunks,Unknown,0,0,3,0,0
+glthread/lock.c:263:1,glthread_rwlock_init_for_glibc,Unknown,0,0,1,0,0
+color.c:77:3,free,Unknown,0,0,0,0,1
+files.c:230:2,free,Unknown,0,0,0,0,1
+winio.c:413:13,strlen,Unknown,0,0,1,0,0
+./streq.h:55:1,streq7,Unknown,0,0,4,0,0
+/usr/include/stdio.h:795:12,feof_unlocked,Unknown,0,0,1,0,0
+setlocale_null.c:91:1,setlocale_null_unlocked,Unknown,0,0,3,0,0
+save-cwd.c:93:1,free_cwd,Unknown,0,0,1,0,0
+text.c:1630:6,find_paragraph,Unknown,0,0,2,0,0
+winio.c:3016:5,update_softwrapped_line,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:352:12,chmod,Unknown,0,0,2,0,0
+./prototypes.h:518:6,inpar,Unknown,0,0,1,0,0
+./prototypes.h:386:6,splice_node,Unknown,0,0,2,0,0
+rcfile.c:206:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:19:20>,__builtin_va_end,Unknown,0,0,1,0,0
+glob.c:1272:1,prefix_array,Unknown,0,0,3,0,0
+/usr/include/curses.h:837:28,wattr_off,Unknown,0,0,2,0,1
+global.c:359:14,strcasecmp,Unknown,0,0,2,0,0
+files.c:662:7,encode_data,Unknown,0,0,2,0,0
+rcfile.c:1273:12,parse_interface_color,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:210:12,fstat,Unknown,0,0,2,0,0
+/usr/include/regex.h:675:12,regcomp,Unknown,0,0,3,0,0
+malloc/dynarray_resize.c:30:1 <Spelling=./dynarray.h:256:32>,gl_dynarray_resize,Unknown,0,0,3,0,1
+files.c:123:30,strlen,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:205:12,stat,Unknown,0,0,2,0,0
+/usr/include/dirent.h:224:12,dirfd,Unknown,0,0,1,0,0
+/usr/include/libintl.h:86:14,bindtextdomain,Unknown,0,0,2,0,0
+/usr/include/curses.h:2018:32,wenclose,Unknown,0,0,3,0,0
+/usr/include/wchar.h:330:1 <Spelling=/usr/include/wchar.h:330:8>,mbrlen,Unknown,0,0,1,0,0
+utimens.c:177:1,fdutimens,Unknown,0,0,3,0,0
+strnlen1.c:28:1,strnlen1,Unknown,0,0,2,0,0
+rcfile.c:209:2,sprintf,Unknown,0,0,2,0,0
+/usr/include/signal.h:243:12,sigaction,Unknown,0,0,3,0,0
+chdir-long.c:52:1,cdb_fchdir,Unknown,0,0,1,0,0
+./prototypes.h:216:6,is_zerowidth,Unknown,0,0,1,0,0
+prompt.c:257:2,free,Unknown,0,0,0,0,1
+nano.c:122:6,unlink_node,Unknown,0,0,1,0,0
+/usr/include/signal.h:205:12,sigaddset,Unknown,0,0,2,0,0
+search.c:1071:6,go_to_and_confirm,Unknown,0,0,1,0,0
+files.c:343:6,stat_with_alloc,Unknown,0,0,2,0,0
+/usr/include/signal.h:199:12,sigemptyset,Unknown,0,0,1,0,0
+utils.c:236:13,strstrwrapper,Unknown,0,0,3,0,0
+./streq.h:125:1,streq2,Unknown,0,0,9,0,0
+glthread/lock.c:729:1,glthread_once_multithreaded,Unknown,0,0,1,1,1
+/usr/include/regex.h:689:13,regfree,Unknown,0,0,1,0,0
+./unictype/bitmap.h:18:19,bitmap_lookup,Unknown,0,0,1,0,1
+./malloca.h:56:13,freea,Unknown,0,0,0,0,1
+./streq.h:139:1,streq1,Unknown,0,0,10,0,0
+winio.c:3409:8,leftedge_for,Unknown,0,0,2,0,0
+winio.c:1471:3,sprintf,Unknown,0,0,2,0,0
+./streq.h:111:1,streq3,Unknown,0,0,8,0,0
+/usr/include/curses.h:845:28,wclrtoeol,Unknown,0,0,1,0,0
+./prototypes.h:227:7,revstrstr,Unknown,0,0,3,0,0
+./malloc/scratch_buffer.gl.h:126:1,scratch_buffer_set_array_size,Unknown,0,0,3,0,0
+./streq.h:41:1,streq8,Unknown,0,0,3,0,0
+utils.c:326:7,nrealloc,Unknown,0,0,1,0,1
+./basename-lgpl.h:66:14,last_component,Unknown,0,0,1,0,0
+./utimens.h:23:5,lutimens,Unknown,0,0,2,0,0
+nano.c:1913:31,strcmp,Unknown,0,0,2,0,0
+move.c:54:6,get_edge_and_target,Unknown,0,0,2,0,0
+./prototypes.h:345:7,get_history_completion,Unknown,0,0,3,0,0
+./uniwidth.h:42:8,uc_width,Unknown,0,0,2,0,0
+./malloc/scratch_buffer.gl.h:110:1,scratch_buffer_grow_preserve,Unknown,0,0,1,0,0
+/usr/include/pthread.h:1082:12,pthread_rwlockattr_destroy,Unknown,0,0,1,0,0
+utils.c:419:8,wideness,Unknown,0,0,2,0,0
+glob.c:99:20,next_brace_sub,Unknown,0,0,2,0,0
+files.c:132:6,delete_lockfile,Unknown,0,0,1,0,0
+glob_pattern_p.c:29:1 <Spelling=./glob.h:595:27>,rpl_glob_pattern_p,Unknown,0,0,2,0,0
+./malloc/scratch_buffer.gl.h:84:1,scratch_buffer_free,Unknown,0,0,1,0,0
+./dirname.h:45:8,dir_len,Unknown,0,0,1,0,0
+./basename-lgpl.h:71:15,base_len,Unknown,0,0,1,0,0
+/usr/include/unistd.h:594:12,execl,Unknown,0,0,2,0,0
+./prototypes.h:208:6,is_alpha_char,Unknown,0,0,1,0,0
+utils.c:201:6,free_chararray,Unknown,0,0,2,0,0
+./unictype/bitmap.h:28:1,bitmap_lookup,Unknown,0,0,1,0,1
+openat-proc.c:44:1,openat_proc_name,Unknown,0,0,3,0,0
+/usr/include/unistd.h:605:12,execlp,Unknown,0,0,2,0,0
+nano.c:196:6,renumber_from,Unknown,0,0,1,0,0
+/usr/include/unistd.h:517:12,chdir,Unknown,0,0,1,0,0
+browser.c:115:6,reselect,Unknown,0,0,1,0,0
+./malloc/scratch_buffer.gl.h:76:1,scratch_buffer_init,Unknown,0,0,1,0,0
+files.c:1485:4,strcat,Unknown,0,0,2,0,0
+text.c:1536:8,indent_length,Unknown,0,0,1,0,0
+winio.c:3402:8,chunk_for,Unknown,0,0,2,0,0
+glthread/lock.c:535:1,glthread_recursive_lock_init_multithreaded,Unknown,0,0,1,0,0
+/usr/include/stdio.h:874:13,funlockfile,Unknown,0,0,1,0,0
+browser.c:247:3,free,Unknown,0,0,0,0,1
+./prototypes.h:431:6,inject,Unknown,0,0,2,0,0
+/usr/include/stdio.h:796:12,ferror_unlocked,Unknown,0,0,1,0,0
+/usr/include/stdio.h:790:12,ferror,Unknown,0,0,1,0,0
+/usr/include/dirent.h:134:13,opendir,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:555:13,free,Unknown,0,0,0,0,1
+/usr/include/string.h:149:14,strcat,Unknown,0,0,2,0,0
+./prototypes.h:329:5,keycode_from_string,Unknown,0,0,1,0,0
+files.c:2488:7,real_dir_from_tilde,Unknown,0,0,1,0,0
+mbrtowc.c:78:1,rpl_mbrtowc,Unknown,0,0,4,0,0
+winio.c:606:5,convert_CSI_sequence,Unknown,0,0,3,0,0
+text.c:454:6,handle_comment_action,Unknown,0,0,3,0,0
+malloca.c:90:1,freea,Unknown,0,0,0,0,1
+nano.c:897:11,fopen,Unknown,0,0,2,0,0
+./prototypes.h:361:6,do_para_begin,Unknown,0,0,1,0,0
+/usr/include/stdio.h:538:12,fgetc_unlocked,Unknown,0,0,1,0,0
+/usr/include/stdio.h:378:12,snprintf,Unknown,0,0,3,0,0
+chars.c:172:6,control_mbrep,Unknown,0,0,2,0,0
+/usr/include/strings.h:120:12,strncasecmp,Unknown,0,0,3,0,0
+./prototypes.h:390:6,free_lines,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:313:12,lstat,Unknown,0,0,2,0,0
+/usr/include/x86_64-linux-gnu/bits/stdio.h:128:1 <Spelling=/usr/include/x86_64-linux-gnu/bits/stdio.h:128:8>,feof_unlocked,Unknown,0,0,1,0,0
+./prototypes.h:613:5,update_line,Unknown,0,0,2,0,0
+/usr/include/string.h:407:15,strlen,Unknown,0,0,1,0,0
+/usr/include/curses.h:836:28,wattr_on,Unknown,0,0,2,0,1
+/usr/include/stdlib.h:551:14,realloc,Unknown,0,0,1,0,1
+./prototypes.h:609:6,warn_and_briefly_pause,Unknown,0,0,1,0,0
+chars.c:711:6,white_string,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:828:14,bsearch,Unknown,0,0,0,1,3
+color.c:158:7,strcmp,Unknown,0,0,2,0,0
+./prototypes.h:388:6,delete_node,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:20:1,bsearch,Unknown,0,0,0,1,3
+/usr/include/x86_64-linux-gnu/bits/stdio.h:66:1,getc_unlocked,Unknown,0,0,1,0,0
+./printf-args.h:148:5 <Spelling=./printf-args.h:28:27>,printf_fetchargs,Unknown,0,0,2,0,0
+./prototypes.h:198:7,browse_in,Unknown,0,0,1,0,0
+asnprintf.c:30:3 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+./glob.h:612:1 <Spelling=<scratch space>:113:1>,rpl_glob,Unknown,0,0,3,1,1
+malloc/dynarray_finalize.c:28:1 <Spelling=./dynarray.h:254:34>,gl_dynarray_finalize,Unknown,0,0,2,0,0
+/usr/include/string.h:156:12,strcmp,Unknown,0,0,2,0,0
+/usr/include/string.h:144:14,strncpy,Unknown,0,0,3,0,0
+./prototypes.h:554:13,strstrwrapper,Unknown,0,0,3,0,0
+rcfile.c:205:12,vsnprintf,Unknown,0,0,4,0,0
+chars.c:651:10,strchr,Unknown,0,0,2,0,0
+./prototypes.h:210:6,is_cntrl_char,Unknown,0,0,1,0,0
+/usr/include/curses.h:748:28,nodelay,Unknown,0,0,2,0,0
+./prototypes.h:214:5,mbtowide,Unknown,0,0,2,0,0
+text.c:1658:6,concat_paragraph,Unknown,0,0,2,0,0
+rcfile.c:1347:6,pick_up_name,Unknown,0,0,3,0,0
+rcfile.c:1287:6,grab_and_store,Unknown,0,0,3,0,0
+./prototypes.h:211:6,is_word_char,Unknown,0,0,2,0,0
+/usr/include/stdio.h:681:15,fwrite,Unknown,0,0,3,0,1
+/usr/include/stdlib.h:641:14,getenv,Unknown,0,0,1,0,0
+./prototypes.h:608:6,statusbar,Unknown,0,0,1,0,0
+cut.c:262:6,extract_segment,Unknown,0,0,4,0,0
+nano.c:1517:6,inject,Unknown,0,0,2,0,0
+text.c:1468:9,break_line,Unknown,0,0,1,0,0
+/usr/include/string.h:187:14,strdup,Unknown,0,0,1,0,0
+text.c:291:6,handle_indent_action,Unknown,0,0,3,0,0
+search.c:86:24,strlen,Unknown,0,0,1,0,0
+winio.c:464:5,convert_SS3_sequence,Unknown,0,0,3,0,0
+/usr/include/string.h:159:12,strncmp,Unknown,0,0,3,0,0
+./prototypes.h:510:9,break_line,Unknown,0,0,1,0,0
+/usr/include/fnmatch.h:56:12,fnmatch,Unknown,0,0,3,0,0
+/usr/include/curses.h:779:28,scrollok,Unknown,0,0,2,0,0
+/usr/include/curses.h:830:28,waddnstr,Unknown,0,0,3,0,0
+cut.c:471:6,copy_from_buffer,Unknown,0,0,1,0,0
+utils.c:355:2,memcpy,Unknown,0,0,1,0,2
+search.c:1039:15,strncmp,Unknown,0,0,3,0,0
+chdir-long.c:46:1,cdb_init,Unknown,0,0,1,0,0
+./tempname.h:52:12,gen_tempname,Unknown,0,0,4,0,0
+files.c:676:6,read_file,Unknown,0,0,4,0,0
+/usr/include/string.h:400:14,mempcpy,Unknown,0,0,1,0,2
+./glthread/lock.h:440:12,glthread_recursive_lock_init_multithreaded,Unknown,0,0,1,0,0
+/usr/include/string.h:297:15,strspn,Unknown,0,0,2,0,0
+./prototypes.h:298:6,outside_of_confinement,Unknown,0,0,2,0,0
+rcfile.c:204:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+./prototypes.h:257:6,extract_segment,Unknown,0,0,4,0,0
+./prototypes.h:565:8,wideness,Unknown,0,0,2,0,0
+browser.c:388:21,strrchr,Unknown,0,0,2,0,0
+./prototypes.h:223:8,step_right,Unknown,0,0,2,0,0
+nano.c:394:2 <Spelling=/home/C00536225/dev/tcc/build/lib/clang/21/include/__stdarg_va_arg.h:17:29>,__builtin_va_start,Unknown,0,0,1,0,0
+./string.h:650:19,free,Unknown,0,0,0,0,1
+/usr/include/unistd.h:493:12,chown,Unknown,0,0,3,0,0
+prompt.c:40:13,strlen,Unknown,0,0,1,0,0
+rcfile.c:533:7,parse_next_word,Unknown,0,0,1,0,0
+history.c:81:13,find_in_history,Unknown,0,0,4,0,0
+/usr/include/stdio.h:423:12,sscanf,Unknown,0,0,2,0,0
+/usr/include/stdlib.h:937:12,wctomb,Unknown,0,0,2,0,0
+glob.c:305:1 <Spelling=./glob.h:589:17>,rpl_glob,Unknown,0,0,3,1,1
+files.c:2586:7,strncmp,Unknown,0,0,3,0,0
+/usr/include/string.h:43:14,memcpy,Unknown,0,0,1,0,2
+./prototypes.h:209:6,is_blank_char,Unknown,0,0,1,0,0
+/usr/include/libgen.h:34:14,__xpg_basename,Unknown,0,0,1,0,0
+./prototypes.h:542:7,concatenate,Unknown,0,0,2,0,0
+./save-cwd.h:30:5,save_cwd,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:941:15,mbstowcs,Unknown,0,0,2,0,1
+./save-cwd.h:31:5,restore_cwd,Unknown,0,0,1,0,0
+text.c:988:6,discard_until,Unknown,0,0,1,0,0
+/usr/include/string.h:380:14,strcasestr,Unknown,0,0,2,0,0
+global.c:344:5,keycode_from_string,Unknown,0,0,1,0,0
+malloc/scratch_buffer_grow_preserve.c:28:1 <Spelling=./scratch_buffer.h:106:45>,gl_scratch_buffer_grow_preserve,Unknown,0,0,1,0,0
+/usr/include/stdio.h:867:13,flockfile,Unknown,0,0,1,0,0
+help.c:430:2,memcpy,Unknown,0,0,1,0,2
+text.c:2353:6,fix_spello,Unknown,0,0,1,0,0
+files.c:124:2,memmove,Unknown,0,0,1,0,2
+utils.c:351:7,measured_copy,Unknown,0,0,2,0,0
+./prototypes.h:576:8,number_of_characters_in,Unknown,0,0,2,0,0
+chars.c:49:6,is_alpha_char,Unknown,0,0,1,0,0
+color.c:88:6,set_syntax_colorpairs,Unknown,0,0,1,0,0
+./prototypes.h:303:5,copy_file,Unknown,0,0,3,0,0
+./prototypes.h:593:7,get_verbatim_kbinput,Unknown,0,0,2,0,0
+./malloc/scratch_buffer.gl.h:121:6 <Spelling=./scratch_buffer.h:107:46>,gl_scratch_buffer_set_array_size,Unknown,0,0,3,0,0
+files.c:357:6,has_valid_path,Unknown,0,0,1,0,0
+chdir-long.c:88:1,find_non_slash,Unknown,0,0,1,0,0
+/usr/include/stdlib.h:717:12,mkstemps,Unknown,0,0,2,0,0
+/usr/include/stdlib.h:808:14,realpath,Unknown,0,0,1,0,1
+/usr/include/libgen.h:26:14,dirname,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:433:12,utimensat,Unknown,0,0,4,0,0
+/usr/include/stdio.h:293:14,fdopen,Unknown,0,0,2,0,0
+/usr/include/termios.h:70:12,tcsetattr,Unknown,0,0,3,0,0
+/usr/include/stdlib.h:838:13,qsort,Unknown,0,0,3,1,1
+nano.c:244:2,printf,Unknown,0,0,1,0,0
+./prototypes.h:226:7,mbstrcasestr,Unknown,0,0,2,0,0
+./streq.h:69:1,streq6,Unknown,0,0,5,0,0
+/usr/include/dirent.h:162:23,readdir,Unknown,0,0,1,0,0
+/usr/include/x86_64-linux-gnu/sys/stat.h:264:12,fstatat,Unknown,0,0,4,0,0
+./strnlen1.h:31:15,strnlen1,Unknown,0,0,2,0,0
+utils.c:362:7,copy_of,Unknown,0,0,1,0,0
+search.c:34:6,regexp_init,Unknown,0,0,1,0,0
+/usr/include/string.h:133:14,memrchr,Unknown,0,0,2,0,1
+./prototypes.h:513:8,indent_length,Unknown,0,0,1,0,0
+/usr/include/stdio.h:527:12,getc_unlocked,Unknown,0,0,1,0,0
+/usr/include/strings.h:116:12,strcasecmp,Unknown,0,0,2,0,0
+/usr/include/time.h:76:15,time,Unknown,0,0,0,0,1
+./glthread/lock.h:335:12,glthread_rwlock_init_for_glibc,Unknown,0,0,1,0,0
+/usr/include/fcntl.h:181:12,open,Unknown,0,0,2,0,0

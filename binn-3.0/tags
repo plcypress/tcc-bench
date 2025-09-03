@@ -1,0 +1,563 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALWAYS_INLINE	src/binn.h	55;"	d
+ALWAYS_INLINE	src/binn.h	59;"	d
+APIENTRY	src/binn.h	38;"	d
+APIENTRY	src/binn.h	41;"	d
+AddValue	src/binn.c	/^BINN_PRIVATE BOOL AddValue(binn *item, int type, void *pvalue, int size) {$/;"	f
+AdvanceDataPos	src/binn.c	/^BINN_PRIVATE unsigned char * AdvanceDataPos(unsigned char *p, unsigned char *plimit) {$/;"	f
+AlmostEqualDoubles	test/test_binn.c	/^BOOL AlmostEqualDoubles(double a, double b) {$/;"	f
+AlmostEqualFloats	test/test_binn.c	/^BOOL AlmostEqualFloats(float A, float B, int maxUlps) {$/;"	f
+BIG_ENDIAN	src/binn.c	35;"	d	file:
+BINN_BLOB	src/binn.h	150;"	d
+BINN_BMP	src/binn.h	181;"	d
+BINN_BOOL	src/binn.h	155;"	d
+BINN_BUFFER	src/binn.c	20;"	d	file:
+BINN_CSS	src/binn.h	174;"	d
+BINN_CURRENCY	src/binn.h	148;"	d
+BINN_CURRENCYSTR	src/binn.h	138;"	d
+BINN_DATE	src/binn.h	135;"	d
+BINN_DATETIME	src/binn.h	134;"	d
+BINN_DECIMAL	src/binn.h	137;"	d
+BINN_DOUBLE	src/binn.h	146;"	d
+BINN_DOUBLE_STR	src/binn.h	140;"	d
+BINN_FALSE	src/binn.h	119;"	d
+BINN_FAMILY_BINN	src/binn.h	192;"	d
+BINN_FAMILY_BLOB	src/binn.h	190;"	d
+BINN_FAMILY_BOOL	src/binn.h	191;"	d
+BINN_FAMILY_FLOAT	src/binn.h	188;"	d
+BINN_FAMILY_INT	src/binn.h	187;"	d
+BINN_FAMILY_NONE	src/binn.h	185;"	d
+BINN_FAMILY_NULL	src/binn.h	186;"	d
+BINN_FAMILY_STRING	src/binn.h	189;"	d
+BINN_FLOAT	src/binn.h	144;"	d
+BINN_FLOAT32	src/binn.h	142;"	d
+BINN_FLOAT64	src/binn.h	143;"	d
+BINN_GIF	src/binn.h	179;"	d
+BINN_H	src/binn.h	8;"	d
+BINN_HTML	src/binn.h	170;"	d
+BINN_INT16	src/binn.h	124;"	d
+BINN_INT32	src/binn.h	126;"	d
+BINN_INT64	src/binn.h	128;"	d
+BINN_INT8	src/binn.h	122;"	d
+BINN_JAVASCRIPT	src/binn.h	173;"	d
+BINN_JPEG	src/binn.h	178;"	d
+BINN_JSON	src/binn.h	172;"	d
+BINN_LIST	src/binn.h	113;"	d
+BINN_MAGIC	src/binn.c	13;"	d	file:
+BINN_MAGIC	test/test_binn.c	9;"	d	file:
+BINN_MAP	src/binn.h	114;"	d
+BINN_MAX_VALUE_MASK	src/binn.h	108;"	d
+BINN_NULL	src/binn.h	117;"	d
+BINN_OBJECT	src/binn.h	115;"	d
+BINN_ONLY_ALIGNED_ACCESS	src/binn.c	29;"	d	file:
+BINN_ONLY_ALIGNED_ACCESS	src/binn.c	31;"	d	file:
+BINN_PNG	src/binn.h	180;"	d
+BINN_PRIVATE	src/binn.h	47;"	d
+BINN_PRIVATE	src/binn.h	49;"	d
+BINN_SCHAR	src/binn.h	130;"	d
+BINN_SIGNED_INT	src/binn.h	195;"	d
+BINN_SINGLE	src/binn.h	145;"	d
+BINN_SINGLE_STR	src/binn.h	139;"	d
+BINN_STATIC	src/binn.h	200;"	d
+BINN_STORAGE_BLOB	src/binn.h	95;"	d
+BINN_STORAGE_BYTE	src/binn.h	90;"	d
+BINN_STORAGE_CONTAINER	src/binn.h	96;"	d
+BINN_STORAGE_DWORD	src/binn.h	92;"	d
+BINN_STORAGE_HAS_MORE	src/binn.h	104;"	d
+BINN_STORAGE_MASK	src/binn.h	102;"	d
+BINN_STORAGE_MASK16	src/binn.h	103;"	d
+BINN_STORAGE_MAX	src/binn.h	100;"	d
+BINN_STORAGE_MIN	src/binn.h	99;"	d
+BINN_STORAGE_NOBYTES	src/binn.h	89;"	d
+BINN_STORAGE_QWORD	src/binn.h	93;"	d
+BINN_STORAGE_STRING	src/binn.h	94;"	d
+BINN_STORAGE_VIRTUAL	src/binn.h	97;"	d
+BINN_STORAGE_WORD	src/binn.h	91;"	d
+BINN_STRING	src/binn.h	133;"	d
+BINN_STRUCT	src/binn.c	19;"	d	file:
+BINN_TIME	src/binn.h	136;"	d
+BINN_TRANSIENT	src/binn.h	201;"	d
+BINN_TRUE	src/binn.h	118;"	d
+BINN_TYPE_MASK	src/binn.h	105;"	d
+BINN_TYPE_MASK16	src/binn.h	106;"	d
+BINN_UCHAR	src/binn.h	131;"	d
+BINN_UINT16	src/binn.h	123;"	d
+BINN_UINT32	src/binn.h	125;"	d
+BINN_UINT64	src/binn.h	127;"	d
+BINN_UINT8	src/binn.h	121;"	d
+BINN_UNSIGNED_INT	src/binn.h	196;"	d
+BINN_VERSION	src/binn.h	14;"	d
+BINN_XML	src/binn.h	171;"	d
+BOOL	src/binn.h	/^typedef int BOOL;$/;"	t
+BYTE_ORDER	src/binn.c	37;"	d	file:
+CC	makefile	/^CC     ?= $(CROSS_PREFIX)gcc$/;"	m
+CHUNK_SIZE	src/binn.c	17;"	d	file:
+CHUNK_SIZE	test/test_binn.c	13;"	d	file:
+CROSS_PREFIX	makefile	/^CROSS_PREFIX := $(HOST)-$/;"	m
+CURRENCY_DECIMAL_DIGITS	test/test_binn2.c	103;"	d	file:
+CURRENCY_DECIMAL_DIGITS_STR	test/test_binn2.c	104;"	d	file:
+CURRENCY_FACTOR	test/test_binn2.c	105;"	d	file:
+CalcAllocation	src/binn.c	/^BINN_PRIVATE int CalcAllocation(int needed_size, int alloc_size) {$/;"	f
+CheckAllocation	src/binn.c	/^BINN_PRIVATE BOOL CheckAllocation(binn *item, int add_size) {$/;"	f
+DllMain	src/win32/dllmain.c	/^BOOL APIENTRY DllMain (HMODULE hModule, DWORD reason_for_call, LPVOID lpReserved) {$/;"	f
+EPSILON	test/test_binn.c	239;"	d	file:
+FALSE	src/binn.h	29;"	d
+GetValue	src/binn.c	/^BINN_PRIVATE BOOL GetValue(unsigned char *p, binn *value) {$/;"	f
+GetWriteConvertedData	src/binn.c	/^BINN_PRIVATE BOOL GetWriteConvertedData(int *ptype, void **ppvalue, int *psize) {$/;"	f
+INLINE	src/binn.h	54;"	d
+INLINE	src/binn.h	58;"	d
+INT64_FORMAT	src/binn.h	73;"	d
+INT64_FORMAT	src/binn.h	77;"	d
+INT64_HEX_FORMAT	src/binn.h	75;"	d
+INT64_HEX_FORMAT	src/binn.h	79;"	d
+INVALID_BINN	src/binn.h	85;"	d
+IsValidBinnHeader	src/binn.c	/^BINN_PRIVATE BOOL IsValidBinnHeader(void *pbuf, int *ptype, int *pcount, int *psize, int *pheadersize) {$/;"	f
+LIBRARY	makefile	/^		LIBRARY = libbinn.3.dylib$/;"	m
+LIBRARY	makefile	/^		LIBRARY = libbinn.so.3.0$/;"	m
+LIBRARY	makefile	/^	LIBRARY = binn-3.0.dll$/;"	m
+LIBRARY	makefile	/^	LIBRARY = libbinn.dylib$/;"	m
+LINK1	makefile	/^		LINK1   = libbinn.dylib$/;"	m
+LINK1	makefile	/^		LINK1   = libbinn.so.3$/;"	m
+LINK2	makefile	/^		LINK2   = libbinn.so$/;"	m
+LITTLE_ENDIAN	src/binn.c	36;"	d	file:
+MAX_BINN_HEADER	src/binn.c	15;"	d	file:
+MAX_BINN_HEADER	test/test_binn.c	11;"	d	file:
+MIN_BINN_SIZE	src/binn.c	16;"	d	file:
+MIN_BINN_SIZE	test/test_binn.c	12;"	d	file:
+MY_CURRENCY	test/test_binn2.c	/^int MY_CURRENCY;$/;"	v
+MY_DATE	test/test_binn2.c	/^int MY_DATE;$/;"	v
+NULL	src/binn.h	18;"	d
+NULL	src/binn.h	20;"	d
+PREFIX	makefile	/^PREFIX := \/usr\/local$/;"	m
+SHORT	makefile	/^SHORT   = binn$/;"	m
+STRIP	makefile	/^STRIP  ?= $(CROSS_PREFIX)strip$/;"	m
+SearchForID	src/binn.c	/^BINN_PRIVATE unsigned char * SearchForID(unsigned char *p, int header_size, int size, int numitems, int id) {$/;"	f
+SearchForKey	src/binn.c	/^BINN_PRIVATE unsigned char * SearchForKey(unsigned char *p, int header_size, int size, int numitems, const char *key) {$/;"	f
+TARGET_OS	makefile	/^			TARGET_OS = Linux$/;"	m
+TARGET_OS	makefile	/^			TARGET_OS = Mac$/;"	m
+TARGET_OS	makefile	/^		TARGET_OS = Windows$/;"	m
+TARGET_OS	makefile	/^		TARGET_OS = iPhoneOS$/;"	m
+TARGET_OS	makefile	/^		TARGET_OS = iPhoneSimulator$/;"	m
+TARGET_OS	makefile	/^	TARGET_OS = $(OS_NAME)$/;"	m
+TRUE	src/binn.h	25;"	d
+UINT64_FORMAT	src/binn.h	74;"	d
+UINT64_FORMAT	src/binn.h	78;"	d
+UNAME_S	makefile	/^		UNAME_S := $(shell uname -s)$/;"	m
+UNUSED	src/binn.c	8;"	d	file:
+VERYSMALL	test/test_binn.c	238;"	d	file:
+alloc_size	src/binn.h	/^  int    alloc_size;$/;"	m	struct:binn_struct
+allocated	src/binn.h	/^  BOOL   allocated;  \/\/ the struct can be allocated using malloc_fn() or can be on the stack$/;"	m	struct:binn_struct
+atoi64	src/binn.c	/^int64 atoi64(char *str) {$/;"	f
+atoi64	src/binn.c	3347;"	d	file:
+atoi64	test/test_binn2.c	22;"	d	file:
+binn	src/binn.h	/^typedef struct binn_struct binn;$/;"	t	typeref:struct:binn_struct
+binn_add_value	src/binn.c	/^BOOL APIENTRY binn_add_value(binn *item, int binn_type, int id, char *name, int type, void *pvalue, int size) {$/;"	f
+binn_alloc_item	src/binn.c	/^BINN_PRIVATE binn * binn_alloc_item() {$/;"	f
+binn_blob	src/binn.h	/^ALWAYS_INLINE binn * binn_blob(void *ptr, int size, binn_mem_free freefn) {$/;"	f
+binn_bool	src/binn.h	/^ALWAYS_INLINE binn * binn_bool(BOOL value) {$/;"	f
+binn_buf_count	src/binn.c	/^BINN_PRIVATE int binn_buf_count(void *pbuf) {$/;"	f
+binn_buf_size	src/binn.c	/^BINN_PRIVATE int binn_buf_size(void *pbuf) {$/;"	f
+binn_buf_type	src/binn.c	/^BINN_PRIVATE int binn_buf_type(void *pbuf) {$/;"	f
+binn_copy	src/binn.c	/^binn * APIENTRY binn_copy(void *old) {$/;"	f
+binn_count	src/binn.c	/^int APIENTRY binn_count(void *ptr) {$/;"	f
+binn_create	src/binn.c	/^BOOL APIENTRY binn_create(binn *item, int type, int size, void *pointer) {$/;"	f
+binn_create_list	src/binn.c	/^BOOL APIENTRY binn_create_list(binn *list) {$/;"	f
+binn_create_map	src/binn.c	/^BOOL APIENTRY binn_create_map(binn *map) {$/;"	f
+binn_create_object	src/binn.c	/^BOOL APIENTRY binn_create_object(binn *object) {$/;"	f
+binn_create_type	src/binn.c	/^int APIENTRY binn_create_type(int storage_type, int data_type_index) {$/;"	f
+binn_double	src/binn.h	/^ALWAYS_INLINE binn * binn_double(double value) {$/;"	f
+binn_float	src/binn.h	/^ALWAYS_INLINE binn * binn_float(float value) {$/;"	f
+binn_free	src/binn.c	/^void APIENTRY binn_free(binn *item) {$/;"	f
+binn_get_bool	src/binn.c	/^BOOL APIENTRY binn_get_bool(binn *value, BOOL *pbool) {$/;"	f
+binn_get_double	src/binn.c	/^BOOL APIENTRY binn_get_double(binn *value, double *pfloat) {$/;"	f
+binn_get_int32	src/binn.c	/^BOOL APIENTRY binn_get_int32(binn *value, int *pint) {$/;"	f
+binn_get_int64	src/binn.c	/^BOOL APIENTRY binn_get_int64(binn *value, int64 *pint) {$/;"	f
+binn_get_ptr_type	src/binn.c	/^BINN_PRIVATE int binn_get_ptr_type(void *ptr) {$/;"	f
+binn_get_read_storage	src/binn.c	/^int APIENTRY binn_get_read_storage(int type) {$/;"	f
+binn_get_str	src/binn.c	/^char * APIENTRY binn_get_str(binn *value) {$/;"	f
+binn_get_type_info	src/binn.c	/^BOOL APIENTRY binn_get_type_info(int long_type, int *pstorage_type, int *pextra_type) {$/;"	f
+binn_get_write_storage	src/binn.c	/^int APIENTRY binn_get_write_storage(int type) {$/;"	f
+binn_int16	src/binn.h	/^ALWAYS_INLINE binn * binn_int16(short value) {$/;"	f
+binn_int32	src/binn.h	/^ALWAYS_INLINE binn * binn_int32(int value) {$/;"	f
+binn_int64	src/binn.h	/^ALWAYS_INLINE binn * binn_int64(int64 value) {$/;"	f
+binn_int8	src/binn.h	/^ALWAYS_INLINE binn * binn_int8(signed char value) {$/;"	f
+binn_is_container	src/binn.c	/^BOOL APIENTRY binn_is_container(binn *item) {$/;"	f
+binn_is_struct	src/binn.c	/^BOOL APIENTRY binn_is_struct(void *ptr) {$/;"	f
+binn_is_valid	src/binn.c	/^BOOL APIENTRY binn_is_valid(void *ptr, int *ptype, int *pcount, int *psize) {$/;"	f
+binn_is_valid_ex	src/binn.c	/^BOOL APIENTRY binn_is_valid_ex(void *ptr, int *ptype, int *pcount, int *psize) {$/;"	f
+binn_is_writable	src/binn.h	522;"	d
+binn_iter	src/binn.h	/^} binn_iter;$/;"	t	typeref:struct:binn_iter_struct
+binn_iter_init	src/binn.c	/^BOOL APIENTRY binn_iter_init(binn_iter *iter, void *ptr, int expected_type) {$/;"	f
+binn_iter_struct	src/binn.h	/^typedef struct binn_iter_struct {$/;"	s
+binn_list	src/binn.c	/^binn * APIENTRY binn_list() {$/;"	f
+binn_list_add	src/binn.c	/^BOOL APIENTRY binn_list_add(binn *list, int type, void *pvalue, int size) {$/;"	f
+binn_list_add_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_blob(binn *list, void *ptr, int size) {$/;"	f
+binn_list_add_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_bool(binn *list, BOOL value) {$/;"	f
+binn_list_add_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_double(binn *list, double value) {$/;"	f
+binn_list_add_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_float(binn *list, float value) {$/;"	f
+binn_list_add_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_int16(binn *list, short value) {$/;"	f
+binn_list_add_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_int32(binn *list, int value) {$/;"	f
+binn_list_add_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_int64(binn *list, int64 value) {$/;"	f
+binn_list_add_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_int8(binn *list, signed char value) {$/;"	f
+binn_list_add_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_list(binn *list, void *list2) {$/;"	f
+binn_list_add_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_map(binn *list, void *map) {$/;"	f
+binn_list_add_new	src/binn.c	/^BOOL APIENTRY binn_list_add_new(binn *list, binn *value) {$/;"	f
+binn_list_add_null	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_null(binn *list) {$/;"	f
+binn_list_add_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_object(binn *list, void *obj) {$/;"	f
+binn_list_add_raw	src/binn.c	/^BINN_PRIVATE BOOL binn_list_add_raw(binn *item, int type, void *pvalue, int size) {$/;"	f
+binn_list_add_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_str(binn *list, char *str) {$/;"	f
+binn_list_add_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_uint16(binn *list, unsigned short value) {$/;"	f
+binn_list_add_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_uint32(binn *list, unsigned int value) {$/;"	f
+binn_list_add_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_uint64(binn *list, uint64 value) {$/;"	f
+binn_list_add_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_uint8(binn *list, unsigned char value) {$/;"	f
+binn_list_add_value	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_add_value(binn *list, binn *value) {$/;"	f
+binn_list_blob	src/binn.c	/^void * APIENTRY binn_list_blob(void *list, int pos, int *psize) {$/;"	f
+binn_list_bool	src/binn.c	/^BOOL APIENTRY binn_list_bool(void *list, int pos) {$/;"	f
+binn_list_double	src/binn.c	/^double APIENTRY binn_list_double(void *list, int pos) {$/;"	f
+binn_list_float	src/binn.c	/^float APIENTRY binn_list_float(void *list, int pos) {$/;"	f
+binn_list_foreach	src/binn.h	565;"	d
+binn_list_get	src/binn.c	/^BOOL APIENTRY binn_list_get(void *ptr, int pos, int type, void *pvalue, int *psize) {$/;"	f
+binn_list_get_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_blob(void *list, int pos, void **pvalue, int *psize) {$/;"	f
+binn_list_get_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_bool(void *list, int pos, BOOL *pvalue) {$/;"	f
+binn_list_get_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_double(void *list, int pos, double *pvalue) {$/;"	f
+binn_list_get_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_float(void *list, int pos, float *pvalue) {$/;"	f
+binn_list_get_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_int16(void *list, int pos, short *pvalue) {$/;"	f
+binn_list_get_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_int32(void *list, int pos, int *pvalue) {$/;"	f
+binn_list_get_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_int64(void *list, int pos, int64 *pvalue) {$/;"	f
+binn_list_get_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_int8(void *list, int pos, signed char *pvalue) {$/;"	f
+binn_list_get_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_list(void *list, int pos, void **pvalue) {$/;"	f
+binn_list_get_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_map(void *list, int pos, void **pvalue) {$/;"	f
+binn_list_get_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_object(void *list, int pos, void **pvalue) {$/;"	f
+binn_list_get_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_str(void *list, int pos, char **pvalue) {$/;"	f
+binn_list_get_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_uint16(void *list, int pos, unsigned short *pvalue) {$/;"	f
+binn_list_get_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_uint32(void *list, int pos, unsigned int *pvalue) {$/;"	f
+binn_list_get_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_uint64(void *list, int pos, uint64 *pvalue) {$/;"	f
+binn_list_get_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_list_get_uint8(void *list, int pos, unsigned char *pvalue) {$/;"	f
+binn_list_get_value	src/binn.c	/^BOOL APIENTRY binn_list_get_value(void* ptr, int pos, binn *value) {$/;"	f
+binn_list_int16	src/binn.c	/^short APIENTRY binn_list_int16(void *list, int pos) {$/;"	f
+binn_list_int32	src/binn.c	/^int APIENTRY binn_list_int32(void *list, int pos) {$/;"	f
+binn_list_int64	src/binn.c	/^int64 APIENTRY binn_list_int64(void *list, int pos) {$/;"	f
+binn_list_int8	src/binn.c	/^signed char APIENTRY binn_list_int8(void *list, int pos) {$/;"	f
+binn_list_list	src/binn.c	/^void * APIENTRY binn_list_list(void *list, int pos) {$/;"	f
+binn_list_map	src/binn.c	/^void * APIENTRY binn_list_map(void *list, int pos) {$/;"	f
+binn_list_next	src/binn.c	/^BOOL APIENTRY binn_list_next(binn_iter *iter, binn *value) {$/;"	f
+binn_list_next_value	src/binn.c	/^binn * APIENTRY binn_list_next_value(binn_iter *iter) {$/;"	f
+binn_list_null	src/binn.c	/^BOOL APIENTRY binn_list_null(void *list, int pos) {$/;"	f
+binn_list_object	src/binn.c	/^void * APIENTRY binn_list_object(void *list, int pos) {$/;"	f
+binn_list_read	src/binn.c	/^void * APIENTRY binn_list_read(void *list, int pos, int *ptype, int *psize) {$/;"	f
+binn_list_read_next	src/binn.c	/^void * APIENTRY binn_list_read_next(binn_iter *iter, int *ptype, int *psize) {$/;"	f
+binn_list_str	src/binn.c	/^char * APIENTRY binn_list_str(void *list, int pos) {$/;"	f
+binn_list_uint16	src/binn.c	/^unsigned short APIENTRY binn_list_uint16(void *list, int pos) {$/;"	f
+binn_list_uint32	src/binn.c	/^unsigned int APIENTRY binn_list_uint32(void *list, int pos) {$/;"	f
+binn_list_uint64	src/binn.c	/^uint64 APIENTRY binn_list_uint64(void *list, int pos) {$/;"	f
+binn_list_uint8	src/binn.c	/^unsigned char APIENTRY binn_list_uint8(void *list, int pos) {$/;"	f
+binn_list_value	src/binn.c	/^binn * APIENTRY binn_list_value(void *ptr, int pos) {$/;"	f
+binn_load	src/binn.c	/^BOOL APIENTRY binn_load(void *data, binn *value) {$/;"	f
+binn_malloc	src/binn.c	/^BINN_PRIVATE void * binn_malloc(int size) {$/;"	f
+binn_map	src/binn.c	/^binn * APIENTRY binn_map() {$/;"	f
+binn_map_blob	src/binn.c	/^void * APIENTRY binn_map_blob(void *map, int id, int *psize) {$/;"	f
+binn_map_bool	src/binn.c	/^BOOL APIENTRY binn_map_bool(void *map, int id) {$/;"	f
+binn_map_double	src/binn.c	/^double APIENTRY binn_map_double(void *map, int id) {$/;"	f
+binn_map_float	src/binn.c	/^float APIENTRY binn_map_float(void *map, int id) {$/;"	f
+binn_map_foreach	src/binn.h	561;"	d
+binn_map_get	src/binn.c	/^BOOL APIENTRY binn_map_get(void *ptr, int id, int type, void *pvalue, int *psize) {$/;"	f
+binn_map_get_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_blob(void *map, int id, void **pvalue, int *psize) {$/;"	f
+binn_map_get_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_bool(void *map, int id, BOOL *pvalue) {$/;"	f
+binn_map_get_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_double(void *map, int id, double *pvalue) {$/;"	f
+binn_map_get_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_float(void *map, int id, float *pvalue) {$/;"	f
+binn_map_get_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_int16(void *map, int id, short *pvalue) {$/;"	f
+binn_map_get_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_int32(void *map, int id, int *pvalue) {$/;"	f
+binn_map_get_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_int64(void *map, int id, int64 *pvalue) {$/;"	f
+binn_map_get_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_int8(void *map, int id, signed char *pvalue) {$/;"	f
+binn_map_get_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_list(void *map, int id, void **pvalue) {$/;"	f
+binn_map_get_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_map(void *map, int id, void **pvalue) {$/;"	f
+binn_map_get_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_object(void *map, int id, void **pvalue) {$/;"	f
+binn_map_get_pair	src/binn.c	/^BOOL APIENTRY binn_map_get_pair(void *ptr, int pos, int *pid, binn *value) {$/;"	f
+binn_map_get_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_str(void *map, int id, char **pvalue) {$/;"	f
+binn_map_get_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_uint16(void *map, int id, unsigned short *pvalue) {$/;"	f
+binn_map_get_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_uint32(void *map, int id, unsigned int *pvalue) {$/;"	f
+binn_map_get_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_uint64(void *map, int id, uint64 *pvalue) {$/;"	f
+binn_map_get_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_get_uint8(void *map, int id, unsigned char *pvalue) {$/;"	f
+binn_map_get_value	src/binn.c	/^BOOL APIENTRY binn_map_get_value(void* ptr, int id, binn *value) {$/;"	f
+binn_map_int16	src/binn.c	/^short APIENTRY binn_map_int16(void *map, int id) {$/;"	f
+binn_map_int32	src/binn.c	/^int APIENTRY binn_map_int32(void *map, int id) {$/;"	f
+binn_map_int64	src/binn.c	/^int64 APIENTRY binn_map_int64(void *map, int id) {$/;"	f
+binn_map_int8	src/binn.c	/^signed char APIENTRY binn_map_int8(void *map, int id) {$/;"	f
+binn_map_list	src/binn.c	/^void * APIENTRY binn_map_list(void *map, int id) {$/;"	f
+binn_map_map	src/binn.c	/^void * APIENTRY binn_map_map(void *map, int id) {$/;"	f
+binn_map_next	src/binn.c	/^BOOL APIENTRY binn_map_next(binn_iter *iter, int *pid, binn *value) {$/;"	f
+binn_map_next_value	src/binn.c	/^binn * APIENTRY binn_map_next_value(binn_iter *iter, int *pid) {$/;"	f
+binn_map_null	src/binn.c	/^BOOL APIENTRY binn_map_null(void *map, int id) {$/;"	f
+binn_map_object	src/binn.c	/^void * APIENTRY binn_map_object(void *map, int id) {$/;"	f
+binn_map_pair	src/binn.c	/^binn * APIENTRY binn_map_pair(void *map, int pos, int *pid) {$/;"	f
+binn_map_read	src/binn.c	/^void * APIENTRY binn_map_read(void *map, int id, int *ptype, int *psize) {$/;"	f
+binn_map_read_next	src/binn.c	/^void * APIENTRY binn_map_read_next(binn_iter *iter, int *pid, int *ptype, int *psize) {$/;"	f
+binn_map_read_pair	src/binn.c	/^void * APIENTRY binn_map_read_pair(void *ptr, int pos, int *pid, int *ptype, int *psize) {$/;"	f
+binn_map_set	src/binn.c	/^BOOL APIENTRY binn_map_set(binn *map, int id, int type, void *pvalue, int size) {$/;"	f
+binn_map_set_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_blob(binn *map, int id, void *ptr, int size) {$/;"	f
+binn_map_set_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_bool(binn *map, int id, BOOL value) {$/;"	f
+binn_map_set_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_double(binn *map, int id, double value) {$/;"	f
+binn_map_set_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_float(binn *map, int id, float value) {$/;"	f
+binn_map_set_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_int16(binn *map, int id, short value) {$/;"	f
+binn_map_set_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_int32(binn *map, int id, int value) {$/;"	f
+binn_map_set_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_int64(binn *map, int id, int64 value) {$/;"	f
+binn_map_set_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_int8(binn *map, int id, signed char value) {$/;"	f
+binn_map_set_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_list(binn *map, int id, void *list) {$/;"	f
+binn_map_set_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_map(binn *map, int id, void *map2) {$/;"	f
+binn_map_set_new	src/binn.c	/^BOOL APIENTRY binn_map_set_new(binn *map, int id, binn *value) {$/;"	f
+binn_map_set_null	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_null(binn *map, int id) {$/;"	f
+binn_map_set_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_object(binn *map, int id, void *obj) {$/;"	f
+binn_map_set_raw	src/binn.c	/^BINN_PRIVATE BOOL binn_map_set_raw(binn *item, int id, int type, void *pvalue, int size) {$/;"	f
+binn_map_set_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_str(binn *map, int id, char *str) {$/;"	f
+binn_map_set_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_uint16(binn *map, int id, unsigned short value) {$/;"	f
+binn_map_set_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_uint32(binn *map, int id, unsigned int value) {$/;"	f
+binn_map_set_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_uint64(binn *map, int id, uint64 value) {$/;"	f
+binn_map_set_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_uint8(binn *map, int id, unsigned char value) {$/;"	f
+binn_map_set_value	src/binn.h	/^ALWAYS_INLINE BOOL binn_map_set_value(binn *map, int id, binn *value) {$/;"	f
+binn_map_str	src/binn.c	/^char * APIENTRY binn_map_str(void *map, int id) {$/;"	f
+binn_map_uint16	src/binn.c	/^unsigned short APIENTRY binn_map_uint16(void *map, int id) {$/;"	f
+binn_map_uint32	src/binn.c	/^unsigned int APIENTRY binn_map_uint32(void *map, int id) {$/;"	f
+binn_map_uint64	src/binn.c	/^uint64 APIENTRY binn_map_uint64(void *map, int id) {$/;"	f
+binn_map_uint8	src/binn.c	/^unsigned char APIENTRY binn_map_uint8(void *map, int id) {$/;"	f
+binn_map_value	src/binn.c	/^binn * APIENTRY binn_map_value(void *ptr, int id) {$/;"	f
+binn_mem_free	src/binn.h	/^typedef void (*binn_mem_free)(void*);$/;"	t
+binn_memdup	src/binn.c	/^BINN_PRIVATE void * binn_memdup(void *src, int size) {$/;"	f
+binn_new	src/binn.c	/^binn * APIENTRY binn_new(int type, int size, void *pointer) {$/;"	f
+binn_null	src/binn.h	/^ALWAYS_INLINE binn * binn_null() {$/;"	f
+binn_object	src/binn.c	/^binn * APIENTRY binn_object() {$/;"	f
+binn_object_blob	src/binn.c	/^void * APIENTRY binn_object_blob(void *obj, const char *key, int *psize) {$/;"	f
+binn_object_bool	src/binn.c	/^BOOL APIENTRY binn_object_bool(void *obj, const char *key) {$/;"	f
+binn_object_double	src/binn.c	/^double APIENTRY binn_object_double(void *obj, const char *key) {$/;"	f
+binn_object_float	src/binn.c	/^float APIENTRY binn_object_float(void *obj, const char *key) {$/;"	f
+binn_object_foreach	src/binn.h	557;"	d
+binn_object_get	src/binn.c	/^BOOL APIENTRY binn_object_get(void *ptr, const char *key, int type, void *pvalue, int *psize) {$/;"	f
+binn_object_get_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_blob(void *obj, const char *key, void **pvalue, int *psize) {$/;"	f
+binn_object_get_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_bool(void *obj, const char *key, BOOL *pvalue) {$/;"	f
+binn_object_get_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_double(void *obj, const char *key, double *pvalue) {$/;"	f
+binn_object_get_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_float(void *obj, const char *key, float *pvalue) {$/;"	f
+binn_object_get_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_int16(void *obj, const char *key, short *pvalue) {$/;"	f
+binn_object_get_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_int32(void *obj, const char *key, int *pvalue) {$/;"	f
+binn_object_get_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_int64(void *obj, const char *key, int64 *pvalue) {$/;"	f
+binn_object_get_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_int8(void *obj, const char *key, signed char *pvalue) {$/;"	f
+binn_object_get_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_list(void *obj, const char *key, void **pvalue) {$/;"	f
+binn_object_get_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_map(void *obj, const char *key, void **pvalue) {$/;"	f
+binn_object_get_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_object(void *obj, const char *key, void **pvalue) {$/;"	f
+binn_object_get_pair	src/binn.c	/^BOOL APIENTRY binn_object_get_pair(void *ptr, int pos, char *pkey, binn *value) {$/;"	f
+binn_object_get_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_str(void *obj, const char *key, char **pvalue) {$/;"	f
+binn_object_get_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_uint16(void *obj, const char *key, unsigned short *pvalue) {$/;"	f
+binn_object_get_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_uint32(void *obj, const char *key, unsigned int *pvalue) {$/;"	f
+binn_object_get_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_uint64(void *obj, const char *key, uint64 *pvalue) {$/;"	f
+binn_object_get_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_get_uint8(void *obj, const char *key, unsigned char *pvalue) {$/;"	f
+binn_object_get_value	src/binn.c	/^BOOL APIENTRY binn_object_get_value(void *ptr, const char *key, binn *value) {$/;"	f
+binn_object_int16	src/binn.c	/^short APIENTRY binn_object_int16(void *obj, const char *key) {$/;"	f
+binn_object_int32	src/binn.c	/^int APIENTRY binn_object_int32(void *obj, const char *key) {$/;"	f
+binn_object_int64	src/binn.c	/^int64 APIENTRY binn_object_int64(void *obj, const char *key) {$/;"	f
+binn_object_int8	src/binn.c	/^signed char APIENTRY binn_object_int8(void *obj, const char *key) {$/;"	f
+binn_object_list	src/binn.c	/^void * APIENTRY binn_object_list(void *obj, const char *key) {$/;"	f
+binn_object_map	src/binn.c	/^void * APIENTRY binn_object_map(void *obj, const char *key) {$/;"	f
+binn_object_next	src/binn.c	/^BOOL APIENTRY binn_object_next(binn_iter *iter, char *pkey, binn *value) {$/;"	f
+binn_object_next_value	src/binn.c	/^binn * APIENTRY binn_object_next_value(binn_iter *iter, char *pkey) {$/;"	f
+binn_object_null	src/binn.c	/^BOOL APIENTRY binn_object_null(void *obj, const char *key) {$/;"	f
+binn_object_object	src/binn.c	/^void * APIENTRY binn_object_object(void *obj, const char *key) {$/;"	f
+binn_object_pair	src/binn.c	/^binn * APIENTRY binn_object_pair(void *obj, int pos, char *pkey) {$/;"	f
+binn_object_read	src/binn.c	/^void * APIENTRY binn_object_read(void *obj, const char *key, int *ptype, int *psize) {$/;"	f
+binn_object_read_next	src/binn.c	/^void * APIENTRY binn_object_read_next(binn_iter *iter, char *pkey, int *ptype, int *psize) {$/;"	f
+binn_object_read_pair	src/binn.c	/^void * APIENTRY binn_object_read_pair(void *ptr, int pos, char *pkey, int *ptype, int *psize) {$/;"	f
+binn_object_set	src/binn.c	/^BOOL APIENTRY binn_object_set(binn *obj, const char *key, int type, void *pvalue, int size) {$/;"	f
+binn_object_set_blob	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_blob(binn *obj, const char *key, void *ptr, int size) {$/;"	f
+binn_object_set_bool	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_bool(binn *obj, const char *key, BOOL value) {$/;"	f
+binn_object_set_double	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_double(binn *obj, const char *key, double value) {$/;"	f
+binn_object_set_float	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_float(binn *obj, const char *key, float value) {$/;"	f
+binn_object_set_int16	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_int16(binn *obj, const char *key, short value) {$/;"	f
+binn_object_set_int32	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_int32(binn *obj, const char *key, int value) {$/;"	f
+binn_object_set_int64	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_int64(binn *obj, const char *key, int64 value) {$/;"	f
+binn_object_set_int8	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_int8(binn *obj, const char *key, signed char value) {$/;"	f
+binn_object_set_list	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_list(binn *obj, const char *key, void *list) {$/;"	f
+binn_object_set_map	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_map(binn *obj, const char *key, void *map) {$/;"	f
+binn_object_set_new	src/binn.c	/^BOOL APIENTRY binn_object_set_new(binn *obj, const char *key, binn *value) {$/;"	f
+binn_object_set_null	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_null(binn *obj, const char *key) {$/;"	f
+binn_object_set_object	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_object(binn *obj, const char *key, void *obj2) {$/;"	f
+binn_object_set_raw	src/binn.c	/^BINN_PRIVATE BOOL binn_object_set_raw(binn *item, const char *key, int type, void *pvalue, int size) {$/;"	f
+binn_object_set_str	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_str(binn *obj, const char *key, char *str) {$/;"	f
+binn_object_set_uint16	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_uint16(binn *obj, const char *key, unsigned short value) {$/;"	f
+binn_object_set_uint32	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_uint32(binn *obj, const char *key, unsigned int value) {$/;"	f
+binn_object_set_uint64	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_uint64(binn *obj, const char *key, uint64 value) {$/;"	f
+binn_object_set_uint8	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_uint8(binn *obj, const char *key, unsigned char value) {$/;"	f
+binn_object_set_value	src/binn.h	/^ALWAYS_INLINE BOOL binn_object_set_value(binn *obj, const char *key, binn *value) {$/;"	f
+binn_object_str	src/binn.c	/^char * APIENTRY binn_object_str(void *obj, const char *key) {$/;"	f
+binn_object_uint16	src/binn.c	/^unsigned short APIENTRY binn_object_uint16(void *obj, const char *key) {$/;"	f
+binn_object_uint32	src/binn.c	/^unsigned int APIENTRY binn_object_uint32(void *obj, const char *key) {$/;"	f
+binn_object_uint64	src/binn.c	/^uint64 APIENTRY binn_object_uint64(void *obj, const char *key) {$/;"	f
+binn_object_uint8	src/binn.c	/^unsigned char APIENTRY binn_object_uint8(void *obj, const char *key) {$/;"	f
+binn_object_value	src/binn.c	/^binn * APIENTRY binn_object_value(void *ptr, const char *key) {$/;"	f
+binn_open	src/binn.c	/^binn * APIENTRY binn_open(void *data) {$/;"	f
+binn_ptr	src/binn.c	/^void * APIENTRY binn_ptr(void *ptr) {$/;"	f
+binn_read_next_pair	src/binn.c	/^BINN_PRIVATE BOOL binn_read_next_pair(int expected_type, binn_iter *iter, int *pid, char *pkey, binn *value) {$/;"	f
+binn_read_pair	src/binn.c	/^BINN_PRIVATE BOOL binn_read_pair(int expected_type, void *ptr, int pos, int *pid, char *pkey, binn *value) {$/;"	f
+binn_release	src/binn.c	/^void * APIENTRY binn_release(binn *item) {$/;"	f
+binn_save_header	src/binn.c	/^BINN_PRIVATE BOOL binn_save_header(binn *item) {$/;"	f
+binn_set_alloc_functions	src/binn.c	/^void APIENTRY binn_set_alloc_functions(void* (*new_malloc)(size_t), void* (*new_realloc)(void*,size_t), void (*new_free)(void*)) {$/;"	f
+binn_set_blob	src/binn.c	/^BOOL APIENTRY binn_set_blob(binn *item, void *ptr, int size, binn_mem_free pfree) {$/;"	f
+binn_set_bool	src/binn.h	529;"	d
+binn_set_double	src/binn.h	538;"	d
+binn_set_float	src/binn.h	537;"	d
+binn_set_int	src/binn.h	531;"	d
+binn_set_int64	src/binn.h	532;"	d
+binn_set_null	src/binn.h	527;"	d
+binn_set_string	src/binn.c	/^BOOL APIENTRY binn_set_string(binn *item, char *str, binn_mem_free pfree) {$/;"	f
+binn_set_uint	src/binn.h	534;"	d
+binn_set_uint64	src/binn.h	535;"	d
+binn_size	src/binn.c	/^int APIENTRY binn_size(void *ptr) {$/;"	f
+binn_string	src/binn.h	/^ALWAYS_INLINE binn * binn_string(char *str, binn_mem_free freefn) {$/;"	f
+binn_struct	src/binn.h	/^struct binn_struct {$/;"	s
+binn_to_javascript	conversions/json/binn_json.c	/^char * APIENTRY binn_to_javascript(void *base) {$/;"	f
+binn_to_json	conversions/json/binn_json.c	/^char * APIENTRY binn_to_json(void *base) {$/;"	f
+binn_to_json_obj	conversions/json/binn_json.c	/^json_t * APIENTRY binn_to_json_obj(void *base) {$/;"	f
+binn_to_json_obj2	conversions/json/binn_json.c	/^BINN_PRIVATE json_t * binn_to_json_obj2(binn *base) {$/;"	f
+binn_type	src/binn.c	/^int APIENTRY binn_type(void *ptr) {$/;"	f
+binn_uint16	src/binn.h	/^ALWAYS_INLINE binn * binn_uint16(unsigned short value) {$/;"	f
+binn_uint32	src/binn.h	/^ALWAYS_INLINE binn * binn_uint32(unsigned int value) {$/;"	f
+binn_uint64	src/binn.h	/^ALWAYS_INLINE binn * binn_uint64(uint64 value) {$/;"	f
+binn_uint8	src/binn.h	/^ALWAYS_INLINE binn * binn_uint8(unsigned char value) {$/;"	f
+binn_value	src/binn.c	/^binn * APIENTRY binn_value(int type, void *pvalue, int size, binn_mem_free freefn) {$/;"	f
+binn_version	src/binn.c	/^char * APIENTRY binn_version() {$/;"	f
+buildit	makeios	/^buildit()$/;"	f
+check_alloc_functions	src/binn.c	/^BINN_PRIVATE void check_alloc_functions() {$/;"	f
+compress_int	src/binn.c	/^BINN_PRIVATE void * compress_int(int *pstorage_type, int *ptype, void *psource) {$/;"	f
+copy_be16	src/binn.c	/^BINN_PRIVATE void copy_be16(u16 *pdest, u16 *psource) {$/;"	f
+copy_be32	src/binn.c	/^BINN_PRIVATE void copy_be32(u32 *pdest, u32 *psource) {$/;"	f
+copy_be64	src/binn.c	/^BINN_PRIVATE void copy_be64(u64 *pdest, u64 *psource) {$/;"	f
+copy_float_value	src/binn.c	/^BINN_PRIVATE BOOL copy_float_value(void *psource, void *pdest, int source_type, int dest_type) {$/;"	f
+copy_int_value	src/binn.c	/^BINN_PRIVATE BOOL copy_int_value(void *psource, void *pdest, int source_type, int dest_type) {$/;"	f
+copy_raw_value	src/binn.c	/^BINN_PRIVATE BOOL copy_raw_value(void *psource, void *pdest, int data_store) {$/;"	f
+copy_value	src/binn.c	/^BINN_PRIVATE BOOL copy_value(void *psource, void *pdest, int source_type, int dest_type, int data_store) {$/;"	f
+count	src/binn.h	/^    int   count;$/;"	m	struct:binn_iter_struct
+count	src/binn.h	/^  int    count;$/;"	m	struct:binn_struct
+create_and_pass_binn	examples/writing.c	/^void create_and_pass_binn() {$/;"	f
+create_and_pass_buffer	examples/writing.c	/^void create_and_pass_buffer() {$/;"	f
+create_and_return_binn	examples/writing.c	/^binn * create_and_return_binn() {$/;"	f
+create_and_return_buffer	examples/writing.c	/^void * create_and_return_buffer() {$/;"	f
+currency_to_float	test/test_binn2.c	/^double currency_to_float(int64 value) {$/;"	f
+currency_to_str	test/test_binn2.c	/^char * currency_to_str(int64 value) {$/;"	f
+current	src/binn.h	/^    int   current;$/;"	m	struct:binn_iter_struct
+date_to_str	test/test_binn2.c	/^char * date_to_str(unsigned short date) {$/;"	f
+dirty	src/binn.h	/^  BOOL   dirty;      \/\/ the container header is not written to the buffer$/;"	m	struct:binn_struct
+disable_int_compression	src/binn.h	/^  BOOL   disable_int_compression;$/;"	m	struct:binn_struct
+div_currency	test/test_binn2.c	/^int64 div_currency(int64 value1, int64 value2) {$/;"	f
+findLatestSDKVersion	makeios	/^findLatestSDKVersion()$/;"	f
+float_to_currency	test/test_binn2.c	/^int64 float_to_currency(double value) {$/;"	f
+free_fn	src/binn.c	/^void  (*free_fn)(void *ptr) = 0;$/;"	v
+freefn	src/binn.h	/^  binn_mem_free freefn;  \/\/ used only when type == BINN_STRING or BINN_BLOB$/;"	m	struct:binn_struct
+get_storage_size	src/binn.c	/^BINN_PRIVATE int get_storage_size(int storage_type) {$/;"	f
+header	src/binn.h	/^  int    header;     \/\/ this struct header holds the magic number (BINN_MAGIC) that identifies this memory block as a binn structure$/;"	m	struct:binn_struct
+hexdigits	conversions/json/binn_json.c	/^static const char hexdigits[] = {$/;"	v	file:
+i64toa	test/test_binn.c	/^char * i64toa(int64 value, char *buf, int radix) {$/;"	f
+init_udts	test/test_binn2.c	/^void init_udts() {$/;"	f
+int64	src/binn.h	/^  typedef __int64 int64;$/;"	t
+int64	src/binn.h	/^  typedef long long int int64;$/;"	t
+int_type	src/binn.c	/^BINN_PRIVATE int int_type(int type)  {$/;"	f
+is_bool_str	src/binn.c	/^BINN_PRIVATE BOOL is_bool_str(char *str, BOOL *pbool) {$/;"	f
+is_float	src/binn.c	/^BINN_PRIVATE BOOL is_float(char *p) {$/;"	f
+is_integer	src/binn.c	/^BINN_PRIVATE BOOL is_integer(char *p) {$/;"	f
+json_obj_to_binn	conversions/json/binn_json.c	/^binn * APIENTRY json_obj_to_binn(json_t *base) {$/;"	f
+json_to_binn	conversions/json/binn_json.c	/^binn * APIENTRY json_to_binn(char *json_str) {$/;"	f
+local_value	src/binn.c	/^binn local_value;$/;"	v
+main	test/test_binn.c	/^int main() {$/;"	f
+main	test/test_binn_json.c	/^void main() {$/;"	f
+malloc_fn	src/binn.c	/^void* (*malloc_fn)(size_t len) = 0;$/;"	v
+max	test/test_binn.c	242;"	d	file:
+memdup	test/test_binn.c	/^void * memdup(void *src, int size) {$/;"	f
+min	test/test_binn.c	246;"	d	file:
+mul_currency	test/test_binn2.c	/^int64 mul_currency(int64 value1, int64 value2) {$/;"	f
+pass_int64	test/test_binn.c	/^void pass_int64(int64 a) {$/;"	f
+pbuf	src/binn.h	/^  void  *pbuf;       \/\/ use *ptr below?$/;"	m	struct:binn_struct
+plimit	src/binn.h	/^    unsigned char *plimit;$/;"	m	struct:binn_iter_struct
+pnext	src/binn.h	/^    unsigned char *pnext;$/;"	m	struct:binn_iter_struct
+pre_allocated	src/binn.h	/^  BOOL   pre_allocated;$/;"	m	struct:binn_struct
+print_binn	test/test_binn.c	/^void print_binn(binn *map) {$/;"	f
+ptr	src/binn.h	/^  void  *ptr;$/;"	m	struct:binn_struct
+read_example_1	examples/reading.c	/^void read_example_1(void *buf) {$/;"	f
+read_example_2	examples/reading.c	/^void read_example_2(void *buf) {$/;"	f
+read_example_3a	examples/reading.c	/^void read_example_3a(binn *obj) {$/;"	f
+read_example_3b	examples/reading.c	/^void read_example_3b() {$/;"	f
+read_map_id	src/binn.c	/^BINN_PRIVATE int read_map_id(unsigned char **pp, unsigned char *plimit) {$/;"	f
+realloc_fn	src/binn.c	/^void* (*realloc_fn)(void *ptr, size_t len) = 0;$/;"	v
+return_int64	test/test_binn.c	/^int64 return_int64() {$/;"	f
+return_passed_int64	test/test_binn.c	/^int64 return_passed_int64(int64 a) {$/;"	f
+roundval	src/binn.c	9;"	d	file:
+size	src/binn.h	/^  int    size;$/;"	m	struct:binn_struct
+snprintf	test/test_binn2.c	10;"	d	file:
+store_value	src/binn.c	/^BINN_PRIVATE void * store_value(binn *value) {$/;"	f
+str_to_currency	test/test_binn2.c	/^int64 str_to_currency(char *str) {$/;"	f
+str_to_date	test/test_binn2.c	/^unsigned short str_to_date(char *datestr) {$/;"	f
+stricmp	src/binn.c	145;"	d	file:
+stripchr	test/test_binn2.c	/^char * stripchr(char *mainstr, int separator) {$/;"	f
+strlen2	src/binn.c	/^BINN_PRIVATE size_t strlen2(char *str) {$/;"	f
+strnicmp	src/binn.c	146;"	d	file:
+test1	test/test_binn.c	/^void test1() {$/;"	f
+test2	test/test_binn.c	/^void test2(BOOL use_int_compression) {$/;"	f
+test3	test/test_binn.c	/^void test3() {$/;"	f
+test_binn2	test/test_binn2.c	/^void test_binn2() {$/;"	f
+test_binn_int_conversion	test/test_binn2.c	/^void test_binn_int_conversion() {$/;"	f
+test_binn_iter	test/test_binn2.c	/^void test_binn_iter(BOOL use_int_compression) {$/;"	f
+test_binn_read	test/test_binn2.c	/^void test_binn_read(void *objptr) {$/;"	f
+test_binn_version	test/test_binn.c	/^void test_binn_version() {$/;"	f
+test_create_object_1	test/test_binn2.c	/^char * test_create_object_1(int *psize) {$/;"	f
+test_create_object_2	test/test_binn2.c	/^char * test_create_object_2(int *psize) {$/;"	f
+test_endianess	test/test_binn.c	/^void test_endianess() {$/;"	f
+test_floating_point_numbers	test/test_binn.c	/^void test_floating_point_numbers() {$/;"	f
+test_int64	test/test_binn.c	/^void test_int64() {$/;"	f
+test_int_conversion	test/test_binn2.c	/^void test_int_conversion() {$/;"	f
+test_invalid_binn	test/test_binn.c	/^void test_invalid_binn() {$/;"	f
+test_value_conversion	test/test_binn2.c	/^void test_value_conversion() {$/;"	f
+test_value_copy	test/test_binn2.c	/^void test_value_copy() {$/;"	f
+test_virtual_types	test/test_binn2.c	/^void test_virtual_types() {$/;"	f
+tmp	test/test_binn2.c	/^char tmp[128];$/;"	v
+to_hex	conversions/json/binn_json.c	/^void to_hex(char *source, int size, char *dest){$/;"	f
+type	src/binn.h	/^    int   type;$/;"	m	struct:binn_iter_struct
+type	src/binn.h	/^  int    type;$/;"	m	struct:binn_struct
+type_family	src/binn.c	/^BINN_PRIVATE int type_family(int type)  {$/;"	f
+u16	src/binn.c	/^typedef unsigned short int     u16;$/;"	t	file:
+u16	test/test_binn.c	/^typedef unsigned short int     u16;$/;"	t	file:
+u32	src/binn.c	/^typedef unsigned int           u32;$/;"	t	file:
+u32	test/test_binn.c	/^typedef unsigned int           u32;$/;"	t	file:
+u64	src/binn.c	/^typedef unsigned long long int u64;$/;"	t	file:
+u64	test/test_binn.c	/^typedef unsigned long long int u64;$/;"	t	file:
+uint64	src/binn.h	/^  typedef unsigned __int64 uint64;$/;"	t
+uint64	src/binn.h	/^  typedef unsigned long long int uint64;$/;"	t
+used_size	src/binn.h	/^  int    used_size;$/;"	m	struct:binn_struct
+vbool	src/binn.h	/^    BOOL           vbool;$/;"	m	union:binn_struct::__anon1
+vbool	test/test_binn2.c	/^BOOL vbool;$/;"	v
+vchar	src/binn.h	/^    signed char    vchar;$/;"	m	union:binn_struct::__anon1
+vdouble	src/binn.h	/^    double         vdouble;$/;"	m	union:binn_struct::__anon1
+vfloat	src/binn.h	/^    float          vfloat;$/;"	m	union:binn_struct::__anon1
+vfloat32	test/test_binn2.c	/^float vfloat32;$/;"	v
+vfloat64	test/test_binn2.c	/^double vfloat64;$/;"	v
+vint	src/binn.h	/^    signed int     vint;$/;"	m	union:binn_struct::__anon1
+vint16	src/binn.h	/^    signed short   vint16;$/;"	m	union:binn_struct::__anon1
+vint16	test/test_binn2.c	/^short vint16; unsigned short vuint16;$/;"	v
+vint32	src/binn.h	/^    signed int     vint32;$/;"	m	union:binn_struct::__anon1
+vint32	test/test_binn2.c	/^int vint32; unsigned int vuint32;$/;"	v
+vint64	src/binn.h	/^    int64          vint64;$/;"	m	union:binn_struct::__anon1
+vint64	test/test_binn2.c	/^int64 vint64; uint64 vuint64;$/;"	v
+vint8	src/binn.h	/^    signed char    vint8;$/;"	m	union:binn_struct::__anon1
+vint8	test/test_binn2.c	/^signed char vint8; unsigned char vuint8;$/;"	v
+vshort	src/binn.h	/^    signed short   vshort;$/;"	m	union:binn_struct::__anon1
+vuchar	src/binn.h	/^    unsigned char  vuchar;$/;"	m	union:binn_struct::__anon1
+vuint	src/binn.h	/^    unsigned int   vuint;$/;"	m	union:binn_struct::__anon1
+vuint16	src/binn.h	/^    unsigned short vuint16;$/;"	m	union:binn_struct::__anon1
+vuint16	test/test_binn2.c	/^short vint16; unsigned short vuint16;$/;"	v
+vuint32	src/binn.h	/^    unsigned int   vuint32;$/;"	m	union:binn_struct::__anon1
+vuint32	test/test_binn2.c	/^int vint32; unsigned int vuint32;$/;"	v
+vuint64	src/binn.h	/^    uint64         vuint64;$/;"	m	union:binn_struct::__anon1
+vuint64	test/test_binn2.c	/^int64 vint64; uint64 vuint64;$/;"	v
+vuint8	src/binn.h	/^    unsigned char  vuint8;$/;"	m	union:binn_struct::__anon1
+vuint8	test/test_binn2.c	/^signed char vint8; unsigned char vuint8;$/;"	v
+vushort	src/binn.h	/^    unsigned short vushort;$/;"	m	union:binn_struct::__anon1
+writable	src/binn.h	/^  BOOL   writable;   \/\/ did it was create for writing? it can use the pbuf if not unified with ptr$/;"	m	struct:binn_struct
+zero_value	src/binn.c	/^BINN_PRIVATE void zero_value(void *pvalue, int type) {$/;"	f

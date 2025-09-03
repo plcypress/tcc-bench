@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-fPIC",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "src/binn.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/binn-3.0",
+    "file": "/itch/common/crepos/cu-to-rtu/c/binn-3.0/src/binn.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-fPIC",
+      "-c",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "conversions/json/binn_json.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/binn-3.0",
+    "file": "/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c"
+  }
+]

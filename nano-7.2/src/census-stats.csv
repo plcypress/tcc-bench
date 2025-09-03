@@ -1,0 +1,904 @@
+Generics found 0 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+Generics found 0 end,,,,,,,,,,
+Single use void found 0 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+Single use void found 0 end,,,,,,,,,,
+[WILD] Sink (no out casts) void* 14 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+"Sink (no out)","getrandom.$0","tempname.c:96:7 <Spelling=tempname.c:56:22>","random_value *","","void *, void, random_value","void *, void","","","",""
+"Sink (no out)","mempcpy.$0","filenamecat-lgpl.c:80:9","char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","free.$0","save-cwd.c:98:3","openfilestruct *, char *, keystruct *, colortype *, lintstruct *, char **, undostruct *, struct globnames *, linestruct *, poshiststruct *, regex_t *, completionstruct *, int *, groupstruct *","","void *, groupstruct, struct globnames, int, void, regex_t, keystruct, colortype, char","void *, void","poshiststruct, lintstruct, completionstruct","","",""
+"Sink (no out)","freea.mem","malloca.c:101:13","char *","","void *, void","void *, void","","","",""
+"Sink (no out)","memrchr.$0","chdir-long.c:174:23","char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","memcpy.$1","malloc/dynarray_resize.c:57:9","char *, unsigned int[4], const char *","","void *, void, unsigned int, char","void *, void","","","",""
+"Sink (no out)","mempcpy.$1","filenamecat-lgpl.c:80:9","const void *, const char *, char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","memcpy.$0","malloc/dynarray_resize.c:57:9","argument *, char *, char[msgctxt_len + msgid_len], void *, unsigned int[4]","","void *, argument, void *(void *, unsigned long), void, void *(unsigned long), char, unsigned int","void *, void","","","",""
+"Sink (no out)","memmove.$1","cut.c:49:3","void *, const char *, const void *, char *, int *","","void *, char, void, int","void *, void","","","",""
+"Sink (no out)","memchr.$0","strnlen1.c:30:36","const void *, const char *, char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","memset.$0","malloc/dynarray_resize_clear.c:36:3","void *, char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","memmove.$0","cut.c:49:3","const void *, const char *, void *, char *","","void *, void, char","void *, void","","","",""
+"Sink (no out)","realloc.$0","malloc/dynarray_resize.c:61:17","char *","","void *, char, void *(void *, unsigned long), int, void","void *, void","","","",""
+"Sink (no out)","fwrite.$0","history.c:320:7","char *","","void *, void, <dependent type>, char","void *, void","","","",""
+[WILD] Sink (no out casts) void* 14 end,,,,,,,,,,
+[WILD] Unused (no in cast) void* 7 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+"Unused (no in)","collated_compare.$1","glob.c:1249:46","","char *const *","void *, void","void *, void, char","","","",""
+"Unused (no in)","try_file.$1","tempname.c:127:29","","int *","void *, void","void *, void, int","","","",""
+"Unused (no in)","glob_in_dir.stream","glob.c:1333:9","","DIR *","void *, void, <builtin fn type>","void *, DIR, void","","","",""
+"Unused (no in)","collated_compare.$0","glob.c:1249:31","","char *const *","void *, void","void *, void, char","","","",""
+"Unused (no in)","diralphasort.$1","files.c:2535:46","","const char *const *, const char *","void *, void","void *, void, char","","","",""
+"Unused (no in)","diralphasort.$0","files.c:2535:30","","const char *const *, const char *","void *, void","void *, void, char","","","",""
+"Unused (no in)","freea.$0","malloca.c:90:14","","void *","void *, void","void *, void","","","",""
+[WILD] Unused (no in cast) void* 7 end,,,,,,,,,,
+[IGNORED] Not used in any cast 14 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+"No casts","vasnprintf.arg","vasnprintf.c:5150:31","","","void *, void","void *, void","","","",""
+"No casts","rpl_fcntl.p","fcntl.c:431:21","","","void *, void, struct __va_list_tag","void *, void","","","",""
+"No casts","try_tempname_len.$2","tempname.c:183:10","","","void *, void","void *, void","","","",""
+"No casts","try_tempname.$2","tempname.c:288:10","","","void *, void","void *, void","","","",""
+"No casts","wattr_off.$0","browser.c:244:4 <Spelling=/usr/include/curses.h:1198:26>","","","void *, void, WINDOW","void *, void","","","",""
+"No casts","wattr_on.$0","browser.c:171:4 <Spelling=/usr/include/curses.h:1197:26>","","","void *, void, WINDOW","void *, void","","","",""
+"No casts","read.$1","text.c:2583:22","","","void *, void","void *, void","","","",""
+"No casts","gl_dynarray_resize_clear.$2","malloc/dynarray_resize_clear.c:31:8 <Spelling=./dynarray.h:256:32>","","","void *, void","void *, void","","","",""
+"No casts","qsort.$0","browser.c:104:2","","","void *, void","void *, void","","","",""
+"No casts","try_tempname_len.$3.$1","tempname.c:261:12","","","void *, void","void *, void","","","",""
+"No casts","gl_dynarray_resize.$2","malloc/dynarray_resize_clear.c:31:8 <Spelling=./dynarray.h:256:32>","","","void *, void","void *, void","","","",""
+"No casts","bsearch.$1","/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:20:41","","","void *, void","void *, void","","","",""
+"No casts","bsearch.__p","/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:24:15","","","void *, void","void *, void *(const void *, const void *, size_t, size_t, __compar_fn_t), void","","","",""
+"No casts","bsearch.$0","/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:33:22","","","void *, void","void *, void","","","",""
+[IGNORED] Not used in any cast 14 end,,,,,,,,,,
+[WILD] Wild list 1 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+"Wild","mmalloca.vp","malloca.c:65:17","char *","small_t *","void *, void, char","void, small_t, void *, void *(size_t)","","","",""
+[WILD] Wild list 1 end,,,,,,,,,,
+[SUBTYPING] Subtypes list 1 start,,,,,,,,,,
+Pattern,CensusKey,Location,Casts-In,Casts-Out,Generic-In,Generic-Out,Subtype-In,Subtype-Out,Reinterpret-In,Reinterpret-Out
+"Subtype","glob_in_dir.$4","glob.c:1056:20","","","void *, void, glob_t","void *, void, glob_t","","void (void *), void *(const char *)","",""
+[SUBTYPING] Subtypes list 1 end,,,,,,,,,,
+[Nullable] Optional ptrs list 350 start,,,,
+Pattern,CensusKey,Location,NullableIn,NullableOut
+"Optional","do_down.was_current","move.c:567:14","openfilestruct *","linestruct *"
+"Optional","do_end.was_current","move.c:488:14","openfilestruct *","linestruct *"
+"Optional","do_home.was_current","move.c:425:14","openfilestruct *","linestruct *"
+"Optional","to_next_block.was_current","move.c:270:14","openfilestruct *","linestruct *"
+"Optional","input_tab.lastslash","files.c:2731:14","char *(const char *, const char *, const char *)",""
+"Optional","filename_completion.matches","files.c:2627:9","void *(void *, size_t)",""
+"Optional","filename_completion.fullname","files.c:2626:8","void *(void *, size_t)",""
+"Optional","username_completion.matches","files.c:2579:9","void *(void *, size_t)","void *, char **(const char *, size_t, size_t *)"
+"Optional","write_it_out.full_answer","files.c:2356:10","char *(const char *)",""
+"Optional","write_it_out.given","files.c:2219:8","char *(char *, const char *)",""
+"Optional","write_region_to_file.birthline","files.c:2171:14","openfilestruct *",""
+"Optional","write_file.newname","files.c:2118:26","openfilestruct *","const char *"
+"Optional","init_backup_dir.target","files.c:1623:8","char *(const char *)","void *, const char *"
+"Optional","safe_tempfile.tempfile_name","files.c:1525:25","void *(void *, size_t)",""
+"Optional","safe_tempfile.tempdir","files.c:1525:8","char *(const char *)","const char *, void *"
+"Optional","check_writable_directory.full_path","files.c:1505:8","char *(const char *)",""
+"Optional","get_full_path.target","files.c:1465:19","void *(void *, size_t)",""
+"Optional","insert_a_file_or.chosen","files.c:1346:11","char *(const char *)",""
+"Optional","execute_command.was_cutbuffer","files.c:1132:15","linestruct *",""
+"Optional","execute_command.$0","files.c:1374:6","char *",""
+"Optional","read_file.buf","files.c:688:8","void *(void *, size_t)",""
+"Optional","close_buffer.orphan","files.c:627:18","openfilestruct *","void *, openfilestruct *"
+"Optional","open_buffer.thelocksname","files.c:456:11","char *(const char *, _Bool)",""
+"Optional","crop_to_fit.clipped","files.c:111:8","void *(void *, size_t)",""
+"Optional","make_new_buffer.newnode","files.c:43:18","openfilestruct *",""
+"Optional","step_left.ptr","chars.c:413:16","const char *","const char *"
+"Optional","do_verbatim_input.bytes","text.c:3172:8","char *(WINDOW *, size_t *)","char *, void *"
+"Optional","count_lines_words_and_characters.botline","text.c:3114:24","openfilestruct *",""
+"Optional","count_lines_words_and_characters.topline","text.c:3114:14","openfilestruct *",""
+"Optional","count_lines_words_and_characters.was_current","text.c:3112:14","openfilestruct *",""
+"Optional","do_linter.lintings","text.c:2711:8","void *(void *, size_t)",""
+"Optional","do_spell.temp_name","text.c:2658:8","char *(FILE **)","char *, const char *, void *"
+"Optional","do_int_speller.misspellings","text.c:2461:8","void *(void *, size_t)",""
+"Optional","do_int_speller.$0","text.c:2694:3","char *",""
+"Optional","fix_spello.was_edittop","text.c:2355:14","openfilestruct *",""
+"Optional","treat.$0","text.c:2692:3","char *","const char *, const char *restrict, char *"
+"Optional","justify_text.endline","text.c:1848:14","openfilestruct *",""
+"Optional","justify_text.startline","text.c:1846:14","openfilestruct *","char, linestruct *"
+"Optional","squeeze.from","text.c:1709:8","char *","const char *"
+"Optional","squeeze.start","text.c:1708:8","linestruct *","char *"
+"Optional","concat_paragraph.$0","text.c:1658:35","void *(void *, size_t), linestruct *",""
+"Optional","do_wrap.line","text.c:1307:14","void *(void *, size_t), openfilestruct *",""
+"Optional","update_undo.u","text.c:1204:14","void *(void *, size_t), openfilestruct *",""
+"Optional","update_multiline_undo.born","text.c:1184:16","undostruct *",""
+"Optional","to_prev_block.was_current","move.c:247:14","openfilestruct *","linestruct *"
+"Optional","add_undo.thisline","text.c:1020:14","openfilestruct *",""
+"Optional","add_undo.u","text.c:1019:14","openfilestruct *",""
+"Optional","discard_until.dropit","text.c:990:14","openfilestruct *",""
+"Optional","do_enter.sampleline","text.c:912:14","openfilestruct *",""
+"Optional","do_redo.redidmsg","text.c:733:8","undostruct *",""
+"Optional","do_redo.u","text.c:729:14","linestruct *, undostruct *, openfilestruct *","char *, undostruct *, openfilestruct *"
+"Optional","do_undo.u","text.c:535:14","linestruct *, openfilestruct *","openfilestruct *"
+"Optional","redo_cut.$0","text.c:641:3 <Spelling=text.c:486:21>","undostruct *",""
+"Optional","undo_cut.$0","text.c:631:3","undostruct *",""
+"Optional","handle_comment_action.line","text.c:464:15","groupstruct *","linestruct *"
+"Optional","handle_comment_action.group","text.c:456:15","undostruct *","linestruct *"
+"Optional","handle_comment_action.$0","text.c:686:4","undostruct *","groupstruct *"
+"Optional","do_comment.comment_seq","text.c:393:14","openfilestruct *",""
+"Optional","comment_line.$1","text.c:327:49","linestruct *, void *(void *, size_t)","linestruct *"
+"Optional","open_file.full_filename","files.c:915:8","char *(char *, const char *), char *(const char *)",""
+"Optional","handle_indent_action.$0","text.c:677:4","undostruct *",""
+"Optional","compensate_leftward.$0","text.c:248:2","linestruct *",""
+"Optional","indent_a_line.$0","text.c:91:32","void *(void *, size_t)",""
+"Optional","parse_includes.$0","rcfile.c:998:27","char *(char *)","char *"
+"Optional","parse_one_include.therest","rcfile.c:978:9","char *(char *)",""
+"Optional","parse_binding.newsc","rcfile.c:755:13","keystruct *(const char *)","void *"
+"Optional","parse_binding.$0","rcfile.c:751:26","char *, char *(char *)","char *"
+"Optional","begin_new_syntax.$0","rcfile.c:652:29","char *(char *)",""
+"Optional","parse_argument.$0","rcfile.c:557:28","char *","char *(char *)"
+"Optional","parse_next_word.$0","rcfile.c:535:10 <Spelling=/usr/include/ctype.h:89:24>","char *","char *, char *(char *)"
+"Optional","::nanorc","rcfile.c:143:14","char *(char *, const char *), char *(const char *)","void *, char *, const char *, T"
+"Optional","do_redo.line","text.c:731:14","void *(void *, size_t)","linestruct *, undostruct *, char"
+"Optional","replace_buffer.was_cutbuffer","text.c:2167:14","linestruct *",""
+"Optional","fix_spello.was_current","text.c:2356:14","openfilestruct *",""
+"Optional","do_undo.line","text.c:537:14","linestruct *, void *(void *, size_t)","undostruct *, char, linestruct *"
+"Optional","func_from_key.sc","global.c:502:19","const keystruct *(const int)","functionptrtype (const int)"
+"Optional","parse_one_include.was_nanorc","rcfile.c:937:8","char *",""
+"Optional","write_file.line","files.c:1861:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","write_it_out.formatstr","files.c:2243:15","openfilestruct *","T"
+"Optional","to_prev_anchor.line","search.c:1096:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","do_find_bracket.ch","search.c:982:14","char *(const char *, const char *)","const char *, _Bool"
+"Optional","find_a_bracket.found","search.c:934:24","char *(const char *, const char *, const char *), char *(const char *, const char *)","openfilestruct *"
+"Optional","goto_line_and_column.currentline","search.c:897:16","openfilestruct *",""
+"Optional","ask_for_and_do_replacements.beginline","search.c:741:14","openfilestruct *",""
+"Optional","ask_for_and_do_replacements.was_edittop","search.c:739:14","openfilestruct *",""
+"Optional","to_para_begin.was_current","move.c:213:14","openfilestruct *","linestruct *"
+"Optional","do_replace_loop.was_mark","search.c:561:14","openfilestruct *",""
+"Optional","replace_regexp.c","search.c:474:14","const char *, char *","char *, int, const char *"
+"Optional","replace_regexp.$0","search.c:471:26","const char *","char *"
+"Optional","go_looking.was_current","search.c:438:14","openfilestruct *","linestruct *"
+"Optional","findnextstr.found","search.c:190:14","const char *(const char *, const char *, const char *)","const char *, size_t"
+"Optional","findnextstr.from","search.c:188:14","linestruct *, const char *","const char *"
+"Optional","findnextstr.line","search.c:186:14","openfilestruct *","const char *"
+"Optional","sprintf.$0","browser.c:94:3","char *",""
+"Optional","get_history_completion.item","history.c:162:14","linestruct *(const linestruct *, const linestruct *, const char *, size_t)",""
+"Optional","find_a_bracket.line","search.c:933:14","openfilestruct *",""
+"Optional","minibar.successor","winio.c:2267:8","char *","char *, const char *"
+"Optional","chop_word.is_current","cut.c:192:14","openfilestruct *",""
+"Optional","mbtowide.$0","winio.c:1989:16","unsigned char, const char *",""
+"Optional","write_it_out.chosen","files.c:2299:10","char *(const char *)",""
+"Optional","go_to_and_confirm.$0","search.c:1101:2","linestruct *",""
+"Optional","real_dir_from_tilde.tilded","files.c:2490:8","char *(char *, const char *)","const char *, char *, void *, T"
+"Optional","squeeze.$0","text.c:1829:2","linestruct *","char *"
+"Optional","less_than_a_screenful.line","winio.c:3188:15","openfilestruct *",""
+"Optional","main.quotestr_cmdline","nano.c:2229:9","char *",""
+"Optional","is_good_file.$0","rcfile.c:1785:9","char *","const char *restrict"
+"Optional","get_full_path.$0","browser.c:414:31","char *, const char *","const char *"
+"Optional","show_help.line","help.c:426:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","do_up.was_current","move.c:542:14","openfilestruct *","linestruct *"
+"Optional","nrealloc.$0","utils.c:326:22","char **, int *, char *","void *(void *, size_t)"
+"Optional","stat.$0","browser.c:189:8","char *",""
+"Optional","free_chararray.$0","browser.c:80:2","char **","void *"
+"Optional","mbstrchr.$0","search.c:1001:7","const char *, char *","wchar_t, const char *, char *(const char *, const char *)"
+"Optional","make_new_node.$0","utils.c:456:28","linestruct *",""
+"Optional","update_multiline_undo.u","text.c:1171:14","void *(void *, size_t), openfilestruct *","groupstruct *, size_t"
+"Optional","get_region.$2","utils.c:488:63","linestruct **, openfilestruct *",""
+"Optional","update_poshistory.theone","history.c:524:24","openfilestruct *",""
+"Optional","do_find_bracket.was_current","search.c:979:14","openfilestruct *","linestruct *"
+"Optional","ingraft_buffer.$0","cut.c:390:33","linestruct *, openfilestruct *","openfilestruct *, const linestruct *, linestruct *"
+"Optional","::matchbrackets","./prototypes.h:111:14","char *(char *, const char *)",""
+"Optional","do_formatter.temp_name","text.c:3072:8","char *(FILE **)","char *, const char *, void *"
+"Optional","findfile.$0","browser.c:348:3","char *",""
+"Optional","get_history_completion.$1","prompt.c:501:15","char *",""
+"Optional","filename_completion.dirname","files.c:2623:8","void *(void *, size_t)",""
+"Optional","update_history.$1","browser.c:343:3","char *","const char *"
+"Optional","suck_up_input_and_paste_it.was_cutbuffer","nano.c:1480:14","linestruct *",""
+"Optional","safe_tempfile.extension","files.c:1526:8","openfilestruct *","const char *"
+"Optional","parse_next_regex.$0","rcfile.c:601:9","char *","char *(char *)"
+"Optional","squeeze.to","text.c:1709:23","char *","char *"
+"Optional","regexec.$1","utils.c:245:8","const char *",""
+"Optional","init_operating_dir.target","files.c:1572:8","char *(const char *)",""
+"Optional","get_region.$1","utils.c:488:43","openfilestruct *",""
+"Optional","number_of_characters_in.$1","cut.c:331:23","linestruct *",""
+"Optional","regcomp.$1","nano.c:2394:12","const char *, char *",""
+"Optional","parse_rule.regexstring","rcfile.c:1184:16","char *",""
+"Optional","has_old_position.fullpath","history.c:596:8","char *(const char *)","const char *, void *"
+"Optional","make_backup_of.thename","files.c:1695:9","char *(const char *)","const char *, void *, T"
+"Optional","::bardata","./prototypes.h:97:13","void *(void *, size_t)","void *"
+"Optional","write_file.tempname","files.c:1859:8","char *(FILE **)","const char *, void *"
+"Optional","update_history.hbot","history.c:99:30","char *(char *, const char *)",""
+"Optional","memmove.$0","cut.c:49:3","char *",""
+"Optional","load_poshistory.lineptr","history.c:385:8","char *(const char *, const char *, const char *)",""
+"Optional","draw_row.start_line","winio.c:2736:22","linestruct *",""
+"Optional","complete_a_word.shard","text.c:3245:8","openfilestruct *","void *"
+"Optional","step_right.$0","utils.c:267:17","char *",""
+"Optional","browse.$0","browser.c:399:20","char *, void *(void *, size_t), char *(char *, const char *)","const char *"
+"Optional","display_string.$0","browser.c:162:16","char *, const char *","const char *, size_t"
+"Optional","strcpy.$1","utils.c:76:2","char *",""
+"Optional","update_softwrapped_line.someline","winio.c:3020:14","openfilestruct *",""
+"Optional","::alt_speller","./prototypes.h:137:14","char *(char *, const char *)",""
+"Optional","::word_chars","./prototypes.h:125:14","char *, char *(char *, const char *)","const char *, void *, char *"
+"Optional","::backup_dir","./prototypes.h:130:14","void *(void *, size_t), char *(char *, const char *)","T, const char *, void *, char *"
+"Optional","::answer","browser.c:340:6","char *, void *(void *, size_t), char *(linestruct **, char *, size_t), char *(char *, const char *)","int, const void *, char *, void *, T, const char *"
+"Optional","read_file.$2","nano.c:912:2","const char *",""
+"Optional","crop_to_fit.$0","files.c:307:16","char *",""
+"Optional","write_region_to_file.$0","text.c:2676:10","char *","const char *"
+"Optional","draw_row.$2","winio.c:2668:59","linestruct *","char, const linestruct *"
+"Optional","copy_text.was_current","cut.c:679:14","openfilestruct *","linestruct *"
+"Optional","strstr.$1","utils.c:302:11","const char *",""
+"Optional","strlen.$0","utils.c:73:19","char *, const char *",""
+"Optional","to_para_end.was_current","move.c:224:14","openfilestruct *","linestruct *"
+"Optional","strcmp.$1","./streq.h:37:10","char *, const char *",""
+"Optional","revstrcasestr.$1","chars.c:611:10","const char *","const char *"
+"Optional","do_redo.data","text.c:734:8","undostruct *",""
+"Optional","advance_over.$0","utils.c:405:17","const char *","const char *"
+"Optional","process_a_keystroke.shortcut","nano.c:1633:19","const keystruct *(const int)","functionptrtype"
+"Optional","mbstrncasecmp.$0","chars.c:453:9","const char *","const char *, int (const char *, const char *, size_t)"
+"Optional","strncmp.$0","history.c:87:7","const char *, char *",""
+"Optional","justify_text.bottom","text.c:2094:15","openfilestruct *",""
+"Optional","redo_cut.oldcutbuffer","text.c:517:14","linestruct *",""
+"Optional","memcpy.$1","malloc/dynarray_resize.c:57:9","const char *",""
+"Optional","strstr.$0","utils.c:302:11","char *, const char *",""
+"Optional","update_line.$0","cut.c:111:3","linestruct *","linestruct *"
+"Optional","update_poshistory.fullpath","history.c:522:8","char *(const char *)","const char *, void *"
+"Optional","::openfile","./prototypes.h:105:24","char *(char *, const char *), undostruct *, size_t, char *(const char *, _Bool), void *(void *, size_t), size_t (const char *, size_t), openfilestruct *, linestruct *, const char *","struct timespec[2], undo_type, undostruct *, colortype *, const openfilestruct *, size_t *, char, linestruct *, const colortype *, poshiststruct *, _Bool (void), openfilestruct *, size_t, _Bool, const char *, char *, linestruct **, int"
+"Optional","get_range.$0","utils.c:506:29","linestruct **, openfilestruct *","linestruct **"
+"Optional","fopen.$0","history.c:267:19","char *",""
+"Optional","strncpy.$1","utils.c:344:2","char *, const char *",""
+"Optional","::macro_buffer","winio.c:78:13","void *(void *, size_t)","int *, void *"
+"Optional","write_file.oldname","files.c:2118:16","openfilestruct *","const char *"
+"Optional","show_help.saved_answer","help.c:422:8","char *",""
+"Optional","is_doublewidth.$0","winio.c:1906:12","const char *","const char *"
+"Optional","memmove.$1","cut.c:49:3","char *",""
+"Optional","control_mbrep.$0","winio.c:1900:26","const char *",""
+"Optional","precalc_multicolorinfo.tailline","color.c:322:21","linestruct *","linestruct *"
+"Optional","browse_in.path","browser.c:714:8","char *(char *, const char *)","const char *, char *, const char *restrict"
+"Optional","strncasecmp.$0","global.c:374:13","const char *",""
+"Optional","do_snip.line","cut.c:510:14","openfilestruct *",""
+"Optional","ingraft_buffer.line","cut.c:392:14","void *(void *, size_t), openfilestruct *",""
+"Optional","prepare_palette.ink","color.c:121:18","colortype *, openfilestruct *","short, colortype *"
+"Optional","strcmp.$0","./streq.h:37:10","char *, const char *",""
+"Optional","copy_of.$0","utils.c:53:14","char *, const char *","const char *"
+"Optional","mbrevstrcasestr.$1","utils.c:307:10","const char *","const char *"
+"Optional","::whitespace","./prototypes.h:112:14","char *(char *, const char *)",""
+"Optional","strncasecmp.$1","global.c:374:13","const char *",""
+"Optional","do_indent.indentation","text.c:124:8","char *(char *, const char *)","char *, void *"
+"Optional","strcat.$1","cut.c:93:3","char *",""
+"Optional","do_right.was_current","move.c:659:14","openfilestruct *","linestruct *"
+"Optional","actual_x.$0","utils.c:404:9","const char *, char *","size_t (const char *, size_t)"
+"Optional","set_interface_colorpairs.combo","color.c:45:14","colortype *[12]",""
+"Optional","::quotestr","./prototypes.h:121:14","char *(char *, const char *)","const char *restrict, void *, char *"
+"Optional","parse_rcfile.ptr","rcfile.c:1431:9","char *(char *)",""
+"Optional","to_next_anchor.line","search.c:1107:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","inject.$0","nano.c:1692:3","char *","const char *"
+"Optional","write_it_out.full_filename","files.c:2356:24","char *(const char *)",""
+"Optional","strstrwrapper.$2","search.c:211:13","const char *","const char *, size_t, regmatch_t[10]"
+"Optional","mbtowide.$1","winio.c:1989:16","char *, const char *","unsigned char, wchar_t *"
+"Optional","update_undo.textposition","text.c:1206:8","openfilestruct *",""
+"Optional","do_deletion.joining","cut.c:66:15","openfilestruct *","linestruct *, openfilestruct *"
+"Optional","::last_search","browser.c:313:6","char *, char *(char *, const char *)","void *, const char *, char *"
+"Optional","extract_segment.$2","cut.c:262:65","linestruct *","linestruct *"
+"Optional","outside_of_confinement.fullpath","files.c:1590:8","char *(const char *)",""
+"Optional","go_to_and_confirm.was_current","search.c:1073:14","openfilestruct *","linestruct *"
+"Optional","open_file.$0","text.c:2171:15","const char *","const char *"
+"Optional","get_region.$3","utils.c:488:76","openfilestruct *",""
+"Optional","display_string.origin","winio.c:1868:14","const char *",""
+"Optional","pick_up_name.$2","rcfile.c:1347:55","char *(char *, const char *)",""
+"Optional","::pletion_line","./prototypes.h:53:20","openfilestruct *",""
+"Optional","::present_path","./prototypes.h:62:14","char *(char *, const char *)",""
+"Optional","::cutbuffer","./prototypes.h:101:20","linestruct *, openfilestruct *","const linestruct *, linestruct *"
+"Optional","::punct","./prototypes.h:119:14","char *(char *, const char *)","const char *, char *"
+"Optional","splice_node.$1","history.c:143:2","linestruct *",""
+"Optional","::brackets","./prototypes.h:120:14","char *(char *, const char *)","const char *, char *"
+"Optional","::operating_dir","./prototypes.h:133:14","void *(void *, size_t), char *(char *, const char *)",""
+"Optional","ingraft_buffer.botline","cut.c:400:14","linestruct *, void *(void *, size_t), openfilestruct *","const linestruct *, linestruct *"
+"Optional","::custom_nanorc","./prototypes.h:183:14","char *(char *, const char *)","const char *, char *"
+"Optional","justify_paragraph.sampleline","text.c:1808:14","size_t",""
+"Optional","::planted_shortcut","./prototypes.h:186:19","keystruct *(const char *)","const keystruct *(const int), void *"
+"Optional","browse_in.$0","files.c:1346:20","char *",""
+"Optional","is_blank_char.$0","winio.c:3332:27","char *","const char *, _Bool (const char *)"
+"Optional","is_zerowidth.$0","cut.c:134:5","const char *, char *","const char *"
+"Optional","char_length.$0","cut.c:34:17","const char *, char *","unsigned char"
+"Optional","step_left.$0","utils.c:220:30","char *","const char *"
+"Optional","mbstrlen.$0","utils.c:553:12","const char *, char *","const char *"
+"Optional","mbstrncasecmp.$1","chars.c:453:9","const char *","const char *"
+"Optional","mbstrcasestr.$0","utils.c:309:10","const char *","char *(const char *, const char *), const char *"
+"Optional","mbstrcasestr.$1","utils.c:309:10","const char *","const char *"
+"Optional","revstrstr.$1","utils.c:300:11","const char *","const char *"
+"Optional","revstrstr.$2","utils.c:300:11","const char *","char *(const char *, const char *, const char *), const char *"
+"Optional","mbstrchr.$1","search.c:1001:7","const char *, char *","wchar_t, const char *"
+"Optional","extract_segment.$0","cut.c:262:34","void *(void *, size_t), linestruct *","linestruct *, _Bool"
+"Optional","copy_from_buffer.$0","cut.c:777:2","linestruct *","const linestruct *"
+"Optional","open_buffer.$0","nano.c:2595:9","const char *, char *","const char *"
+"Optional","edit_scroll.line","winio.c:3239:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","write_file.$0","nano.c:357:13","char *, const char *","const char *"
+"Optional","input_tab.$0","prompt.c:509:14","char *, void *(void *, size_t)",""
+"Optional","do_statusbar_verbatim_input.bytes","prompt.c:247:8","char *(WINDOW *, size_t *)","char *, void *"
+"Optional","::key_buffer","winio.c:45:13","int *, void *(void *, size_t)",""
+"Optional","splice_node.$0","history.c:143:2","linestruct *","linestruct *"
+"Optional","unlink_node.$0","cut.c:95:3","linestruct *","openfilestruct *, linestruct *"
+"Optional","delete_node.$0","utils.c:470:3","linestruct *","openfilestruct *, void *"
+"Optional","update_softwrapped_line.$0","winio.c:2980:10","linestruct *","linestruct *"
+"Optional","copy_buffer.$0","cut.c:476:25","const linestruct *, linestruct *","const linestruct *"
+"Optional","free_lines.$0","cut.c:236:2","linestruct *","linestruct *"
+"Optional","renumber_from.$0","cut.c:98:3","linestruct *",""
+"Optional","grab_and_store.$1","rcfile.c:716:3","char *, char *(char *)","char *"
+"Optional","regexp_init.$0","nano.c:2605:5","char *","const char *restrict"
+"Optional","findnextstr.$0","nano.c:2607:9","char *","const char *"
+"Optional","not_found_msg.$0","browser.c:299:4","char *","const char *"
+"Optional","justify_text.line","text.c:2018:15","void *(void *, size_t), linestruct *","linestruct *"
+"Optional","::cutbottom","./prototypes.h:102:20","void *(void *, size_t)","linestruct *"
+"Optional","do_replace_loop.$3","search.c:588:42","size_t *, openfilestruct *","size_t, size_t *"
+"Optional","input_tab.matches","files.c:2701:9","char **(const char *, size_t, size_t *), char **(const char *, size_t *)","char **"
+"Optional","strstrwrapper.$1","search.c:211:13","const char *","const char *"
+"Optional","mallocstrcpy.$0","utils.c:339:26","char *, void *(void *, size_t)","char *(char *, const char *), char *"
+"Optional","construct_argument_list.$2","text.c:2252:2","char *",""
+"Optional","free_and_assign.$0","browser.c:414:9","char *","void *"
+"Optional","wideness.$0","utils.c:392:9","char *, const char *","const char *"
+"Optional","breadth.$0","utils.c:446:9","const char *, char *","const char *"
+"Optional","outside_of_confinement.$0","browser.c:611:8","const char *, char *","const char *"
+"Optional","copy_buffer.head","nano.c:174:14","linestruct *(const linestruct *)","linestruct *(const linestruct *)"
+"Optional","get_region.$0","utils.c:488:30","linestruct **, openfilestruct *",""
+"Optional","number_of_characters_in.$0","cut.c:331:23","linestruct *",""
+"Optional","parse_rule.$0","rcfile.c:1182:23","char *, char *(char *)","const char *, char *"
+"Optional","titlebar.$0","browser.c:145:2","char *, openfilestruct *","const char *"
+"Optional","get_chunk_and_edge.$1","winio.c:3397:9","linestruct *",""
+"Optional","chunk_for.$1","winio.c:3038:10","linestruct *","linestruct *"
+"Optional","extra_chunks_in.$0","cut.c:37:41","linestruct *","linestruct *"
+"Optional","real_dir_from_tilde.$0","browser.c:601:33","char *, const char *","const char *"
+"Optional","line_from_number.line","utils.c:529:14","linestruct *, openfilestruct *","linestruct *, linestruct *(int)"
+"Optional","justify_text.was_cutbuffer","text.c:1854:14","linestruct *",""
+"Optional","revstrcasestr.$2","chars.c:561:15","const char *",""
+"Optional","suck_up_input_and_paste_it.line","nano.c:1481:14","linestruct *, void *(void *, size_t)","linestruct *"
+"Optional","is_cntrl_char.$0","winio.c:1898:7","const char *","const char *, _Bool (const char *)"
+"Optional","do_left.was_current","move.c:636:14","openfilestruct *","linestruct *"
+"Optional","strip_last_component.$0","browser.c:668:20","char *","const char *"
+"Optional","strncmp.$1","history.c:87:7","const char *",""
+"Optional","precalc_multicolorinfo.ink","color.c:320:19","const colortype *, openfilestruct *","const colortype *"
+"Optional","ask_user.cancelshortcut","prompt.c:686:21","const keystruct *(int, void (*)(void))",""
+"Optional","to_prev_word.was_current","move.c:402:14","openfilestruct *","linestruct *"
+"Optional","mbrevstrcasestr.$2","utils.c:307:10","const char *","char *(const char *, const char *, const char *), const char *"
+"Optional","chop_word.is_cutbuffer","cut.c:195:14","linestruct *",""
+"Optional","extract_segment.last","cut.c:264:22","linestruct *","const linestruct *"
+"Optional","extract_segment.line","cut.c:279:20","linestruct *","linestruct *, _Bool"
+"Optional","copy_from_buffer.the_copy","cut.c:476:14","linestruct *(const linestruct *)","linestruct *"
+"Optional","zap_text.was_cutbuffer","cut.c:613:14","linestruct *",""
+"Optional","bottombars.s","winio.c:2562:19","const keystruct *(int, void (*)(void))",""
+"Optional","::syntaxstr","./prototypes.h:142:14","char *(char *, const char *)",""
+"Optional","copy_text.addition","cut.c:680:14","linestruct *",""
+"Optional","get_range.$1","utils.c:506:47","linestruct **, openfilestruct *","linestruct **"
+"Optional","paste_text.was_current","cut.c:754:14","openfilestruct *","linestruct *, _Bool"
+"Optional","paste_text.line","cut.c:781:19","linestruct *",""
+"Optional","replace_buffer.$0","text.c:2307:14","char *","const char *"
+"Optional","browser_refresh.info","browser.c:142:8","char *(char *, const char *)","const char *, char *, T, void *"
+"Optional","mallocstrcpy.$1","browser.c:229:12","char *, const char *","const char *"
+"Optional","browse.present_name","browser.c:401:8","char *(char *, const char *)","char *, void *"
+"Optional","get_verbatim_kbinput.bytes","winio.c:1581:8","int *","char *(WINDOW *, size_t *)"
+"Optional","get_verbatim_kbinput.input","winio.c:1582:7","int *, int *(WINDOW *, size_t *)","int *, char *, void *"
+"Optional","get_mouseinput.shortcut","winio.c:1738:23","const keystruct *(int, void (*)(void))",""
+"Optional","display_string.converted","winio.c:1878:8","void *(void *, size_t)",""
+"Optional","fix_spello.saved_mark","text.c:2399:15","openfilestruct *",""
+"Optional","buffer_number.$0","winio.c:2063:35","openfilestruct *","openfilestruct *"
+"Optional","edit_redraw.$0","cut.c:742:2","linestruct *","linestruct *"
+"Optional","to_next_word.was_current","move.c:413:14","openfilestruct *","linestruct *"
+"Optional","minibar.this_position","winio.c:2344:9","char *, openfilestruct *","const char *, char *"
+"Optional","place_the_cursor.line","winio.c:2629:15","linestruct *, openfilestruct *","linestruct *"
+"Optional","do_linter.started_at","text.c:2919:26","openfilestruct *",""
+"Optional","draw_row.varnish","winio.c:2717:20","const colortype *, openfilestruct *","const colortype *"
+"Optional","draw_scrollbar.line","winio.c:3209:15","linestruct *, openfilestruct *","linestruct *"
+"Optional","current_is_below_screen.line","winio.c:3485:15","openfilestruct *",""
+"Optional","edit_redraw.line","winio.c:3525:15","linestruct *, openfilestruct *","linestruct *"
+"Optional","edit_refresh.line","winio.c:3554:14","linestruct *, openfilestruct *","linestruct *"
+"Optional","asnprintf.result","asnprintf.c:28:9","char *(char *restrict, size_t *, const char *, struct __va_list_tag *)","char *(char *restrict, size_t *, const char *, ...)"
+"Optional","find_in_history.$2","history.c:115:13","const char *","const char *"
+"Optional","update_history.thesame","history.c:100:14","linestruct *(const linestruct *, const linestruct *, const char *, size_t)","linestruct *"
+"Optional","process_a_keystroke.was_mark","nano.c:1630:14","openfilestruct *",""
+"Optional","inject_into_answer.$0","prompt.c:252:3","char *","const char *"
+"Optional","::puddle","prompt.c:264:15","void *(void *, size_t)",""
+"Optional","acquire_an_answer.stored_string","prompt.c:437:8","char *(char *, const char *)",""
+"Optional","acquire_an_answer.shortcut","prompt.c:446:19","const keystruct *(const int)","functionptrtype"
+"Optional","ask_user.shortcut","prompt.c:673:19","const keystruct *(const int)","functionptrtype"
+"Optional","measured_copy.$0","utils.c:364:9","const char *","const void *restrict"
+"Optional","copy_node.$0","nano.c:176:9","const linestruct *","linestruct *"
+"Optional","copy_node.dst","nano.c:157:14","const linestruct *","linestruct *(const linestruct *)"
+"Optional","insert_a_file_or.given","files.c:1247:8","char *(char *, const char *)",""
+"Optional","die.firstone","nano.c:378:18","openfilestruct *",""
+"Optional","do_mouse.current_save","nano.c:1386:15","openfilestruct *","linestruct *"
+"Optional","inject.thisline","nano.c:1519:14","void *(void *, size_t), openfilestruct *",""
+"Optional","process_a_keystroke.was_current","nano.c:1744:14","openfilestruct *",""
+"Optional","main.backup_dir_cmdline","nano.c:2220:9","char *",""
+"Optional","construct_argument_list.$0","text.c:2145:38","char ***, void *(void *, size_t)","char ***"
+"Optional","main.word_chars_cmdline","nano.c:2221:9","char *",""
+"Optional","strncpy.$0","utils.c:344:2","char *",""
+"Optional","check_the_multis.ink","color.c:258:19","openfilestruct *",""
+"Optional","get_edge_and_target.$1","move.c:54:52","openfilestruct *",""
+"Optional","free.$0","save-cwd.c:98:3","openfilestruct *, char **, int *, linestruct *, keystruct *, char *",""
+"Optional","strchr.$0","winio.c:374:19","const char *, char *",""
+"Optional","found_in_list.$1","color.c:183:8","char *","const char *restrict"
+"Optional","find_and_prime_applicable_syntax.fullname","color.c:176:9","char *(char *, const char *), char *(const char *)","const char *, char *, void *"
+"Optional","precalc_multicolorinfo.line","color.c:322:14","linestruct *, openfilestruct *","linestruct *"
+[Nullable] Optional ptrs list 350 end,,,,
+[Nullable] Optional void ptrs list 5 start,,,,
+Pattern,CensusKey,Location,NullableIn,NullableOut
+"Optional","nrealloc.$0","utils.c:326:22","char **, int *, char *","void *(void *, size_t)"
+"Optional","free.$0","save-cwd.c:98:3","openfilestruct *, char **, int *, linestruct *, keystruct *, char *",""
+"Optional","memcpy.$1","malloc/dynarray_resize.c:57:9","const char *",""
+"Optional","memmove.$1","cut.c:49:3","char *",""
+"Optional","memmove.$0","cut.c:49:3","char *",""
+[Nullable] Optional void ptrs list 5 end,,,,
+Pattern,CensusKey,Parent ptrs
+"Ptr Doms","find_and_prime_applicable_syntax.fullname","nrealloc.$0, nmalloc.section
+"Ptr Doms","bsearch.__p","bsearch.$1
+"Ptr Doms","strchr.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","main.word_chars_cmdline","nmalloc.section, nrealloc.$0
+"Ptr Doms","construct_argument_list.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","main.backup_dir_cmdline","nmalloc.section, nrealloc.$0
+"Ptr Doms","insert_a_file_or.given","nrealloc.$0, nmalloc.section
+"Ptr Doms","measured_copy.$0","top->data + top_x, nmalloc.section, nrealloc.$0
+"Ptr Doms","acquire_an_answer.stored_string","nrealloc.$0, nmalloc.section
+"Ptr Doms","::puddle","nrealloc.$0, nmalloc.section
+"Ptr Doms","find_in_history.$2","nrealloc.$0, nmalloc.section
+"Ptr Doms","concatenate.$0","nmalloc.section
+"Ptr Doms","inject.thisline","nrealloc.$0, nmalloc.section
+"Ptr Doms","try_tempname_len.$3.$1","try_tempname_len.$2, try_tempname.$2
+"Ptr Doms","display_string.converted","nrealloc.$0, nmalloc.section
+"Ptr Doms","browse.present_name","nrealloc.$0, nmalloc.section
+"Ptr Doms","mallocstrcpy.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","get_range.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","extract_segment.line","nmalloc.section, nrealloc.$0
+"Ptr Doms","strncmp.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","real_dir_from_tilde.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","concatenate.joined","nmalloc.section
+"Ptr Doms","outside_of_confinement.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","breadth.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","read_the_list.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","free_and_assign.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","justify_text.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","not_found_msg.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","findnextstr.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","delete_node.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","splice_node.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","::key_buffer","nrealloc.$0, nmalloc.section
+"Ptr Doms","input_tab.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","free.$0","nmalloc.section, freea.$0, freea.mem, nrealloc.$0
+"Ptr Doms","write_file.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","revstrstr.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrcasestr.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrlen.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","try_tempname_len.$2","try_tempname.$2
+"Ptr Doms","::custom_nanorc","nrealloc.$0, nmalloc.section
+"Ptr Doms","ingraft_buffer.botline","nrealloc.$0, nmalloc.section
+"Ptr Doms","::operating_dir","nrealloc.$0, nmalloc.section
+"Ptr Doms","splice_node.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","::punct","nrealloc.$0, nmalloc.section
+"Ptr Doms","::present_path","nrealloc.$0, nmalloc.section
+"Ptr Doms","unlink_node.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","collated_compare.ps2","collated_compare.$1
+"Ptr Doms","dirfd.$0","glob_in_dir.stream
+"Ptr Doms","get_region.$2","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrchr.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","browse.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","::matchbrackets","nrealloc.$0, nmalloc.section
+"Ptr Doms","::cutbottom","nrealloc.$0, nmalloc.section
+"Ptr Doms","diralphasort.b","diralphasort.$1
+"Ptr Doms","mkdir.$0","nmalloc.section
+"Ptr Doms","do_indent.indentation","nrealloc.$0, nmalloc.section
+"Ptr Doms","is_zerowidth.$0","nrealloc.$0
+"Ptr Doms","collated_compare.s2","collated_compare.$1
+"Ptr Doms","strstrwrapper.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","mmalloca.p","mmalloca.vp
+"Ptr Doms","strcoll.$0","collated_compare.$0
+"Ptr Doms","do_find_bracket.ch","nmalloc.section, nrealloc.$0
+"Ptr Doms","sprintf.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","regcomp.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","actual_x.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","parse_one_include.was_nanorc","nrealloc.$0, nmalloc.section
+"Ptr Doms","show_help.saved_answer","nmalloc.section, nrealloc.$0
+"Ptr Doms","::syntaxstr","nrealloc.$0, nmalloc.section
+"Ptr Doms","step_left.ptr","nrealloc.$0, nmalloc.section
+"Ptr Doms","findfile.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","::quotestr","nrealloc.$0, nmalloc.section
+"Ptr Doms","open_buffer.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","diralphasort.a","diralphasort.$0
+"Ptr Doms","memcpy.$0","result + length, gl_dynarray_finalize.heap_array, gl_dynarray_emplace_enlarge.new_array, gl_scratch_buffer_grow_preserve.new_ptr, gl_dynarray_resize.new_array, msg_ctxt_id + msgctxt_len
+"Ptr Doms","do_deletion.joining","nmalloc.section, nrealloc.$0
+"Ptr Doms","filename_completion.dirname","nrealloc.$0, nmalloc.section
+"Ptr Doms","safe_tempfile.tempfile_name","nrealloc.$0, nmalloc.section
+"Ptr Doms","extract_segment.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","compile.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrcasecmp.$1","diralphasort.$1
+"Ptr Doms","execute_command.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","username_completion.matches","nrealloc.$0, nmalloc.section
+"Ptr Doms","revstrcasestr.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","glob_in_dir.dirp","glob_in_dir.stream
+"Ptr Doms","have_statedir.statepath","nmalloc.section
+"Ptr Doms","::nanorc","nrealloc.$0, nmalloc.section
+"Ptr Doms","strlen.$0","top->data + top_x, top->data + bot_x, nmalloc.section, nrealloc.$0, line->data + u->head_x
+"Ptr Doms","get_full_path.target","nrealloc.$0, nmalloc.section
+"Ptr Doms","step_right.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","advance_over.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","concat_paragraph.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","suck_up_input_and_paste_it.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","::statedir","nmalloc.section
+"Ptr Doms","comment_line.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","update_undo.u","nrealloc.$0, nmalloc.section
+"Ptr Doms","try_file.openflags","try_file.$1
+"Ptr Doms","get_full_path.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrncasecmp.$1","nrealloc.$0, nmalloc.section, diralphasort.$1
+"Ptr Doms","nrealloc.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","write_it_out.given","nrealloc.$0, nmalloc.section
+"Ptr Doms","is_cntrl_char.$0","nrealloc.$0
+"Ptr Doms","strcpy.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","input_tab.matches","nrealloc.$0, nmalloc.section
+"Ptr Doms","readdir.$0","glob_in_dir.stream
+"Ptr Doms","filename_completion.matches","nrealloc.$0, nmalloc.section
+"Ptr Doms","crop_to_fit.clipped","nrealloc.$0, nmalloc.section
+"Ptr Doms","update_multiline_undo.u","nrealloc.$0, nmalloc.section
+"Ptr Doms","mbtowide.$0","diralphasort.$1, nmalloc.section, nrealloc.$0, diralphasort.$0
+"Ptr Doms","browser_refresh.info","nmalloc.section, nrealloc.$0
+"Ptr Doms","copy_text.addition","nmalloc.section, nrealloc.$0
+"Ptr Doms","ingraft_buffer.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","regexp_init.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","read_file.buf","nrealloc.$0, nmalloc.section
+"Ptr Doms","get_region.$3","nmalloc.section, nrealloc.$0
+"Ptr Doms","strncpy.$0","thisline->data + openfile->current_x, nmalloc.section, nrealloc.$0
+"Ptr Doms","collated_compare.ps1","collated_compare.$0
+"Ptr Doms","do_linter.lintings","nrealloc.$0, nmalloc.section
+"Ptr Doms","filename_completion.fullname","nrealloc.$0, nmalloc.section
+"Ptr Doms","line_from_number.line","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrcasecmp.$0","diralphasort.$0
+"Ptr Doms","::answer","nrealloc.$0, nmalloc.section
+"Ptr Doms","freea.mem","freea.$0
+"Ptr Doms","collated_compare.s1","collated_compare.$0
+"Ptr Doms","number_of_characters_in.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","extract_segment.last","nrealloc.$0, nmalloc.section
+"Ptr Doms","get_region.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","real_dir_from_tilde.tilded","nrealloc.$0, nmalloc.section
+"Ptr Doms","closedir.$0","glob_in_dir.stream
+"Ptr Doms","mallocstrcpy.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","chmod.$0","nmalloc.section
+"Ptr Doms","found_in_list.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","browse_in.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","replace_regexp.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","free_chararray.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","do_wrap.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","browse_in.path","nrealloc.$0, nmalloc.section
+"Ptr Doms","do_redo.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","do_redo.u","nmalloc.section, nrealloc.$0
+"Ptr Doms","indent_a_line.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","strncasecmp.$0","diralphasort.$0
+"Ptr Doms","do_undo.line","nrealloc.$0, nmalloc.section
+"Ptr Doms","do_undo.u","nmalloc.section, nrealloc.$0
+"Ptr Doms","titlebar.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","display_string.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","strncasecmp.$1","nmalloc.section, nrealloc.$0, diralphasort.$1
+"Ptr Doms","load_history.histname","nmalloc.section
+"Ptr Doms","compensate_leftward.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","main.quotestr_cmdline","nmalloc.section, nrealloc.$0
+"Ptr Doms","strstr.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","gl_dynarray_finalize.$3","gl_dynarray_finalize.heap_array
+"Ptr Doms","regexec.$1","nrealloc.$0, nmalloc.section
+"Ptr Doms","realloc.$0","nrealloc.$0
+"Ptr Doms","parse_one_include.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","get_region.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","mbstrncasecmp.$0","diralphasort.$0
+"Ptr Doms","make_new_node.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","::openfile","nmalloc.section, nrealloc.$0
+"Ptr Doms","::bardata","nrealloc.$0, nmalloc.section
+"Ptr Doms","justify_paragraph.sampleline","nrealloc.$0
+"Ptr Doms","stat.$0","nrealloc.$0, diralphasort.$1, nmalloc.section, diralphasort.$0
+"Ptr Doms","fopen.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","update_history.hbot","nrealloc.$0, nmalloc.section
+"Ptr Doms","replace_regexp.c","nmalloc.section, nrealloc.$0
+"Ptr Doms","memmove.$0","top->data + top_x, thisline->data + openfile->current_x + count, nmalloc.section, line->data + lead_len, line->data + u->head_x, line->data + primary_len, line->data + pre_len, answer + typing_x + count, key_buffer + 1, answer + 1, answer + typing_x + pastelen, line->data + pre_len + line_len, nrealloc.$0, u->strdata + charlen, line->data + indent_len, clipped + 3, line->data + xpos + extralen
+"Ptr Doms","::word_chars","nrealloc.$0, nmalloc.section
+"Ptr Doms","get_range.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","wideness.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","::backup_dir","nrealloc.$0, nmalloc.section
+"Ptr Doms","copy_of.$0","top->data + top_x, nmalloc.section, nrealloc.$0
+"Ptr Doms","crop_to_fit.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","write_region_to_file.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","mempcpy.$0","mempcpy(mempcpy(fullname, directory, dirlen), "/", 1), mempcpy(fullname, directory, dirlen), mempcpy(newp, home_dir, home_len), mempcpy(alt_start, p, next - p)
+"Ptr Doms","strcpy.$0","top->data + top_x, nmalloc.section
+"Ptr Doms","strstr.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","::brackets","nrealloc.$0, nmalloc.section
+"Ptr Doms","memchr.$0","dir + 3
+"Ptr Doms","strcmp.$1","nmalloc.section, diralphasort.$1, nrealloc.$0
+"Ptr Doms","mempcpy.$1","dirname + 1
+"Ptr Doms","strcoll.$1","collated_compare.$1
+"Ptr Doms","strip_last_component.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","memcpy.$1","top->data + top_x, nmalloc.section, nrealloc.$0
+"Ptr Doms","get_history_completion.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","gl_dynarray_resize.$2","gl_dynarray_resize_clear.$2
+"Ptr Doms","actual_x.start","nrealloc.$0
+"Ptr Doms","extract_segment.$2","nmalloc.section, nrealloc.$0
+"Ptr Doms","update_history.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","strncpy.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","::macro_buffer","nrealloc.$0, nmalloc.section
+"Ptr Doms","open_file.full_filename","nrealloc.$0, nmalloc.section
+"Ptr Doms","is_doublewidth.$0","nrealloc.$0
+"Ptr Doms","step_left.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","memmove.$1","nrealloc.$0, line->data + indent_len, thisline->data + openfile->current_x, answer + was_x, nmalloc.section, answer + typing_x + charlen, line->data + pre_len, top->data + bot_x, alt_speller + 1, line->data + fore_len, answer + 1, line->data + u->head_x + strlen(u->strdata)
+"Ptr Doms","control_mbrep.$0","nrealloc.$0
+"Ptr Doms","strcmp.$0","nmalloc.section, nrealloc.$0, diralphasort.$0
+"Ptr Doms","mbrevstrcasestr.$1","nmalloc.section, nrealloc.$0
+"Ptr Doms","::poshistname","nmalloc.section
+"Ptr Doms","memset.$0","array + (old_size * element_size)
+"Ptr Doms","renumber_from.$0","nmalloc.section, nrealloc.$0
+"Ptr Doms","is_good_file.$0","nrealloc.$0, nmalloc.section
+"Ptr Doms","::alt_speller","nrealloc.$0, nmalloc.section
+"Ptr Doms","::whitespace","nrealloc.$0, nmalloc.section
+"Ptr Doms","char_length.$0","nmalloc.section, nrealloc.$0, diralphasort.$1, diralphasort.$0
+"Ptr Doms","::last_search","nrealloc.$0, nmalloc.section
+"Ptr Doms","save_history.histname","nmalloc.section
+"Ptr Doms","mbtowide.$1","diralphasort.$1, nmalloc.section, nrealloc.$0, diralphasort.$0
+"Ptr Doms","do_int_speller.misspellings","nrealloc.$0, nmalloc.section
+"Ptr Doms","display_string.origin","nmalloc.section, nrealloc.$0
+"Ptr Doms","pick_up_name.$2","nrealloc.$0, nmalloc.section
+Pattern,CensusKey,Parent casts
+"Ptr Doms","strchr.$0","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","strncpy.$0","macro_buffer, morsel, dirname, nmalloc(bufsize), matches, lintings, path, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer, nmalloc(allocsize), tempdir, converted, buf, key_buffer, fullname
+"Ptr Doms","construct_argument_list.$0","*arguments, nrealloc(*arguments, ++count * sizeof(char *)), fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","main.backup_dir_cmdline","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","copy_node.dst","nmalloc(sizeof(linestruct))
+"Ptr Doms","memset.$0","spaces, array + (old_size * element_size), lockdata
+"Ptr Doms","ask_user.shortcut","nmalloc(sizeof(keystruct))
+"Ptr Doms","acquire_an_answer.shortcut","nmalloc(sizeof(keystruct))
+"Ptr Doms","mdir_name.dir","malloc(length + append_dot + 1)
+"Ptr Doms","::puddle","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","strstr.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","mempcpy.$0","p_concat, p, d, fullname, endp, newp, alt_start, onealt, new, dirname
+"Ptr Doms","do_linter.lintings","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","memchr.$0","dir + 3, string, dirname
+"Ptr Doms","::brackets","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","browser_refresh.disp","nmalloc(allocsize)
+"Ptr Doms","crop_to_fit.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","::word_chars","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","getrandom.$0","r
+"Ptr Doms","::nanorc","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, answer
+"Ptr Doms","have_statedir.statepath","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","update_history.hbot","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","::bardata","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","make_new_node.$0","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","stat_with_alloc.$1","*pstat
+"Ptr Doms","::openfile","converted, answer, bardata, path, target, misspellings, tempdir, nmalloc(allocsize), lintings, matches, fullname, buf, key_buffer, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), puddle, dest, nmalloc(sizeof(linestruct)), clipped, nmalloc(locknamesize), dirname
+"Ptr Doms","make_new_node.newnode","nmalloc(sizeof(linestruct))
+"Ptr Doms","mmalloca.mem","(char *)malloc(nplus)
+"Ptr Doms","parse_one_include.$0","path, lintings, matches, clipped, nmalloc(bufsize), dirname, nmalloc(pathlen + strlen(name) + 1), answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","regexec.$1","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","collated_compare.ps2","b
+"Ptr Doms","insert_a_file_or.given","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","unlink_node.$0","bardata, answer, converted, nmalloc(locknamesize), clipped, lintings, matches, dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer, dest, puddle, nmalloc(allocsize), tempdir
+"Ptr Doms","::present_path","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","regcomp.$1","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","get_history_completion.$1","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","measured_copy.$0","dirname, tempdir, nmalloc(allocsize), converted, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, fullname, buf, key_buffer, clipped, nmalloc(bufsize), puddle, dest, answer, bardata, misspellings, target
+"Ptr Doms","findfile.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","strtosc.s","nmalloc(sizeof(keystruct))
+"Ptr Doms","mallocstrcpy.$1","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","get_region.$2","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","real_dir_from_tilde.tilded","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","extract_segment.last","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, tempdir, nmalloc(allocsize), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","update_multiline_undo.u","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","advance_over.$0","dirname, nmalloc(bufsize), converted, matches, lintings, path, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer, nmalloc(allocsize), tempdir, buf, key_buffer, fullname
+"Ptr Doms","mbstrchr.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","collated_compare.s2","b
+"Ptr Doms","is_zerowidth.$0","dest, nmalloc(pathlen + strlen(name) + 1), clipped, key_buffer, puddle, nmalloc(allocsize), misspellings, lintings
+"Ptr Doms","diralphasort.a","*(const char *const *)va
+"Ptr Doms","measured_copy.thecopy","nmalloc(count + 1)
+"Ptr Doms","memcpy.$0","dir, malloc(length + append_dot + 1), result + length, flags, buf, memory, p, thecopy, flags_cmdline, msg_ctxt_id, msg_ctxt_id + msgctxt_len, fbp, stash
+"Ptr Doms","actual_x.start","lintings, misspellings, puddle, nmalloc(allocsize), key_buffer, clipped, nmalloc(pathlen + strlen(name) + 1), dest
+"Ptr Doms","do_deletion.joining","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","nrealloc.$0","macro_buffer, morsel, dirname, nmalloc(bufsize), converted, matches, lintings, path, target, misspellings, clipped, puddle, dest, nmalloc(pathlen + strlen(name) + 1), bardata, answer, nmalloc(allocsize), tempdir, buf, key_buffer, fullname
+"Ptr Doms","write_it_out.given","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","main.message","nmalloc(size)
+"Ptr Doms","mbstrncasecmp.$1","dest, puddle, bardata, tempdir, nmalloc(allocsize), converted, answer, *(const char *const *)vb, key_buffer, fullname, buf, nmalloc(pathlen + strlen(name) + 1), target, misspellings, path, lintings, matches, clipped, nmalloc(bufsize), dirname
+"Ptr Doms","get_region.$1","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","mmalloca.p","vp, mem + offset
+"Ptr Doms","get_full_path.$0","answer, bardata, path, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), clipped, dest, puddle, target, misspellings, matches, lintings, buf, key_buffer, fullname, converted, nmalloc(allocsize), tempdir, dirname
+"Ptr Doms","mkdir.$0","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","strstr.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","mbtowide.$0","dirname, nmalloc(bufsize), converted, *(const char *const *)vb, bardata, *(const char *const *)va, matches, lintings, path, target, misspellings, buf, fullname, key_buffer, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, nmalloc(allocsize), tempdir, answer
+"Ptr Doms","memrchr.$0","dir
+"Ptr Doms","do_redo.u","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","sprintf.$0","macro_buffer, morsel, dirname, nmalloc(bufsize), matches, lintings, path, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer, nmalloc(allocsize), tempdir, converted, buf, key_buffer, fullname
+"Ptr Doms","replace_regexp.$0","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","browse_in.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","mbstrcasecmp.$1","*(const char *const *)vb
+"Ptr Doms","write_region_to_file.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","do_find_bracket.ch","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","realloc.$0","result, lintings, path, misspellings, puddle, key_buffer, clipped, dest, nmalloc(pathlen + strlen(name) + 1), bardata, answer
+"Ptr Doms","prefix_array.endp","mempcpy(new, dirname, dirlen)
+"Ptr Doms","display_string.$0","answer, converted, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), clipped, fullname, buf, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), matches, lintings, path, bardata, dirname, misspellings, target
+"Ptr Doms","titlebar.$0","bardata, dirname, path, matches, lintings, target, misspellings, clipped, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), puddle, dest, converted, nmalloc(allocsize), tempdir, answer, buf, key_buffer, fullname
+"Ptr Doms","prefix_array.new","malloc(dirlen + 1 + eltlen)
+"Ptr Doms","::backup_dir","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","wideness.$0","answer, bardata, path, nmalloc(bufsize), matches, lintings, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, key_buffer, buf, fullname, converted, nmalloc(allocsize), tempdir, dirname
+"Ptr Doms","glob_in_dir.p","mempcpy(s.data, directory, dirlen)
+"Ptr Doms","mbtowide.$1","converted, nmalloc(bufsize), dirname, *(const char *const *)vb, path, *(const char *const *)va, nmalloc(pathlen + strlen(name) + 1), clipped, buf, fullname, key_buffer, dest, puddle, target, misspellings, matches, lintings, nmalloc(allocsize), tempdir, answer, bardata
+"Ptr Doms","replace_regexp.c","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","open_buffer.thelocksname","nmalloc(locknamesize)
+"Ptr Doms","parse_interface_color.trio","nmalloc(sizeof(colortype))
+"Ptr Doms","make_new_buffer.newnode","nmalloc(sizeof(openfilestruct))
+"Ptr Doms","glob_in_dir.names","(struct globnames *)&init_names_buf
+"Ptr Doms","free_chararray.$0","key_buffer, fullname, buf, target, misspellings, path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, nmalloc(pathlen + strlen(name) + 1), bardata, puddle, dest
+"Ptr Doms","do_wrap.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","gl_dynarray_resize_clear.array","list->array
+"Ptr Doms","do_lockfile.lockfilename","nmalloc(locknamesize)
+"Ptr Doms","::syntaxstr","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","read_file.buf","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), nmalloc(bufsize), clipped, dirname, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","get_region.$3","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","regexp_init.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","collated_compare.ps1","a
+"Ptr Doms","freea.mem","(char *)p - ((small_t *)p)[-1]
+"Ptr Doms","collated_compare.s1","a
+"Ptr Doms","rpl_glob.p","mempcpy(newp, dirname + 1, unescape - dirname - 1)
+"Ptr Doms","::matchbrackets","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","diralphasort.b","*(const char *const *)vb
+"Ptr Doms","::cutbottom","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","strstrwrapper.$1","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","filename_completion.matches","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","::answer","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","mbstrcasecmp.$0","*(const char *const *)va
+"Ptr Doms","strcmp.$1","answer, bardata, path, nmalloc(bufsize), dirname, matches, lintings, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, *(const char *const *)vb, converted, nmalloc(allocsize), tempdir, key_buffer, buf, fullname
+"Ptr Doms","line_from_number.line","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","copy_buffer.head","nmalloc(sizeof(linestruct))
+"Ptr Doms","filename_completion.fullname","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","open_buffer.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","do_verbatim_input.bytes","nmalloc(4 + 2)
+"Ptr Doms","strnlen1.end","(const char *)memchr(string, '\x00', maxlen)
+"Ptr Doms","minibar.thename","nmalloc(allocsize)
+"Ptr Doms","username_completion.matches","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","compile.message","nmalloc(length)
+"Ptr Doms","encode_data.$0","nmalloc(bufsize)
+"Ptr Doms","rpl_glob.new","realloc(pglob->gl_pathv[i], len)
+"Ptr Doms","acquire_an_answer.stored_string","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","glob_in_dir.init_names","(struct globnames *)&init_names_buf
+"Ptr Doms","chmod.$0","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","inject.thisline","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","mallocstrcpy.$0","macro_buffer, morsel, dirname, nmalloc(bufsize), converted, path, target, misspellings, lintings, matches, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer, nmalloc(allocsize), tempdir, buf, key_buffer, fullname
+"Ptr Doms","main.quotestr_cmdline","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","strcpy.$1","answer, bardata, dest, puddle, misspellings, target, nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","is_cntrl_char.$0","dest, nmalloc(pathlen + strlen(name) + 1), clipped, key_buffer, puddle, nmalloc(allocsize), misspellings, lintings
+"Ptr Doms","browse.present_name","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","strlen.$0","answer, bardata, path, nmalloc(bufsize), dirname, nmalloc(pathlen + strlen(name) + 1), matches, lintings, target, misspellings, clipped, puddle, dest, buf, key_buffer, fullname, nmalloc(44), converted, nmalloc(allocsize), tempdir
+"Ptr Doms","strncpy.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, dest, puddle, clipped, nmalloc(4 + 2), nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata
+"Ptr Doms","username_completion.$2","nrealloc(matches, (*num_matches + 1) * sizeof(char *))
+"Ptr Doms","get_region.$0","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","::custom_nanorc","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","free.$0","secondcopy, keycopy, answer, thename, targetname, nmalloc(allocsize), bardata, dest, dropit->strdata, bytes, nmalloc(bufsize), msg, tilded, drop_record->filename, statepath, filename, prompt, nmalloc(strlen(question) + strlen(name) + 1), glued, disp, newsc, planted_shortcut, buffer, item->filename, info, temp_name, lead_string, shortname, histname, postedname, prev_dirname, shard, full_path, input, trio, puddle, tmplint->msg, present_name, dropit->word, path_and_place, compiled, hexadecimal, nmalloc(locknamesize), pidstring, argument, tempname, lockfilename, complaint, home_dir, orphan->filename, currentdir, realname, buf, firstpart, clipped, dirname, alt_speller, onealt, number_of_lines, nmalloc(length), line->data, primary_lead, user_name, lintings, target, given, spaces, compound, name, title, str, thedefault, fullpath, macro_buffer, array, statedir, nmalloc(pathlen + strlen(name) + 1), misspellings, dontwantfile, nanorc, help_text, fullname, path, key_buffer, start_rgx, location, nmalloc(sizeof(linestruct)), tempdir, lockdata, group, nmalloc(4 + 2), tailtext, yield, secondary_lead, message, ranking, shared, nmalloc(44), (struct globnames *)&init_names_buf, old, stored_string, nmalloc(sizeof(keystruct)), promptstr, commandname, wasdirname, converted, matches, quotestr, last_search, full_filename, tempfile_name, namecopy, (char *)p - ((small_t *)p)[-1], full_answer, plainname, word, backupname, s, result, expanded, operating_dir, backup_dir, morsel, thepath, buf_malloced, caption, nmalloc(len), indentation, stanza, word_chars, untilded, lockbuf
+"Ptr Doms","filename_completion.dirname","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","compile.$0","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), misspellings, target, nmalloc(pathlen + strlen(name) + 1), fullname, buf, key_buffer
+"Ptr Doms","extract_segment.$0","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","safe_tempfile.tempfile_name","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","::planted_shortcut","nmalloc(sizeof(keystruct))
+"Ptr Doms","dirfd.$0","stream
+"Ptr Doms","compile.compiled","nmalloc(sizeof(regex_t))
+"Ptr Doms","write_it_out.message","nmalloc(strlen(question) + strlen(name) + 1)
+"Ptr Doms","do_int_speller.misspellings","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","display_string.origin","dirname, bardata, path, matches, lintings, target, misspellings, tempdir, nmalloc(allocsize), clipped, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), puddle, dest, answer, converted, key_buffer, buf, fullname
+"Ptr Doms","update_history.$1","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","indent_a_line.$0","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","copy_from_buffer.the_copy","nmalloc(sizeof(linestruct))
+"Ptr Doms","next_brace_sub.$0","mempcpy(newp, dirname + 1, unescape - dirname - 1)
+"Ptr Doms","get_full_path.target","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","add_undo.u","nmalloc(sizeof(undostruct))
+"Ptr Doms","pick_up_name.$2","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","concat_paragraph.$0","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","strcpy.$0","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","comment_line.$1","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","find_and_prime_applicable_syntax.fullname","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","::statedir","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","suck_up_input_and_paste_it.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","glob_in_dir.old","(struct globnames *)&init_names_buf
+"Ptr Doms","update_undo.u","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","do_redo.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","browse_in.path","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","do_undo.u","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","do_linter.msg","nmalloc(1024 + strlen(curlint->filename))
+"Ptr Doms","write_file.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","crop_to_fit.clipped","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","do_undo.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","memmove.$0","u->strdata + charlen, thisline->data + openfile->current_x + count, answer, dest, puddle, line->data + indent_len, bardata, answer + typing_x, clipped + 3, line->data + xpos + extralen, answer + 1, key_buffer + 1, answer + typing_x + count, answer + typing_x + pastelen, converted, line->data + primary_len, line->data + pre_len + line_len, line->data + lead_len, line->data + u->head_x, alt_speller, fullname, line->data + pre_len, buf, top->data + top_x, tempdir, nmalloc(allocsize), nmalloc(bufsize), path, key_buffer, clipped, dirname, matches, lintings, target, nmalloc(pathlen + strlen(name) + 1), misspellings
+"Ptr Doms","strncasecmp.$0","*(const char *const *)va
+"Ptr Doms","browse.$0","converted, tempdir, nmalloc(allocsize), answer, nmalloc(pathlen + strlen(name) + 1), clipped, nmalloc(bufsize), fullname, buf, key_buffer, dest, puddle, matches, lintings, path, dirname, misspellings, target, bardata
+"Ptr Doms","stat.$0","path, lintings, matches, nmalloc(bufsize), dirname, nmalloc(allocsize), tempdir, converted, *(const char *const *)va, nmalloc(pathlen + strlen(name) + 1), clipped, nmalloc(locknamesize), *(const char *const *)vb, answer, bardata, dest, puddle, target, misspellings, fullname, buf, key_buffer
+"Ptr Doms","ingraft_buffer.$0","nmalloc(sizeof(linestruct))
+"Ptr Doms","justify_paragraph.sampleline","lintings, misspellings, nmalloc(allocsize), puddle, key_buffer, clipped, nmalloc(pathlen + strlen(name) + 1), dest
+"Ptr Doms","open_file.full_filename","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","is_doublewidth.$0","dest, nmalloc(pathlen + strlen(name) + 1), clipped, key_buffer, puddle, nmalloc(allocsize), misspellings, lintings
+"Ptr Doms","compensate_leftward.$0","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","write_lockfile.$0","nmalloc(locknamesize)
+"Ptr Doms","load_history.histname","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","extract_segment.$2","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","glob_in_dir.names_alloca","(struct globnames *)&init_names_buf
+"Ptr Doms","strncasecmp.$1","dirname, nmalloc(bufsize), clipped, matches, lintings, path, *(const char *const *)vb, converted, answer, dest, puddle, tempdir, nmalloc(allocsize), bardata, misspellings, target, key_buffer, fullname, buf, nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","::alt_speller","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","is_good_file.$0","answer, bardata, dest, puddle, misspellings, target, nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","::whitespace","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","renumber_from.$0","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","parse_binding.newsc","nmalloc(sizeof(keystruct))
+"Ptr Doms","rpl_glob.sdata","s.data
+"Ptr Doms","add_to_sclist.sc","nmalloc(sizeof(keystruct))
+"Ptr Doms","memmove.$1","answer, line->data + xpos, bardata, answer + typing_x, thisline->data + openfile->current_x, answer + was_x, dest, comment_seq, top->data + bot_x, alt_speller + 1, puddle, line->data + fore_len, target, nmalloc(pathlen + strlen(name) + 1), misspellings, answer + 1, path, clipped, key_buffer, fullname, line->data + pre_len, buf, line->data + u->head_x + strlen(u->strdata), line->data + indent_len, post_seq, answer + typing_x + charlen, converted, tempdir, nmalloc(allocsize), nmalloc(bufsize), dirname, matches, lintings
+"Ptr Doms","rpl_glob.next","mempcpy(newp, dirname + 1, unescape - dirname - 1)
+"Ptr Doms","step_left.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, nmalloc(allocsize), tempdir, dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","mmalloca.vp","mem + offset
+"Ptr Doms","control_mbrep.$0","dest, nmalloc(pathlen + strlen(name) + 1), clipped, key_buffer, puddle, nmalloc(allocsize), misspellings, lintings
+"Ptr Doms","parse_one_include.was_nanorc","answer, bardata, dest, puddle, misspellings, target, nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","revstrcasestr.$1","dest, puddle, bardata, tempdir, nmalloc(allocsize), converted, key_buffer, fullname, buf, nmalloc(pathlen + strlen(name) + 1), target, misspellings, path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer
+"Ptr Doms","delete_lockfile.$0","nmalloc(locknamesize)
+"Ptr Doms","mempcpy.$1","dir, dirname, directory, end_name, dirname + 1, rest, base, "/", mempcpy(newp, dirname + 1, unescape - dirname - 1), pattern, &dirname[1], p, home_dir
+"Ptr Doms","func_from_key.sc","nmalloc(sizeof(keystruct))
+"Ptr Doms","mbstrncasecmp.$0","*(const char *const *)va
+"Ptr Doms","strcoll.$1","b
+"Ptr Doms","memcpy.$1","bardata, answer, nmalloc(bufsize), path, nmalloc(allocsize), tempdir, dirname, matches, lintings, target, misspellings, result, flags, string, converted, indentation, msgctxt, nmalloc(pathlen + strlen(name) + 1), file, puddle, dest, msgid, clipped, buf, fullname, stash, key_buffer
+"Ptr Doms","strip_last_component.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","update_multiline_undo.born","nmalloc(sizeof(groupstruct))
+"Ptr Doms","get_range.$0","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","::macro_buffer","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","show_help.saved_answer","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","minibar.hexadecimal","nmalloc(9)
+"Ptr Doms","ingraft_buffer.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","copy_text.addition","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","browser_refresh.info","macro_buffer, morsel, dirname, nmalloc(bufsize), converted, path, target, misspellings, lintings, matches, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer, nmalloc(allocsize), tempdir, buf, key_buffer, fullname
+"Ptr Doms","strcmp.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, *(const char *const *)va, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","copy_of.$0","answer, bardata, path, nmalloc(bufsize), nmalloc(pathlen + strlen(name) + 1), clipped, dest, puddle, target, misspellings, matches, lintings, buf, key_buffer, fullname, converted, nmalloc(allocsize), tempdir, dirname
+"Ptr Doms","get_verbatim_kbinput.bytes","nmalloc(4 + 2)
+"Ptr Doms","mbrevstrcasestr.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","::poshistname","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","fwrite.$0","path_and_place, lockdata
+"Ptr Doms","titlebar.caption","nmalloc(allocsize)
+"Ptr Doms","do_indent.indentation","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","actual_x.$0","dirname, nmalloc(bufsize), converted, nmalloc(strlen(question) + strlen(name) + 1), matches, lintings, path, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, buf, key_buffer, fullname, nmalloc(allocsize), tempdir, answer, bardata
+"Ptr Doms","::quotestr","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","regerror.$2","nmalloc(len), nmalloc(length)
+"Ptr Doms","closedir.$0","stream
+"Ptr Doms","filename_completion.$1","nrealloc(matches, (*num_matches + 1) * sizeof(char *))
+"Ptr Doms","save_history.histname","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","inject.$0","nmalloc(4 + 2)
+"Ptr Doms","add_to_funcs.f","nmalloc(sizeof(funcstruct))
+"Ptr Doms","glob_in_dir.dirp","stream
+"Ptr Doms","input_tab.$0","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","::last_search","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","char_length.$0","dirname, path, answer, converted, *(const char *const *)va, nmalloc(bufsize), nmalloc(4 + 2), *(const char *const *)vb, matches, lintings, target, misspellings, tempdir, nmalloc(allocsize), dest, puddle, buf, fullname, key_buffer, clipped, nmalloc(pathlen + strlen(name) + 1), bardata
+"Ptr Doms","getpwnam_r.$0","s.data
+"Ptr Doms","readdir.$0","stream
+"Ptr Doms","input_tab.matches","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, tempdir, nmalloc(allocsize), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","::punct","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","strcoll.$0","a
+"Ptr Doms","process_a_keystroke.shortcut","nmalloc(sizeof(keystruct))
+"Ptr Doms","splice_node.$1","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, tempdir, nmalloc(allocsize), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","::operating_dir","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, nmalloc(pathlen + strlen(name) + 1), puddle, dest, bardata, answer
+"Ptr Doms","ingraft_buffer.botline","nmalloc(sizeof(linestruct)), fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","mbstrlen.$0","dest, puddle, bardata, tempdir, nmalloc(allocsize), converted, answer, key_buffer, fullname, buf, nmalloc(pathlen + strlen(name) + 1), target, misspellings, path, lintings, matches, clipped, nmalloc(4 + 2), nmalloc(bufsize), dirname
+"Ptr Doms","mbstrcasestr.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","revstrstr.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","do_statusbar_verbatim_input.bytes","nmalloc(4 + 2)
+"Ptr Doms","found_in_list.$1","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","not_found_msg.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","splice_node.$0","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","number_of_characters_in.$1","nmalloc(sizeof(linestruct)), key_buffer, fullname, buf, target, misspellings, path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, nmalloc(pathlen + strlen(name) + 1), bardata, puddle, dest
+"Ptr Doms","fopen.$0","answer, bardata, dest, puddle, misspellings, target, nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","delete_node.$0","tempdir, nmalloc(allocsize), puddle, dest, key_buffer, fullname, buf, nmalloc(sizeof(linestruct)), bardata, answer, converted, nmalloc(locknamesize), clipped, nmalloc(bufsize), path, lintings, matches, dirname, nmalloc(pathlen + strlen(name) + 1), target, misspellings
+"Ptr Doms","ask_user.$1","nmalloc(strlen(question) + strlen(name) + 1)
+"Ptr Doms","search_filename.disp","nmalloc(allocsize)
+"Ptr Doms","main.word_chars_cmdline","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","findnextstr.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","justify_text.line","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","::key_buffer","fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1), answer
+"Ptr Doms","free_and_assign.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","read_the_list.$0","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","outside_of_confinement.$0","answer, bardata, path, nmalloc(bufsize), matches, lintings, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, key_buffer, buf, fullname, converted, nmalloc(allocsize), tempdir, dirname
+"Ptr Doms","concatenate.joined","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","real_dir_from_tilde.$0","answer, bardata, path, nmalloc(bufsize), matches, lintings, target, misspellings, clipped, nmalloc(pathlen + strlen(name) + 1), puddle, dest, key_buffer, buf, fullname, converted, nmalloc(allocsize), tempdir, dirname
+"Ptr Doms","glthread_once_singlethreaded.firstbyte","(char *)once_control
+"Ptr Doms","strncmp.$1","key_buffer, fullname, buf, target, misspellings, nmalloc(pathlen + strlen(name) + 1), path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest
+"Ptr Doms","mfile_name_concat.p_concat","malloc(dirlen + (sep != '\x00') + baselen + 1)
+"Ptr Doms","execute_command.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","number_of_characters_in.$0","nmalloc(sizeof(linestruct))
+"Ptr Doms","chdir_long.slash","memrchr(dir, '/', 4096), memchr(dir + 3, '/', dir_end - (dir + 3))
+"Ptr Doms","step_right.$0","answer, bardata, dest, puddle, nmalloc(pathlen + strlen(name) + 1), misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","try_file.openflags","flags
+"Ptr Doms","breadth.$0","converted, nmalloc(bufsize), dirname, nmalloc(pathlen + strlen(name) + 1), clipped, dest, puddle, target, misspellings, matches, lintings, path, buf, key_buffer, fullname, nmalloc(allocsize), tempdir, answer, bardata
+"Ptr Doms","extract_segment.line","answer, nmalloc(pathlen + strlen(name) + 1), bardata, dest, puddle, misspellings, target, fullname, key_buffer, buf, converted, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path
+"Ptr Doms","regexp_init.str","nmalloc(len)
+"Ptr Doms","get_range.$1","dirname, nmalloc(bufsize), path, nmalloc(sizeof(linestruct)), nmalloc(pathlen + strlen(name) + 1), buf, fullname, key_buffer, dest, puddle, tempdir, nmalloc(allocsize), target, misspellings, matches, lintings, clipped, nmalloc(locknamesize), converted, answer, bardata
+"Ptr Doms","step_left.ptr","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, nmalloc(allocsize), tempdir, bardata, puddle, dest, nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","display_string.converted","fullname, key_buffer, buf, converted, answer, tempdir, nmalloc(allocsize), dirname, nmalloc(bufsize), clipped, matches, lintings, path, target, misspellings, puddle, dest, bardata, nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","minibar.location","nmalloc(44)
+"Ptr Doms","gl_scratch_buffer_set_array_size.new_ptr","malloc(new_length)
+"Ptr Doms","concatenate.$0","nmalloc(pathlen + strlen(name) + 1)
+"Ptr Doms","find_in_history.$2","path, lintings, matches, clipped, nmalloc(bufsize), dirname, answer, converted, bardata, dest, puddle, tempdir, nmalloc(allocsize), nmalloc(pathlen + strlen(name) + 1), misspellings, target, buf, fullname, key_buffer
+"Ptr Doms","inject_into_answer.$0","nmalloc(4 + 2)

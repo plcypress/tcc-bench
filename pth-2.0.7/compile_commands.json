@@ -1,0 +1,223 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_debug.o",
+      "pth_debug.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_debug.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_debug.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "pth_debug.o",
+      "pth_debug.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_debug.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_debug.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_ring.o",
+      "pth_ring.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_ring.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_ring.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "pth_ring.o",
+      "pth_ring.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_ring.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_ring.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_pqueue.o",
+      "pth_pqueue.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_pqueue.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_pqueue.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "pth_pqueue.o",
+      "pth_pqueue.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_pqueue.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_pqueue.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_time.o",
+      "pth_time.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_time.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_time.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "pth_time.o",
+      "pth_time.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_time.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_time.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_errno.o",
+      "pth_errno.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_errno.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_errno.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      "pth_errno.o",
+      "pth_errno.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_errno.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_errno.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-I.",
+      "-O2",
+      "-pipe",
+      "-fPIC",
+      "-DPIC",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-I",
+      "/usr/lib/llvm-18/lib/clang/18/include",
+      "-o",
+      ".libs/pth_mctx.o",
+      "pth_mctx.c"
+    ],
+    "directory": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7",
+    "file": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/pth_mctx.c",
+    "output": "/itch/common/crepos/cu-to-rtu/c/pth-2.0.7/.libs/pth_mctx.o"
+  }
+]

@@ -1,0 +1,14 @@
+# tests/atlocal.  Generated from atlocal.in by configure.                                     -*- shell-script -*-
+# Configurable variable values for GNU test test suite.
+
+PATH=/itch/common/crepos/cu-to-rtu/c/cflow-1.7/tests:/itch/common/crepos/cu-to-rtu/c/cflow-1.7/src:$top_srcdir:$srcdir:$PATH
+CFLOWDIR=/itch/common/crepos/cu-to-rtu/c/cflow-1.7/tests
+#EXAMPLES=/itch/common/crepos/cu-to-rtu/c/cflow-1.7/examples
+CFLOW_OPTIONS=
+export CFLOW_OPTIONS
+CFLOWRC=/dev/null
+export CFLOWRC
+# On some systems unsetting undefined variable produces an error, so
+# make sure it is defined.
+POSIXLY_CORRECT=0
+unset POSIXLY_CORRECT

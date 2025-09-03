@@ -1,0 +1,12 @@
+Location,Enum,Field,Value
+"winio.c:1381:3","int",,
+"winio.c:606:5","int","int (const int *; size_t; int *)","'T' | 'S' | 'R' | 'Q' | 'P' | 'O' | 'N' | 'M'"
+"winio.c:1047:5","int","int (WINDOW *)","263 | 127"
+"text.c:1216:2","undostruct",,
+"./prototypes.h:105:24","undostruct","openfilestruct *","COUPLE_END"
+"text.c:759:49","undostruct","char","ADD"
+"text.c:1205:18","undostruct","size_t","ADD"
+"cut.c:49:3","undostruct","void *","ADD"
+"utils.c:456:28","undostruct","linestruct *","JOIN"
+"utils.c:344:2","undostruct","unsigned long","ADD"
+"text.c:733:8","undostruct","char *","UNCOMMENT"

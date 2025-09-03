@@ -1,0 +1,593 @@
+---
+MainSourceFile:  '/itch/common/crepos/cu-to-rtu/c/1'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         no input files
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'no such file or directory: ''/itch/common/crepos/cu-to-rtu/c/1'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unable to handle compilation, expected exactly one compiler job in '''''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      862
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          862
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1062
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1088
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1088
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1340
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1367
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1367
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1433
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1461
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1461
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1504
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1529
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1529
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1570
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1595
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1595
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1617
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1643
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1643
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1666
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1691
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1691
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1709
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      1727
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1727
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          1738
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2063
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2063
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2076
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2343
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2343
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2348
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2373
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2373
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2547
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2439
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2439
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2452
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2572
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2572
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2616
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2641
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2641
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2686
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2711
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2711
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2756
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2782
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2782
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2828
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2853
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2853
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2898
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2924
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2924
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2970
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      2995
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          2995
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3040
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3066
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3066
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3150
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3175
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3175
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3265
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3191
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3191
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3223
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3227
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3227
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3255
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3291
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3291
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3333
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3359
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3359
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3402
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3434
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3434
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3531
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3558
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3558
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3716
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3740
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3740
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          3992
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    DiagnosticMessage:
+      Message:         'Call to function ''snprintf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''snprintf_s'' in case of C11'
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      3861
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          FileOffset:      3861
+          Length:          8
+    Notes:
+      - Message:         'Call to function ''snprintf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''snprintf_s'' in case of C11'
+        FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+        FileOffset:      3861
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+            FileOffset:      3861
+            Length:          8
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      4017
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4017
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4164
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      4189
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4189
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4219
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         case statement body should be in braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      4237
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4237
+          Length:          0
+          ReplacementText: '{'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4260
+          Length:          0
+          ReplacementText: ';} '
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      4466
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4466
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4509
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+  - DiagnosticName:  readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+      FileOffset:      4826
+      Replacements:
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4826
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '/itch/common/crepos/cu-to-rtu/c/binn-3.0/conversions/json/binn_json.c'
+          Offset:          4840
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  '/itch/common/crepos/cu-to-rtu/c'
+...

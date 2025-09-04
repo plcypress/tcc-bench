@@ -1,3 +1,0 @@
-libgnulib_a-sockets.o: sockets.c ../../config.h sockets.h
-../../config.h:
-sockets.h:

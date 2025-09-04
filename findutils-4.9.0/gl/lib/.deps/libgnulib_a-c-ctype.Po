@@ -1,5 +1,0 @@
-libgnulib_a-c-ctype.o: c-ctype.c ../../config.h c-ctype.h \
-  /usr/lib/llvm-19/lib/clang/19/include/stdbool.h
-../../config.h:
-c-ctype.h:
-/usr/lib/llvm-19/lib/clang/19/include/stdbool.h:

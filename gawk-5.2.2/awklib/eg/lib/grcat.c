@@ -38,9 +38,8 @@ main(int argc, char **argv)
 #endif
         for (i = 0; g->gr_mem[i] != NULL; i++) {
             printf("%s", g->gr_mem[i]);
-            if (g->gr_mem[i+1] != NULL) {
+            if (g->gr_mem[i+1] != NULL)
                 putchar(',');
-}
         }
         putchar('\n');
     }

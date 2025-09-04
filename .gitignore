@@ -158,3 +158,6 @@ nettle-3.9/nettle.html
 nettle-3.9/nettle.info
 pth-2.0.7/pth_p.h
 sed-4.9/config_h.in
+sed-4.9/gnulib-tests/current-locale
+sed-4.9/gnulib-tests/test-localcharset
+sed-4.9/sed/sed
